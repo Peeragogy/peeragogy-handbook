@@ -1,21 +1,23 @@
 peeragogy-handbook
 ==================
 
-This book and accompanying website are a resource for self-organizing
-self-learners.
+This book and accompanying [website](http://peeragogy.org) are a
+resource for self-organizing self-learners.
 
 This git repository contains the LaTeX source code for building the
-book.
+book.  Specifically, we plan to have one branch for each language that
+the book has been [translated into](http://peeragogy.net).
 
 # Configuring your database
 
 Because we're working with UTF-8 encoded HTML (as it comes from the
 website), it is important that your local MySQL database be set up to
-work with UTF-8.  Instructions are
-[here](http://cameronyule.com/2008/07/configuring-mysql-to-use-utf-8/)
-for that if you need them.
+work with UTF-8.  Instructions on that are
+[here](http://cameronyule.com/2008/07/configuring-mysql-to-use-utf-8/),
+or live large and convert to
+[utf8mb4](http://mathiasbynens.be/notes/mysql-utf8mb4).
 
-# The steps you need to take to build the book are as follows
+# The steps you need to take to build the book are then as follows
 
 Obtain a backup of the [Wordpress site](http://peeragogy.org).  
 
