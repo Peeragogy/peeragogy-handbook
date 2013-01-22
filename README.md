@@ -68,9 +68,14 @@ patch < release.patch
 xelatex peeragogy-shell.tex
 ```
 
-# A caveat: the patches aren't necessarily completel.
+# A caveat: the patches aren't necessarily complete.
 
 There are likely to be some problems with images, since the patches
 may be off at any given point in time.  Still, the command above will
 build a version of book for you in any case (if you hit "r"), and
 we'll get the patches sorted out a little better shortly.
+
+# License
+
+CC-Zero (Public Domain).  See
+[peeragogy.org/license](http://peeragogy.org/license) for details.
