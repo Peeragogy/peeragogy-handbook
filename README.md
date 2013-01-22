@@ -8,6 +8,22 @@ This git repository contains the LaTeX source code for building the
 book.  Specifically, we plan to have one branch for each language that
 the book has been [translated into](http://peeragogy.net).
 
+## Requirements for building the book locally
+
+* **mysql** 
+* **unzip**
+* **bash**
+* **tr**
+* **sed**
+* **pandoc**
+* **patch**
+* **xelatex**
+* and **git**, if you want to share your version
+
+If you have any questions on how to set up or use these tools, feel
+free to ask in our
+[G+](https://plus.google.com/communities/107386162349686249470).
+
 # Configuring your database
 
 Because we're working with UTF-8 encoded HTML (as it comes from the
