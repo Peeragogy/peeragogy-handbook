@@ -1,0 +1,449 @@
+diff --git a/peeragogy-book-release/action.tex b/peeragogy-book-release/action.tex
+index 7cbfeae..fbfe262 100644
+--- a/peeragogy-book-release/action.tex
++++ b/peeragogy-book-release/action.tex
+@@ -32,11 +32,9 @@ their approach. Together, we will use our various talents to build
+ effective methods and models for peer produced peer learning. Let's get
+ started!
+ 
+-\begin{figure}[htbp]
+-\centering
+-\includegraphics{http://metameso.org/~joe/OpenBook-2-1.jpg}
+-\caption{}
+-\end{figure}
++\begin{center}
++\includegraphics{./pictures/OpenBook-2-1.jpg}
++\end{center}
+ 
+ \textbf{Setting the initial challenge and building a framework for
+ accountability among participants is an important starting point.}
+@@ -79,7 +77,9 @@ same person wrote with enthusiasm about models of entrepreneurship:
+ In short, there are trade-offs to be made -- hopefully in an informed
+ fashion.
+ 
+-\subsubsection{\includegraphics{http://metameso.org/~joe/OpenBook-2-2.jpg}}
++\begin{center}
++\includegraphics{./pictures/OpenBook-2-2.jpg}
++\end{center}
+ 
+ \textbf{Other people can support you in achieving your goal and make the
+ work more fun too.}
+@@ -113,7 +113,9 @@ continued to accumulate content, which gave newcomers the discouraging
+ feeling that there was a lot to catch up on. We've aimed to sum up the
+ high points in the handbook!
+ 
+-\subsubsection{\includegraphics{http://metameso.org/~joe/OpenBook-2-3.jpg}}
++\begin{center}
++\includegraphics{./pictures/OpenBook-2-3.jpg}
++\end{center}
+ 
+ \textbf{Solidifying your work plan and learning strategy together with
+ concrete measures for `success' can move the project forward
+@@ -147,7 +149,9 @@ the project even if they didn't have time to read the forums. We've also
+ found that small groups of people who arrange their own meetings are
+ often the most productive.
+ 
+-\subsubsection{\includegraphics{http://metameso.org/~joe/OpenBook-2-4.jpg}}
++\begin{center}
++\includegraphics{./pictures/OpenBook-2-4.jpg}
++\end{center}
+ 
+ \textbf{Wrap up the project with a critical assessment of progress and
+ directions for future work. Share any changes to this syllabus that you
+@@ -190,4 +194,8 @@ available and the global interest in improving education. We hope that
+ the handbook and this accompanying syllabus will provide a seed for a
+ new phase of learning, with many new contributors and new ideas drawn
+ from real-life applications.
+-\includegraphics{http://metameso.org/~joe/OpenBook-3.jpg}
++
++\begin{center}
++\includegraphics{./pictures/OpenBook-3.jpg}
++\end{center}
++
+diff --git a/peeragogy-book-release/coworking.tex b/peeragogy-book-release/coworking.tex
+index 125ca94..b6389ad 100644
+--- a/peeragogy-book-release/coworking.tex
++++ b/peeragogy-book-release/coworking.tex
+@@ -30,7 +30,10 @@ much any working group in existence:
+ These come from
+ \href{http://blog.startwithwhy.com/refocus/2011/07/you-are-allowed.html}{Simon
+ Sinek} c/o Fabrizo Terzi and the Free Technology Guild:
+-\includegraphics{http://campus.ftacademy.org/community/pg/photos/download/14852/inline/}
++
++\begin{center}
++\includegraphics[width=.4\textwidth]{./pictures/allowed-list.jpg}
++\end{center}
+ 
+ \section{Co-working as the flip side of convening}
+ 
+@@ -54,7 +57,11 @@ real time investment in the way the project works. We typically cannot
+ ``Tom Sawyer'' ourselves into leisure or ease just because we manage to
+ work collaboratively, or just because we have found people with some
+ common interests.
+-\includegraphics{http://socialmediaclassroom.com/host/peeragogy/system/files/images/Screen+shot+2012-06-17+at+10.53.22.img_assist_custom-488x683.jpeg}
++
++\begin{center}
++\includegraphics[width=.7\textwidth]{./pictures/tom-sawyer.jpeg}
++\end{center}
++
+ The truth is probably somewhere in between Torvalds and Twain. Many
+ people actively want to contribute! For example, on ``Wikipedia, the
+ encyclopedia anyone can edit'' (as of 2011)
+@@ -140,8 +147,10 @@ in overview in my ``Learn Math(s) the Hard(er) Way''
+ proposal} (and will discuss in greater depth in my thesis). In short, I
+ lumped the different activities that people could do on PlanetMath into
+ 5 categories (see figure).
+-\includegraphics{http://metameso.org/~joe/planetmath-activities.png} The
+-five categories (Context, Engagement, Quality, Structure, and Heuristic)
++
++\includegraphics[width=\textwidth]{./pictures/planetmath-activities.png}
++
++The five categories (Context, Engagement, Quality, Structure, and Heuristic)
+ come from reflecting on the \href{http://paragogy.net}{5 paragogy
+ principles}, and comparing them with the Martin Nowak's
+ \href{http://www.sciencemag.org/content/314/5805/1560.full}{5 rules for
+diff --git a/peeragogy-book-release/get-involved.tex b/peeragogy-book-release/get-involved.tex
+index a8242ca..0410124 100644
+--- a/peeragogy-book-release/get-involved.tex
++++ b/peeragogy-book-release/get-involved.tex
+@@ -7,7 +7,10 @@ at \href{mailto:howard@rheingold.com}{howard@rheingold.com}.}
+ 
+ \emph{Illustrations by \href{http://www.visualsforchange.com/}{Amanda
+ Lyons}.}
+-\href{http://peeragogy.org/wp-content/uploads/2012/03/welcome\_color.gif}{\includegraphics{http://peeragogy.org/wp-content/uploads/2012/03/welcome_color.gif}}
++
++\begin{center}
++\href{http://peeragogy.org/wp-content/uploads/2012/03/welcome\_color.gif}{\includegraphics[width=.9\textwidth]{./pictures/welcome_color.png}}
++\end{center}
+ 
+ \section{Hello and welcome!}
+ 
+@@ -23,7 +26,10 @@ you. Go through the orientation material on our
+ around. Ask questions --- we're eager to answer them. Find an area where
+ you feel knowledgeable (or are willing to learn) and have a passion to
+ contribute.
+-\href{http://peeragogy.org/wp-content/uploads/2012/03/what\_to\_do\_color.gif}{\includegraphics{http://peeragogy.org/wp-content/uploads/2012/03/what_to_do_color.gif}}
++
++\begin{center}
++\href{http://peeragogy.org/wp-content/uploads/2012/03/what\_to\_do\_color.gif}{\includegraphics[width=.9\textwidth]{./pictures/what_to_do_color.png}}
++\end{center}
+ 
+ The goal of this e-book is to be a USEFUL guide to peer learning (have a
+ look at
+@@ -71,7 +77,9 @@ are listed on
+ \href{https://docs.google.com/document/d/1\_2I-z-Pt5NUKk-fpy4jsqxFeXbWS4ao4sIhkxCcRVeI/edit\#}{this
+ Google Doc}.
+ 
+-\href{http://peeragogy.org/wp-content/uploads/2012/03/lots\_going\_on\_color\_1000.gif}{\includegraphics{http://peeragogy.org/wp-content/uploads/2012/03/lots_going_on_color_1000-e1352754548930.gif}}
++\begin{center}
++\href{http://peeragogy.org/wp-content/uploads/2012/03/lots\_going\_on\_color\_1000.gif}{\includegraphics[width=.9\textwidth]{./pictures/lots_going_on.png}}
++\end{center}
+ 
+ \section{Where to go, what to do when you get there, to learn about how
+ we work}
+@@ -81,7 +89,9 @@ also meet irregularly for synchronous audio-video sessions. Information
+ and answers about both methods of communication can be found in the
+ forums.
+ 
+-\href{http://peeragogy.org/wp-content/uploads/2012/03/where\_to\_go\_color.gif}{\includegraphics{http://peeragogy.org/wp-content/uploads/2012/03/where_to_go_color.gif}}
++\begin{center}
++\href{http://peeragogy.org/wp-content/uploads/2012/03/where\_to\_go\_color.gif}{\includegraphics[width=.9\textwidth]{./pictures/where_to_go_color.png}}
++\end{center}
+ 
+ Click on \href{http://socialmediaclassroom.com/host/peeragogy/forum}{the
+ forums tab}. Each forum is a container for conversation threads that can
+@@ -175,7 +185,10 @@ meetings.
+   Teams forum} -- Take a look at the Project Teams and jump in wherever
+   you find a task that interests you.
+ \end{itemize}
+-\section{\textbf{\href{http://peeragogy.org/wp-content/uploads/2012/03/create\_content.gif}{\includegraphics{http://peeragogy.org/wp-content/uploads/2012/03/create_content-300x145.gif}}}}
++
++\begin{center}
++\href{http://peeragogy.org/wp-content/uploads/2012/03/create\_content.gif}{\includegraphics[width=.9\textwidth]{./pictures/create_content.png}}
++\end{center}
+ 
+ \section{Details About the Wiki}
+ 
+@@ -253,7 +266,10 @@ meetings.
+     \end{itemize}
+   \end{itemize}
+ \end{itemize}
+-\textbf{\href{http://peeragogy.org/wp-content/uploads/2012/03/communicate\_color1.gif}{\includegraphics{http://peeragogy.org/wp-content/uploads/2012/03/communicate_color1-300x67.gif}}}
++
++\begin{center}
++\href{http://peeragogy.org/wp-content/uploads/2012/03/communicate\_color1.gif}{\includegraphics[width=.9\textwidth]{./pictures/communicate.png}}
++\end{center}
+ 
+ \section{\textbf{How we Communicate}}
+ 
+@@ -286,7 +302,10 @@ Stephanie Schipper will then add you.
+ TWITTER HASHTAG:
+ \href{http://twitter.com/search?q=\%23peeragogy\&src=typd}{\#peeragogy}
+ \href{https://www.facebook.com/peeragogy}{FACEBOOK PAGE}
+-\textbf{\href{http://peeragogy.org/wp-content/uploads/2012/03/questions\_1000.gif}{\includegraphics{http://peeragogy.org/wp-content/uploads/2012/03/questions_1000-300x50.gif}}}
++
++\begin{center}
++\href{http://peeragogy.org/wp-content/uploads/2012/03/questions\_1000.gif}{\includegraphics[width=.9\textwidth]{./pictures/question.png}}
++\end{center}
+ 
+ \section{\textbf{Questions?}}
+ 
+diff --git a/peeragogy-book-release/k12.tex b/peeragogy-book-release/k12.tex
+index f2d2c0f..990c92f 100644
+--- a/peeragogy-book-release/k12.tex
++++ b/peeragogy-book-release/k12.tex
+@@ -165,8 +165,13 @@ infographic below, which details potential experiences individuals may
+ encounter when becoming connected learners. It is not only a helpful
+ entry point for new learner-educators seeking to become peeragogues, but
+ it also serves as a wonderful example of peeragogy at work.
+-\includegraphics{http://farm9.staticflickr.com/8160/7161689001_9b6725a4ca_h.jpg}
+-(licensed as CC By-NC-SA, on
++\begin{figure}
++\begin{center}
++\includegraphics[width=.6\textwidth]{./pictures/k12-infographic.jpg}
++\end{center}
++\end{figure}
++
++(The figure on the previous page is licensed as CC By-NC-SA, on
+ \href{http://www.flickr.com/photos/thecleversheep/7161689001/sizes/l/in/photostream/}{Flickr})
+ Consider taking the plunge into the different stages of a
+ Networked/Connected Educator today.
+diff --git a/peeragogy-book-release/metalearning.tex b/peeragogy-book-release/metalearning.tex
+index 18aa7ef..fc71e7d 100644
+--- a/peeragogy-book-release/metalearning.tex
++++ b/peeragogy-book-release/metalearning.tex
+@@ -1,8 +1,12 @@
+-{[}caption id=``'' align=``aligncenter''
+-width=``520''{]}\href{http://en.wikipedia.org/wiki/File:Jigoro\_Kano\_and\_Kyuzo\_Mifune.jpg}{\includegraphics{http://upload.wikimedia.org/wikipedia/commons/5/5a/Jigoro_Kano_and_Kyuzo_Mifune.jpg}}
+-from
+-\href{http://en.wikipedia.org/wiki/File:Jigoro\_Kano\_and\_Kyuzo\_Mifune.jpg}{Wikipedia}
+-(Public Domain){[}/caption{]} \emph{} How can we learn to learn better?
++\begin{figure}
++\begin{center}
++\href{http://en.wikipedia.org/wiki/File:Jigoro\_Kano\_and\_Kyuzo\_Mifune.jpg}{\includegraphics[width=.5\textwidth]{./pictures/judo.jpg}}
++\caption{from \href{http://en.wikipedia.org/wiki/File:Jigoro\_Kano\_and\_Kyuzo\_Mifune.jpg}{Wikipedia}
++(Public Domain)}
++\end{center}
++\end{figure}
++
++How can we learn to learn better?
+ And how can we do it with others? If you put a blade to my (Charlie,
+ author of this entry) throat, I'd say ``People and peers learn by doing.
+ First there's the `baptism by fire' where awareness of how far away they
+diff --git a/peeragogy-book-release/patterns.tex b/peeragogy-book-release/patterns.tex
+index 6dd3beb..4ff08f1 100644
+--- a/peeragogy-book-release/patterns.tex
++++ b/peeragogy-book-release/patterns.tex
+@@ -23,79 +23,6 @@ learning, and some known problem-solving techniques. See the page
+ ``\href{http://peeragogy.org/researching-peeragogy/}{Researching
+ peeragogy}'' for some related discussion.
+ 
+-\section{Patterns and Heuristics}
+-
+-This section draws some parallels between ``Minskian heuristics for
+-problem solving'', and our patterns peeragogy (see below). The
+-heuristics (which Marvin Minsky discusses in a series of
+-\href{http://web.media.mit.edu/~minsky/OLPC-1.html}{m}\href{http://web.media.mit.edu/~minsky/OLPC-2.html}{e}\href{http://web.media.mit.edu/~minsky/OLPC-3.html}{m}\href{http://web.media.mit.edu/~minsky/OLPC-4.html}{o}\href{http://web.media.mit.edu/~minsky/OLPC-5.html}{s}
+-for the One Laptop Per Child project) can be summed up with the
+-following diagram:
+-
+-\begin{figure}[htbp]
+-\centering
+-\includegraphics{http://metameso.org/~joe/heuristic-images.jpg}
+-\caption{}
+-\end{figure}
+-
+-We can see some relationships to the peeragogy patterns we've
+-identified, first summed up with a picture here, and in text below (some
+-of the nodes in the diagram are clickable, and clicking will take you to
+-the page describing that pattern!):
+-
+-To elaborate in words:
+-
+-- We \emph{simplify} things for a \textbf{Newcomer}. (In particular,
+-this means that we don't expect the newcomer to use a high processing
+-level.)
+-
+-- We \emph{change focus} by using a \textbf{Roadmap} to guide us from
+-one step to another. In addition, the project's \textbf{Heartbeat} leads
+-us to let go of our focus at one moment, and resume with another point
+-of view later.
+-
+-- We \emph{change description} first of all by having a \textbf{Wrapper}
+-who describes the new state of the project. For the Peeragogy project,
+-that often meant summing up the high points that we saw over a given
+-period of time. It seems possible that with a rich enough\textbf{Pattern
+-Language}, the description would itself be made in terms of patterns.
+-
+-- We \emph{divide} work up not only ``horizontally'' among different
+-\textbf{Roles}, but also ``temporally'' by using the \textbf{Roadmap}.
+-Someone who is moving ahead with the Roadmap is likely to be ``working
+-at the cutting edge''.
+-
+-- When we \emph{find an analogy}, we are basically \textbf{Creating a
+-Guide} of some sort. This can be used as a form of ``exploration'', as
+-we look at how one form of engagement may or may not map onto other
+-forms of engagement.
+-
+-- When we \emph{ask for help}, we may avail ourselves of some
+-\textbf{Moderation} service that will decide how to deal with our
+-request. One simple way to ask for help is \textbf{Polling for Ideas}.
+-Obviously once we start to get help, we're working in a regime of
+-``collaborative effort''.
+-
+-- If you \emph{know the answer}, then you may be able to reuse it (which
+-is the basic idea described in \textbf{Praxis vs Poesis}, though the
+-title is a little bit obscure). Someone who knows the answer and who is
+-good at self-explanation may also have a good idea about how to get from
+-the current state to the goal state; alternatively, this may be broken
+-down into steps in some sub-Roadmap, and moving from step to step would
+-then illustrate ``progressive problem solving''.
+-
+-- It is important to \emph{give it a rest} so as not to over-exhaust
+-oneself, busting one's own \textbf{Carrying Capacity}, or,
+-alternatively, overwhelming the group.
+-
+-- It seems that one of the things that \emph{experts do} is
+-\textbf{Discerning a Pattern}. This allows them to simplify their
+-processing.
+-
+-- Finally, again, if we \emph{know why it is hard}, then we may be able
+-to\textbf{Create a Guide} that will help get around, or at least better
+-cope with, the difficulty.
+-
+ \subsection{Patterns of Peeragogy}
+ 
+ Here is our index of the patterns mentioned above, each on its own page
+diff --git a/peeragogy-book-release/patterns_heuristics.tex b/peeragogy-book-release/patterns_heuristics.tex
+index 1ee7151..afed42b 100644
+--- a/peeragogy-book-release/patterns_heuristics.tex
++++ b/peeragogy-book-release/patterns_heuristics.tex
+@@ -9,8 +9,8 @@ following diagram:
+ 
+ \begin{figure}[htbp]
+ \centering
+-\includegraphics{http://metameso.org/~joe/heuristic-images.jpg}
+-\caption{}
++\includegraphics[width=\textwidth]{./pictures/heuristic-images.jpg}
++\caption{Minskian heuristics for problem solving}
+ \end{figure}
+ 
+ We can see some relationships to the peeragogy patterns we've
+diff --git a/peeragogy-book-release/peer-learning.tex b/peeragogy-book-release/peer-learning.tex
+index 9cbd421..cd327ea 100644
+--- a/peeragogy-book-release/peer-learning.tex
++++ b/peeragogy-book-release/peer-learning.tex
+@@ -22,11 +22,11 @@ interlocutors, Plato, on a more pedagogical bent, spoke of an
+ enlightened few, whose responsibility it was to show others the light of
+ knowledge (illustrated by his famous allegory of ``The Cave'').
+ 
+-{[}caption id=``'' align=``aligncenter''
+-width=``461''{]}\href{http://commons.wikimedia.org/wiki/File:Platon\_Cave\_Sanraedam\_1604.jpg}{\includegraphics{http://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Platon_Cave_Sanraedam_1604.jpg/640px-Platon_Cave_Sanraedam_1604.jpg}}
+-\href{http://commons.wikimedia.org/w/index.php?title=File:Platon\_Cave\_Sanraedam\_1604.jpg\&oldid=68567627}{Platon
+-Cave Sanraedam (1604)}. By Jan Saenredam {[}Public domain{]}, via
+-Wikimedia Commons{[}/caption{]}
++\begin{figure}
++\href{http://commons.wikimedia.org/wiki/File:Platon\_Cave\_Sanraedam\_1604.jpg}{\includegraphics[width=\textwidth]{./pictures/plato_cave.jpg}}
++\caption{\href{http://commons.wikimedia.org/w/index.php?title=File:Platon\_Cave\_Sanraedam\_1604.jpg\&oldid=68567627}{Platon Cave Sanraedam (1604)}. By Jan Saenredam {[}Public domain{]}, via
++Wikimedia Commons}
++\end{figure}
+ 
+ \subsection{The debate continues today!}
+ 
+diff --git a/peeragogy-book-release/plns.tex b/peeragogy-book-release/plns.tex
+index 82ba31c..b51b6d9 100644
+--- a/peeragogy-book-release/plns.tex
++++ b/peeragogy-book-release/plns.tex
+@@ -49,7 +49,11 @@ http://dmlcentral.net/blog/howard-rheingold/shelly-terrell-global-netweaver-cura
+ \textbf{III. Cultivating your garden} A. Howard Rheingold's notes on
+ \href{http://howardrheingoldsteachingnotes.posterous.com/notes-on-growing-a-personal-learning-network}{cultivating
+ a PLN}
+-\includegraphics{http://socialmediaclassroom.com/host/peeragogy/system/files/images/Personal-Learning-Network-900px-v2.jpeg}
++
++\begin{center}
++\includegraphics[width=.75\textwidth]{./pictures/network.jpg}
++\end{center}
++
+ B. Strong and weak ties
+ 
+ 1. Your PLN will have people and sites that you check on often - your
+diff --git a/peeragogy-book-release/realtime.tex b/peeragogy-book-release/realtime.tex
+index 596bf25..6b95334 100644
+--- a/peeragogy-book-release/realtime.tex
++++ b/peeragogy-book-release/realtime.tex
+@@ -53,7 +53,10 @@ Rheingold's} and
+ Good'}s. Free phone conferencing services provide another technological
+ ``lowest common denominator'': some provide a few extras like
+ downloadable recordings.
+-\includegraphics{http://socialmediaclassroom.com/host/peeragogy/system/files/images/Elluminate.img_assist_custom-800x694.png}
++
++\begin{center}
++\includegraphics[width=.7\textwidth]{./pictures/elluminate.png}
++\end{center}
+ 
+ \subsection{Features of real-time meeting platforms}
+ 
+diff --git a/peeragogy-book-release/student_syllabus.tex b/peeragogy-book-release/student_syllabus.tex
+index 0337936..25087a3 100644
+--- a/peeragogy-book-release/student_syllabus.tex
++++ b/peeragogy-book-release/student_syllabus.tex
+@@ -324,5 +324,3 @@ to start out with a clear purpose.
+ Make mistakes. Correct course. Invite new perspectives. Create a
+ structure that everyone can work with. Change it when it breaks. Most of
+ all, have fun!
+-
+-\\ \\
+diff --git a/peeragogy-book-release/technologies.tex b/peeragogy-book-release/technologies.tex
+index 03cea26..458d6a5 100644
+--- a/peeragogy-book-release/technologies.tex
++++ b/peeragogy-book-release/technologies.tex
+@@ -303,11 +303,11 @@ most of the Bloom's elements above. Samantha Penney has created a
+ Bloom´s Digital Taxonomy Pyramid of tools for learning (cc 3.0 --
+ \href{http://www.usi.edu/distance/bdt.htm)}{http://www.usi.edu/distance/bdt.htm)}.
+ 
+-\begin{figure}[htbp]
+-\centering
+-\includegraphics{http://www.usi.edu/distance/bloom%20pyramid.jpg}
+-\caption{}
+-\end{figure}
++%% \begin{figure}[htbp]
++%% \centering
++%% \includegraphics{http://www.usi.edu/distance/bloom%20pyramid.jpg}
++%% \caption{}
++%% \end{figure}
+ 
+ \textbf{Use Cases (I want to\ldots{}.)}
+ 
+diff --git a/peeragogy-book-release/to_peeragogy.tex b/peeragogy-book-release/to_peeragogy.tex
+index a729b8c..6115fd4 100644
+--- a/peeragogy-book-release/to_peeragogy.tex
++++ b/peeragogy-book-release/to_peeragogy.tex
+@@ -272,11 +272,13 @@ state'' (after
+ \href{http://en.wikipedia.org/wiki/Mihaly\_Csikszentmihalyi}{Csíkszentmihályi}),
+ rather than their associated ``intelligence'':
+ 
+-{[}caption id=``'' align=``aligncenter''
+-width=``300''{]}\href{http://commons.wikimedia.org/wiki/File\%3AChallenge\_vs\_skill.svg}{\includegraphics{http://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Challenge_vs_skill.svg/300px-Challenge_vs_skill.svg.png}}
++\begin{figure}
++\href{http://commons.wikimedia.org/wiki/File\%3AChallenge\_vs\_skill.svg}{\includegraphics{./pictures/challenge.png}}
++\caption{
+ \href{http://commons.wikimedia.org/wiki/File\%3AChallenge\_vs\_skill.svg}{Challenge
+ vs. Skill}. By w:User:Oliverbeatson (w:File:Challenge vs skill.jpg)
+-{[}Public domain{]}, via Wikimedia Commons{[}/caption{]}
++{[}Public domain{]}}
++\end{figure}
+ 
+ We could also describe ourselves (or our roles within a learning
+ process, as above) in terms of various attributes, e.g. using the
+diff --git a/peeragogy-book.tex b/peeragogy-book.tex
+index 88f3a67..c29b26f 100644
+--- a/peeragogy-book.tex
++++ b/peeragogy-book.tex
+@@ -7067,6 +7067,7 @@ perfectly natural in speech, it can be confusing and complex when being
+ read (in our handbook or elsewhere). Let's stay conscious of our
+ audience and try to meet that perfect balance of simple, yet
+ professional in our writing. 
++
+ \chapter{Meet the Team}
+ 
+ \begin{wrapfigure}[]{l}{2in}

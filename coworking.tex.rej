@@ -1,0 +1,40 @@
+--- coworking.tex
++++ coworking.tex
+@@ -30,7 +30,10 @@
+ These come from
+ \href{http://blog.startwithwhy.com/refocus/2011/07/you-are-allowed.html}{Simon
+ Sinek} c/o Fabrizo Terzi and the Free Technology Guild:
+-\includegraphics{http://campus.ftacademy.org/community/pg/photos/download/14852/inline/}
++
++\begin{center}
++\includegraphics[width=.4\textwidth]{./pictures/allowed-list.jpg}
++\end{center}
+ 
+ \section{Co-working as the flip side of convening}
+ 
+@@ -54,7 +57,11 @@
+ ``Tom Sawyer'' ourselves into leisure or ease just because we manage to
+ work collaboratively, or just because we have found people with some
+ common interests.
+-\includegraphics{http://socialmediaclassroom.com/host/peeragogy/system/files/images/Screen+shot+2012-06-17+at+10.53.22.img_assist_custom-488x683.jpeg}
++
++\begin{center}
++\includegraphics[width=.7\textwidth]{./pictures/tom-sawyer.jpeg}
++\end{center}
++
+ The truth is probably somewhere in between Torvalds and Twain. Many
+ people actively want to contribute! For example, on ``Wikipedia, the
+ encyclopedia anyone can edit'' (as of 2011)
+@@ -140,8 +147,10 @@
+ proposal} (and will discuss in greater depth in my thesis). In short, I
+ lumped the different activities that people could do on PlanetMath into
+ 5 categories (see figure).
+-\includegraphics{http://metameso.org/~joe/planetmath-activities.png} The
+-five categories (Context, Engagement, Quality, Structure, and Heuristic)
++
++\includegraphics[width=\textwidth]{./pictures/planetmath-activities.png}
++
++The five categories (Context, Engagement, Quality, Structure, and Heuristic)
+ come from reflecting on the \href{http://paragogy.net}{5 paragogy
+ principles}, and comparing them with the Martin Nowak's
+ \href{http://www.sciencemag.org/content/314/5805/1560.full}{5 rules for

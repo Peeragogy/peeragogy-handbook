@@ -1,0 +1,122 @@
+*** coworking.tex	2012-12-21 01:40:19.437696753 +0000
+--- /home/jac2349/ftg/peeragogy-book-release/coworking.tex	2012-12-21 00:52:37.697673695 +0000
+***************
+*** 32,38 ****
+  These ``rules'' come from
+  \href{http://blog.startwithwhy.com/refocus/2011/07/you-are-allowed.html}{Simon
+  Sinek} by way of Fabrizo Terzi and the Free Technology Guild:
+! \includegraphics{http://campus.ftacademy.org/community/pg/photos/download/14852/inline/}
+  
+  \section{Co-working as the flip side of convening}
+  
+--- 32,41 ----
+  These ``rules'' come from
+  \href{http://blog.startwithwhy.com/refocus/2011/07/you-are-allowed.html}{Simon
+  Sinek} by way of Fabrizo Terzi and the Free Technology Guild:
+! 
+! \begin{center}
+! \includegraphics[width=.4\textwidth]{./pictures/allowed-list.jpg}
+! \end{center}
+  
+  \section{Co-working as the flip side of convening}
+  
+***************
+*** 57,67 ****
+  collaboratively, or just because we have found people with some common
+  interests.
+  
+! \begin{figure}[htbp]
+! \centering
+! \includegraphics{http://socialmediaclassroom.com/host/peeragogy/system/files/images/Screen+shot+2012-06-17+at+10.53.22.img_assist_custom-488x683.jpeg}
+! \caption{}
+! \end{figure}
+  
+  The truth is probably somewhere in between Torvalds and Twain. Many
+  people actively want to contribute! For example, on ``Wikipedia, the
+--- 60,68 ----
+  collaboratively, or just because we have found people with some common
+  interests.
+  
+! \begin{center}
+! \includegraphics[width=.7\textwidth]{./pictures/tom-sawyer.jpeg}
+! \end{center}
+  
+  The truth is probably somewhere in between Torvalds and Twain. Many
+  people actively want to contribute! For example, on ``Wikipedia, the
+***************
+*** 150,157 ****
+  proposal} (and will discuss in greater depth in my thesis). In short, I
+  lumped the different activities that people could do on PlanetMath into
+  5 categories (see figure).
+! \includegraphics{http://metameso.org/~joe/planetmath-activities.png} The
+! five categories (Context, Engagement, Quality, Structure, and Heuristic)
+  come from reflecting on the \href{http://paragogy.net}{5 paragogy
+  principles}, and comparing them with the Martin Nowak's
+  \href{http://www.sciencemag.org/content/314/5805/1560.full}{5 rules for
+--- 151,217 ----
+  proposal} (and will discuss in greater depth in my thesis). In short, I
+  lumped the different activities that people could do on PlanetMath into
+  5 categories (see figure).
+! 
+! \begin{center}
+! {\tiny
+! \begin{tabular}{|c|c|c|c|c|}
+! \hline
+! Context & Feedback & Quality & Structure & Heuristic \\[.2mm]
+! \hline
+! \vspace{.2mm}
+! $\begin{array}{c}
+! A \leftarrow A \\
+! A \xleftarrow{\ell} A
+! \end{array}$
+! &
+! $\begin{array}{c}
+! X \leftarrow T \\
+! X \leftarrow Q
+! \end{array}$  &
+! $A \leftarrow C$ &
+! $\begin{array}{c}
+! A \leftarrow P
+! \leftarrow S
+! \leftarrow R \\
+! L \leftarrow A, P \\
+! M \leftarrow A
+! \end{array}$&
+! $\begin{array}{c}
+! G \hookleftarrow U \\
+! S\hookleftarrow H \\
+! Q\rightarrow C, W, P
+! \end{array}$ \\
+! \hline
+! $\begin{array}{r@{\hspace{2mm}}l}
+! A &\mathrm{article} \\
+! \ell &\mathrm{link}
+! \end{array}$  &
+! $\begin{array}{r@{\hspace{2mm}}l}
+! X &\mathrm{object} \\
+! T &\mathrm{post} \\
+! Q &\mathrm{question}
+! \end{array}$ &
+! $C$ corr. &
+! $\begin{array}{r@{\hspace{2mm}}l}
+! P &\mathrm{problem} \\
+! S &\mathrm{solution} \\
+! R &\mathrm{review} \\
+! L &\mathrm{collection} \\
+! M &\mathrm{classific.}
+! \end{array}$ &
+! $\begin{array}{r@{\hspace{2mm}}l}
+! G &\mathrm{group}\\
+! U &\mathrm{user}\\
+! W &\mathrm{request} \\
+! H &\mathrm{heuristic}
+! \end{array}$
+! \\
+! \hline
+! \end{tabular}
+! }
+! \end{center}
+!
+  come from reflecting on the \href{http://paragogy.net}{5 paragogy
+  principles}, and comparing them with the Martin Nowak's
+  \href{http://www.sciencemag.org/content/314/5805/1560.full}{5 rules for

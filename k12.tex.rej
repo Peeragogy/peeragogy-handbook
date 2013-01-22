@@ -1,0 +1,18 @@
+--- k12.tex
++++ k12.tex
+@@ -165,8 +165,13 @@
+ encounter when becoming connected learners. It is not only a helpful
+ entry point for new learner-educators seeking to become peeragogues, but
+ it also serves as a wonderful example of peeragogy at work.
+-\includegraphics{http://farm9.staticflickr.com/8160/7161689001_9b6725a4ca_h.jpg}
+-(licensed as CC By-NC-SA, on
++\begin{figure}
++\begin{center}
++\includegraphics[width=.6\textwidth]{./pictures/k12-infographic.jpg}
++\end{center}
++\end{figure}
++
++(The figure on the previous page is licensed as CC By-NC-SA, on
+ \href{http://www.flickr.com/photos/thecleversheep/7161689001/sizes/l/in/photostream/}{Flickr})
+ Consider taking the plunge into the different stages of a
+ Networked/Connected Educator today.
