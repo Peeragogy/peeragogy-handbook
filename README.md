@@ -26,7 +26,8 @@ unzip peeragogy-org-backup-complete-2012-12-17-12-42-23.zip
 ```
 
 ```sql
-mysql> drop database peeragogyB; create database peeragogyB; GRANT all ON peeragogyB.* TO 'peeragogyB'@'localhost' IDENTIFIED BY 'peeragogyB';
+mysql> drop database peeragogyB; create database peeragogyB;
+  GRANT all ON peeragogyB.* TO 'peeragogyB'@'localhost' IDENTIFIED BY 'peeragogyB';
 ```
 
 ```
