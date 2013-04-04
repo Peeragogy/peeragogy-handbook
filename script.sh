@@ -7,7 +7,7 @@
 # 1903 . Peer Learning
 # 17   . Convening a Group
 #  384  . Researching Peeragogy
-# 403  . Organizing a Learning Context
+# 403  .  Organizing a Learning Context
 #  741  . Adding Structure with Activities
 #  1219 . The student authored syllabus
 #  949  . Connectivism in Practice -- How to Organize a MOOC (Massive Open Online Class)
@@ -21,43 +21,43 @@
 # 221  . Patterns, Use Cases, and Examples
 #  590  . Patterns and Heuristics
 # PATTERNS COLLECTION
-## 259 Heartbeat 
-## 261 Carrying Capacity 
+## 259 Heartbeat
+## 261 Carrying Capacity
 ## 239 Creating a Guide
-## 237 Discerning a Pattern 
-## 243 Moderation 
-## 256 Newcomer 
+## 237 Discerning a Pattern
+## 243 Moderation
+## 256 Newcomer
 ## 253 Pattern Language
-## 224 Polling for Ideas 
-## 251 Praxis vs Poeisis 
-## 565 Roadmap 
+## 224 Polling for Ideas
+## 251 Praxis vs Poeisis
+## 565 Roadmap
 ## 249 Roles
 ## 246 Wrapper
 # ANTIPATTERNS COLLECTION
-## 316 Isolation 
-## 321 Magical thinking 
+## 316 Isolation
+## 321 Magical thinking
 ## 314 Messy with Lurkers
-## 312 Misunderstanding Power 
-## 309 Navel Gazing 
-## 323 Stasis 
+## 312 Misunderstanding Power
+## 309 Navel Gazing
+## 323 Stasis
 ## 318 Stuck at the level of weak ties
 # USE CASE COLLECTION
-## 291 From peer production to peer learning 
-## 305 C'est la vie 
+## 291 From peer production to peer learning
+## 305 C'est la vie
 ## 278 Distributed Project Management
-## 281 Improved adaptivity 
-## 295 Improving the efficacy of research funding 
-## 283 Journalist enters the Whispering Gallery 
-## 274 Living the OER dream 
-## 301 Making our own tools 
-## 276 Paragogy 
-## 279 Peer Learning on the Technical Edge 
-## 286 Prolegomena to Any Future Math Learning Environment 
-## 265 PÃ¦ragogy helps solve complex problems 
-## 303 Starting a Company 
-## 272 Steal This Book 
-## 289 Strategy as learning 
-## 299 We are the 1 percent 
+## 281 Improved adaptivity
+## 295 Improving the efficacy of research funding
+## 283 Journalist enters the Whispering Gallery
+## 274 Living the OER dream
+## 301 Making our own tools
+## 276 Paragogy
+## 279 Peer Learning on the Technical Edge
+## 286 Prolegomena to Any Future Math Learning Environment
+## 265 PÃ¦ragogy helps solve complex problems
+## 303 Starting a Company
+## 272 Steal This Book
+## 289 Strategy as learning
+## 299 We are the 1 percent
 ## 293 Young aspiring blogger wants to avoid starvation
 # 61   . Technologies, Services, and Platforms
 #  64   . Technology Features and Functions
@@ -72,14 +72,14 @@
 ## Accordingly, we run the following extraction routines:
 
 ## BTW Not this...
-# mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID IN (259,261,239,237,243,256,253,224,251,565,249,246) ORDER BY FIND_IN_SET(ID, '259,261,239,237,243,256,253,224,251,565,249,246');" peeragogyB > patterns_items.html 
+# mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID IN (259,261,239,237,243,256,253,224,251,565,249,246) ORDER BY FIND_IN_SET(ID, '259,261,239,237,243,256,253,224,251,565,249,246');" peeragogyB > patterns_items.html
 
 # 505. Introduction
-mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 505;" peeragogyB > introduction.html 
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 505;" peeragogyB > introduction.html
 # 347. How To Use This Handbook
-mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 347;" peeragogyB > howto.html 
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 347;" peeragogyB > howto.html
 # 1903. Peer Learning
-mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 1903;" peeragogyB > peer-learning.html 
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 1903;" peeragogyB > peer-learning.html
 ## REFACTORING THIS PART
 #  936  . Meta-learning/Learning to Learn
 # mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 936;" peeragogyB > metalearning.html
@@ -165,7 +165,7 @@ mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts 
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 299" peeragogyB > we_are.html
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 293" peeragogyB > young_aspiring_blogger.html
 # 61. Technologies, Services, and Platforms
-mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 61" peeragogyB > technologies.html 
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 61" peeragogyB > technologies.html
 #  586  . Wiki
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 586" peeragogyB > wiki.html
 # 1395  . Real-time meetings
@@ -181,7 +181,3 @@ mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts 
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 503" peeragogyB > meet-the-team.html
 #  161  . License
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 161" peeragogyB > license.html
-
-
-
-
