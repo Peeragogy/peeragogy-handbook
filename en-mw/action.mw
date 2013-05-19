@@ -1,0 +1,71 @@
+We have been writing the missing manual for peer-produced peer learning - the “Peeragogy Handbook” ([http://peeragogy.org/ peeragogy.org]). Throughout the building of this work, we, ourselves peer learners in this quest, have been mindful of these four questions:
+
+# ''How does a motivated group of self-learners choose a subject or skill to learn?''
+# ''How can this group identify and select the best learning resources about that topic?''
+# ''How will these learners identify and select the appropriate technology and communications tools and platforms to accomplish their learning goal?''
+# ''What does the group need to know about learning theory and practice to put together a successful peer-learning program?''
+
+It is clear to us that the techniques of peer production that have built and continue to improve ''Wikipedia'' and GNU/Linux have yet to fully demonstrate their power in education. We believe that the ''Peeragogy Handbook'' can help change that by building a distributed community of peer learners/educators, and a strongly vetted collection of best practices. Our project complements others’ work on sites like Wikiversity and P2PU, and builds upon understandings that have developed informally in distributed communities of hobbyists and professionals, as well as in (and beyond) the classrooms of generations of passionate educators. Here, we present Peeragogy in Action, a project guide in four parts. Each part relates to one or more sections of our handbook, and suggests activities to try while you explore peer learning. These activities are designed for flexible use by widely distributed groups, collaborating via a light-weight infrastructure. Participants may be educators, community organizers, designers, hackers, dancers, students, seasoned peeragogues, or first-timers. The guide should be useful for groups who want to build a strong collaboration, as well as to facilitators or theorists who want to hone their practice or approach. Together, we will use our various talents to build effective methods and models for peer produced peer learning. Let’s get started! [[Image:http://metameso.org/~joe/OpenBook-2-1.jpg]]
+
+'''Setting the initial challenge and building a framework for accountability among participants is an important starting point.'''
+
+''Activity'' – Come up with a plan for your work and an agreement, or informal contract, for your group. You can use the suggestions in this guide as a starting point, but your first task is to revise the plan to suit your needs. It might be helpful to ask: What are you interested in learning? What is your primary intended outcome? What problem do you hope to solve? How collaborative does your project need to be? How will the participants' expertise in the topic vary? What sort of support will you and other participants require? What problems won’t you solve?
+
+''Technology'' – Familiarize yourself with the collaboration tools you intend to use (e.g. Wordpress, Git and LaTeX, YouTube, GIMP, a public wiki, a private forum, or something else) and create a first post, edit, or video introducing yourself and your project(s) to others in the worldwide peeragogy community.
+
+''Suggested Resources'' – The Peeragogy Handbook, parts I (‘[http://peeragogy.org/ Introduction]’) and II (‘[http://peeragogy.org/peer-learning/ Peer Learning]’). You may also want to work through a short lesson called [https://en.wikiversity.org/wiki/User:Arided/ImplementingParagogy Implementing Paragogy], from the early days before the Peeragogy project was convened. For a succinct theoretical treatment, please refer to our literature review, which we have adapted into a [http://en.wikipedia.org/wiki/Peer_learning Wikipedia page].
+
+''Further Reading'' – Boud, D. and Lee, A. (2005). ''‘Peer learning’ as pedagogic discourse for research education''. Studies in Higher Education, 30(5):501–516.
+
+''Observations from the Peeragogy project'' – We had a fairly weak project structure at the outset, which yielded mixed results. One participant said: “I definitely think I do better when presented with a framework or scaffold to use for participation or content development.” Yet the same person wrote with enthusiasm about models of entrepreneurship, saying she was “freed of the requirement or need for an entrepreneurial visionary.” In short,
+
+=== [[Image:http://metameso.org/~joe/OpenBook-2-2.jpg]] ===
+
+'''Other people can support you in achieving your goal and make the work more fun too.'''
+
+''Activity'' – Write an invitation to someone who can help as a co-facilitator on your project. Clarify what you hope to learn from them and what your project has to offer. Helpful questions to consider: What resources are available or missing? What do you already have that you can build on? How will you find the necessary resources? Who else is interested in these kinds of challenges? The two of you should be able to come up with a respectable list.
+
+''Technology'' – Identify tools that could potentially be useful during the project, even if it's new to you. Start learning how to use them. Connect with people in other locales who share similar interests or know the tools.
+
+''Suggested resources'' – The Peeragogy Handbook, parts III (‘[http://peeragogy.org/convening-a-group/ Convening a Group]’) and IV (‘[http://peeragogy.org/organizing-a-learning-context/ Organizing a Learning Context]’).
+
+''Recommended Reading'' – Schmidt, J. Philipp. (2009). Commons-Based Peer Production and education. Free Culture Research Workshop Harvard University, 23 October 2009.
+
+''Observations from the Peeragogy project'' – We used a strategy of &quot;open enrollment.&quot; New people were welcome to join the project at any time. We also encouraged people to either stay involved or withdraw; several times over the past year, we required participants to explicitly reaffirm interest in order to stay registered in the forum and mailing list. This choice cut down on the distraction of wondering if inactive members would reconnect. Still, the project continued to accumulate content, which gave some newcomers the discouraging feeling that there was too much to catch up on. Those who ended up being the most productive dove right in and didn't worry about making mistakes. The most active members were gracious and patient with the newcomers - an important quality in successful peer-learning facilitators.
+
+=== [[Image:http://metameso.org/~joe/OpenBook-2-3.jpg]] ===
+
+'''Solidifying your work plan and learning strategy together with concrete measures for ‘success’ can move the project forward significantly. Working in teams and sharing information with others will help you to develop your project.'''
+
+''Activity'' – Distill your ideas by writing an essay, making visual sketches, or creating a short video to communicate the unique plans for organization and evaluation that your group will use. By this time, you should have identified which aspects of the project need to be refined or expanded. Dive in!
+
+''Technology'' – Take time to mentor others or be mentored by someone, meeting up in person or online. Pair up with someone else and share knowledge together about one or more tools. You can discuss some of the difficulties that you’ve encountered, or teach a beginner some tricks.
+
+''Suggested resources'' – The Peeragogy Handbook, parts V (‘[http://peeragogy.org/co-facilitation/ Co-Facilitation and Co-Working]’), VI (‘[http://peeragogy.org/assessment/ Assessment]’), and part VII (‘[http://peeragogy.org/patterns-usecases/ Patterns, Use cases, and Examples]’).
+
+''Recommended reading'' – Argyris, Chris. &quot;Teaching smart people how to learn.&quot; Harvard Business Review 69.3 (1991); and, Gersick, Connie J.G. &quot;Time and transition in work teams: Toward a new model of group development.&quot; Academy of Management Journal 31.1 (1988): 9-41.
+
+''Observations from the Peeragogy project'' – Perhaps one of the most important roles in the Peeragogy project was the role of the ‘Wrapper’, who prepared and circulated weekly summaries of forum activity. This helped people stay informed about what was happening in the project even if they didn’t have time to read the forums. We’ve also found that small groups of people who arrange their own meetings are often the most productive.
+
+=== [[Image:http://metameso.org/~joe/OpenBook-2-4.jpg]] ===
+
+'''Wrap up the project with a critical assessment of progress and directions for future work. Share any changes to this syllabus that you think would be useful for future peeragogues!'''
+
+''Activity'' – Identify the main obstacles you encountered. What are some goals you were not able to accomplish yet? Did you foresee these challenges at the outset? How did this project resemble or differ from others you’ve worked on? How would you do things differently in future projects? What would you like to tackle next?
+
+''Writing'' – Communicate your reflection case. Prepare a short written or multimedia essay, dealing with your experiences in this course. Share the results by posting it where others in the broader Peeragogy project can find it.
+
+''‘Extra credit’'' – Contribute back to one of the other organisations or projects that helped you on this peeragogical journey. Think about what you have to offer. Is it a bug fix, a constructive critique, pictures, translation help, PR, wiki-gnoming or making a cake? Make it something special, and people will remember you and thank you for it.
+
+''Suggested resources'' – The Peeragogy Handbook, parts VIII (‘[http://peeragogy.org/resources/technologies/ Technologies, Services, and Platforms]’) and IX (‘[http://peeragogy.org/resources/ Resources]’).
+
+''Recommended reading'' – Stallman, Richard. &quot;[http://www.gnu.org/philosophy/shouldbefree.html Why software should be free]&quot; (1992).
+
+''Observations from the Peeragogy project'' – When we were deciding how to license our work, various Creative Commons licences were proposed (CC Zero, CC By-SA and CC By-SA-NC). After a brief discussion, no one was in favor of restricting downstream users, so we decided to use CC0. In connection with this discussion, we agreed that we would work on ways to explicitly build ‘re-usability’ into the handbook content.
+
+== Micro-Case Study: The Peeragogy Project, Year 1 ==
+
+Since its conception in early 2012, the Peeragogy Project has collected over 3700 comments in our discussion forum, and over 200 pages of expository text in the handbook. It has given contributors a new way of thinking about things together. However, the project has not had the levels of engagement that should be possible, given the technology available, the global interest in improving education, and the number of thoughful participants who expressed interest. We hope that the handbook and this accompanying syllabus will provide a seed for a new phase of learning, with many new contributors and new ideas drawn from real-life applications.
+
+[[Image:http://metameso.org/~joe/OpenBook-3.jpg|frame|none]]
+

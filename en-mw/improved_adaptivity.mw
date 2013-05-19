@@ -1,0 +1,10 @@
+=== Main Actor ===
+
+Madeleine, a student who is trying to learn real analysis.
+
+=== Main success scenario ===
+
+# Madeleine has been using a peer-learning website for mathematics for a while now. When she gets stuck, she asks for help in context, and her request is brought to the attention of the appropriate community member, who improves the pedagogic quality of the material. This help enables her to solve math problems very effectively.
+# Now, however, the system's software is being updated. Instead of being solely a &quot;Web 2.0&quot; system for communicating about the subject, the system can keep track of new concepts that Madeleine is using in the problems she solves and the questions she asks. It can suggest heuristics that have been used by other students solving similar problems. (It knows about these things through a combination of textual analysis and &quot;tagging&quot; of text by Madeleine and other users, e.g. Natalie, who sometimes gives comments on problems that Madeleine solves.)
+# As the system grows and improves (through efforts of students and mentors), learning mathematics becomes increasingly easy. The material has been gone over by 100s of students and learning pathways are optimized. Madeleine sometimes can get a quick tutoring gig helping out another younger student, and make some money, but mostly she's thinking about what other subjects she will need to add to her portfolio in order to become an architect... by the time she's 23!
+

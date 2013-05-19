@@ -68,6 +68,14 @@ patch < release.patch
 xelatex peeragogy-shell.tex
 ```
 
+# Alternative
+
+To convert to Mediawiki format instead of LaTeX format:
+
+```
+./script3.sh
+```
+
 # A caveat: the patches aren't necessarily complete.
 
 There are likely to be some problems with images, since the patches

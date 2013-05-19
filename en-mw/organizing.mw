@@ -1,0 +1,124 @@
+This section about organizing Co-Learning rests on the assumption that learning always happens in a context, whether this context is a structured &quot;course&quot; or a (potentially) less structured &quot;learning space&quot;. For the moment we consider the following division:
+
+* ''Organizing Co-learning Contexts''
+** Courses (= &quot;learning linked to a timeline or syllabus&quot;)
+** Spaces (= &quot;learning not necessarily linked to a timeline or syllabus&quot;)
+
+
+This section focuses on existing learning contexts and examines in detail how they have been &quot;organized&quot; by their (co-)creators. (See also: [http://socialmediaclassroom.com/host/peeragogy/wiki/structural-dimensions-the-what-we-are-learning-vs-time-and-types-structures the structural dimensions of group formation].)
+
+At a &quot;meta-level&quot; of media, we can talk about this parallel structure:
+
+* ''Building Co-learning Platforms''
+** Development trajectories (e.g. &quot;design, implement, test, repeat&quot;)
+** Platform features (e.g. forums, wikis, ownership models, etc.)
+
+
+A given learning environment with have both time-like and space-like features as well as both designed-for and un-planned features. A given learning platform will encourage certain types of engagement and impose certain constraints. The question for both &quot;teachers&quot; and &quot;system designers&quot; -- as well as for learners -- should be: ''what features best support learning?''
+
+The answer will depend on the learning task and available resources.
+
+For example, nearly everyone agrees that the best way to learn a foreign language is through immersion. But not everyone who wants to learn, say, French, can afford to drop everything to go live in a French-speaking country. Thus, the space-like full immersion &quot;treatment&quot; is frequently sacrificed for course-like treatments (either via books, CDs, videos, or ongoing participation in semi-immersive discussion groups).
+
+System designers are also faced with scarce resources: programmer time, software licensing concerns, availability of peer support, and so forth. While the ideal platform would (magically) come with solutions pre-built, a more realistic approach recognizes that problem solving always takes time and energy. The problem solving approach and associated &quot;learning orientation&quot; will also depend on the task and resources at hand. The following sections will develop this issue further through some specific case studies.
+
+== ''Case study 1 (pilot, completed)'': &quot;Paragogy&quot; and the After Action Review. ==
+
+In our analysis of our experiences as course organizers at P2PU, we (Joe Corneli and Charlie Danoff) used the US Army's technique of After Action Review (AAR). To quote from [http://paragogy.net/ParagogyPaper2 our paper] [2]:
+
+<blockquote>As the name indicates, the AAR is used to review training exercises. It is important to note that while one person typically plays the role of evaluator in such a review [...] the review itself happens among peers, and examines the operations of the unit as a whole.
+
+The four steps in an AAR are:
+
+# Review what was supposed to happen (training plans).
+# Establish what happened.
+# Determine what was right or wrong with what happened.
+# Determine how the task should be done differently the next time.
+
+The stated purpose of the AAR is to “identify strengths and shortcomings in unit planning, preparation, and execution, and guide leaders to accept responsibility for shortcomings and produce a fix.”
+</blockquote>
+We combined the AAR with several principles (see Discussion section below), which we felt described effective peer learning, and went through steps 1-4 for each principle to look at how well it was implemented at P2PU. This process helped generate a range of advice that could be applied at P2PU or similar institutions. By presenteding our paper at the [http://okfn.org/okcon/ Open Knowledge Conference (OKCon)], we were able to meet P2PU's executive director, Philipp Schmidt, as well as other highly-involved P2PU participants; our feedback may have contributed to shaping the development trajectory for P2PU.
+
+In addition, we developed a strong prototype for constructive engagement with peer learning that we and others could deploy again. In other words, variants on the AAR and the paragogical principles could be incorporated into future learning contexts as platform features [3] or re-used in a design/administration/moderation approach [4]. For example, we also used the AAR to help structure our writing and subsequent work on [http://paragogy.net paragogy.net].
+
+== ''Case Study 2 (in progress)'': &quot;Peeragogy&quot;. ==
+
+Our particular focus in the interviews was on drawing out and emphasizing the relational dimension of students, learning experiences within their environment and, consequently, on inferring from their accounts a sense of how they perceived and indeed constituted their environment. We asked them who they learned with and from and how. A further question specifically focused on whom they regarded as their peers and how they understood their peers as a source and a site for learning.&quot; [1]
+
+In this section, we will interview and/or survey members of the Peeragogy community with questions similar to those used by Boud and Lee [1] and then identify strengths and shortcomings as we did with the AAR above. These questions are derived from the AAR.
+
+'''Questions''' (discussed on an [https://peeragogy.etherpad.mozilla.org/7 etherpad]; revisions to the original set of questions are marked in italics):
+
+# Who have you learned with ''or'' from in the Peeragogy project? ''What are you doing to contribute to your peers' learning?''
+# How have you been learning during the project?
+# Who are your peers in this community, and why?
+# What were your expectations of participation in this project? ''And, specifically, what did you (or do you) hope to learn through participation in this project?''
+# What actually happened during your participation in this project (so far)? ''Have you been making progress on your learning goals (if any; see prev. question) -- or learned anything unexpected, but interesting?''
+# What is right or wrong with what happened (Alternatively: how would you assess the project to date?)
+# How might the task be done differently next time? (What's &quot;missing&quot; here that would create a &quot;next time&quot;'', &quot;sequel&quot;, or &quot;continuation&quot;?'')
+# ''How would you like to use the Peeragogy handbook?''
+# ''Finally, how might we change the questions, above, if we wanted to apply them in your peeragogical context?''
+
+=== '''Reflections on participants' answers''' ===
+
+The questions were intended to help participants reflect on, and change, their practice (i.e. their style of participation). There is a tension, however, between changing midstream and learning what we might do differently next time. There is a related tension between initial structure and figuring things out as we go. Arguably, if we knew, 100%, how to do peeragogy, then we would not learn very much in writing this handbook. Difficulties and tensions would be resolved &quot;in advance&quot; (see earlier comments about &quot;magical&quot; technologies for peer production).
+
+And yet, despite our considerable collected expertise on collaboration, learning, and teaching, there have been a variety of tensions here! Perhaps we should judge our &quot;success&quot; partly on how well we deal with those. Some of the tensions highlighted in the answers are as follows:
+
+# ''Slow formation of &quot;peer&quot; relationships.'' There is a certain irony here: we are studying &quot;peeragogy&quot; and yet many respondents did not feel they were really getting to know one another &quot;as peers&quot;, at least not yet. Those who did have a &quot;team&quot; or who knew one another from previous experiences, felt more peer-like in those relationships. Several remarked that they learned less from other individual participants and more from &quot;the collective&quot; or &quot;from everyone&quot;. At the same time, some respondents had ambiguous feelings about naming individuals in the first question: &quot;I felt like I was going to leave people out and that that means they would get a bad grade - ha!&quot; One criterion for being a peer was to have built something together, so by this criterion, it stands to reason that we would only slowly become peers through this project.
+# ''&quot;Co-learning&quot;, &quot;co-teaching&quot;, &quot;co-producing&quot;?'' One respondent wrote: &quot;I am learning about peeragogy, but I think I'm failing [to be] a good peeragog. I remember that Howard [once] told us that the most important thing is that you should be responsible not only for your own learning but for your peers' learning. [...] So the question is, are we learning from others by ourselves or are we [...] helping others to learn?&quot; Another wrote: &quot;To my surprise I realized I could contribute organizationally with reviews, etc. And that I could provide some content around PLNs and group process. Trying to be a catalyst to a sense of forward movement and esprit de corps.&quot;
+# ''Weak structure at the outset, versus a more &quot;flexible&quot; approach.'' One respondent wrote: &quot;I definitely think I do better when presented with a framework or scaffold to use for participation or content development. [...] (But perhaps it is just that I'm used to the old way of doing things).&quot; Yet, the same person wrote: &quot;I am interested in [the] applicability [of pæragogy] to new models for entrepreneurship enabling less structured aggregation of participants in new undertakings, freed of the requirement or need for an entrepreneurial visionary/source/point person/proprietor.&quot; There is a sense that some confusion, particularly at the beginning, may be typical for peeragogy. With hindsight, one proposed &quot;solution&quot; would be to &quot;have had a small group of people as a cadre that had met and brainstormed before the first live session [...] tasked [with] roles [and] on the same page&quot;.
+# ''Technological concerns.'' There were quite a variety, perhaps mainly to do with the question: how might a (different) platform handle the tension between &quot;conversations&quot; and &quot;content production&quot;? For example, will Wordpress help us &quot;bring in&quot; new contributors, or would it be better to use an open wiki? Another respondent noted the utility for many readers of a take-away PDF version. The site (peeragogy.org) should be &quot;[a] place for people to share, comment, mentor and co-learn together in an ongoing fashion.&quot;
+# ''Sample size.'' Note that answers are still trickling in. How should we interpret the response rate? Perhaps what matters is that we are getting &quot;enough&quot; responses to make an analysis. One respondent proposed asking questions in a more ongoing fashion, e.g., asking people who are leaving: &quot;What made you want to quit the project?&quot;
+
+With regard to Points 1 and 2, we might use some &quot;icebreaking&quot; techniques or a &quot;buddy system&quot; to pair people up to work on specific projects. The project's &quot;teams&quot; may have been intended to do this, but commitment or buy-in at the team level was not always high (and in many cases, a &quot;team&quot; ended up being comprised of just one person). It does seem that as the progress has progressed, we have begun to build tools that could address Point 3: for example, the Concept Map could be developed into a process diagram that would used to &quot;triage&quot; a project at its outset, help project participants decide about their roles and goals. Point 4 seems to devolve to the traditional tension between the &quot;good enough&quot; and the &quot;best&quot;: we have used an existing platform to move forward in an &quot;adequate&quot; way. And yet, some technological improvements may be needed for future projects in pæragogy. (Furthermore, note that our choice to use a CC0 license means that if other people find the content useful, they are welcome to deploy it on their own platform, if they prefer.) Finally, Point 5 is still up in the air (more answers more be coming in shortly - I think I have sent around enough reminders). Hopefully the questionnaire will be useful to the group even with a not-100% response rate! Points 4 and 5 are related, in that an ongoing questionnaire for people leaving (or joining) the project could be implemented as a fairly simple technology, which would provide feedback for site maintainers. Gathering a little information as a condition of subscribing or unsubscribing seems like a safe, light-weight, way to learn about the users (tho there is always the possibility that rather than unsubscribing, non-participating users will just filter messages from the site).
+
+An underlying tension (or synergy?) -- between learning and producing -- was highlighted in our earlier work on paragogy. If we learn by producing, that is good. However, I have argued in [4] that paragogical praxis is based less on producing and more on reusing. If downstream users of this handbook find it to, indeed, be useful, we may have done enough. ''For all we know, we are the &quot;cadre&quot; (see above) charged with determining how best to do things in &quot;subsequent rounds&quot;!''And, with this, we turn to a third case study, where our work so far is reapplied in an offline educational context.
+
+== Discussion ==
+
+We reconsider the appropriateness of the AAR and the paragogy principles in contexts beyond P2PU, using Lisewski and Joyce as a guide to our (meta-)critique and analysis.
+
+<blockquote>''In recent years, the tools, knowledge base and discourse of the learning technology profession has been bolstered by the appearance of conceptual paradigms such as the 'five stage e-moderating model' (Salmon, 2000) and the new mantra of 'communities of practice' (Wenger, 1998). This paper will argue that, although these frameworks are useful in informing and guiding learning technology practice, there are inherent dangers in them becoming too dominant a discourse. The main focus will be on the 'five stage e-moderating model' as providing an exemplar of a discourse which is in danger of forming a 'grand narrative' (Lyotard, 1984) or totalizing explanation of how to design and deliver online training programmes.'' -- Lisewski and Joyce
+</blockquote>
+In a sense, the more reified a pattern, the less we learn by deploying it ([http://socialmediaclassroom.com/host/peeragogy/forum/anti-patterns-concerns-complaints-and-critiques#comment-2355 see these comments]). If we were trying to validate the paragogy model simply by fitting feedback to it (Case Study 2), that would be an act of intellectual dishonesty. Nevertheless, the act of fitting data to this model, as a constructive and creative act, is in fact useful -- and a sign that we are still learning about what makes paragogy work. Not only on a theoretical level (summed up below), but also on a technological level (see [http://socialmediaclassroom.com/host/peeragogy/wiki/researching-p%C3%A6ragogy this page]).
+
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">'''Paragogical Principles...'''</td>
+<td align="left">'''Reflections on practice and experience suggest...'''</td>
+</tr>
+<tr class="even">
+<td align="left">1. ''Changing context as a decentered center.'' We interact by changing the space.</td>
+<td align="left">1. '''Develop empirical studies and a critical apparatus.'''''It seems we begin with ''w''eak ties, and then experience a slow formation of &quot;peer&quot; relationships, as we form and re-form our social context, and come to better understand our goals.''</td>
+</tr>
+<tr class="odd">
+<td align="left">2. ''Meta-learning as a font of knowledge.'' We interact by changing what we know about ourselves.</td>
+<td align="left">2. '''Find companions for the journey'''. ''We learn a lot about ourselves by interacting with others. But participants struggle to find the right way to engage:'' ''&quot;co-learning&quot;, &quot;co-teaching&quot;, or &quot;co-producing&quot;? Moreover, &quot;People come--they stay for a while, they flourish, they build--and they go.&quot;''</td>
+</tr>
+<tr class="even">
+<td align="left">3. ''Peers provide feedback that wouldn’t be there otherwise.'' We interact by changing our perspective on things.</td>
+<td align="left">3. '''Work with real users'''. ''We begin with a weak structure at the outset but this may afford a more &quot;flexible&quot; approach as time goes on (see also this [http://peeragogy.org/adding-structure-with-activities/ handbook section] which offers advice on designing activities that help create a &quot;flexible structure&quot;).''</td>
+</tr>
+<tr class="odd">
+<td align="left">4. ''Learning is distributed and nonlinear.'' We interact by changing the way things connect.</td>
+<td align="left">4. '''Study and build nonlinear interfaces'''. ''There are a number of technological concerns, which in a large part have to do with tensions between &quot;content production&quot; and &quot;conversation&quot;, and to a lesser extent critique the platforms we're using.''</td>
+</tr>
+<tr class="even">
+<td align="left">5. ''Realize the dream if you can, then wake up!'' We interact by changing our objectives.</td>
+<td align="left">5. '''Limit philosophizing'''. E''ven with a small group, we can extract meaningful ideas about peer learning and form a strong collective effort, which moves things forward for those involved: this means work. We would not get the same results through &quot;pure contemplation&quot;.''</td>
+</tr>
+</tbody>
+</table>
+
+This table seems to suggests that paragogy is less of a grand narrative and more of a patchwork collection of tricks or heuristics for group work. Rather than narrativizing peer learning, paragogy itself provides a non-linear interface that we can plug into and adapt where appropriate (like we adapted our questionnaire's questions in Case Study 2). Instead of one grand narrative, we see a growing collection of &quot;[http://socialmediaclassroom.com/host/peeragogy/wiki/patterns-and-use-cases use cases]&quot;. The more we share our practice and experience having to do with co-organizing learning or building platforms for the same, the more robust and useful paragogy will become. It may never become a &quot;rigorous discipline&quot;! But if not, that is OK.
+
+== References ==
+
+# Boud, D. and Lee, A. (2005). [http://manainkblog.typepad.com/faultlines/files/BoudLee2005.pdf ‘Peer learning’ as pedagogic discourse for research education]. ''Studies in Higher Education'', 30(5):501–516.
+# Joseph Corneli and Charles Jeffrey Danoff, [http://ceur-ws.org/Vol-739/paper_5.pdf Paragogy], in Sebastian Hellmann, Philipp Frischmuth, Sören Auer, and Daniel Dietrich (eds.), ''Proceedings of the 6th Open Knowledge Conference, Berlin, Germany, June 30 &amp; July 1, 2011'',
+# Joseph Corneli and Alexander Mikroyannidis (2011). [http://greav.ub.edu/der/index.php/der/article/view/188/330 Personalised and Peer-Supported Learning: The Peer-to-Peer Learning Environment (P2PLE)], ''Digital Education Review'', 20.
+# Joseph Corneli, [http://paragogy.net/ParagogicalPraxisPaper Paragogical Praxis], to appear in ''E-Learning and Digital Media'' (ISSN 2042-7530), Volume 9, Number 3, 2012
+# Lisewski, B., and P. Joyce (2003). Examining the Five Stage e-Moderating Model: Designed and Emergent Practice in the Learning Technology Profession, ''Association for Learning Technology Journal'', 11, 55-66.
+
