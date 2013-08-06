@@ -1,12 +1,17 @@
 \documentclass[ebook, 12pt, twoside]{memoir}
 
-\makeatletter
-\renewcommand\@dotsep{10000}
-\renewcommand{\l@part}{\l@chapter}
-\renewcommand{\l@section}{\@dottedtocline{1}{1.5em}{2.6em}}
-\renewcommand{\l@subsection}{\@dottedtocline{2}{4.0em}{3.6em}}
-\renewcommand{\l@subsubsection}{\@dottedtocline{3}{7.4em}{4.5em}}
-\makeatother
+%% \makeatletter
+%% \renewcommand\@dotsep{10000}
+%% \renewcommand{\l@part}{\l@chapter}
+%% \renewcommand{\l@section}{\@dottedtocline{1}{1.5em}{2.6em}}
+%% \renewcommand{\l@subsection}{\@dottedtocline{2}{4.0em}{3.6em}}
+%% \renewcommand{\l@subsubsection}{\@dottedtocline{3}{7.4em}{4.5em}}
+%% \makeatother
+
+\usepackage{array}
+\def\Tiny{\fontsize{8pt}{8pt} \selectfont}
+
+\renewcommand*{\cftchapterfont}{\bfseries}
 
 \makeatletter
 \def\below{\xdef\@thefnmark{}\@footnotetext}
@@ -28,6 +33,7 @@
 \defaultfontfeatures{Mapping=tex-text}
 %\setmainfont{Linux Libertine O}
 
+\usepackage{caption}
 %% \setmainfont[Mapping= tex-text,  
 %%      SmallCapsFont={Linux Libertine O},   
 %%      SmallCapsFeatures= {Color=6600CC, RawFeature={+smcp,+hlig,+dlig}},   
@@ -50,9 +56,9 @@
 %     BoldFeatures={Color = FFFFFF,SmallCapsFont={Linux Libertine Capitals O Bold},%
 %       SmallCapsFeatures = { Color=FFFFFF,   RawFeature={+smcp,+hlig,+dlig}} },  
      ItalicFont={Linux Libertine O Italic},   
-     ItalicFeatures={Color = FFFFFF, RawFeature={+liga,+hlig,+dlig}, %
+     ItalicFeatures={Color = FFFFFF,  %
        SmallCapsFont={Linux Libertine Capitals O Italic}, %
-       SmallCapsFeatures = {Color=FFFFFF,RawFeature={+smcp,+hlig,+dlig}}},   
+       SmallCapsFeatures = {Color=FFFFFF}},   
      BoldItalicFont={Linux Biolinum O},   
      BoldItalicFeatures={ Color = FFFFFF, %
       SmallCapsFont={Linux Libertine Capitals O Bold Italic},  %
@@ -114,34 +120,69 @@
 
 \usepackage{rotating}
 \usepackage{enumitem}
+\usepackage{placeins}
 \usepackage{enumerate}
 
-\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}}
+\AtBeginDocument{\addtocontents{toc}{\protect\pagestyle{empty}}}
 \aliaspagestyle{part}{empty}
 
 \renewcommand{\thepart}{\Roman{part}}
 
 \chapterstyle{thatcher}
 
+
+
+%\let\footruleskip\relax % for compatibility of memoir and fancyhdr
+\let\proportional\ttfamily % for compatibility of memoir and blindtext
+\let\sc\scshape
+\let\bf\bfseries
+\let\it\itfamily
+\let\tt\ttfamily
+\let\sl\slshape
+\let\sf\sffamily
+
+\usepackage[normalem]{ulem}
+
 %% If you don't use ebook, use this instead:
 %\settrimmedsize{9in}{6in}{*}
 %\settrims{1in}{1.25in}
 
+\makeatletter
+\newcommand*{\shifttext}[2]{%
+  \settowidth{\@tempdima}{#2}%
+  \makebox[\@tempdima]{\hspace*{#1}#2}%
+}
+\makeatother
+
+\setlength{\marginparsep}{0pt}
+\setlength{\marginparwidth}{0pt}
+
+%% Useful for book format but for ebook we might as well have them all be the same, see below
+%\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
+%                        {\normalfont\large\bfseries\scshape\leftmark}
+%\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+%                       {\normalfont\bfseries\scshape\thepage}
+
+\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
+                        {\normalfont\bfseries\scshape\thepage}
+\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+                       {\normalfont\bfseries\scshape\thepage}
+
 %% These settings are great for building an actual ebook... basically the same as
 %% using the ``oneside'' setting but two-sided to get the headings to work...
-%\settypeblocksize{7.5in}{4.6in}{*}
-%\setlrmargins{.7in}{*}{*}
-%\setulmargins{.7in}{*}{*}
+\settypeblocksize{7.4in}{4.4in}{*}
+\setlrmargins{.8in}{*}{*}
+\setulmargins{.9in}{*}{*}
 
-%% But this gives an actual two-sided flip/flop to the book:
+%% But this gives a two-sided flip/flop to the version of the book for print:
 
-\settypeblocksize{7.5in}{4.3in}{*}
-\setlrmargins{1in}{*}{*}
-\setulmargins{.7in}{*}{*}
+%\settypeblocksize{7.4in}{4.4in}{*}
+%\setlrmargins{.9in}{*}{*}
+%\setulmargins{.9in}{*}{*}
 
-\setheadfoot{\onelineskip}{2\onelineskip}
+\setheadfoot{2\onelineskip}{2\onelineskip}
 %%\setheaderspaces{*}{1.5\onelineskip}{*}
-\setheaderspaces{*}{.5\onelineskip}{*}
+\setheaderspaces{*}{1.25\onelineskip}{*}
 
 \checkandfixthelayout
 
@@ -185,7 +226,7 @@
 {\small Howard Rheingold, Paola Ricaurte, Stephanie Schipper,} \\
 {\small Fabrizio Terzi, and Geoff Walker}
 }
-\date{\today\ (version 1.01)}
+\date{\today\ (version 1.2$\alpha$)}
 \maketitle
 \thispagestyle{empty}
 
@@ -204,10 +245,12 @@
 
 \frontmatter
 \tableofcontents*
+\pagestyle{empty}
 
 \mainmatter
 
 \part{Introduction} %%%%%%%%%%%%%%%%%%%%
+\pagestyle{companion}
 \chapter[\textbf{Welcome!}]{Welcome to the Peeragogy Handbook, a Resource for Self-organizing Self-learners$^*$}
 %
 \input{introduction.tex}
@@ -218,7 +261,7 @@
 %
 \part{Peer Learning} %%%%%%%%%%%%%%%%%%%%
 %
-\chapter[\textbf{Overview}]{Overview}
+\chapter[\textbf{An Overview}]{An Overview of Peer Learning}
 \input{peer-learning.tex}
 %% REFACTOR
 %% %
