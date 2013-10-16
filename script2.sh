@@ -3,12 +3,15 @@
 tr '\r' '\n' < introduction.html > introduction2.html
 tr '\r' '\n' < howto.html > howto2.html
 tr '\r' '\n' < peer-learning.html > peer-learning2.html
-# tr '\r' '\n' < metalearning.html > metalearning2.html
-# tr '\r' '\n' < plns.html > plns2.html
-# tr '\r' '\n' < plp.html > plp2.html
-# tr '\r' '\n' < play.html > play2.html
-# tr '\r' '\n' < informal_workplace.html > informal_workplace2.html
-# tr '\r' '\n' < to_peeragogy.html > to_peeragogy2.html
+tr '\r' '\n' < more_fun.html > more_fun2.html
+tr '\r' '\n' < help_needed.html > help_needed2.html
+tr '\r' '\n' < how_to_structure.html > how_to_structure2.html
+tr '\r' '\n' < play.html > play2.html
+tr '\r' '\n' < motivation.html > motivation2.html
+tr '\r' '\n' < sphinx.html > sphinx2.html
+tr '\r' '\n' < forums.html > forums2.html
+tr '\r' '\n' < work_together.html > work_together2.html
+tr '\r' '\n' < we_won.html > we_won2.html
 tr '\r' '\n' < convening.html > convening2.html
 tr '\r' '\n' < k12.html > k122.html
 tr '\r' '\n' < researching.html > researching2.html
@@ -37,12 +40,16 @@ tr '\r' '\n' < license.html > license2.html
 sed -i.bak s/\\\\n//g introduction2.html
 sed -i.bak s/\\\\n//g howto2.html
 sed -i.bak s/\\\\n//g peer-learning2.html
-# sed -i.bak s/\\\\n//g metalearning2.html
-# sed -i.bak s/\\\\n//g plns2.html
-# sed -i.bak s/\\\\n//g plp2.html
-# sed -i.bak s/\\\\n//g play2.html
-# sed -i.bak s/\\\\n//g informal_workplace2.html
-# sed -i.bak s/\\\\n//g to_peeragogy2.html
+sed -i.bak s/\\\\n//g more_fun2.html
+sed -i.bak s/\\\\n//g help_needed2.html
+sed -i.bak s/\\\\n//g how_to_structure2.html
+sed -i.bak s/\\\\n//g play2.html
+sed -i.bak s/\\\\n//g motivation2.html
+sed -i.bak s/\\\\n//g sphinx2.html
+sed -i.bak s/\\\\n//g forums2.html
+sed -i.bak s/\\\\n//g work_together2.html
+sed -i.bak s/\\\\n//g we_won2.html
+
 sed -i.bak s/\\\\n//g convening2.html
 sed -i.bak s/\\\\n//g k122.html
 sed -i.bak s/\\\\n//g researching2.html
@@ -71,12 +78,16 @@ sed -i.bak s/\\\\n//g license2.html
 sed -i.bak s/\\\\t//g introduction2.html
 sed -i.bak s/\\\\t//g howto2.html
 sed -i.bak s/\\\\t//g peer-learning2.html
-# sed -i.bak s/\\\\t//g metalearning2.html
-# sed -i.bak s/\\\\t//g plns2.html
-# sed -i.bak s/\\\\t//g plp2.html
-# sed -i.bak s/\\\\t//g play2.html
-# sed -i.bak s/\\\\t//g informal_workplace2.html
-# sed -i.bak s/\\\\t//g to_peeragogy2.html
+sed -i.bak s/\\\\t//g more_fun2.html
+sed -i.bak s/\\\\t//g help_needed2.html
+sed -i.bak s/\\\\t//g how_to_structure2.html
+sed -i.bak s/\\\\t//g play2.html
+sed -i.bak s/\\\\t//g motivation2.html
+sed -i.bak s/\\\\t//g sphinx2.html
+sed -i.bak s/\\\\t//g forums2.html
+sed -i.bak s/\\\\t//g work_together2.html
+sed -i.bak s/\\\\t//g we_won2.html
+
 sed -i.bak s/\\\\t//g convening2.html
 sed -i.bak s/\\\\t//g k122.html
 sed -i.bak s/\\\\t//g researching2.html
@@ -105,12 +116,16 @@ sed -i.bak s/\\\\t//g license2.html
 sed -i.bak s/post_content//g introduction2.html
 sed -i.bak s/post_content//g howto2.html
 sed -i.bak s/post_content//g peer-learning2.html
-# sed -i.bak s/post_content//g metalearning2.html
-# sed -i.bak s/post_content//g plns2.html
-# sed -i.bak s/post_content//g plp2.html
-# sed -i.bak s/post_content//g play2.html
-# sed -i.bak s/post_content//g informal_workplace2.html
-# sed -i.bak s/post_content//g to_peeragogy2.html
+sed -i.bak s/post_content//g more_fun2.html
+sed -i.bak s/post_content//g help_needed2.html
+sed -i.bak s/post_content//g how_to_structure2.html
+sed -i.bak s/post_content//g play2.html
+sed -i.bak s/post_content//g motivation2.html
+sed -i.bak s/post_content//g sphinx2.html
+sed -i.bak s/post_content//g forums2.html
+sed -i.bak s/post_content//g work_together2.html
+sed -i.bak s/post_content//g we_won2.html
+
 sed -i.bak s/post_content//g convening2.html
 sed -i.bak s/post_content//g k122.html
 sed -i.bak s/post_content//g researching2.html
@@ -139,12 +154,16 @@ sed -i.bak s/post_content//g license2.html
 pandoc --from=html --to=latex introduction2.html         > introduction.tex
 pandoc --from=html --to=latex howto2.html		 > howto.tex
 pandoc --from=html --to=latex peer-learning2.html	 > peer-learning.tex
-# pandoc --from=html --to=latex metalearning2.html	 > metalearning.tex
-# pandoc --from=html --to=latex plns2.html		 > plns.tex
-# pandoc --from=html --to=latex plp2.html		 > plp.tex
-# pandoc --from=html --to=latex play2.html		 > play.tex
-# pandoc --from=html --to=latex informal_workplace2.html > informal_workplace.tex
-# pandoc --from=html --to=latex to_peeragogy2.html	 > to_peeragogy.tex
+pandoc --from=html --to=latex more_fun2.html	         > more_fun.tex
+pandoc --from=html --to=latex help_needed2.html	         > help_needed.tex
+pandoc --from=html --to=latex how_to_structure2.html	 > how_to_structure.tex
+pandoc --from=html --to=latex play2.html		 > play.tex
+pandoc --from=html --to=latex motivation2.html		 > motivation.tex
+pandoc --from=html --to=latex sphinx2.html		 > sphinx.tex
+pandoc --from=html --to=latex forums2.html		 > forums.tex
+pandoc --from=html --to=latex work_together2.html        > work_together.tex
+pandoc --from=html --to=latex we_won2.html	         > we_won.tex
+
 pandoc --from=html --to=latex convening2.html		 > convening.tex
 pandoc --from=html --to=latex k122.html		         > k12.tex
 pandoc --from=html --to=latex researching2.html	         > researching.tex
@@ -184,6 +203,7 @@ tr '\r' '\n' < praxis_vs_poeisis.html		 > praxis_vs_poeisis2.html
 tr '\r' '\n' < roadmap.html			 > roadmap2.html
 tr '\r' '\n' < roles.html			 > roles2.html
 tr '\r' '\n' < wrapper.html			 > wrapper2.html
+tr '\r' '\n' < specific_project.html		 > specific_project2.html
 tr '\r' '\n' < isolation.html			 > isolation2.html
 tr '\r' '\n' < magical_thinking.html		 > magical_thinking2.html
 tr '\r' '\n' < messy_with_lurkers.html		 > messy_with_lurkers2.html
@@ -221,6 +241,7 @@ sed -i.bak s/\\\\n//g praxis_vs_poeisis2.html
 sed -i.bak s/\\\\n//g roadmap2.html
 sed -i.bak s/\\\\n//g roles2.html
 sed -i.bak s/\\\\n//g wrapper2.html
+sed -i.bak s/\\\\n//g specific_project2.html
 sed -i.bak s/\\\\n//g isolation2.html
 sed -i.bak s/\\\\n//g magical_thinking2.html
 sed -i.bak s/\\\\n//g messy_with_lurkers2.html
@@ -258,6 +279,7 @@ sed -i.bak s/\\\\t//g praxis_vs_poeisis2.html
 sed -i.bak s/\\\\t//g roadmap2.html
 sed -i.bak s/\\\\t//g roles2.html
 sed -i.bak s/\\\\t//g wrapper2.html
+sed -i.bak s/\\\\t//g specific_project2.html
 sed -i.bak s/\\\\t//g isolation2.html
 sed -i.bak s/\\\\t//g magical_thinking2.html
 sed -i.bak s/\\\\t//g messy_with_lurkers2.html
@@ -296,6 +318,7 @@ sed -i.bak s/post_content//g praxis_vs_poeisis2.html
 sed -i.bak s/post_content//g roadmap2.html
 sed -i.bak s/post_content//g roles2.html
 sed -i.bak s/post_content//g wrapper2.html
+sed -i.bak s/post_content//g specific_project2.html
 sed -i.bak s/post_content//g isolation2.html
 sed -i.bak s/post_content//g magical_thinking2.html
 sed -i.bak s/post_content//g messy_with_lurkers2.html
@@ -333,6 +356,7 @@ pandoc --from=html --to=latex praxis_vs_poeisis2.html		      >  praxis_vs_poeisi
 pandoc --from=html --to=latex roadmap2.html			      >  roadmap.tex
 pandoc --from=html --to=latex roles2.html			      >  roles.tex
 pandoc --from=html --to=latex wrapper2.html			      >  wrapper.tex
+pandoc --from=html --to=latex specific_project2.html		      >  specific_project.tex
 pandoc --from=html --to=latex isolation2.html			      >  isolation.tex
 pandoc --from=html --to=latex magical_thinking2.html		      >  magical_thinking.tex
 pandoc --from=html --to=latex messy_with_lurkers2.html		      >  messy_with_lurkers.tex

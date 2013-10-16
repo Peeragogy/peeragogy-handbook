@@ -184,6 +184,7 @@ tr '\r' '\n' < praxis_vs_poeisis.html		 > praxis_vs_poeisis2.html
 tr '\r' '\n' < roadmap.html			 > roadmap2.html
 tr '\r' '\n' < roles.html			 > roles2.html
 tr '\r' '\n' < wrapper.html			 > wrapper2.html
+tr '\r' '\n' < specific_project.html		 > specific_project2.html
 tr '\r' '\n' < isolation.html			 > isolation2.html
 tr '\r' '\n' < magical_thinking.html		 > magical_thinking2.html
 tr '\r' '\n' < messy_with_lurkers.html		 > messy_with_lurkers2.html
@@ -221,6 +222,7 @@ sed -i.bak s/\\\\n//g praxis_vs_poeisis2.html
 sed -i.bak s/\\\\n//g roadmap2.html
 sed -i.bak s/\\\\n//g roles2.html
 sed -i.bak s/\\\\n//g wrapper2.html
+sed -i.bak s/\\\\n//g specific_project2.html
 sed -i.bak s/\\\\n//g isolation2.html
 sed -i.bak s/\\\\n//g magical_thinking2.html
 sed -i.bak s/\\\\n//g messy_with_lurkers2.html
@@ -258,6 +260,7 @@ sed -i.bak s/\\\\t//g praxis_vs_poeisis2.html
 sed -i.bak s/\\\\t//g roadmap2.html
 sed -i.bak s/\\\\t//g roles2.html
 sed -i.bak s/\\\\t//g wrapper2.html
+sed -i.bak s/\\\\t//g specific_project2.html
 sed -i.bak s/\\\\t//g isolation2.html
 sed -i.bak s/\\\\t//g magical_thinking2.html
 sed -i.bak s/\\\\t//g messy_with_lurkers2.html
@@ -296,6 +299,7 @@ sed -i.bak s/post_content//g praxis_vs_poeisis2.html
 sed -i.bak s/post_content//g roadmap2.html
 sed -i.bak s/post_content//g roles2.html
 sed -i.bak s/post_content//g wrapper2.html
+sed -i.bak s/post_content//g specific_project2.html
 sed -i.bak s/post_content//g isolation2.html
 sed -i.bak s/post_content//g magical_thinking2.html
 sed -i.bak s/post_content//g messy_with_lurkers2.html
@@ -333,6 +337,7 @@ pandoc --from=html --to=mediawiki praxis_vs_poeisis2.html		>  praxis_vs_poeisis.
 pandoc --from=html --to=mediawiki roadmap2.html				>  roadmap.mw
 pandoc --from=html --to=mediawiki roles2.html				>  roles.mw
 pandoc --from=html --to=mediawiki wrapper2.html				>  wrapper.mw
+pandoc --from=html --to=mediawiki specific_project2.html		>  specific_project.mw
 pandoc --from=html --to=mediawiki isolation2.html			>  isolation.mw
 pandoc --from=html --to=mediawiki magical_thinking2.html		>  magical_thinking.mw
 pandoc --from=html --to=mediawiki messy_with_lurkers2.html		>  messy_with_lurkers.mw

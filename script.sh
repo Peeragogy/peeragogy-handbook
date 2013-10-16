@@ -5,6 +5,11 @@
 # 505  . Introduction
 # 347  . How To Use This Handbook
 # 1903 . Peer Learning
+#  2809. Which is more fun, skateboarding or physics?
+#  2813. What kind of help do you need?
+#  2823. How should we structure things?
+#  2829. Can we work together on this?
+#  2832. How do we know if we've won?
 # 17   . Convening a Group
 #  384  . Researching Peeragogy
 # 403  .  Organizing a Learning Context
@@ -93,6 +98,17 @@ mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts 
 # mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 1248;" peeragogyB > informal_workplace.html
 # # 6  .   From Peer Learning to Peeragogy
 # mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE pos t_type='page' and ID = 6;" peeragogyB > to_peeragogy.html
+
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE pos t_type='page' and ID = 2809;" peeragogyB > more_fun.html
+
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE pos t_type='page' and ID = 2813;" peeragogyB > help_needed.html
+
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE pos t_type='page' and ID = 2823;" peeragogyB > how_to_structure.html
+
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE pos t_type='page' and ID = 2829;" peeragogyB > work_together.html
+
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE pos t_type='page' and ID = 2832;" peeragogyB > we_won.html
+
 # 17 . Convening a Group
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 17;" peeragogyB > convening.html
 # 1321  . K-12 Peeragogy
@@ -138,6 +154,7 @@ mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts 
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 565" peeragogyB > roadmap.html
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 249" peeragogyB > roles.html
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 246" peeragogyB > wrapper.html
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 2655" peeragogyB > specific_project.html
 # ANTIPATTERNS COLLECTION
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 316" peeragogyB > isolation.html
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 321" peeragogyB > magical_thinking.html
