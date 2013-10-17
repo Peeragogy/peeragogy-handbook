@@ -3,6 +3,16 @@
 * HIGH Move Knight Foundation Proposal into this roadmap. :major:
   What parts of the Peeragogy.EDU course description actually
   represent concrete do-able tasks?
+* HIGH Strictly enforce 100% Public Domain content :vTwo:
+  (no CC-By-SA-NCinfographics or non-PD images)
+* HIGH Share version 1.3 with Advisory panel :vTwo:
+  asking them for constructive critiques.  Also (where appropriate)
+  ask if any of them are willing to give us some "back cover" quotes.
+* HIGH Print using Lightning Source and distribute via Amazon          :vTwo:
+* HIGH Finalize editor/author information  :vTwo:
+  For instance, "a Howard Rheingold production"?  Let's see what
+  Howard is up for here.
+* HIGH we can have the links be organized in an appendix at the end of the book?  :vTwo:
 * MEDIUM Develop a Peeragogy Linux-on-a-Stick USB to distribute with the book. :major:
   This would be accompanied by a writing component: brief quickstart
   technical notes for key tools
