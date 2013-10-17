@@ -1,54 +1,57 @@
-# Org mode outline of PlanetMath Activities   -*- mode: Org; -*-
+# Org mode outline of Peeragogy Activities   -*- mode: Org; -*-
 #+TODO: LOW MEDIUM HIGH TODO | DONE WONTFIX
-* HIGH Move Knight Foundation Proposal into this roadmap. :major:
+* Overall project priorities and tasks
+** HIGH Move Knight Foundation Proposal into this roadmap. :major:
   What parts of the Peeragogy.EDU course description actually
   represent concrete do-able tasks?
-* HIGH Strictly enforce 100% Public Domain content :vTwo:
+** HIGH Strictly enforce 100% Public Domain content :vTwo:
   (no CC-By-SA-NCinfographics or non-PD images)
-* HIGH Share version 1.3 with Advisory panel :vTwo:
+** HIGH Share version 1.3 with Advisory panel :vTwo:
   asking them for constructive critiques.  Also (where appropriate)
   ask if any of them are willing to give us some "back cover" quotes.
-* HIGH Print using Lightning Source and distribute via Amazon          :vTwo:
-* HIGH Finalize editor/author information  :vTwo:
+** HIGH Print using Lightning Source and distribute via Amazon          :vTwo:
+** HIGH Finalize editor/author information  :vTwo:
   For instance, "a Howard Rheingold production"?  Let's see what
   Howard is up for here.
-* HIGH we can have the links be organized in an appendix at the end of the book?  :vTwo:
-* MEDIUM Develop a Peeragogy Linux-on-a-Stick USB to distribute with the book. :major:
+** HIGH we can have the links be organized in an appendix at the end of the book?  :vTwo:
+* Peeragogy.ORG priorities and tasks
+** MEDIUM Develop a Peeragogy Linux-on-a-Stick USB to distribute with the book. :major:
   This would be accompanied by a writing component: brief quickstart
   technical notes for key tools
-* MEDIUM Finish and import a draft “FAQ”. :editing:
+** MEDIUM Finish and import a draft “FAQ”. :editing:
   Also, create guidelines for getting new questions onto the FAQ
-* MEDIUM Fix or officially abandon the “Technologies” template. :tech:
+** MEDIUM Fix or officially abandon the “Technologies” template. :tech:
   It's currently broken and Technologies don't show up on the site; It
   might be better to officially abandon the “Technologies” template
   and just start writing about technologies as Pages.
-* MEDIUM Compare & contrast “peer learning” and “self-regulated” or “self-directed” learning. :content:
+** MEDIUM Compare & contrast “peer learning” and “self-regulated” or “self-directed” learning. :content:
   Some relevant notes are here
   http://labspace.open.ac.uk/course/view.php?id=7898; Alison Seaman
   has volunteered to work on this in early March 2013, but hasn't come
   back to us with an article, so we need a new volunteer.
-* MEDIUM Sum up the “Tips from an Open Source Perspective” recommended readings. :content:
+** MEDIUM Sum up the “Tips from an Open Source Perspective” recommended readings. :content:
   (This is at the end of the Peer Learning article; we could add an
   entirely new article about open source software to the technology
   section of the book
-* MEDIUM “Rewrite from scratch” the article on self-organization. :content:
+** MEDIUM “Rewrite from scratch” the article on self-organization. :content:
  (The current version draws on Wikipedia CC-By-SA content and so isn’t
  suitable for the book)
-* MEDIUM Italian                                                   :Fabrizio:
-* MEDIUM Spanish :Paola:
-* MEDIUM Mandarin and Cantonese :Charlie:
-* MEDIUM Brazilian Portuguese :Fabrizio:
-* MEDIUM Configure the backup system to make backups fully automatic. :tech:
+** MEDIUM Italian                                                   :Fabrizio:
+** MEDIUM Spanish :Paola:
+** MEDIUM Mandarin and Cantonese :Charlie:
+** MEDIUM Brazilian Portuguese :Fabrizio:
+** MEDIUM Configure the backup system to make backups fully automatic. :tech:
   The plugin that does backups will send a notification email to a
   designated address.  Either that could be scripted client-side, or
   the code that sends the email could be hacked to do more, e.g. run a
   system call to scp.  The relevant code is here:
   https://github.com/humanmade/BackUpWordPress/blob/master/classes/email.php
-* MEDIUM Is there a way to make “justified text” the default? :tech:
+** MEDIUM Is there a way to make “justified text” the default? :tech:
   Likely it could be solved with a simple custom CSS rule
-* MEDIUM Implement the nonstarter.org system as a way to inject money into the project :Joe:
+** MEDIUM Implement the nonstarter.org system as a way to inject money into the project :Joe:
 
-* LOW Social Network Gadget & Feedback :fabrizio: 
+* Paragogy.NET priorities and tasks
+** LOW Social Network Gadget & Feedback :fabrizio: 
   Dear Paragogy friends, In our {{foot-infobox}} we have a link to Web
   Community Wiki http://goo.gl/U8xY2l (Hauptseite). Really
   well-written code. I am wondering if we can add the Social net
@@ -57,34 +60,35 @@
   or Wikibooks, but we can do it here. What do you think? P.S. Can we
   use it also in Distro Seed Project: Pæragogy.edu and browse across
   applications and tool packages.
-* LOW Template:Progress meter/doc :fabrizio:
+** LOW Template:Progress meter/doc :fabrizio:
   I need to set a tempalate in a page:
   http://paragogy.net/Identification_and_Design_process_%26_Roadmap.
-* LOW HTML 5 video and insert webm video file :paragogy: 
+** LOW HTML 5 video and insert webm video file :paragogy: 
   Main wikimedia resource here:
   http://commons.wikimedia.org/w/index.php?search=peeragogy&title=Special%3ASearch
   add it into ou wiki page ---- I installed a plugin for including
   YouTube videos in another Mediawiki site I set up. I should be able
   to install the same here. I can also enable .WEBM uploads. Anything
   else needed?
-* LOW Setting Translation Coordination :paragogy:
-* LOW Add link to Idenitca #paragogy dents up top :paragogy:
-* LOW BOOK: PORTFOLIO OF COLLABORATIVE LESSON PLANNING FROM 2010 - 2011 :charlie:
+** LOW Setting Translation Coordination :paragogy:
+** LOW Add link to Identica #paragogy dents up top                  :paragogy:
+** LOW BOOK: PORTFOLIO OF COLLABORATIVE LESSON PLANNING FROM 2010 - 2011 :charlie:
   Put together a portfolio of my and others efforts in collaborative
   lesson planning together as a way to make a usable resource from the
   work and figure out where to go next. Deadline: Early October 2011
-* LOW Talk more 2 ppl on Rheingold U who were interested in paragogy :charlie:
-* LOW paragogy film :joe:
+** LOW Talk more 2 ppl on Rheingold U who were interested in paragogy :charlie:
+** LOW paragogy film :joe:
   maybe talk to Melody Gilbert ...
-* LOW Interview series :joe:
+** LOW Interview series :joe:
   * Mako * Philipp * Bekka * Niels
-* LOW get a zotero feed on paragogy.net :joe:
-* LOW add learner profiles to paragogy.net wiki :joe:
+** LOW get a zotero feed on paragogy.net :joe:
+** LOW add learner profiles to paragogy.net wiki :joe:
   Add these to paragogy.net (and what do we mean by that...)
-* LOW write paragogy children's book and/or comic book :enzo:
-* LOW talk with people at flat iron artist studio or bureau of open culture :charlie:
+** LOW write paragogy children's book and/or comic book :enzo:
+** LOW talk with people at flat iron artist studio or bureau of open culture :charlie:
   look for space do something physical
-* LOW review Nagarjuna's metastudio site :joe:
+** LOW review Nagarjuna's metastudio site :joe:
+* Completed!
 * DONE Joint paper for WikiSym 2013. :research:
 * DONE Finish the re-boot of PlanetMath.org :Joe:
   This is described in my thesis, and a relevant chapter is in
