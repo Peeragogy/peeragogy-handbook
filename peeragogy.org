@@ -1,3 +1,5 @@
+# Org mode outline of PlanetMath Activities   -*- mode: Org; -*-
+#+TODO: LOW MEDIUM HIGH TODO | DONE WONTFIX
 * HIGH Move Knight Foundation Proposal into this roadmap. :major:
   What parts of the Peeragogy.EDU course description actually
   represent concrete do-able tasks?
