@@ -38,7 +38,6 @@
  suitable for the book)
 ** MEDIUM Italian                                                   :Fabrizio:
 ** MEDIUM Spanish :Paola:
-** MEDIUM Mandarin and Cantonese :Charlie:
 ** MEDIUM Brazilian Portuguese :Fabrizio:
 ** MEDIUM Configure the backup system to make backups fully automatic. :tech:
   The plugin that does backups will send a notification email to a
@@ -88,6 +87,7 @@
 ** LOW talk with people at flat iron artist studio or bureau of open culture :charlie:
   look for space do something physical
 ** LOW review Nagarjuna's metastudio site :joe:
+** LOW Mandarin and Cantonese :charlie:
 * Completed!
 * DONE Joint paper for WikiSym 2013. :research:
 * DONE Finish the re-boot of PlanetMath.org :Joe:
