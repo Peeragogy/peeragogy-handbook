@@ -8,6 +8,14 @@
 %% \renewcommand{\l@subsubsection}{\@dottedtocline{3}{7.4em}{4.5em}}
 %% \makeatother
 
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
 \usepackage{enumitem}
 \usepackage{array}
 \def\Tiny{\fontsize{8pt}{8pt} \selectfont}
@@ -124,7 +132,13 @@
 \usepackage{placeins}
 \usepackage{enumerate}
 
-\AtBeginDocument{\addtocontents{toc}{\protect\pagestyle{empty}}}
+\usepackage{etoolbox}
+\makeatletter
+\pretocmd{\chapter}{\addtocontents{toc}{\protect\addvspace{-7\p@}}}{}{}
+%\pretocmd{\section}{\addtocontents{toc}{\protect\addvspace{-5\p@}}}{}{}
+\makeatother
+
+%\AtBeginDocument{\addtocontents{toc}{\protect\pagestyle{empty}}}
 \aliaspagestyle{part}{empty}
 
 \renewcommand{\thepart}{\Roman{part}}
@@ -164,6 +178,9 @@
 %\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
 %                       {\normalfont\bfseries\scshape\thepage}
 
+%\usepackage{fancyhdr}
+
+
 \makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
                         {\normalfont\bfseries\scshape\thepage}
 \makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
@@ -171,15 +188,14 @@
 
 %% These settings are great for building an actual ebook... basically the same as
 %% using the ``oneside'' setting but two-sided to get the headings to work...
-\settypeblocksize{7.4in}{4.4in}{*}
-\setlrmargins{.8in}{*}{*}
-\setulmargins{.9in}{*}{*}
+%\settypeblocksize{7.4in}{4.4in}{*}
+%\setlrmargins{.8in}{*}{*}
+%\setulmargins{.9in}{*}{*}
 
 %% But this gives a two-sided flip/flop to the version of the book for print:
-
-%\settypeblocksize{7.4in}{4.4in}{*}
-%\setlrmargins{.9in}{*}{*}
-%\setulmargins{.9in}{*}{*}
+\settypeblocksize{7.4in}{4.4in}{*}
+\setlrmargins{1in}{*}{*}
+\setulmargins{.9in}{*}{*}
 
 \setheadfoot{2\onelineskip}{2\onelineskip}
 %%\setheaderspaces{*}{1.5\onelineskip}{*}
@@ -228,7 +244,7 @@
 {\small Howard Rheingold, Paola Ricaurte, Stephanie Schipper,}\\
 {\small Fabrizio Terzi, and Geoff Walker}
 }
-\date{\today\ (version 1.3$\alpha$)}
+\date{\today\ (version 1.3)}
 \maketitle
 \thispagestyle{empty}
 
@@ -247,9 +263,12 @@
 \frontmatter
 \pagestyle{empty}
 \thispagestyle{empty}
-\setcounter{page}{0}
+\setcounter{page}{-1}
+{
+\changepage{15mm}{}{}{}{}{-15mm}{}{}{}{}{}{}{}{}
 \tableofcontents*
-\clearpage
+}
+%\afterpage{\blankpage}
 
 \mainmatter
 
@@ -436,7 +455,6 @@
 \chapter[\textbf{Real-time Meetings}]{ Real-time Meetings } 
 %
 \input{realtime.tex}
-
 
 
 \part{Resources} %%%%%%%%%%%%%%%%%%%%
