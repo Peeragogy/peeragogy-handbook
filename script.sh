@@ -11,7 +11,6 @@
 #  2829. Can we work together on this?
 #  2832. How do we know if we've won?
 # 17   . Convening a Group
-#  384  . Researching Peeragogy
 # 403  .  Organizing a Learning Context
 #  741  . Adding Structure with Activities
 #  1219 . The student authored syllabus
@@ -23,6 +22,7 @@
 #  1702 . Platform Design
 # 417  . Assessment
 #  1225 . Following the money, assessing profitablity
+#  384  . Researching Peeragogy
 # 221  . Patterns, Use Cases, and Examples
 #  590  . Patterns and Heuristics
 # PATTERNS COLLECTION

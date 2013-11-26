@@ -145,8 +145,6 @@
 
 \chapterstyle{thatcher}
 
-
-
 %\let\footruleskip\relax % for compatibility of memoir and fancyhdr
 \let\proportional\ttfamily % for compatibility of memoir and blindtext
 \let\sc\scshape
@@ -173,18 +171,17 @@
 \setlength{\marginparwidth}{0pt}
 
 %% Useful for book format but for ebook we might as well have them all be the same, see below
-%\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
-%                        {\normalfont\large\bfseries\scshape\leftmark}
-%\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
-%                       {\normalfont\bfseries\scshape\thepage}
+\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
+                        {\normalfont\large\bfseries\scshape\leftmark}
+\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+                       {\normalfont\bfseries\scshape\thepage}
 
 %\usepackage{fancyhdr}
 
-
-\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
-                        {\normalfont\bfseries\scshape\thepage}
-\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
-                       {\normalfont\bfseries\scshape\thepage}
+%\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
+%                        {\normalfont\bfseries\scshape\thepage}
+%\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+%                       {\normalfont\bfseries\scshape\thepage}
 
 %% These settings are great for building an actual ebook... basically the same as
 %% using the ``oneside'' setting but two-sided to get the headings to work...
@@ -211,16 +208,48 @@
 %% \chapterstyle{plain}
 
 %% \checkandfixthelayout
+%\usepackage{endnotes}
+%\usepackage{endheads}
+%\setupendnoteheaders 
+%\titleinnotestrue
+%\setstyleforchapternotebegin{\begin{flushleft}\begin{bf}\normalsize}
+%\setstyleforchapternoteend{\end{bf}\end{flushleft}}
+
+%\usepackage{eledmac}
+%\def\printendlines#1|#2|#3|#4|#5|#6|#7|{\begingroup
+%  \setprintendlines{#1}{#2}{#3}{#4}{#5}{#6}%
+%  \printnpnum{#1}% \linenumrep{#2}%
+%  \ifl@d@ssub \fullstop \sublinenumrep{#3}\fi
+%  \ifl@d@dash \endashchar\fi
+%  \ifl@d@pnum \printnpnum{#4}\fi
+%  \ifl@d@elin \linenumrep{#5}\fi
+%  \ifl@d@esl \ifl@d@elin \fullstop\fi \sublinenumrep{#6}\fi
+%\endgroup}
 
 \PassOptionsToPackage{hyphens}{url}
 \usepackage[linktoc=all,frenchlinks,pdfborderstyle={/S/U/W .5},citebordercolor={1 1 1},linkbordercolor={1 1 1},urlbordercolor={1 1 1}]{hyperref}
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\makeatother
+
+%\def\indexname{Web pages referenced in this book}
+\usepackage{makeidx}
+\makeindex
+\let\hrefold\href
+%% Tip on how to use the eledmac package:
+%% http://tex.stackexchange.com/questions/146906/endnotes-with-eledmac
+%% Tempting to do \numberlinefalse.
+\renewcommand*{\href}[2]{\hrefold{#1}{#2}\index{\thepage!{#2\ldots\protect\url{#1}}}}
+
+
+%\renewcommand*{\href}[2]{\stepcounter{endnote}\hrefold{#1}{#2}\endnotetext[\theendnote]{{\sc #2}\ldots\ \url{#1}}}
 
 \begin{document}
 \sloppy 
 \selectlanguage{english}
-\title{The Peeragogy Handbook\\[1in]}
+\title{The Peeragogy Handbook\\[.5in]}
 %% \author{\emph{Edited by} \\
-%% Howard Rheingold and Joseph Corneli\\[.2in]
+%%  and Joseph Corneli\\[.2in]
 %% \emph{with contributions from} \\
 %% {\small Bryan Alexander, Paul Allison, R\'egis Barondeau,} \\
 %% {\small Doug Breitbart, Suz Burroughs, Jay Cross, }\\ 
@@ -232,19 +261,23 @@
 %% {\small Stephanie Schipper, Fabrizio Terzi, and Geoff Walker} \\
 %% }
 \author{
+\emph{Founding Editor}\\
+{\small Howard Rheingold}\\[.3in]
+\emph{Editorial Board}\\
+{\small George Brett, Joseph Corneli, Charles Jeffrey Danoff,}\\
+{\small Kyle Larson, Charlotte Pierce, and Paola Ricaurte}\\[.3in]
+
 \emph{with contributions from} \\
 {\small Bryan Alexander, Paul Allison, R\'egis Barondeau,} \\
-{\small Doug Breitbart, George Brett, Suz Burroughs, }\\ 
-{\small Joseph Corneli, Jay Cross, Charles Jeffrey Danoff,}\\
+{\small Doug Breitbart, Suz Burroughs, Jay Cross}\\ 
 {\small Julian Elve, Mar\'ia Fernanda, James Folkestad, }\\
 {\small Kathy Gill, John Graves, Gigi Johnson,} \\
-{\small Anna Keune, Kyle Larson, Roland Legrand, } \\
-{\small Amanda Lyons, Christopher Neal, Ted Newcomb,} \\
-{\small Stephanie Parker, Charlotte Pierce, David Preston,} \\
-{\small Howard Rheingold, Paola Ricaurte, Stephanie Schipper,}\\
-{\small Fabrizio Terzi, and Geoff Walker}
+{\small Anna Keune, Roland Legrand, Amanda Lyons} \\
+{\small Christopher Neal, Ted Newcomb, Stephanie Parker} \\
+{\small David Preston, Stephanie Schipper, Fabrizio Terzi} \\
+{\small and Geoff Walker}
 }
-\date{\today\ (version 1.3)}
+\date{\today\ (version 1.3.2$\alpha$)}
 \maketitle
 \thispagestyle{empty}
 
@@ -254,8 +287,9 @@
 \end{center}
 \quad \\
 \begin{center}
-{\large {\sc small caps} corresponds to links in the online
-  version of the book, which is at \url{http://peeragogy.org}.}
+{\large {\sc small caps} corresponds to links in the online version of
+  the book, which is at \url{http://peeragogy.org}.  
+  They are indexed at the end of the book for reference.}
 \end{center}
 \thispagestyle{empty}
 \cleardoublepage
@@ -271,6 +305,11 @@
 %\afterpage{\blankpage}
 
 \mainmatter
+%%% This works but this way of doing things messes with the spacing.
+%%% Maybe there's a better way to automate the starting and stopping
+%\lineation{section}
+%\numberlinetrue
+%\Abeginnumbering
 
 \part{Introduction} %%%%%%%%%%%%%%%%%%%%
 \pagestyle{companion}
@@ -285,6 +324,7 @@
 \part{Peer Learning} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{An Overview}]{An Overview of Peer Learning}
+%
 \input{peer-learning.tex}
 %
 \section*{Which is more fun, skateboarding or physics?}
@@ -477,6 +517,19 @@
 %
 %\chapter[\textbf{License}]{License}
 %
+%\endnumbering
+%\cleardoublepage
+%\chapter[\textbf{Web pages referenced in this book}]{}
+%\doendnotes{A}
+
+\cleardoublepage
+%\let\oldtwocolumn\twocolumn
+%\renewcommand{\twocolumn}[1][]{#1}
+\renewcommand{\indexname}{Web Pages Cited in This Book}
+\onecolindex
+\printindex
+%\renewcommand{\twocolumn}[1][]{\oldtwocolumn}
+
 \newpage
 \thispagestyle{empty}
 \input{license.tex}
