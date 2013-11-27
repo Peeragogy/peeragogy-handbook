@@ -8,6 +8,8 @@
 %% \renewcommand{\l@subsubsection}{\@dottedtocline{3}{7.4em}{4.5em}}
 %% \makeatother
 
+\noindexintoc
+
 \usepackage{afterpage}
 
 \newcommand\blankpage{%
@@ -233,14 +235,23 @@
 \makeatother
 
 %\def\indexname{Web pages referenced in this book}
+\newcounter{IndexItemCounter}
 \usepackage{makeidx}
+\usepackage{xstring}
 \makeindex
 \let\hrefold\href
+\newcommand*{\hrefnew}[2]{%
+\normalexpandarg%
+\IfSubStr{#1}{http://peeragogy.org}{#2}{%
+\hrefold{#1}{#2}%
+\stepcounter{IndexItemCounter}%
+\index{\thepage@{p. \thepage}!{\theIndexItemCounter}@{#2\ldots\ \url{#1}}}}\unskip
+}
 %% Tip on how to use the eledmac package:
 %% http://tex.stackexchange.com/questions/146906/endnotes-with-eledmac
 %% Tempting to do \numberlinefalse.
-\renewcommand*{\href}[2]{\hrefold{#1}{#2}\index{\thepage!{#2\ldots\protect\url{#1}}}}
-
+% \renewcommand*{\href}[2]{\hrefold{#1}{#2}\index{\thepage!{#2\ldots\ \url{#1}}}}
+\let\href\hrefnew
 
 %\renewcommand*{\href}[2]{\stepcounter{endnote}\hrefold{#1}{#2}\endnotetext[\theendnote]{{\sc #2}\ldots\ \url{#1}}}
 
@@ -277,7 +288,7 @@
 {\small David Preston, Stephanie Schipper, Fabrizio Terzi} \\
 {\small and Geoff Walker}
 }
-\date{\today\ (version 1.3.2$\alpha$)}
+\date{\today\ (version 1.3.2$\beta$)}
 \maketitle
 \thispagestyle{empty}
 
@@ -525,13 +536,15 @@
 \cleardoublepage
 %\let\oldtwocolumn\twocolumn
 %\renewcommand{\twocolumn}[1][]{#1}
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Web Pages Cited in This Book}
 \renewcommand{\indexname}{Web Pages Cited in This Book}
 \onecolindex
 \printindex
 %\renewcommand{\twocolumn}[1][]{\oldtwocolumn}
 
 \newpage
-\thispagestyle{empty}
+\chapter[\textbf{License/Waiver}]{License/Waiver}
 \input{license.tex}
 %
 \end{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
