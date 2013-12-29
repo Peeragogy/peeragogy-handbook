@@ -129,6 +129,8 @@
 \let\dateseparator.
 \ddmmyyyydate
 
+\usepackage{graphicx}
+
 \usepackage{rotating}
 \usepackage{enumitem}
 \usepackage{placeins}
@@ -280,15 +282,16 @@
 
 \emph{with contributions from} \\
 {\small Bryan Alexander, Paul Allison, R\'egis Barondeau,} \\
-{\small Doug Breitbart, Suz Burroughs, Jay Cross}\\ 
-{\small Julian Elve, Mar\'ia Fernanda, James Folkestad, }\\
-{\small Kathy Gill, John Graves, Gigi Johnson,} \\
+{\small Doug Breitbart, Suz Burroughs, Teryl Cartwright,}\\ 
+{\small Jay Cross, Julian Elve, Mar\'ia Fernanda, }\\
+{\small James Folkestad, John Glass, Kathy Gill, }\\
+{\small John Graves, Jan Herder, Gigi Johnson,} \\
 {\small Anna Keune, Roland Legrand, Amanda Lyons} \\
 {\small Christopher Neal, Ted Newcomb, Stephanie Parker} \\
-{\small David Preston, Stephanie Schipper, Fabrizio Terzi} \\
-{\small and Geoff Walker}
+{\small David Preston, Stephanie Schipper, Peter Taylor} \\
+{\small Fabrizio Terzi, and Geoff Walker}
 }
-\date{\today\ (version 1.3.2$\beta$)}
+\date{\today\ (version 2.0$\alpha_1$)}
 \maketitle
 \thispagestyle{empty}
 
@@ -310,7 +313,7 @@
 \thispagestyle{empty}
 \setcounter{page}{-1}
 {
-\changepage{15mm}{}{}{}{}{-15mm}{}{}{}{}{}{}{}{}
+\changepage{10mm}{}{}{}{}{-10mm}{}{}{}{}{}{}{}{}
 \tableofcontents*
 }
 %\afterpage{\blankpage}
@@ -322,6 +325,14 @@
 %\numberlinetrue
 %\Abeginnumbering
 
+ %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
+\phantomsection
+\addcontentsline{toc}{chapter}{Foreward}
+\chapter*{Foreward}
+%
+\input{foreward.tex}
+ %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
+
 \part{Introduction} %%%%%%%%%%%%%%%%%%%%
 \pagestyle{companion}
 \chapter[\textbf{Welcome!}]{Welcome to the Peeragogy Handbook}
@@ -331,6 +342,9 @@
 \chapter[\textbf{How to use this handbook}]{How to use this handbook}
 %
 \input{howto.tex}
+\chapter[\textbf{Chapter Summaries}]{Chapter Summaries}
+%
+\input{summaries.tex}
 
 \part{Peer Learning} %%%%%%%%%%%%%%%%%%%%
 %
@@ -369,38 +383,35 @@
 \chapter[\textbf{Thinking about patterns}]{Thinking about patterns}
 \input{patterns.tex}
 %
-\chapter[\textbf{Patterns and Heuristics}]{Patterns and Heuristics}
-%
-\input{patterns_heuristics.tex}
-%
 \chapter[\textbf{Patterns}]{ Patterns }
 
-\section*{Heartbeat}
-\input{heartbeat.tex}
-\section*{Carrying Capacity}
-\input{carrying_capacity.tex}
-\section*{Creating a Guide}
-\input{creating_a_guide.tex}
+\section*{Wrapper}
+\input{wrapper.tex}
 \section*{Discerning a Pattern}
 \input{discerning_a_pattern.tex}
-\section*{Moderation}
-\input{moderation.tex}
-\section*{Newcomer}
-\input{newcomer.tex}
-\section*{Pattern Language}
-\input{pattern_language.tex}
 \section*{Polling for Ideas}
 \input{polling_for_ideas.tex}
-\section*{Praxis vs Poeisis}
-\input{praxis_vs_poeisis.tex}
-\section*{Focusing on a specific project}
-\input{specific_project.tex}
+\section*{Creating a Guide}
+\input{creating_a_guide.tex}
+\section*{Newcomer}
+\input{newcomer.tex}
 \section*{Roadmap}
 \input{roadmap.tex}
 \section*{Roles}
 \input{roles.tex}
-\section*{Wrapper}
-\input{wrapper.tex}
+\section*{Focusing on a specific project}
+\input{specific_project.tex}
+\section*{Carrying Capacity}
+\input{carrying_capacity.tex}
+\section*{Heartbeat}
+\input{heartbeat.tex}
+\section*{Moderation}
+\input{moderation.tex}
+%\section*{Pattern Language}
+%\input{pattern_language.tex}
+\section*{Use or Make?}
+\input{praxis_vs_poeisis.tex}
+
 
 \chapter[\textbf{Antipatterns}]{Antipatterns}
 
@@ -419,6 +430,10 @@
 \section*{Stuck at the level of weak ties}
 \input{stuck.tex}
 
+\chapter[\textbf{A pattern story}]{A pattern story}
+%
+\input{pattern_story.tex}
+
 
 \part{Convening A Group} %%%%%%%%%%%%%%%%%%%%
 %
@@ -432,6 +447,14 @@
 \chapter[\textbf{K-12 Peeragogy}]{K-12 Peeragogy}
 %
 \input{k12.tex}
+%
+\chapter[\textbf{P2P SOLE}]{P2P Self-Organized Learning Environments}
+%
+\input{sole.tex}
+%
+\chapter[\textbf{A story about new beginnings}]{A story about new beginnings}
+%
+\input{new-beginnings.tex}
 
 
 
@@ -448,17 +471,13 @@
 %
 \input{student_syllabus.tex}
 %
-\chapter[\textbf{How to Organize a MOOC}]{ Connectivism in Practice ---  How to Organize a MOOC}
+\chapter[\textbf{How to Organize a MOOC}]{ Connectivism in Practice ---  How to Organize a cMOOC}
 %
 \input{connectivism.tex}
 %
-\chapter[\textbf{Participation}]{ Participation }
+\chapter[\textbf{Case Study: Collaborative Explorations}]{ Case Study: Collaborative Explorations}
 %
-\input{participation.tex}
-%
-\chapter[\textbf{The Workscape}]{ The Workscape, a learning platform for corporations }
-%
-\input{workscape.tex}
+\input{collab-ex.tex}
 
 
 \part{~~Cooperation} %%%%%%%%%%%%%%%%%%%%
@@ -466,13 +485,20 @@
 \chapter[\textbf{Co-facilitation}]{Introduction to cooperation: Co-facilitation}
 \input{cofac.tex}
 %
-\chapter[\textbf{Designs for co-working}]{Paragogical designs for co-working}
+\chapter[\textbf{The Workscape}]{ The Workscape, a learning platform for corporations }
+%
+\input{workscape.tex}
+\chapter[\textbf{Participation}]{ Participation }
+%
+\input{participation.tex}
+%
+\chapter[\textbf{Designs for co-working}]{New designs for co-working and co-learning}
 %
 \input{coworking.tex}
 %
-\chapter[\textbf{Platform design}]{Designing a platform for peer learning}
+\chapter[\textbf{A co-working story}]{A co-working story}
 %
-\input{designing_a_platform.tex}
+\input{coworking-story.tex}
 
 
 
@@ -480,10 +506,6 @@
 %
 \chapter[\textbf{Peeragogical Assessment}]{Introduction to Peeragogical Assessment}
 \input{assessment.tex}
-%
-\chapter[\textbf{Following the money}]{ Following the money, assessing profitablity}
-%
-\input{profitability.tex}
 %
 \chapter[\textbf{Researching Peeragogy}]{Researching Peeragogy}
 %
@@ -517,6 +539,10 @@
 \chapter[\textbf{Peeragogy in Action}]{Peeragogy in Action}
 %
 \input{action.tex}
+%
+\chapter[\textbf{Recommended Reading}]{Recommended Reading}
+%
+\input{recommended.tex}
 %
 \chapter[\textbf{Style Guide}]{Style Guide}
 %
