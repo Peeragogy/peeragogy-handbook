@@ -4,7 +4,10 @@
 *.aux
 *.bbl
 *.blg
+*.cls
 *.dvi
+*.ent
+*.end
 *.fdb_latexmk
 *.glg
 *.glo
@@ -17,6 +20,7 @@
 *.log
 *.lot
 *.maf
+*.mst
 *.mtc
 *.mtc0
 *.nav
