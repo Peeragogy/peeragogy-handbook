@@ -1,33 +1,5 @@
-\section*{Format your HTML nicely}
+\emph{This is a How-To Handbook.}
 
-We need to be able to process the content from this Wordpress site and
-turn it into various formats like LaTeX and EPUB. Our automated tools
-work much better if pages are formatted with simple and uniform HTML
-markup. Some key points:
-
-\begin{itemize}
-\item
-  Mark up your links: use \href{http://peeragogy.org}{The Peeragogy
-  Handbook} instead of
-  \href{http://peeragogy.org}{http://peeragogy.org}. It's best if the
-  link text is somewhat descriptive.
-\item
-  Use a numbered list to format your references.
-\item
-  Wordpress does not automatically add paragraph tags to your
-  paragraphs.If you want your text to appear justified and if you want
-  the paragraphs to transfer to downstream formats, switch to HTML
-  editing mode and wrap individual paragraphs
-  with\texttt{ \textless{}p style="text-align: justify;"\textgreater{}...\textless{}/p\textgreater{}}
-\item
-  Use Heading 2 and Heading 3 tags to mark up sections, not
-  \textbf{bold} text. If you use bold or italics in your paragraphs, you
-  should \textbf{check} that the markup \emph{is actually correct}. It
-  should exactly surround the words that you're marking up --
-  \texttt{\textless{}em\textgreater{}like this\textless{}/em\textgreater{}}
-  -- and it should not include extra spaces around marked up words --
-  \texttt{\textless{}em\textgreater{} NOT like this \textless{}/em\textgreater{}.}
-\end{itemize}
 \subsection{Keep it short}
 
 The easiest sections to read are those that are shorter and include some
@@ -40,7 +12,8 @@ Think clearly of this reader, talk to them.
 
 We'll illustrate this point by example. The original full title of the
 book was ``The Peeragogy Handbook: A resource for self-organizing
-self-learners''. But ``self-organizing''
+self-learners''. But
+``\href{http://en.wikipedia.org/wiki/Self-organization}{self-organizing}''
 is a technical term, and ``self-learner'' is a confusing neologism. We
 shouldn't use technical terms unless we explain them. So we really
 shouldn't use it in the first sentence or paragraph, or title, of the
@@ -55,28 +28,22 @@ plainly.
 
 \subsection{Don't overdo it with bullet points}
 
-Maybe this is just a ``pet peeve'', but I find text very hard to read
-when there are more than a few bullet points included. For me, it works
-better when the bullet points are replaced with numbered lists (which
-should still be used sparingly). It also seems that when many disjointed
-bullet points appear, sometimes the author is really just indexing the
-main points that are presented better in someone else's narrative.
-Therefor, consider replacing an entire bulleted list with a reference to
-someone else's book/webpage/chapter. In today's hyperlinked world, it's
-easy enough for the reader to go elsewhere to get good content (and
-indeed, we should make it easy for them to find the best treatments
-around!). In particular, it is not entirely pleasant to \emph{read} a
-taxonomy. Maybe that sort of thing can be moved into an appendix if we
-need to have it.
+Text can be very hard to read when there are more than a few bullet
+points included. Numbered lists should also be used sparingly. It also
+seems that when many disjointed bullet points appear, sometimes the
+author is really just indexing the main points that are presented better
+in someone else's narrative. Therefor, consider replacing an entire
+bulleted list with a reference to someone else's book/webpage/chapter.
+In today's hyperlinked world, it's easy enough for the reader to go
+elsewhere to get good content (and indeed, we should make it easy for
+them to find the best treatments around!). It is not very pleasant to
+have to \emph{read} a taxonomy.
 
 \subsection{Include activities}
 
-In today's live meeting, we agreed that activities would not magically
-solve all possible usability/readability problems, but they are good to
-have anyway. And, according to our page layout, each chapter should have
-at least one activity (linked to from the sidebar). So, when reading the
-book, please make note of any activity that can be included. (Also make
-note of problems that \emph{won't} be solved by adding activities!)
+When reading, editing or otherwise working your way through the book,
+please make note of any activities or exercises that come to mind, and
+share them. We're always striving to be more practical and applicable.
 
 \subsection{Don't be overly chatty}
 
@@ -88,22 +55,55 @@ or pivotal phrases (``In any event,'' ``With that said,'' ``As I
 mentioned elsewhere,'' etc.) that help to keep the talk flowing. We also
 go off on brief tangents before making our way back to the main topic,
 and sometimes express ourselves in run-on sentences. While this is
-perfectly natural in speech, it can be confusing and complex when being
-read (in our handbook or elsewhere). Let's stay conscious of our
-audience and try to meet that perfect balance of simple, yet
-professional in our writing.
+perfectly natural in speech, it can be confusing and complex in written
+text. Let's strive for the perfect balance of simple yet professional
+writing.
 
 \subsection{Additional style bonus points}
 
 \begin{itemize}
 \item
-  Avoid double spaces after paragraphs; this is a leftover from the age
+  Avoid double lines after paragraphs; this is a leftover from the age
   of typewriters and can create ``rivers'' of white space.
 \item
   Capitalize the first word of each item in a bulleted list, especially
-  if items include a verb form (this list and the one above are
-  examples!).
+  if items include a verb form (this list is an example!). Punctuate
+  uniformly.
 \item
   Capitalize the first word of headings and subheadings; lower case all
   others.
+\end{itemize}
+\subsection{Format your HTML nicely}
+
+We need to be able to process the content from this Wordpress site and
+turn it into various formats like LaTeX and EPUB. Our automated tools
+work much better if pages are formatted with simple and uniform HTML
+markup. Some key points:
+
+\begin{itemize}
+\item
+  Mark up your links: use \href{http://peeragogy.org}{The Peeragogy
+  Handbook} instead of
+  \href{http://peeragogy.org}{http://peeragogy.org}. It's best if the
+  link text is somewhat descriptive.
+\item
+  Use a numbered list to format your references (see
+  \href{http://peeragogy.org/convening-a-group/}{Convening a Group} for
+  one example of an article that gets this right!)
+\item
+  Use Heading 2 and Heading 3 tags to mark up sections, not
+  \textbf{bold} text. If you use bold or italics in your paragraphs, you
+  should \textbf{check} that the markup \emph{is actually correct}. It
+  should exactly surround the words that you're marking up --
+  \texttt{\textless{}em\textgreater{}like this\textless{}/em\textgreater{}}
+  -- and it should not include extra spaces around marked up words --
+  \texttt{\textless{}em\textgreater{} NOT like this \textless{}/em\textgreater{}.}
+\item
+  Be aware that Wordpress does not always add paragraph tags to your
+  paragraphs.
+\item
+  Wordpress also tries to replace straight quote marks with ``smart
+  quotes'', but it sometimes doesn't achieve the aim. If you notice
+  weird quotemarks (especially in the PDF version), you can add smart
+  quote marks by hand.
 \end{itemize}
