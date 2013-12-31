@@ -8,6 +8,8 @@
 %% \renewcommand{\l@subsubsection}{\@dottedtocline{3}{7.4em}{4.5em}}
 %% \makeatother
 
+
+
 \noindexintoc
 
 \usepackage{afterpage}
@@ -256,6 +258,8 @@
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \makeatother
 
+\usepackage{accsupp}
+
 %\def\indexname{Web pages referenced in this book}
 \newcounter{IndexItemCounter}
 \usepackage{makeidx}
@@ -265,7 +269,9 @@
 \newcommand*{\hrefnew}[2]{%
 \normalexpandarg%
 \IfSubStr{#1}{http://peeragogy.org}{#2}{%
+%\BeginAccSupp{method=plain,unicode,ActualText={#2}}%
 \hrefold{#1}{#2}%
+%\EndAccSupp{}%
 \stepcounter{IndexItemCounter}%
 \index{\thepage@{p. \thepage}!{\theIndexItemCounter}@{#2\ldots\ \url{#1}}}}\unskip
 }
@@ -278,8 +284,13 @@
 %\renewcommand*{\href}[2]{\stepcounter{endnote}\hrefold{#1}{#2}\endnotetext[\theendnote]{{\sc #2}\ldots\ \url{#1}}}
 
 \begin{document}
-\sloppy 
+\sloppy \pagestyle{empty} \thispagestyle{empty}
 \selectlanguage{english}
+\begin{center}
+\quad\\[1in] 
+{\LARGE The Peeragogy Handbook}
+\end{center}
+\clearpage\mbox{}\clearpage    %% blank pages
 \title{The Peeragogy Handbook\\[.5in]}
 %% \author{\emph{Edited by} \\
 %%  and Joseph Corneli\\[.2in]
@@ -298,20 +309,23 @@
 {\small Howard Rheingold}\\[.3in]
 \emph{Editorial Board}\\
 {\small George Brett, Joseph Corneli, Charles Jeffrey Danoff,}\\
-{\small Kyle Larson, Charlotte Pierce, and Paola Ricaurte}\\[.3in]
+{\small Kyle Larson, Charlotte Pierce, Paola Ricaurte, Fabrizio Terzi}\\[.3in]
+
+%\emph{Creative Director}\\
+% {\small }\\[.3in]
 
 \emph{with contributions from} \\
-{\small Bryan Alexander, Paul Allison, R\'egis Barondeau,} \\
-{\small Doug Breitbart, Suz Burroughs, Teryl Cartwright,}\\ 
-{\small Jay Cross, Julian Elve, Mar\'ia Fernanda Arenas,}\\
+{\small Bryan Alexander, Paul Allison, Mar\'ia Fernanda Arenas,} \\
+{\small R\'egis Barondeau, Doug Breitbart, Suz Burroughs,}\\ 
+{\small Teryl Cartwright, Jay Cross, Julian Elve,}\\
 {\small James Folkestad, Kathy Gill, John Glass,}\\
 {\small John Graves, Jan Herder, Gigi Johnson,} \\
 {\small Anna Keune, Roland Legrand, Amanda Lyons,} \\
 {\small Christopher Neal, Ted Newcomb, Stephanie Parker,} \\
 {\small David Preston, Stephanie Schipper, Peter Taylor,} \\
-{\small Fabrizio Terzi, and Geoff Walker}
+{\small and Geoff Walker}
 }
-\date{\today\ (version 2.0$\alpha_1$)}
+\date{\today\ (version 2.0$\alpha_3$)}
 \maketitle
 \thispagestyle{empty}
 
@@ -353,7 +367,7 @@
 \input{foreward.tex}
  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
 
-\part{Introduction} %%%%%%%%%%%%%%%%%%%%
+\part{Introduction} \label{intro-part} %%%%%%%%%%%%%%%%%%%%
 \pagestyle{companion}
 \chapter[\textbf{Welcome!}]{Welcome to the Peeragogy Handbook}
 %
@@ -366,7 +380,7 @@
 %
 \input{summaries.tex}
 
-\part{Peer Learning} %%%%%%%%%%%%%%%%%%%%
+\part{Peer Learning} \label{peer-learning-part} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{An Overview}]{An Overview of Peer Learning}
 %
@@ -388,17 +402,17 @@
 \input{we_won.tex}
 
 
-\part{Motivation} %%%%%%%%%%%%%%%%%%%%
+\part{Motivation} \label{motivation-part} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Why we're doing this}]{Why we're doing this}
 \input{motivation.tex}
 %
-\chapter[\textbf{Case Study: 5PH1NX}]{Case Study: 5PH1NX}
+\chapter[\textbf{Case Study: 5PH1NX}]{Case Study: 5PH1NX}\label{sphinx-beginning}
 %
 \input{sphinx.tex}
 
 
-\part{Peeragogy in Practice}  %%%%%%%%%%%%%%%%%%%%
+\part{Peeragogy in Practice} \label{practice-part}  %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Thinking about patterns}]{Thinking about patterns}
 \input{patterns.tex}
@@ -455,7 +469,7 @@
 \input{pattern_story.tex}
 
 
-\part{Convening A Group} %%%%%%%%%%%%%%%%%%%%
+\part{Convening A Group} \label{convening-part} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Convening}]{Building Your Co-Learning Group}
 \input{convening.tex}
@@ -478,7 +492,7 @@
 
 
 
-\part{Organizing a Learning Context} %%%%%%%%%%%%%%%%%%%%
+\part{Organizing a Learning Context} \label{organizing-part} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Organizing Co-Learning}]{Introduction to Organizing Co-Learning}
 \input{organizing.tex}
@@ -500,7 +514,7 @@
 \input{collab-ex.tex}
 
 
-\part{~~Cooperation} %%%%%%%%%%%%%%%%%%%%
+\part{~~Cooperation} \label{cooperation-part} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Co-facilitation}]{Introduction to cooperation: Co-facilitation}
 \input{cofac.tex}
@@ -522,7 +536,7 @@
 
 
 
-\part{~~~~Assessment} %%%%%%%%%%%%%%%%%%%%
+\part{~~~~Assessment} \label{assessment-part} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Peeragogical Assessment}]{Introduction to Peeragogical Assessment}
 \input{assessment.tex}
@@ -532,7 +546,7 @@
 \input{researching.tex}
 
 
-\part{~Technologies, Services, and Platforms } %%%%%%%%%%%%%%%%%%%%
+\part{~Technologies, Services, and Platforms } \label{technologies-part} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Peeragogy Technology}]{Introduction to Technologies for Peeragogy}
 \input{technologies.tex}
@@ -550,7 +564,7 @@
 \input{realtime.tex}
 
 
-\part{Resources} %%%%%%%%%%%%%%%%%%%%
+\part{Resources} \label{resources-part} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{How to get involved}]{ How to Get Involved In the Peeragogy Project } 
 %
@@ -593,6 +607,9 @@
 \chapter[\textbf{License/Waiver}]{License/Waiver}
 \input{license.tex}
 %
+\pagestyle{empty} \thispagestyle{empty}
+\clearpage\mbox{}\clearpage\mbox{}\clearpage    %% blank pages
+
 \end{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% \chapter[\textbf{Use Cases}]{ Use Cases }

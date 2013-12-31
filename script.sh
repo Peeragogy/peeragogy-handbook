@@ -124,7 +124,7 @@ mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts 
 # 221   . PEERAGOGY IN PRACTICE
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 221;" peeragogyB > patterns.html
 ## 3138 . PATTERN STORY
-mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 3138" peeragogyB > patterns_heuristics.html
+mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 3138" peeragogyB > pattern_story.html
 
 # 17    . CONVENING A GROUP
 mysql -u peeragogyB --password=peeragogyB -e "SELECT post_content FROM wp_posts WHERE post_type='page' and ID = 17;" peeragogyB > convening.html
