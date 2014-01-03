@@ -1,0 +1,15 @@
+Discerning patterns helps us build our vocabulary or repertoire for
+peer-learning projects. As a very simple example, in building a peer
+learning profile, a participant might identify an interest such as
+organic gardening. We begin to notice that this is a pattern when it
+repeats -- when organic gardening is frequently listed among the
+interests listed by participants in their self-introductions. The
+classic example of an architectural pattern is “*A place to wait*” *—*a
+type of space found in many architectural and urban design projects.
+Once a pattern is detected, give it a title and write down how the
+pattern works. For example, what does this pattern say about the
+self-selection process of the group? Without jumping to conclusions,
+consider that an interest in organic gardening, for example, might
+indicate the participants are oriented to cooperation, personal health,
+or environmental activism. How does the pattern relate to other patterns
+already listed in this catalog?

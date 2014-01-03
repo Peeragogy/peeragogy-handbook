@@ -1,0 +1,11 @@
+Without someone or something acting as the "heartbeat" for the group,
+energy may dissipate. In the "Collaborative Lesson Planning" course led
+by Charlie Danoff at P2PU, Charlie wrote individual emails to people who
+were signed up for the course and who had disappeared, or lurked but
+didn't participate. This kept a healthy number of the people in the
+group to reengage and make positive contributions. In more recent
+months, Charlotte Pierce has been running weekly meetings by Google
+Hangout to coordinate work on the *Peeragogy Handbook*. Not only have we
+gotten a lot of hands-on editorial work done this way, we've generated a
+tremendous amount of new material (both text and video footage) that is
+likely to find its way into future versions of the book.
