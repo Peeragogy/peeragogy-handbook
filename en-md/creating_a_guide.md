@@ -1,0 +1,13 @@
+post\_content Meaning-carrying tools, like handbooks or maps, can help
+people use an idea. In particular, when the idea or system is only
+"newly discovered", the associated meanings may not be well understood
+(indeed they may not have been created). In such a case, the process of
+creating the guide can go hand-in-hand with figuring out how the system
+works. Thus, techniques of [knowledge
+cartography](http://knowledgecartography.org/) and [meaning
+making](http://www.hitl.washington.edu/publications/r-97-47/two.html)
+are useful for would-be guide creators. Even so, it is worth noting that
+"the map is not the territory," and map-making is only one facet of
+shared human activity. Collaboratively refining a pattern is itself an
+example of "Creating a Guide" - that is, a pattern description can be
+thought of as a "micro-map" of a specific activity.
