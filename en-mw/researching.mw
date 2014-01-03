@@ -1,55 +1,67 @@
-This section addresses [http://edfutures.net/index.php?title=Practitioner_Research research practitioners]. At a high level, the questions are:
+If you have a research bent, by this point, you may be asking yourself questions like these: ''How can we understand peer learning better?'' ''How can we do research &quot;the peeragogical way&quot;?'' ''How do we combine research and peer learning?''You may also be asking more technical methodological and instrumentation-level questions: ''Do we have a good way to measure learning?'' ''Which activities and interventions have the biggest payoff?'' This chapter summarizes qualitative research I did on PlanetMath.org, using the pattern catalog, as part of my work for my PhD. In the course of the study, I developed 3 new patterns. The first point to make is that although this research was informal, it is nevertheless (at least in my view) highly rigorous. This is because the pattern catalog is a relatively stable, socially agreed upon object, though it is not fixed for all time. We can use it to help identify &quot;known&quot; patterns, but we can also extend it with new patterns -- assuming that we can make an argument to explain why the new patterns are needed. The notion of pattern-finding as a process related to, but distinct from abstraction is described by Richard Gabriel, who emphasizes that the &quot;patterns and the social process for applying them are designed to produce organic order through piecemeal growth&quot; ([1], p. 31). We can use the rigorous-but-informal notion of an expanding pattern catalog to help address the high-level questions about peeragogical research mentioned above. The three new patterns I present here are: Frontend and Backend, Spanning Set, and Minimum Viable Project. These patterns are both an &quot;outcome&quot; of research in a real peer learning context -- and also a reflection on peeragogical research methods. Like the other peeragogy patterns, they are tools you can use in your own work.
 
-* How can we understand peer learning better?
-* How can we do research &quot;the peeragogical way&quot;?
-* How do we bring research into our peer learning activities?
+== Study design ==
 
-We’ll outline three different lines of detailed questioning that expand on these points. These could be studied in many different ways.
+The study was based on interviews with users of a new software system that we deployed on PlanetMath.org. In the interviews, we covered a wide range issues, ranging from basic issues of usability all the way to &quot;deep&quot; issues about how people think about mathematics. In this project, I was interested not only in how people collaborate to solve mathematical problems, but how they think about &quot;system level&quot; issues. The design I had in mind is depicted in the figures below. The key idea is that patterns emerge as &quot;paths in the grass&quot;, or &quot;desire lines&quot;. The idea that learning design has emergent features is not itself new; see e.g. [2]. What's new here is a characterization of the key patterns for ''doing'' emergent design in a peer learning context.
 
-== Question A. Which activities have the biggest payoff for learners, in terms of our learning model? ==
+[http://peeragogy.org/to-peeragogy/researching-peeragogy/peeragogyedu/ [[Image:http://peeragogy.org/wp-content/uploads/2012/04/PeeragogyEDU-300x217.png|PeeragogyEDU]]]
 
-The preliminary question is, what is the learning model? For example, our [http://cmapspublic3.ihmc.us/rid=1K81VLSK7-1RL0RQ4-WZK/Peeragogy%20Cmap.cmap concept map] provides one model of &quot;peeragogy&quot; as a subject, but to make this into a &quot;learning model&quot;, we would have to do some further work. What will we accept as evidence of learning or progress?
+Map of a virtual campus
 
-This is to do with whether we think of learning as something that can happen conceptually, or only &quot;in practice&quot;. In the peeragogy project, we follow the latter view, which is in line with what Peter Sloterdijk says about learning through direct participation:
+[http://peeragogy.org/to-peeragogy/researching-peeragogy/peeragogyedu-paths2/ [[Image:http://peeragogy.org/wp-content/uploads/2012/04/PeeragogyEDU-paths2-300x217.png|PeeragogyEDU-paths2]]]
 
-<blockquote>''The consequences of Foucault's suggestions will only be appreciated if there is one day a fully worked-out form of General Disciplinics -- which would probably take a century to develop. Its implantation would require a suitably contemporary transformation of universities and colleges, both in the structuring of the so called 'subjects' or 'courses' and in the basic assumptions of academic pedagogy -- which, against its better judgement, still clings to the briefcase-and-box theory, where teaching and learning is nothing but transferring knowledge from the professor's briefcase to the students' file boxes, even though it has long been known that learning can only take place through a direct participation in the disciplines. Establishing an academic system with discipline-based content and methods would at once be the only realistic way to counteract the atrophy of the educational system, founded on a reformed idea of the subjects and tasks of a Great House of Knowledge.''[1]''''</blockquote>
-In general, a discipline will &quot;come with&quot; its own learning model and its own sense of &quot;progress&quot;. Given that we can get ahold of the learning model in our discipline of choice, then we can start to address this first question.
+Peeragogy patterns as loci for &quot;paths in the grass&quot;
 
-=== An hypothesis ===
+== Initial thematic analysis ==
 
-A study plan that puts learners into contact with new concepts and techniques in such a way that they are not overwhelmed, and yet are continually challenged will be the best. For example, this could be done by solving progressively harder problems (and going back to easier ones when you get stuck).
+Before describing the new patterns, I will briefly summarize the themes I identified in the interviews. This can serve as an overview of the current features and shortcomings of PlanetMath system for people who are not familiar with it.
 
-=== An experiment ===
+* '''&quot;Necessary but not sufficient&quot;.''' Users identified a range of essential features, like a critical mass of other users to talk to.
+* '''&quot;Nice to have&quot;.''' It was also easy to identify a bunch of cool new &quot;dream&quot; features.
+* '''Challenges with writing mathematics.''' PlanetMath uses LaTeX, which isn't entirely easy to learn (however, we could adapt the software to help new users get started).
+* '''Progressive problem solving.''' The new PlanetMath contains problems and solutions, but no easy way to talk about conjectures. Users would like a better way to share and discuss work-in-progress.
+* '''Personal history, social constructivism.''' Better features for tracking and, where appropriate, sharing, personal history would help users make sense of what's happening in the site.
+* '''Regulating learning in a social/mediated context.''' Different users would look for different things to keep them on track (e.g. expert guidance, or a due &quot;sense of urgency&quot; in feedback from peers).
+* '''Comparison with roles in other contexts.''' Many users expect a &quot;service delivery&quot; style that is not entirely consistent with the &quot;open&quot; production model used in a free/open, volunteer-driven project. We need to work more on responsiveness in every aspect of the project (keeping in mind that most participants are volunteers).
+* '''Concreteness as a criterion of quality.''' &quot;Knowing what you can do,&quot; both with the software and with the content, is important. On the content level, pictures help.
+* '''Personalization and localization.''' The system has a practically unlimited potential for personalization, although many basic personalized interaction modes have not been built yet.
 
-Look at different interaction histories and “add up” the concepts learned and the heuristics used. There are some features of social interaction (like asking questions) that we could use to guess how much people knew in advance.
+== Pattern analysis ==
 
-== Question B. Does our instrumentation of the learning model have reasonable fidelity? ==
+At the next level of analysis, the themes extracted above were further analysed in relationship to the peeragogy pattern catalog.
 
-In the best possible scenario, we have a detailed model of learning that indicates clearly what people know, and how they got there, where they can go next, and what steps are required. In practice, the model will probably be a bit more sloppy.
+=== Frontend and Backend ===
 
-=== An hypothesis ===
+Although mathematics is a relatively formal domain, many of the motivations for using PlanetMath map onto what Zimmerman and Campillo call informal problem solving [3]. Informal problems are are personally defined and possess openended boundary conditions, i.e., are situated within an &quot;open world.&quot; I like thinking about this in terms of the way a car works. You can model the steering and drive system with classical mechanics. But you ultimately need to model the engine with statistical mechanics and chemistry. You get in a car and start driving and usually it works more or less the way you’d expect. This is how it works with other “formal” systems. You queue here, sign there, pay your fee, and it’s all done. With informal systems, it’s messier. Of course, the car’s engine has a detailed diagram, and for a mechanic, it’s just another “formal” system. And, yes, the streets at rush hour can get very messy. It's all relative. The broader point is that where ever it appears, “formal” is straightforward. In order to design a collaborative system, you want to bring in enough messiness to let new and unexpected features emerge -- support for serendipity -- but you also need to be aware of the user's experience. As another analogy, imagine a butcher shop. You want the user to be able to take away nice little packages of meat, you don't want them cutting up whole cows. Leave that to the pros. The idea of Frontend and Backend is related to the pattern of the “[http://peeragogy.org/practice/newcomer/ Newcomer]” pattern, since typically one will not expect the user of a system to know how to, or to be motivated to, work with backend features of a system until they have mastered at least some of the frontend features. It would be rare to find an auto mechanic who did not know how to drive. David Cavallo wrote about an &quot;engine culture&quot; in rural Thailand, in which structurally open systems made some of the &quot;backend&quot; features of internal combustion engines a part of daily life [4]. In PlanetMath, we have an &quot;open engine&quot;, but not necessarily an open engine culture (users expect a level of service provision). The Frontend and Backend pattern clearly lends itself to standard service provision, but it can also be part of paragogical activity. For example, sophisticated and committed users of the PlanetMath website could focus energy on supporting individual newcomers, by helping them develop a high-quality sub-site on their topic of interest. Such effort would simultaneously inform the development of backend features, and help raise the profile of the site as a whole. The pattern is in this way associated with [http://peeragogy.org/practice/focusing-on-a-specific-project/ Focusing on a Specific Project] and with the Divide pattern.
 
-The quality of the learning model will be determined by the quality of our underlying representation of &quot;domain&quot; or &quot;disciplinary&quot; knowledge.
+=== Spanning Set ===
 
-=== An experiment ===
+You may be able to get what you need without digging - but if you do need to dig, it would be very good to get some indication about which direction to dig in. At the content level, this might be achieved by using high-level &quot;topic articles&quot; as a map to the content. But there is another broader interpretation of this pattern that related to but distinct from Frontend and Backend - we call this the Spanning Set. In general, the Spanning Set might be made up of people, or media objects. In a standard course model, there is one central node, the teacher, who is responsible for all teaching and course communication. In large online courses, this model can be is scaled up:
 
-If we have a computer-based peeragogy platform that can support “standard” coursework, and a teacher who is willing to run a course using this platform, then we can see whether our instrumentation predicts “traditional” measures of success in the course.
+<blockquote>'''Anonymous study participant''': [E]veryone's allocated a course tutor, who might take on just a half-dozen students - so, they're not the overall person in charge of the course, by any means.</blockquote>
+Another version is the classical master/apprentice system, in which every apprentice is supervised by a certified master. In the typical online Q&amp;A context, these roles are made distributed, and are better modeled by power laws than by formal gradations. A &quot;spanning set&quot; of peer tutors could help shift the exponent attached to the power law in massive courses. We can imagine a given discussion group of 100 persons that is divided according to the so-called [http://www.wikipatterns.com/display/wikipatterns/90-9-1+Theory 90/9/1 rule], so that 90 lurk, 9 contribute a little, and 1 creates the content. This is what one might observe, for example, in a classroom with a lecture format. We could potentially shift the system by breaking the group up, so that each of the 9 contributors leads a small group of 10 persons, at which point, chances are good that some of the former lurkers would be converted into contributors. At a more semantic level, we can advance the five paragogical principles and their various analogues as a candidate description of the fundamental categories and relationships relevant to peer learning. In practice, principles can only provide the most visible &quot;frontend&quot;, and an actual spanning set is comprised of emergent patterns. In PlanetMath, this would arise from combining several different features, like a &quot;start menu&quot; that shows what can be done with the site, a [http://peeragogy.org/practice/heartbeat/ Heartbeat] built of recurring meetings, and topic-level guides to content. (Note: as a project with an encyclopedic component, PlanetMath itself can be used to span and organize a significantly larger body of existing material.)
 
-== Question C. Which interventions have the biggest payoff? ==
+=== Minimum Viable Project ===
 
-=== An hypothesis ===
+The Minimum Viable Product approach to software development is about putting something out there to see if the customer bites [5]. Another approach, related to the pattern we just discussed, is to make it clear what people can do with what's there and see if they engage. We might call this the Minimum Viable Project, an adjunct to the “[http://peeragogy.org/practice/roadmap/ Roadmap]” pattern, and yet another interpretation of [http://peeragogy.org/practice/focusing-on-a-specific-project/ Focusing on a Specific Project]. One way to strengthen the PlanetMath project as a whole would be to focus on support for individual projects. The front page of the website could be redesigned so that the top-level view of the site is project focused. Thus, instead of collecting all of the posts from across the site - or even all of the threads from across the site - the front page could collect succinct summary information on recently active projects, and list the number of active posts in each, after the model of Slashdot stories or StackExchange questions. For instance, each Mathematics Subject Classification could be designated as a &quot;sub-project&quot;, but there could be many other cross-cutting or smaller-scale projects.
 
-We should be able to use models of learning effects to test out a wide range of possible interventions.
+== Summary ==
 
-=== An experiment ===
+This chapter has used the approach suggested by Figure 2 to expand the peeragogy pattern language. It shows that the peeragogy pattern language provides a &quot;meta-model&quot; that can be used to develop emergent order relative to given boundary conditions. As new structure forms, this becomes part of the boundary conditions for future iterations. This method is a suitable form for a theory of peer learning and peer production in project-based and cross-project collaborations - a tool for conviviality in the sense of Ivan Illich. In other words, we're all in the same boat. The things that peer learners need in order to learn stuff in a peer produced setting are exactly the same things that designers and system builders need, too. And one concrete way to assess our collective learning is in terms of the growth and refinement of our pattern catalog.
 
-Make the given intervention, and measure the total impact on learning across the population. (This requires a fairly sophisticated learning model and research apparatus!)
+'''Frontend and Backend''' Principles and features
 
-== Some further reflections ==
+'''Minimum Viable Project''' A Specific Project, Roadmap, Heartbeat, Divide, Use or Make
 
-How you decide to learn, and how you decide to do research, will have some significant influence on the sort of group you convene! If you plan to follow a clearly delineated pre-existing course, maybe you don't &quot;need&quot; peeragogy. On the other hand, if you're aiming to build peer support that works, you will definitely want to put some thought into your learning model!
+'''Spanning Set''' Paths in the grass
 
-== Reference ==
+Peeragogical emergent design: a tool for conviviality
 
-# Sloterdijk, P. (2013). ''You Must Change Your Life'', Polity Press. (Tr. Wieland Hoban)
+== References ==
+
+# Gabriel, R. (1996). Patterns of Software. Oxford University Press New York.
+# Luckin, R. (2010). Re-designing learning contexts: technology-rich, learner-centred ecologies. Routledge.
+# Zimmerman, B. J. &amp; Campillo, M. (2003). Motivating self-regulated problem solvers. In J. Davidson &amp; R. Sternberg (Eds.), The psychology of problem solving (pp. 233-262). Cambridge University Press New York, NY.
+# Cavallo, D. P. (2000). Technological Fluency and the Art of Motorcycle Maintenance: Emergent design of learning environments (Doctoral dissertation, Massachusetts Institute of Technology).
+# Ries, E. (2011). The Lean Startup: How today's entrepreneurs use continuous innovation to create radically successful businesses. Crown Pub.
 

@@ -6,7 +6,7 @@ Web services that enable broadband-connected learners to communicate in real tim
 
 == Real-time meeting media ==
 
-This Peeragogy Handbook was conceived and constructed by a group of people on four continents who had not met and had not known about each other before we began meeting online. The process involves asynchronous media, including forums, wikis, social bookmarking groups, and Wordpress, but it probably would never have cohered into a group capable of collective action if it had not been for the real-time meetings where we were able to see each other's faces, hear each other's voices, use a whiteboard as an anonymous agenda-generator, exchange links in chat, show each other examples through screen-sharing. Together, the asynchronous and real-time media enabled us to begin to see ourselves as an effective group. We used both real-time and asynchronous tools to work out processes for creating, refining, and publishing the Handbook, to divide labor, decide on platforms and processes, to collaboratively compose and edit articles, and to design and add graphical and video elements. In particular, we used the [http://www.blackboard.com/platforms/collaborate/overview.aspx Blackboard Collaborate] platform, a web-service that enables up to 50 people at a time to meet in a multimedia, recordable, meeting room for around $500/year. We've experimented with other paid platforms, such as [http://success.adobe.com/en/na/sem/products/connect/1109_6011_connect_webinars.html Adobe Connect] (about the same price as Collaborate), and when we meet in groups of ten or less, we often use the free and recordable [http://www.google.com/+/learnmore/hangouts/ Google+ Hangout] service. Smaller groups also use [http://www.skype.com Skype]. We're watching the development of [http://www.bigbluebutton.org/ Big Blue Button], a free and open-source real-time meeting platform, as it develops the full suite of tools that are currently only available for a fee. Dozens of other free, ad-supported and/or freemium webconferencing systems such as [http://www.bigmarker.com/about Big Marker] and [http://www.dimdim.com Dim-Dim] can be found in lists like [http://delicious.com/hrheingold/webconferencing Howard Rheingold's] and [http://www.mindmeister.com/12213323/best-online-collaboration-tools-2012-robin-good-s-collaborative-map Robin Good']s. Free phone conferencing services provide another technological &quot;lowest common denominator&quot;: some provide a few extras like downloadable recordings. [[Image:http://socialmediaclassroom.com/host/peeragogy/system/files/images/Elluminate.img_assist_custom-800x694.png]]
+The ''Peeragogy Handbook'' was conceived and constructed by a group of people on four continents who had not met and had not known about each other before we began meeting online. The process involves asynchronous media, including forums, wikis, social bookmarking groups, and Wordpress, but it probably would never have cohered into a group capable of collective action if it had not been for the real-time meetings where we were able to see each other's faces, hear each other's voices, use a whiteboard as an anonymous agenda-generator, exchange links in chat, show each other examples through screen-sharing. Together, the asynchronous and real-time media enabled us to begin to see ourselves as an effective group. We used both real-time and asynchronous tools to work out processes for creating, refining, and publishing the Handbook, to divide labor, decide on platforms and processes, to collaboratively compose and edit articles, and to design and add graphical and video elements. In particular, we used the [http://www.blackboard.com/platforms/collaborate/overview.aspx Blackboard Collaborate] platform, a web-service that enables up to 50 people at a time to meet in a multimedia, recordable, meeting room for around $500/year. We've experimented with other paid platforms, such as [http://success.adobe.com/en/na/sem/products/connect/1109_6011_connect_webinars.html Adobe Connect] (about the same price as Collaborate), and when we meet in groups of ten or less, we often use the free and recordable [http://www.google.com/+/learnmore/hangouts/ Google+ Hangout] service. Smaller groups also use [http://www.skype.com Skype] or free telephone conferencing services. [http://mumble.sourceforge.net/ Mumble] is an open source audio-only tool that is popular with gamers. We're watching the development of [http://www.bigbluebutton.org/ Big Blue Button], a free and open-source real-time meeting platform, as it develops the full suite of tools that are currently only available for a fee. Dozens of other free, ad-supported and/or freemium webconferencing systems such as [http://www.bigmarker.com/about Big Marker] and [http://www.dimdim.com Dim-Dim] can be found in lists like [http://delicious.com/hrheingold/webconferencing Howard Rheingold's] and [http://www.mindmeister.com/12213323/best-online-collaboration-tools-2012-robin-good-s-collaborative-map Robin Good']s. Free phone conferencing services provide another technological &quot;lowest common denominator&quot;: some provide a few extras like downloadable recordings. [[Image:http://socialmediaclassroom.com/host/peeragogy/system/files/images/Elluminate.img_assist_custom-800x694.png]]
 
 == Features of real-time meeting platforms ==
 
@@ -26,7 +26,7 @@ There are many free services for chat, screen-sharing, whiteboards, and video co
 
 == Configuring Google+ Hangout - a free alternative for up to 10 people ==
 
-For up to 10 people, each equipped with a webcam, microphone, and broadband connection, [http://lifehacker.com/5842191/google%252B-hangouts-adds-screen-sharing-google-docs-collaboration-and-more Google+ Hangout] can provide high-quality audio-video conferencing. By enabling the text-chat feature and adding Google Docs, screensharing, and SketchUp (whiteboard), it is possible to emulate most of what the commercial services offer. Adobe Connect and Blackboard Collaborate currently have the user-interface advantage of displaying chat, video, whiteboard/slides as resizable panes on one screen; at present, the free Google services can provide a powerful extension of the basic audio-video platform, but participants have to shift between different tabs or windows in the browser. Note that it is possible to [http://www.google.com/+/learnmore/hangouts/onair.html stream a Hangout and record it to YouTube], again at no cost to the user.
+For up to 10 people, each equipped with a webcam, microphone, and broadband connection, [http://lifehacker.com/5842191/google%252B-hangouts-adds-screen-sharing-google-docs-collaboration-and-more Google+ Hangout] can provide high-quality audio-video conferencing. By enabling the text-chat feature and adding Google Docs (text documents, presentations, or spreadsheets), screensharing, and SketchUp (whiteboard), it is possible to emulate most of what the commercial services offer. Adobe Connect and Blackboard Collaborate currently have the user-interface advantage of displaying chat, video, whiteboard/slides as resizable panes on one screen; at present, the free Google services can provide a powerful extension of the basic audio-video platform, but participants have to shift between different tabs or windows in the browser. Note that it is possible to [http://www.google.com/+/learnmore/hangouts/onair.html stream a Hangout and record it to YouTube], again at no cost to the user. We've used this tool extensively in the Peeragogy project.
 
 == Suggestions for real-time meetings ==
 
@@ -44,26 +44,17 @@ In the nine online courses I have facilitated, the emphasis on co-learning encou
 
 == The Paragogical Action Review ==
 
-Charlie Danoff and Joe Corneli remixed the US Army's &quot;After Action Review&quot; to make a technique for evaluating peer learning as it happens. The five steps in the PAR are:
+Charlie Danoff and Joe Corneli slightly modified the US Army's &quot;After Action Review&quot; into a technique for evaluating peer learning as it happens. The five steps in the &quot;PAR&quot; are:
 
 # Review what was supposed to happen
-# Establish what is happening/happened
-# Determine what’s right and wrong with what we are doing/have done
+# Establish what is happening
+# Determine what’s right and wrong with what we are doing
 # What did we learn or change?
 # What else should we change going forward?
 
-Participants can run through these steps during live meetings to reassess the medium, the readings, the group dynamics, or any other choices that have learning relevance. The focus in the PAR is on change: as such, it provides a simple way to implement the &quot;double loop learning&quot; of Chris Argris (see references).
+Participants can run through these steps during live meetings to reassess the medium, the readings, the group dynamics, or any other choices that have learning relevance. The focus in the PAR is on change: as such, it provides a simple way to help implement the &quot;double loop learning&quot; described Chris Argris [1].
 
-=== '''References''' ===
+=== Reference ===
 
 # Argyris, Chris. &quot;[http://pds8.egloos.com/pds/200805/20/87/chris_argyris_learning.pdf Teaching smart people how to learn].&quot; Harvard Business Review, 69.3, 1991.
-# Charles Jeffrey Danoff, Joseph Corneli, and Dr. Muhammed Bello Umar, [http://metameso.org/~joe/docs/The-Paragogical-Action-Review.pdf The Paragogical Action Review], submitted to ''The African Journal of Information Systems''.
-
-=== '''Resources''' ===
-
-* Howard Rheingold's webconferencing [http://delicious.com/hrheingold/webconferencing bookmarks]
-* [http://www.bigbluebutton.org/ Big Blue Button]
-* [http://www.blackboard.com/platforms/collaborate/overview.aspx Blackboard Collaborate]
-* [http://www.google.com/+/learnmore/hangouts/ Google Hangouts]
-* [http://www.bigmarker.com/about Big Marker]
 

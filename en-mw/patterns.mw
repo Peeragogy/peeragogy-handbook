@@ -1,6 +1,4 @@
-Authors: [http://peeragogy.org/resources/meet-the-team/ The Peeragogy Team]
-
-<blockquote>Although a grounding in learning theory helps inform peer learning projects, Peeragogy, at its core, comes to life in applied practice. For a successful outcome, take a look at these best practices, patterns, and use cases (also called ''case studies'' or ''examples''). Patterns and use cases that co-facilitators and participants identify as the project unfolds can serve the next peeragogical enterprise as well.
+<blockquote>Although a grounding in learning theory helps inform peer learning projects, Peeragogy, at its core, comes to life in applied practice. Even before convening a group for your peer learning project, you will want to take a look over the patterns we have collected here. You will likely return here many times as your project develops.
 </blockquote>
 == What is a pattern? ==
 
@@ -8,18 +6,22 @@ A pattern is anything that has a repeated effect. In the context of peeragogy, t
 
 <blockquote>'''Christopher Alexander''': “Each pattern describes a problems which occurs over and over again in our environment, and then describes the core of the solution to that problem, in a way that you can use this solution a million times over, without ever doing it the same way twice.” [1]
 </blockquote>
-Patterns provide a framework that can be applied to similar issues but may be metaphorically solved in different ways, sometimes in real world or face to face events and other times in digital space / applications.
+Patterns provide a framework that can be applied to similar issues but may be metaphorically solved in different ways, sometimes in real world or face to face events and other times in digital space. Outside of Alexander's own work in architecture, one the first groups to adopt a design pattern way of thinking about things were computer programmers. Writing in the foreward to Richard P. Gabriel's ''Patterns of Software'', Alexander emphasizes that the key question to ask about any design approach is: does it help us build better?
 
-<blockquote>'''Christopher Alexander''': “Can we do better? Does all this talk help to make better buildings? [...] What is the Chartres of programming? What task is at a high enough level to inspire people writing programs, to reach for the stars?” [2]
+<blockquote>'''Christopher Alexander''': “What is the Chartres of programming? What task is at a high enough level to inspire people writing programs, to reach for the stars?” [2]
 </blockquote>
-Note: the notion of the analog (such as a plaza) could become a digital metaphor for a group chat or Google+ Hangout -- a group meeting space / agora. Indeed the working title for Google Communities was &quot;piazza!&quot;
+We think that Peeragogy stands a good chance of being a “killer app” for pattern-based design. Learning bridges physical and virtual worlds all the time. And, in fact, a ''Network of Learning'' was the 18th pattern that Christopher Alexander introduced in his book, ''A Pattern Language''.
+
+<blockquote>'''Christopher Alexander''': &quot;Work in piecemeal ways to decentralize the process of learning and enrich it through contact with many places and people all over the city: workshops, teachers at home or walking through the city, professionals willing to take on the young as helpers, older children teaching younger children, museums, youth groups travelling, scholarly seminars, industrial workshops, old people, and so on.&quot; [1]
+</blockquote>
+Peeragogy can help to extend and enrich this network, and, as we shall see, patterns can be used by those involved to do ongoing “emergent” design, not only by building new structures, but by adapting and improving our catalog of patterns as we go.
 
 == Patterns of peeragogy ==
 
-Here is our index of the patterns we've found so far (described in more detail after the jump):
+Here is our index of the main patterns we've found so far (described in more detail after the jump):
 
 * [http://peeragogy.org/patterns/wrapper/ Wrapper] - Front end appearance to participants. Consolidate and summarize.
-* [http://peeragogy.org/patterns/discerning-a-pattern/ Discerning a pattern] - Found a pattern? Give it a title and example.
+* [http://peeragogy.org/patterns/discerning-a-pattern/ Discerning a pattern] - Found a pattern? Give it a title and record an example. (Woah, meta!)
 * [http://peeragogy.org/patterns/polling-for-ideas/ Polling for ideas] - Invite brainstorming, collecting ideas, questions, and solutions.
 * [http://peeragogy.org/patterns/creating-a-guide/ Creating a guide] - Overviews expose the lay of the land. Collecting content and stories.
 * [http://peeragogy.org/patterns/newcomer/ Newcomer] - Create a guide for &quot;beginner's mind&quot; and help avoid need to introduce new members each “meeting.”
@@ -30,78 +32,57 @@ Here is our index of the patterns we've found so far (described in more detail a
 * [http://peeragogy.org/patterns/heartbeat/ Heartbeat] - The &quot;heartbeat&quot; of the group keeps energy flowing.
 * [http://peeragogy.org/patterns/moderation/ Moderation] - When leaders step back, dynamics can improve; moderator serves as champion and editor.
 * [http://peeragogy.org/patterns/praxis-vs-poeisis/ Use or make?] - Repurposing, tinkering, or creating from scratch?
-* [http://peeragogy.org/reiterate/ Reiterate] - Periodically review and revise above actions as needed
+
+We'll introduce three additional patterns in the chapter on [http://peeragogy.org/to-peeragogy/researching-peeragogy/ researching peeragogy].
 
 == Anti-patterns for Peeragogy ==
 
-And some &quot;anti-patterns&quot; (things to avoid):
+And some &quot;anti-patterns&quot; (things to avoid if possible):
 
-* [http://peeragogy.org/antipatterns/isolation/ Isolation]
-* [http://peeragogy.org/antipatterns/magical-thinking/ Magical thinking]
-* [http://peeragogy.org/antipatterns/co-learning-messy-with-lurkers/ Messy with Lurkers]
-* [http://peeragogy.org/antipatterns/misunderstanding-power/ Misunderstanding Power]
-* [http://peeragogy.org/antipatterns/navel-gazing/ Navel Gazing]
-* [http://peeragogy.org/antipatterns/stasis/ Stasis]
-* [http://peeragogy.org/antipatterns/stuck-at-the-level-of-weak-ties/ Stuck at the level of weak ties]
+* [http://peeragogy.org/antipatterns/isolation/ Isolation] - A tale of silos, holes, and not-invented-here.
+* [http://peeragogy.org/antipatterns/magical-thinking/ Magical thinking] - “One meeting will (not) change everything!”
+* [http://peeragogy.org/antipatterns/co-learning-messy-with-lurkers/ Messy with Lurkers] - What happens when joining is low-cost and completion is low-benefit.
+* [http://peeragogy.org/antipatterns/misunderstanding-power/ Misunderstanding Power] - The workload is almost never evenly distributed.
+* [http://peeragogy.org/antipatterns/navel-gazing/ Navel Gazing] - &quot;I have this really great idea...&quot;
+* [http://peeragogy.org/antipatterns/stasis/ Stasis] - What is the driver behind open source, commons-oriented collaborative projects? (Because, let’s face it, it doesn’t always work.)
+* [http://peeragogy.org/antipatterns/stuck-at-the-level-of-weak-ties/ Stuck at the level of weak ties] - Can we deepen the connection?
 
 == What is a use case? ==
 
-A use case describes someone (or something) who uses a given system or tool to achieve a goal. A use case consists of a title, which serves as a brief summary; a main actor, and a success scenario. Additional features can be added, such as alternate interactions or choices that lead to a variation on the result.
+A use case describes someone (or something) who uses a given system or tool to achieve a goal. A use case can include a title, a summary of the problem, an actor, and a success scenario. Additional features can be added, such as alternate interactions or choices that lead to a variation on the result.
 
-A use case is a scenario which employs one or more persona (personal profile &amp; role) in a situation and how she or her group works on a project/problem and their processes to come to a solution or solutions. Some activities do not have a single solution, and are often referred to as &quot;Wicked Problems.&quot; The recorded processes can be normalized to be come standardized into use cases that can be employed literally or modified to fit the context of the activity at hand.
+The use case considers a given persona (a characteristic role) in a given situation and shows how they works on a project/problem and how their process of work is resolved into a solution or solutions. Some activities do not have a single solution -- these are often referred to as &quot;Wicked Problems.&quot; With detailed bookkeeping effort, recorded processes can be standardized into use cases that can then be employed directly or modified to fit the context of the activity at hand. In short, they are a lot like design patterns, which they may contain in hidden or explicit form. Use cases are presented in vignettes that appear throughout the book (like the one at the end of this section).
 
-== Use cases for Peeragogy ==
+== A peeragogy pattern language ==
 
-We also present a variety of hypothetical and not-so-hypothetical use cases:
-
-* [http://peeragogy.org/use-cases/cest-la-vie/ C’est la vie]
-* [http://peeragogy.org/use-cases/distributed-project-management/ Distributed Project Management]
-* [http://peeragogy.org/use-cases/improved-adaptivity/ Improved adaptivity]
-* [http://peeragogy.org/use-cases/improving-the-efficacy-of-research-funding/ Improving the efficacy of research funding]
-* [http://peeragogy.org/use-cases/journalist-enters-the-whispering-gallery/ Journalist enters the Whispering Gallery]
-* [http://peeragogy.org/use-cases/living-the-oer-dream/ Living the OER dream]
-* [http://peeragogy.org/use-cases/making-our-own-tools/ Making our own tools]
-* [http://peeragogy.org/use-cases/peer-learning-on-the-technical-edge/ Peer Learning on the Technical Edge]
-* [http://peeragogy.org/use-cases/from-peer-production-to-peer-learning/ Peer production to peer learning]
-* [http://peeragogy.org/use-cases/prolegomena-to-any-future-math-learning-environment/ Prolegomena to Any Future Math Learning Environment]
-* [http://peeragogy.org/use-cases/paeragogy-helps-solve-complex-problems/ Pæragogy helps solve complex problems]
-* [http://peeragogy.org/use-cases/starting-a-company/ Starting a Company]
-* [http://peeragogy.org/use-cases/steal-this-book/ Steal This Book]
-* [http://peeragogy.org/use-cases/strategy-as-learning/ Strategy as learning]
-* [http://peeragogy.org/use-cases/we-are-the-1-percent/ We are the 1 percent]
-* [http://peeragogy.org/use-cases/young-aspiring-blogger-wants-to-avoid-starvation/ Young aspiring blogger wants to avoid starvation]
-
-== Pattern language ==
-
-Combine patterns and use cases and you start to identify a [http://peeragogy.org/practice/heuristics/pattern-language/ pattern language] that can be used immediately, and in future projects. The next section on [http://peeragogy.org/practice/heuristics/ problem solving] goes into more detail, but we'll preview the idea here with the following diagram:
+By looking at how patterns combine in real and hypothetical use cases, you can start to identify a ''pattern language'' that can be used in your projects. We can get a simplified view of these connections with the following diagram. It's important to clarify that everyone doesn't do it the same way. Here, the ''Roadmap'' is given a central position, but some peer learning projects will forego making a specific, detailed plan; their plan is just to see what develops. You can see here how peeragogy patterns often break down further into individual micro-steps: we'll say more about that shortly.
 
 [[Image:http://peeragogy.org/wp-content/uploads/2013/03/pattern-map1.jpg|frame|none|alt=Roadmap]]
 
-The subsequent major sections of this book -- [http://peeragogy.org/convene/ ''Convene''], [http://peeragogy.org/organize/ ''Organize''], [http://peeragogy.org/facilitate/ ''Cooperate''] and [http://peeragogy.org/assessment/ ''Assess''] -- represent big clusters of patterns that are likely to come up time and again in various projects (do you see the analogy with the four major branches of the diagram above?). You are of course free to invent your own patterns. Each project will tend to have it's own design, and it's own unique way things play out in practice. Here, we present these small but powerful &quot;starter patterns&quot;.
+The subsequent main sections of this book -- [http://peeragogy.org/convene/ ''Convene''], [http://peeragogy.org/organize/ ''Organize''], [http://peeragogy.org/facilitate/ ''Cooperate''] and [http://peeragogy.org/assessment/ ''Assess''] -- represent big clusters of patterns that are likely to come up time and again in various projects. We can think of these as East, South, West, and North in the diagram above. You are of course encouraged to invent your own patterns and to connect them in new ways. Each project has a unique design, and it's own unique way in which things play out in practice. What we've put together here is a starter kit.
 
-<blockquote>'''Christopher Alexander''': These ideas—patterns—are hardly more than glimpses of a much deeper level of structure, and is ultimately within this deeper level of structure, that the origin of life occurs.</blockquote>
-=== '''EXAMPLES''' ===
+<blockquote>'''Christopher Alexander''': These ideas—patterns—are hardly more than glimpses of a much deeper level of structure, and is ultimately within this deeper level of structure, that the origin of life occurs. [2]</blockquote>
+== Patterns and Problem Solving ==
 
-The above use cases and patterns make the “story” abstract – but how about some concrete examples of peeragogy in action? Consider:
+Ten potentially useful things to do when you're solving a problem are described by the computer scientist Marvin Minsky in a series of [http://web.media.mit.edu/~minsky/OLPC-1.html m][http://web.media.mit.edu/~minsky/OLPC-2.html e][http://web.media.mit.edu/~minsky/OLPC-3.html m][http://web.media.mit.edu/~minsky/OLPC-4.html o][http://web.media.mit.edu/~minsky/OLPC-5.html s] written for the One Laptop Per Child project. We can sum them up visually with the following diagram:
 
-* [http://openhatch.org/ OpenHatch.org], “an open source community aiming to help newcomers find their way into free software projects.”
-* The [http://campus.ftacademy.org/wiki/index.php/Free_Technology_Guild Free Technology Guild] is a younger project with aspirations similar in some ways to those of OpenHatch, but in this case, oriented not just to pairing newcomers with mentors, but pairing clients with service providers. “The idea is that we as a group will do useful projects for our members or external parties, and on-the-job we mentor and learn and get better.” (Since this is a new project, the [http://campus.ftacademy.org/community/pg/groups/8500/free-technology-guild-working-group/ project building phase] is itself a nacent example of paragogy.)
-* Many more examples on our [http://peeragogy.org/examples/ examples] page!
+[[Image:http://metameso.org/~joe/heuristic-images.jpg|frame|none]]
+
+We can also see some interesting connections between these intuitive problem solving heuristics and peeragogy patterns listed above. This can help illustrate further connections between the patterns, and some of the ways that groups can apply them to solve real-world problem. To elaborate briefly:
+
+* Simplify things for '''Newcomers'''. We don't expect a newcomer to enter at full speed.
+* Use a '''Roadmap''' to guide us from one phase to another, while the project's central '''Heartbeat''' helps us attend to the central focus.
+* Announce changes through a '''Wrapper''' who describes the new status or direction of the project. For the Peeragogy project, that often meant summing up the high points that we saw over a given period of time.
+* We divide work up not only horizontally among different '''Roles''', but also temporally by using the '''Roadmap'''. Someone who is moving ahead with the Roadmap is likely to be working at the leading edge.
+* When we find an analogy, we are basically '''Creating a Guide''' for thinking about something. This can be used as a form of &quot;exploration,&quot; as we look at how one form of engagement may or may not map onto other forms of engagement.
+* When we ask for help, we may avail ourselves of some '''Moderation''' service that will decide how to deal with our request. One simple way to ask for help is '''Polling for Ideas'''. Obviously once we start to get help, we're working in a regime of &quot;collaborative effort&quot;.
+* If you know the answer, then you may be able to reuse it (which is the basic idea described in '''Use or Make'''.
+* It is important to give it a rest so as not to over-exhaust oneself, busting one's own '''Carrying Capacity''', or, alternatively, overwhelming the group.
+* It seems that one of the things that experts are good at is '''Discerning a Pattern'''. This allows them to simplify their processing.
+* Finally, again, if we know why it is hard, then we may be able to '''Create a Guide''' that will help get around, or at least better cope with, the difficulty.
 
 === References ===
 
-# Alexander, Christopher, Ishikawa, Sara, and Silverstein, Murray, ''A Pattern Language: Towns, Buildings, and, Construction'', New York: Oxford University Press, 1977.
-# Gabriel, Richard P. ''[http://dreamsongs.net/Files/PatternsOfSoftware.pdf Patterns of Software]'', New York: Oxford University Press, 1996. (Includes a forward by Christopher Alexander.)
-
-=== Further readings on patterns ===
-
-# [http://en.wikipedia.org/wiki/The_Timeless_Way_of_Building The Timeless Way of Building], by Christopher Alexander.
-# Article, “Manifesto 1991” by Christopher Alexander, Progressive Architecture, July 1991, pp. 108–112, provides a brief summary of Alexander’s ideas in the form of a critique of mainstream architecture. Many of the same sorts of critical points would carry over to mainstream education. Some highlights are excerpted [https://plus.google.com/u/0/108598104736826154120/posts/agWYcqPhqSN here].
-# [http://www.wikipatterns.com/display/wikipatterns/About Wikipatterns]
-# [http://www.patternlanguage.com/archive/ieee/ieeetext.htm The Origins of Pattern Theory, the Future of the Theory, And The Generation of a Living World], Christopher Alexander’s talk at the 1996 ACM Conference on Object-Oriented Programs, Systems, Languages and Applications (OOPSLA)
-
-=== Other related work ===
-
-# [http://www.cluetrain.com Cluetrain Manifesto] (the [http://www.cluetrain.com/book/index.html First edition] is available for free)
-# [http://www.kk.org/newrules/contents.php New Rules for the New Economy][http://www.kk.org/newrules/contents.php (you can also][http://www.kk.org/newrules/contents.php read the book online])
+# Alexander, C., Ishikawa, S., and Silverstein, M. (1977). ''A Pattern Language: Towns, Buildings, and, Construction'', New York: Oxford University Press.
+# Gabriel, Richard P. (1996). ''[http://dreamsongs.net/Files/PatternsOfSoftware.pdf Patterns of Software]'', New York: Oxford University Press. (Includes a foreward by Christopher Alexander.)
 

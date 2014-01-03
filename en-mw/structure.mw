@@ -1,4 +1,4 @@
-In the introduction to &quot;[http://socialmediaclassroom.com/host/peeragogy/wiki/organizing-a-learning-context Organizing a Learning Context]&quot;, we remarked that a &quot;learning space&quot; is ''only potentially'' less structured than a &quot;course&quot;. For example, a library tends to be highly structured, with quiet rooms for reading, protocols for checking out books, a cataloging and shelving system that allows people to find what they are looking for, as well as rules that deter vandalism and theft. (Digital libraries don't need to play by all the same rules, but are still structured.)
+In the introduction to “Organizing a Learning Context”, we remarked that a “learning space” is ''only potentially'' less structured than a &quot;course&quot;. For example, a library tends to be highly structured, with quiet rooms for reading, protocols for checking out books, a cataloging and shelving system that allows people to find what they are looking for, as well as rules that deter vandalism and theft. (Digital libraries don't need to play by all the same rules, but are still structured.)
 
 But more structure does not always lead to better learning. In a 2010 Forbes article titled, &quot;The Classroom in 2020,&quot; George Kembel describes a future in which &quot;Tidy lectures will be supplanted by messy real-world challenges.&quot; The Stanford School of Design, (or &quot;d.school&quot; -- which Kemble co-founded and currently directs) is already well-known for its open collaborative spaces, abundant supply of post-it notes and markers, and improvisational brainstorm activities -- almost the opposite of traditional lecture-based learning.
 
@@ -17,53 +17,43 @@ We begin with two simple questions:
 
 &quot;Planning a learning activity&quot; should mean planning an ''effective'' learning activity, and in particular that means something that people can and will engage with. In short, an appropriate learning activity may be one that you already do! At the very least, current activities can provide a &quot;seed&quot; for even more effective ones.
 
-<blockquote>''Here's a little trick to help you keep focused on things you're trying to do. Get a bunch of index cards and do this every day:'' ''1. Sit down and write down all the things you think you need to do right then. [...] Write them as short little notes like a &quot;to do list&quot;. 2. Then, take the first thing that you can do right now and do it. Get it done then cross it off the card. 3. Keep doing this, and if you think of something else you need to do, put it on a card. Just keep filling them up. 4. At the end of the day, go back through your card and find any unfinished things and remove any that you'll honestly never do. 5. The next day, take all the things you didn't do from the day before and copy them onto a new card, then start with #1 again.'' -- Zed Shaw, in the [http://learnpythonthehardway.org/book/intro.html#comment-409972596 Learn Python the Hard Way forums]</blockquote>
-But when entering unfamiliar territory, it can be difficult to know where to begin. And remember the bottlenecks mentioned above? When you run into difficulty, ask yourself: [http://peeragogy.org/patterns-and-heuristics/ why is this hard?] You might try adapting Zed Shaw's exercise, and make a list of limiting factors, obstacles, etc., then cross off those which you can find a strategy to deal with (add an annotation as to why). For example, you might decide to overcome your lack of knowledge in some area by hiring a tutor or expert consultant, or by putting in the hours learning things the hard way (Zed would particularly approve of the latter choice). If you can't find a strategy to deal with some issue, presumably you can table it, at least for a while.
+But when entering unfamiliar territory, it can be difficult to know where to begin. And remember the bottlenecks mentioned above? When you run into difficulty, ask yourself: [http://peeragogy.org/patterns-and-heuristics/ why is this hard?] You might try adapting [http://learnpythonthehardway.org/book/intro.html#comment-409972596 Zed Shaw's task-management trick], and make a list of limiting factors, obstacles, etc., then cross off those which you can find a strategy to deal with (add an annotation as to why). For example, you might decide to overcome your lack of knowledge in some area by hiring a tutor or expert consultant, or by putting in the hours learning things the hard way (Zed would particularly approve of this choice). If you can't find a strategy to deal with some issue, presumably you can table it, at least for a while.
 
-Strategic thinking like this works well for one person. What about when you're planning activities for someone else? Here you have to be careful: remember, this is peer learning, not traditional &quot;teaching&quot; or &quot;curriculum design&quot;. The first rule of thumb for ''peer learning'' is: don't plan activities for others unless you plan to to take part as a fully engaged participant. Otherwise, it might be a peer learning activity, but it's not yours. (Perhaps your engagement is just as &quot;designer&quot; -- that's OK. But if you don't plan to &quot;get&quot; as well as &quot;give&quot;, you're not really a peer -- which is perfectly OK, but you might find other reading material that will serve you better than this handbook in that case!)
-
-In short, it would be useful to walk through the &quot;what do you need to do&quot; and &quot;why is it hard&quot; exercises from the point of view of all of the participants, keeping in mind that they will, in general, assume different roles. To the extent that you can do so, spell out what these roles are and what activities comprise them.
+Strategic thinking like this works well for one person. What about when you're planning activities for someone else? Here you have to be careful: remember, this is peer learning, not traditional &quot;teaching&quot; or &quot;curriculum design&quot;. The first rule of thumb for ''peer learning'' is: don't plan activities for others unless you plan to to take part as a fully engaged participant. Otherwise, in you might be more interested in the literature on ''collaborative learning'', which has often been deployed to good effect within a standard pedagogical context (see e.g. Bruffee [1]). In a peer learning setting, everyone will have something to say about &quot;what do you need to do&quot; and &quot;why is it hard,&quot; and everyone is likely to be interested in everyone else's answer as well as their own.
 
 For example, in a mathematics learning context, you would be likely to find people...
 
-* solving textbook-style problems
-* finding and sharing new problems
-* asking questions when something seems too difficult
-* fixing expository material to respond to critique
-* offering critique and review of proposed solutions
-* offering constructive feedback to questions (e.g. hints)
-* organizing material into structured collections
-* working on applications to real-world problems
-* doing &quot;meta&quot; research activities that analyse &quot;what works&quot; for any and all of the above
+* solving textbook-style problems;
+* finding and sharing new research problems;
+* asking questions when something seems too difficult;
+* fixing expository material to respond to critique;
+* offering critique and review of proposed solutions;
+* offering constructive feedback to questions (e.g. hints);
+* organizing material into structured collections;
+* working on applications to real-world problems;
+* doing &quot;meta&quot; research activities that analyse &quot;what works&quot; for any and all of the above.
 
-Each one of those activities may be &quot;hard&quot; for one reason or another. In particular, as a system the different activities tend to depend on one another. If you have people working in a &quot;student role&quot; but no one who can take on a &quot;TA role&quot;, things will be more difficult for the students. As a (co-)organizer, part of ''your'' job is to try to make sure all of the relevant roles are covered by someone (who may in the end wear many hats).
+Each one of those activities may be &quot;hard&quot; for one reason or another. As a system the different activities tend to depend on one another. If you have people working in a &quot;student role&quot; but no one who can take on a &quot;TA role&quot;, things will be more difficult for the students. As a (co-)organizer, part of ''your'' job is to try to make sure all of the relevant roles are covered by someone (who may in the end wear many hats). You can further decompose each role into specific concrete activities. They might be accompanied by instructions that say: “''How to write a good critique''” or “''How to write a proof''”. They might come in the form of accessible exercises (where &quot;accessible&quot; depends on the person). Depending on the features of the learning context, you may be able to support the written instructions or exercises with live/in-person feedback (e.g. meta-critique to coach and guide novice critics, a demonstration, etc.).
 
-You can further decompose each role into specific concrete activities. They might come in the form of instructions to follow: &quot;''How to write a good critique''&quot; or &quot;''How to write a proof''&quot;. They might come in the form of accessible exercises (where &quot;accessible&quot; depends on the person&quot;): &quot;''Your first geometry problem''&quot; or &quot;[http://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html Ninety-Nine LISP problems]&quot;, etc. Depending on the features of the learning context, you may be able to support the written instructions or exercises with live/in-person feedback (e.g. meta-critique to coach and guide novice critics, a demonstration, etc.).
+== One scenario: building activities for the Peeragogy Handbook ==
 
-== Our immediate scenario: building activities for the Peeragogy Handbook ==
+Adding a bunch of activities to the handbook won't solve all of our usability issues, but more activities would help. We can think about each article or section from this perspective:
 
-Adding a bunch of activities to the handbook won't solve all of our usability issues, but we've agreed that they will help a lot. So at this point, we are revisiting the [http://peeragogy.org/table-of-contents/ table of contents] and thinking about each article or section from this perspective:
-
-# When looking at this piece of text, what type of knowledge are we (and the reader) trying to gain? Technical skills (like learning how to edit Final Cut Pro), or abstract skills (like learning how to make sense of data)? What's the takeaway? I.e., what's the point?
+# When looking at this piece of text, what type of knowledge are we (and the reader) trying to gain? Technical skills, or abstract skills? What's the point?
 # What's difficult here? What might be difficult for someone else?
-# What learning activity recipes might be appropriate? (See below.)
+# What learning activity recipes or models might be appropriate? (See e.g. [2], [3].)
 # What customizations do we need for this particular application?
 
 '''''''As a quick example: designing a learning activity for the current page'''
 
-# We want to be able to come up with effective learning activities to accompany a &quot;how to&quot; article for peer learners. These activities will extend the &quot;how to&quot; aspect from the written word to the world of action.
-# It might be difficult for some of us to &quot;unplug&quot; from all the reading and writing that we're now habituated to doing. But peer learning isn't just about the exchange of text: there are lots and lots of ways to learn.
-# Like [http://peeragogy.org/use-cases/paeragogy-helps-solve-complex-problems/ Neo] (in one of our use cases), it could be useful to &quot;become more aware of the peer learning we do every day&quot;. And to think about &quot;How do you learn best?&quot;
-# So, the proposed handbook activity is to step away from the handbook for a while. In fact, why not take a [http://zenhabits.net/edit-your-life-part-6-a-media-fast/ media fast] for a given period of time and look at peer learning as a basic human activity. (Hey, it just sounds to me like you might need to unplug, man!)
+# ''We want to be able to come up with effective learning activities, for instance, to accompany a &quot;how to&quot; article for peer learners''. These activities will extend from from the written word to the world of action.
+# ''It might be difficult for some of us to &quot;unplug&quot; from all the reading and writing that we're habituated to doing.'' But peer learning isn't just about the exchange of text: there are lots and lots of ways to learn.
+# ''Like Tom in “[http://peeragogy.org/a-pattern-story/ A pattern story]”, it could be useful to apply an existing set of skills to a new problem.''
+# ''The proposed handbook activity is to simply step away from the handbook for a while.'' Look for some examples of peer learning in everyday life. When you've gained an insight about peer from your own experience, come back and create a related activity to accompany another handbook page!
 
-== Resources for identifying a dozen or so &quot;Learning Activity Recipes&quot;: ==
+== References ==
 
-* [http://www.kstoolkit.org/KS+Methods KS ToolKit]
-* [http://serc.carleton.edu/NAGTWorkshops/coursedesign/tutorial/strategies.html Designing Effective and Innovative Sources] (See the section on &quot;Teaching Strategies for Actively Engaging Students in the Classroom&quot;)
-* Each of our [http://peeragogy.org/patterns-and-heuristics/ patterns and heuristics] suggest various activities, like &quot;practicing the heuristics&quot;, &quot;finding examples of the patterns&quot;, etc.
-* Our [http://peeragogy.org/use-cases Use Cases] provide many hypothetical examples of &quot;peeragogy in action&quot;.
-
-== Recommended Reading ==
-
-[http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf The d.school Bootcamp Bootleg] (CC-By-NC-SA) includes lots of fun activities to try. Can you crack the code and define new ones that are equally cool?
+# Bruffee, Kenneth A. (1984). &quot;Collaborative learning and the conversation of mankind.&quot; ''College English'' 46.7, 635-652
+# [http://www.kstoolkit.org/KS+Methods KS ToolKit]
+# [http://serc.carleton.edu/NAGTWorkshops/coursedesign/tutorial/strategies.html Designing Effective and Innovative Sources] (particularly the section on &quot;Teaching Strategies for Actively Engaging Students in the Classroom&quot;)
 
