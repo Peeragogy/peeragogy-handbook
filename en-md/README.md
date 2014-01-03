@@ -41,7 +41,7 @@
 - [ORGANIZING A LEARNING CONTEXT](https://github.com/Peeragogy/peeragogy-handbook/blob/master/en-md/organizing.md)
 - [Adding Structure with Activities](https://github.com/Peeragogy/peeragogy-handbook/blob/master/en-md/structure.md)
 - [The student authored syllabus](https://github.com/Peeragogy/peeragogy-handbook/blob/master/en-md/student_syllabus.md)
-- [Connectivism in Practice -- How to Organize a MOOC (Massive Ope(https://github.com/Peeragogy/peeragogy-handbook/blob/master/en-md/connectivism.mdn Online Class)])
+- [Connectivism in Practice -- How to Organize a MOOC (Massive Open Online Class)](https://github.com/Peeragogy/peeragogy-handbook/blob/master/en-md/connectivism.mdn Online Class)
 - [Case Study: Collaborative Explorations](https://github.com/Peeragogy/peeragogy-handbook/blob/master/en-md/collab-ex.md)
 - [INTRODUCTION TO COOPERATION: CO-FACILITATION](https://github.com/Peeragogy/peeragogy-handbook/blob/master/en-md/cofac.md)
 - [The Workscape, a learning platform for corporations](https://github.com/Peeragogy/peeragogy-handbook/blob/master/en-md/workscape.md)
