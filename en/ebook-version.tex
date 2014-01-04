@@ -8,8 +8,6 @@
 %% \renewcommand{\l@subsubsection}{\@dottedtocline{3}{7.4em}{4.5em}}
 %% \makeatother
 
-
-
 \noindexintoc
 
 \usepackage{afterpage}
@@ -62,20 +60,22 @@
 %%       SmallCapsFont={Linux Libertine Capitals O Bold Italic},  %
 %%       SmallCapsFeatures = { Color=3366FF,RawFeature={+smcp,+hlig,+dlig}}} ]{Linux Libertine O} 
 
-\setmainfont[Mapping= tex-text,  
-     SmallCapsFont={Linux Libertine O},   
-     SmallCapsFeatures= {Color=FFFFFF, RawFeature={+smcp,+hlig,+dlig}},   
-     BoldFont={Linux Biolinum O Bold},   
-%     BoldFeatures={Color = FFFFFF,SmallCapsFont={Linux Libertine Capitals O Bold},%
-%       SmallCapsFeatures = { Color=FFFFFF,   RawFeature={+smcp,+hlig,+dlig}} },  
-     ItalicFont={Linux Libertine O Italic},   
-     ItalicFeatures={Color = FFFFFF,  %
-       SmallCapsFont={Linux Libertine Capitals O Italic}, %
-       SmallCapsFeatures = {Color=FFFFFF}},   
-     BoldItalicFont={Linux Biolinum O},   
-     BoldItalicFeatures={ Color = FFFFFF, %
-      SmallCapsFont={Linux Libertine Capitals O Bold Italic},  %
-      SmallCapsFeatures = { Color=FFFFFF,RawFeature={+smcp,+hlig,+dlig}}} ]{Linux Libertine O} 
+%% \setmainfont[Mapping= tex-text,  
+%%      SmallCapsFont={Linux Libertine O},   
+%%      SmallCapsFeatures= {Color=FFFFFF, RawFeature={+smcp,+hlig,+dlig}},   
+%%      BoldFont={Linux Biolinum O Bold},   
+%% %     BoldFeatures={Color = FFFFFF,SmallCapsFont={Linux Libertine Capitals O Bold},%
+%% %       SmallCapsFeatures = { Color=FFFFFF,   RawFeature={+smcp,+hlig,+dlig}} },  
+%%      ItalicFont={Linux Libertine O Italic},   
+%%      ItalicFeatures={Color = FFFFFF,  %
+%%        SmallCapsFont={Linux Libertine Capitals O Italic}, %
+%%        SmallCapsFeatures = {Color=FFFFFF}},   
+%%      BoldItalicFont={Linux Biolinum O},   
+%%      BoldItalicFeatures={ Color = FFFFFF, %
+%%       SmallCapsFont={Linux Libertine Capitals O Bold Italic},  %
+%%       SmallCapsFeatures = { Color=FFFFFF,RawFeature={+smcp,+hlig,+dlig}}} ]{Linux Libertine O} 
+
+\setmainfont[Ligatures={NoRequired,NoCommon,NoContextual}]{Linux Libertine O} 
 
 \let\sc\scshape
 
@@ -211,14 +211,14 @@
 
 %% These settings are great for building an actual ebook... basically the same as
 %% using the ``oneside'' setting but two-sided to get the headings to work...
-%\settypeblocksize{7.4in}{4.4in}{*}
-%\setlrmargins{.8in}{*}{*}
-%\setulmargins{.9in}{*}{*}
+\settypeblocksize{7.4in}{4.4in}{*}
+\setlrmargins{.8in}{*}{*}
+\setulmargins{.9in}{*}{*}
 
 %% But this gives a two-sided flip/flop to the version of the book for print:
-\settypeblocksize{7.4in}{4.4in}{*}
-\setlrmargins{1in}{*}{*}
-\setulmargins{.9in}{*}{*}
+%\settypeblocksize{7.4in}{4.4in}{*}
+%\setlrmargins{1in}{*}{*}
+%\setulmargins{.9in}{*}{*}
 
 \setheadfoot{2\onelineskip}{2\onelineskip}
 %%\setheaderspaces{*}{1.5\onelineskip}{*}
@@ -258,8 +258,6 @@
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \makeatother
 
-\usepackage{accsupp}
-
 %\def\indexname{Web pages referenced in this book}
 \newcounter{IndexItemCounter}
 \usepackage{makeidx}
@@ -269,9 +267,7 @@
 \newcommand*{\hrefnew}[2]{%
 \normalexpandarg%
 \IfSubStr{#1}{http://peeragogy.org}{#2}{%
-%\BeginAccSupp{method=plain,unicode,ActualText={#2}}%
 \hrefold{#1}{#2}%
-%\EndAccSupp{}%
 \stepcounter{IndexItemCounter}%
 \index{\thepage@{p. \thepage}!{\theIndexItemCounter}@{#2\ldots\ \url{#1}}}}\unskip
 }
@@ -284,13 +280,8 @@
 %\renewcommand*{\href}[2]{\stepcounter{endnote}\hrefold{#1}{#2}\endnotetext[\theendnote]{{\sc #2}\ldots\ \url{#1}}}
 
 \begin{document}
-\sloppy \pagestyle{empty} \thispagestyle{empty}
+\sloppy 
 \selectlanguage{english}
-\begin{center}
-\quad\\[1in] 
-{\LARGE The Peeragogy Handbook}
-\end{center}
-\clearpage\mbox{}\clearpage    %% blank pages
 \title{The Peeragogy Handbook\\[.5in]}
 %% \author{\emph{Edited by} \\
 %%  and Joseph Corneli\\[.2in]
@@ -309,23 +300,20 @@
 {\small Howard Rheingold}\\[.3in]
 \emph{Editorial Board}\\
 {\small George Brett, Joseph Corneli, Charles Jeffrey Danoff,}\\
-{\small Kyle Larson, Charlotte Pierce, Paola Ricaurte, Fabrizio Terzi}\\[.3in]
-
-%\emph{Creative Director}\\
-% {\small }\\[.3in]
+{\small Kyle Larson, Charlotte Pierce, and Paola Ricaurte}\\[.3in]
 
 \emph{with contributions from} \\
-{\small Bryan Alexander, Paul Allison, Mar\'ia Fernanda Arenas,} \\
-{\small R\'egis Barondeau, Doug Breitbart, Suz Burroughs,}\\ 
-{\small Teryl Cartwright, Jay Cross, Julian Elve,}\\
+{\small Bryan Alexander, Paul Allison, R\'egis Barondeau,} \\
+{\small Doug Breitbart, Suz Burroughs, Teryl Cartwright,}\\ 
+{\small Jay Cross, Julian Elve, Mar\'ia Fernanda Arenas,}\\
 {\small James Folkestad, Kathy Gill, John Glass,}\\
 {\small John Graves, Jan Herder, Gigi Johnson,} \\
 {\small Anna Keune, Roland Legrand, Amanda Lyons,} \\
 {\small Christopher Neal, Ted Newcomb, Stephanie Parker,} \\
 {\small David Preston, Stephanie Schipper, Peter Taylor,} \\
-{\small and Geoff Walker}
+{\small Fabrizio Terzi, and Geoff Walker}
 }
-\date{\today\ (version 2.0$\alpha_3$)}
+\date{\today\ (version 2.0[e])}
 \maketitle
 \thispagestyle{empty}
 
@@ -334,11 +322,11 @@
 {\large All the text in this book has been donated to the Public Domain.}
 \end{center}
 \quad \\
-\begin{center}
-{\large {\sc small caps} correspond to links in the online version of
-  the book, which is at \url{http://peeragogy.org}.  
-  They are indexed at the end of the book for reference.}
-\end{center}
+%% \begin{center}
+%% {\large {\sc small caps} correspond to links in the online version of
+%%   the book, which is at \url{http://peeragogy.org}.  
+%%   They are indexed at the end of the book for reference.}
+%% \end{center}
 \thispagestyle{empty}
 \cleardoublepage
 
@@ -367,7 +355,7 @@
 \input{foreward.tex}
  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
 
-\part{Introduction} \label{intro-part} %%%%%%%%%%%%%%%%%%%%
+\part{Introduction} %%%%%%%%%%%%%%%%%%%%
 \pagestyle{companion}
 \chapter[\textbf{Welcome!}]{Welcome to the Peeragogy Handbook}
 %
@@ -380,7 +368,7 @@
 %
 \input{summaries.tex}
 
-\part{Peer Learning} \label{peer-learning-part} %%%%%%%%%%%%%%%%%%%%
+\part{Peer Learning} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{An Overview}]{An Overview of Peer Learning}
 %
@@ -402,17 +390,17 @@
 \input{we_won.tex}
 
 
-\part{Motivation} \label{motivation-part} %%%%%%%%%%%%%%%%%%%%
+\part{Motivation} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Why we're doing this}]{Why we're doing this}
 \input{motivation.tex}
 %
-\chapter[\textbf{Case Study: 5PH1NX}]{Case Study: 5PH1NX}\label{sphinx-beginning}
+\chapter[\textbf{Case Study: 5PH1NX}]{Case Study: 5PH1NX}
 %
 \input{sphinx.tex}
 
 
-\part{Peeragogy in Practice} \label{practice-part}  %%%%%%%%%%%%%%%%%%%%
+\part{Peeragogy in Practice}  %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Thinking about patterns}]{Thinking about patterns}
 \input{patterns.tex}
@@ -469,7 +457,7 @@
 \input{pattern_story.tex}
 
 
-\part{Convening A Group} \label{convening-part} %%%%%%%%%%%%%%%%%%%%
+\part{Convening A Group} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Convening}]{Building Your Co-Learning Group}
 \input{convening.tex}
@@ -492,7 +480,7 @@
 
 
 
-\part{Organizing a Learning Context} \label{organizing-part} %%%%%%%%%%%%%%%%%%%%
+\part{Organizing a Learning Context} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Organizing Co-Learning}]{Introduction to Organizing Co-Learning}
 \input{organizing.tex}
@@ -514,7 +502,7 @@
 \input{collab-ex.tex}
 
 
-\part{~~Cooperation} \label{cooperation-part} %%%%%%%%%%%%%%%%%%%%
+\part{~~Cooperation} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Co-facilitation}]{Introduction to cooperation: Co-facilitation}
 \input{cofac.tex}
@@ -536,7 +524,7 @@
 
 
 
-\part{~~~~Assessment} \label{assessment-part} %%%%%%%%%%%%%%%%%%%%
+\part{~~~~Assessment} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Peeragogical Assessment}]{Introduction to Peeragogical Assessment}
 \input{assessment.tex}
@@ -546,7 +534,7 @@
 \input{researching.tex}
 
 
-\part{~Technologies, Services, and Platforms } \label{technologies-part} %%%%%%%%%%%%%%%%%%%%
+\part{~Technologies, Services, and Platforms } %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{Peeragogy Technology}]{Introduction to Technologies for Peeragogy}
 \input{technologies.tex}
@@ -564,7 +552,7 @@
 \input{realtime.tex}
 
 
-\part{Resources} \label{resources-part} %%%%%%%%%%%%%%%%%%%%
+\part{Resources} %%%%%%%%%%%%%%%%%%%%
 %
 \chapter[\textbf{How to get involved}]{ How to Get Involved In the Peeragogy Project } 
 %
@@ -607,9 +595,6 @@
 \chapter[\textbf{License/Waiver}]{License/Waiver}
 \input{license.tex}
 %
-\pagestyle{empty} \thispagestyle{empty}
-\clearpage\mbox{}\clearpage\mbox{}\clearpage\mbox{}\clearpage    %% blank pages
-
 \end{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% \chapter[\textbf{Use Cases}]{ Use Cases }
