@@ -605,11 +605,15 @@ Sources available at \url{http://git.io/Handbook}.}
 \cleardoublepage
 %\let\oldtwocolumn\twocolumn
 %\renewcommand{\twocolumn}[1][]{#1}
-%\phantomsection
-%\addcontentsline{toc}{chapter}{Web Pages Cited in This Book}
-\renewcommand{\indexname}{Web Pages Cited in This Book}
+\begingroup
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
+\chapter{Web Pages Cited in This Book}
+\renewcommand{\indexname}{}
+\vspace{-1in}
 \onecolindex
 \printindex
+\endgroup
 %\renewcommand{\twocolumn}[1][]{\oldtwocolumn}
 
 \newpage
