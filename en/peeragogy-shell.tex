@@ -10,7 +10,7 @@
 
 \noindexintoc
 
-
+\usepackage{relsize}
 \usepackage{afterpage}
 
 \newcommand\blankpage{%
@@ -612,7 +612,12 @@ Sources available at \url{http://git.io/Handbook}.}
 \renewcommand{\indexname}{}
 \vspace{-1in}
 \onecolindex
+\begingroup
+%\let\oldurl\url
+%\renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+\smaller
 \printindex
+\endgroup
 \endgroup
 %\renewcommand{\twocolumn}[1][]{\oldtwocolumn}
 
