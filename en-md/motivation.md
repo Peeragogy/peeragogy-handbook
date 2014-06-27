@@ -8,7 +8,6 @@
 
 The primary motivators reported by participants in the Peeragogy project
 include:
-
 1.  Acquisition of training or support in a topic or field;
 2.  Building relationships with interesting people;
 3.  Finding professional opportunities through other participants;
@@ -29,18 +28,15 @@ factors. Actions that typify inappropriate behavior in one culture might
 represent desirable behavior in another. Motivations often come out of
 the closet through conflict; for example, when one learner feels
 offended or embarrassed by the actions of another.
-
 > **Philip Spalding**: *“The idea of visiting a garden together in a
 > group to learn the names of flowers might have been the original
 > intention for forming a Garden Group. The social aspect of having a
 > day out might be goal of the people participating.”*
 
 *[![4427](http://peeragogy.org/wp-content/uploads/2013/01/44272.jpg)](http://peeragogy.org/motivation/4427-3/)*
-
 *"What's my motivation?"*
 
-Example: Peeragogy editor Charlotte Pierce
-==========================================
+# Example: Peeragogy editor Charlotte Pierce
 
 Basically, I’m here because as an early adopter and admitted gadget
 freak, I find it fun and rewarding to explore new technologies and
@@ -83,16 +79,14 @@ project. I connected, learned, grew, and contributed. Now I'm on the
 brink of starting a peer learning project of my own in my publishing
 organization, IPNE.org. Stay tuned!
 
-Example: Cafes, schools, workshops
-==================================
+# Example: Cafes, schools, workshops
 
 Suppose we wanted to make Peeragogy into a model that can be used in
 schools, libraries, and so forth, worldwide - and, in fact we do! How
 can we bring the basic Peeragogy motivations to bear, and make a
 resource, plan of action, and process that other people can connect
-with? In brief, how do we build peer learning into the
-curriculum*,*providing new insight from the safety of the existing
-structure?
+with? In brief, how do we build peer learning into the curriculum*,
+*providing new insight from the safety of the existing structure?
 
 One concrete way to implement these broad aims would be to make a
 peeragogy-oriented *development* project whose goal is to set up a
@@ -133,7 +127,6 @@ Accelerator](http://commonsabundance.net/docs/help-build-the-peeragogy-accelerat
 for a half-dozen peer learning projects, each of which defines their own
 metrics for success, but who come together to offer support and
 guidance, using the *Peeragogy Handbook* as a resource?
-
 ### Reference
 
 1.  Jérôme Hergueux (2013). [Cooperation in a Peer Production Economy:

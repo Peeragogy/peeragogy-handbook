@@ -1,4 +1,5 @@
-Knowing how to make good use of "weak ties" is often seen as a strength.
+**Definition**: Knowing how to make good use of "weak ties" is often
+seen as a “personal strength”.
 
 > **Nancy Darling**: [S]trong and weak ties tend to serve different
 > functions in our lives. When we need a big favor or social or
@@ -8,14 +9,12 @@ Knowing how to make good use of "weak ties" is often seen as a strength.
 > and more diverse ties than our close friends do. We ask them when we
 > want to know who to hire to install our washing machine. [1]
 
-The quote suggests that there is a certain trade-off between use of weak
-ties and use of strong ties. The *anti-pattern* in question then is less
-to do with whether we are forming weak ties or strong ties, and more to
-do with whether we are being honest with ourselves and with each other
-about the nature of the ties we are forming -- and their potential uses.
-We can be "peers" in either a weak or a strong sense. The question to
-ask is whether our needs match our expectations! In the peeragogy
-context, this has to do with how we interact.
+The question is less to do with whether we are forming weak ties or
+strong ties. We can be "peers" in either a weak or a strong sense. The
+question to ask is whether our needs match our expectations!
+
+**Problem**: In the peeragogy context, this has to do with how we
+interact.
 
 > **One of us**: I am learning about peeragogy, but I think I'm failing
 > to be a good peeragogue. I remember that Howard once told us that the
@@ -25,17 +24,26 @@ context, this has to do with how we interact.
 > to learn?
 
 If we are "only" co-consumers of information then this seems like a
-classic example of a weak tie. We are part of the same "audience". On
-the other hand, if we are actively engaging with other people, then this
-is a foundation for strong ties. In this case of deep learning, our aims
-are neither instrumental nor informational, but "interactional". People
-who do not put in the time and effort will remain stuck at the level of
-"weak ties", and will not be able to draw on the benefits that "strong
-ties" offer.
+classic example of a weak tie. We are part of the an "audience".
 
-Reference
+**Solution**: Perhaps especially in an online, mediated, context, it is
+possible to stay at the level of "weak ties" -- although you will not be
+able to draw on the benefits that "strong ties" offer. (Cf.
+[Isolation](http://peeragogy.org/antipatterns/isolation/).)
 
-1.  Nancy Darling (2010). [Facebook and the Strength of Weak
-    Ties](http://www.psychologytoday.com/blog/thinking-about-kids/201005/facebook-and-the-strength-weak-ties),
-    Psychology Today.
+**Challenges**: This strategy reveals its problems directly, if you ever
+need help moving your washing machine.
 
+**What’s Next**: If we are actively engaging with other people, then
+this is a foundation for strong ties. In this case of deep learning, our
+aims are neither instrumental nor informational, but "interactional".
+Incidentally, the "One of us" quoted above has been one of the most
+consistently engaged peeragogues over the years of the project. Showing
+up is a good step -- you can always help someone else move their washing
+machine! -- as is constructive self-critique.
+
+**Reference**:
+
+Nancy Darling (2010). [Facebook and the Strength of Weak
+Ties](http://www.psychologytoday.com/blog/thinking-about-kids/201005/facebook-and-the-strength-weak-ties),
+*Psychology Today*.

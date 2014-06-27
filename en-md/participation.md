@@ -20,8 +20,7 @@ this? How do *you* participate?
 ![image](http://peeragogy.org/wp-content/uploads/2013/10/james-gang.jpg)
 Hey you, stop this train!
 
-Guidelines for participation
-----------------------------
+## Guidelines for participation
 
 -   Accept that some people want to watch what is going on before
     jumping in. This doesn't mean you have to keep them hanging around
@@ -69,10 +68,10 @@ Peeragogy projects may be, naturally, a bit different from other
 settings, although we can potentially reuse both formal and informal
 methods of organization. For example, unlike a typical wiki -- or
 classroom -- peeragogy projects often expect to break the [90/9/1
-rule](http://en.wikipedia.org/wiki/1%25_rule_%28Internet_culture%29).
-Keep in mind that some participants may not contribute all the time --
-but one really good idea can be a major contribution. See the
-anti-pattern “[Misunderstanding
+rule](http://en.wikipedia.org/wiki/1%_rule_(Internet_culture)). Keep in
+mind that some participants may not contribute all the time -- but one
+really good idea can be a major contribution. See the anti-pattern
+“[Misunderstanding
 Power](http://peeragogy.org/practice/antipatterns/misunderstanding-power/ "Misunderstanding power")”
 for some further reflections on these matters.
 

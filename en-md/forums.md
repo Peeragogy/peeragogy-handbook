@@ -1,5 +1,4 @@
 Author: Howard Rheingold **Summary**:
-
 Forums are web-based communication media that enable groups of people to
 conduct organized multimedia discussions about multiple topics over a
 period of time. Selecting the right kind of platform for forum
@@ -87,20 +86,20 @@ evaluated](http://www.wpi.edu/Academics/ATC/Collaboratory/Idea/boards.html)
 by one professor can help convey the difference between a good and a
 poor forum conversation:
 
-*4 Points -*The posting(s) integrates multiple viewpoints and weaves
+*4 Points - *The posting(s) integrates multiple viewpoints and weaves
 both class readings and other participants' postings into their
 discussion of the subject.
 
-*3 Points -*The posting(s) builds upon the ideas of another participant
+*3 Points - *The posting(s) builds upon the ideas of another participant
 or two, and digs deeper into the question(s) posed by the instructor.
 
-*2 Points -*A single posting that does not interact with or incorporate
+*2 Points - *A single posting that does not interact with or incorporate
 the ideas of other participants' comments.
 
-*1 Point -*A simple "me too" comment that neither expands the
+*1 Point - *A simple "me too" comment that neither expands the
 conversation nor demonstrates any degree of reflection by the student.
 
-*0 Points -*No comment.
+*0 Points - *No comment.
 
 ### Selecting a forum platform
 

@@ -1,11 +1,16 @@
-Metacognition and mindfulness in peer learning
-----------------------------------------------
+## Metacognition and mindfulness in peer learning
 
 Metacognition and mindfulness have to do with your awareness how how you
-think, talk, participate, and attend to circumstances. It can be
-particularly useful to apply this sort of "meta awareness" as you think
-about the roles that you take on in a given project, the kind of
-contributions you want to make, and what you hope to get out of the
+think, talk, participate, and attend to circumstances.
+
+> **Alan Schoenfeld**: What (exactly) are you doing? Can you describe it
+> precisely? Why are you doing it? How does it fit into the solution?
+> How does it help you? What will you do with the outcome when you
+> obtain it? [1]
+
+It can be particularly useful to apply this sort of "meta awareness" as
+you think about the roles that you take on in a given project, the kind
+of contributions you want to make, and what you hope to get out of the
 experience. These are all likely to change as time passes, so it's good
 to get in the habit of reflection.
 
@@ -41,11 +46,10 @@ useful way?
 
 ![image](http://peeragogy.org/wp-content/uploads/2013/09/sengai-gibon.jpg)
 A famous work in ink by Sengai Gibon (1750–1837)
-
 ### Two theories of motivation
 
 One of the most prominent thinkers working in the field of
-(self-)motivation is Daniel Pink [1], who proposes a theory of
+(self-)motivation is Daniel Pink [2], who proposes a theory of
 motivation based on autonomy, mastery, and purpose, or, more colorfully:
 
 1.  The urge to direct my life
@@ -55,7 +59,7 @@ motivation based on autonomy, mastery, and purpose, or, more colorfully:
 
 There’s clearly a “learning orientation” behind the second point: it’s
 not just a matter of “fun” — the sense of achievement matters. But fun
-remains relevant. Thomas Malone [2] specifically asked “What makes
+remains relevant. Thomas Malone [3] specifically asked “What makes
 things fun to learn?” His proposed framework for building fun learning
 activities is also based on the three ingredients: fantasy, challenge,
 and curiosity.
@@ -72,11 +76,14 @@ part of something bigger than oneself: et cetera. We'll say more about
 these matters in the chapters on
 [Cooperation](http://peeragogy.org/cowork/ "Cooperation").
 
-References
-----------
+## References
 
-1.  Pink, D. (2011), Drive: The Surprising Truth About What Motivates
-    Us, Canongate Books Ltd
-2.  Malone, T.W. (1981), Toward a Theory of Intrinsically Motivating
-    Instruction, Cognitive Science, 4, pp. 333-369
+1.  Schoenfeld, A. H. (1987). What's all the fuss about metacognition?
+    In A. H. Schoenfeld (Ed.), *Cognitive science and mathematics
+    education* (pp. 189-215). Hillsdale, NJ: Lawrence Erlbaum
+    Associates.
+2.  Pink, D. (2011). *Drive: The Surprising Truth About What Motivates
+    Us*, Canongate Books Ltd
+3.  Malone, T.W. (1981). Toward a Theory of Intrinsically Motivating
+    Instruction, *Cognitive Science*, 4, pp. 333-369
 

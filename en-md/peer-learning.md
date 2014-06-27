@@ -18,9 +18,7 @@
 > more effective informal educator.
 
 ![image](http://metameso.org/~joe/peeragogy-in-action.jpg)
-
-The interplay of individual and group
--------------------------------------
+## The interplay of individual and group
 
 “Personal” supports “peer”. We can consciously cultivate living,
 growing, responsive webs of information, support, and inspiration that
@@ -36,8 +34,7 @@ for help and offer our help to others, everybody’s learning escalates.
 Being mindful of effective interpersonal learning patterns is an
 important part of building an effective personal learning plan.
 
-Peer learning through the ages
-------------------------------
+## Peer learning through the ages
 
 As you will have guessed, our new term, peeragogy, is a riff on the word
 pedagogy — the art, science, or profession of teaching. Pedagogy has a
@@ -93,9 +90,7 @@ width="461"][![image](http://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/P
 [Platon Cave Sanraedam
 (1604)](http://commons.wikimedia.org/w/index.php?title=File:Platon_Cave_Sanraedam_1604.jpg&oldid=68567627 "Plato's Allegory of the Cave, Engraving by Jan Sanraedam").
 By Jan Saenredam [Public domain], via Wikimedia Commons[/caption]
-
-From peer learning to peeragogy
--------------------------------
+## From peer learning to peeragogy
 
 The idea that we needed a new theory (which we initially gave the name
 "paragogy" [4]) arose out of the challenges we faced doing peer
@@ -151,8 +146,7 @@ words are actually synonyms. If you want to go into theory-building
 mode, you can spell it “paragogy”. If you want to be a bit more down to
 earth, stick with “peeragogy.”
 
-References
-----------
+## References
 
 1.  Dewey, J. (2004). Democracy and education. Dover Publications.
 2.  Vygotsky, L. S. (1986). Thought and language. MIT press.

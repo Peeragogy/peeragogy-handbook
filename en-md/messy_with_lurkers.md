@@ -1,4 +1,6 @@
-> **Gigi Johnson***:*(1) Co-learning is Messy. It needs time, patience,
+**Definition**:
+
+> **Gigi Johnson**:(1) Co-learning is Messy. It needs time, patience,
 > confusion, re-forming, re-norming, re-storming, etc. Things go awry
 > and part of norms needs to be how to realign. (2) Co-learning is a
 > VERY different experience from traditional teacher-led learning in
@@ -11,40 +13,55 @@
 > traditional class finished, I'd have a hard time getting next
 > quarter's classes approved!
 
-The second point is similar to the earlier Anti-pattern
-“[Misunderstanding Power
-(Laws)](http://socialmediaclassroom.com/host/peeragogy/forum/anti-patterns-concerns-complaints-and-critiques#comment-1854)”.
-People have to join in order to try, and when joining is low-cost, and
-completion low-benefit, it is not surprising that many people will
-"dissipate" as the course progresses. The "messiness" of co-learning is
-interesting because it points to a sort of “internal dissipation", as
-contributors bring their multiple different backgrounds, interests, and
-communication styles to bear.
+**Problem**:
 
-> **Tomlinson et al.**: More authors means more content, but also more
+> **Tomlinson *et al.***: More authors means more content, but also more
 > words thrown away. Many of the words written by authors were deleted
 > during the ongoing editing process. The sheer mass of deleted words
 > might raise the question of whether authoring a paper in such a
-> massively distributed fashion is efficient. [1]
+> massively distributed fashion is efficient.
 
-If we were to describe this situation in traditional subject/object
-terms, we would say that peer production has a "low signal to noise
-ratio". However, it may be more appropriate (and constructive) to think
-of meanings as co-constructed as the process runs, and of messiness (or
-meaninglessness) as symptomatic, not of peer production *itself*, but of
+**Solution**: People have to join in order to try, and when joining is
+low-cost, and completion low-benefit, it is not surprising that many
+people will "dissipate" as the course progresses. The "messiness" of
+co-learning is interesting because it points to a sort of “internal
+dissipation", as contributors bring their multiple different
+backgrounds, interests, and communication styles to bear.
+
+**Challenges**: If we were to describe this situation in the traditional
+subject/object, sender/receiver terms of information theory, we would
+say that peer production has a "low signal to noise ratio", and we would
+tend to think of it as a highly inefficient process. However, it may be
+more appropriate (and constructive) to think of meanings as
+co-constructed as the process runs, and of messiness (or
+meaninglessness) as symptomatic, not of peer production itself, but of
 deficiencies or infelicities in shared meaning-making and "integrating"
 features.
 
-### Reference
+**What’s Next**: What comes out of thinking about the anti-pattern is
+that we need to be careful about how we think about “virtues” in a peer
+production setting. It is not just a question of being a “good
+contributor” to an existing project, but of continually improving the
+methods that this project uses to make meaning.
+
+**References**:
 
 1.  Tomlinson, B., Ross, J., André, P., Baumer, E.P.S., Patterson, D.J.,
     Corneli, J., Mahaux, M., Nobarany, S., Lazzari, M., Penzenstadler,
     B., Torrance, A.W., Callele, D.J., Olson, G.M., Silberman, M.S.,
     Ständer, M., Palamedi, F.R., Salah, A., Morrill, E., Franch, X.,
     Mueller, F., Kaye, J., Black, R.W., Cohn, M.L., Shih, P.C., Brewer,
-    J., Goyal, N., Näkki, P., Huang, J., Baghaei, N., and Saper, C.,
-    [Massively Distributed Authorship of Academic
+    J., Goyal, N., Näkki, P., Huang, J., Baghaei, N., and Saper,
+    C.,[Massively Distributed Authorship of Academic
     Papers](http://altchi.org/submissions/submission_wmt_0.pdf),
-    *Proceedings of Alt.Chi, Austin Texas, May 5–10 2012* (10 page
+    *Proceedings of Alt.Chi*, Austin Texas, May 5–10 2012 (10 page
     extended abstract), ACM, 2012,
+
+2.  Yochai Benkler, and Helen Nissenbaum (2006). "Commons-based Peer
+    Production and Virtue." *Journal of Political Philosophy* 14.4 :
+    394-419.
+
+3.  Paul Kockelman (2010). "Enemies, parasites, and noise: How to take
+    up residence in a system without becoming a term in it" *Journal of
+    Linguistic Anthropology* 20.2: 406-421
 

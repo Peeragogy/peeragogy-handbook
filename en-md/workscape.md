@@ -2,8 +2,7 @@ Cultivating a results-oriented peer-learning program in a corporate
 learning ecosystem involves a few tweaks of the approach and tools we
 discussed in relation to more open, diverse networks.
 
-The Workscape, a platform for learning
---------------------------------------
+## The Workscape, a platform for learning
 
 Formal learning takes place in classrooms; informal learning happens in
 *workscapes.* A workscape is a learning ecology. As the environment of
@@ -31,15 +30,12 @@ corporate citizens live and work by the organization’s values, people
 know the best way to get things done, workers spend more time creating
 value than handling exceptions, and everyone finds their work
 challenging and fulfilling.
-
-The technical infrastructure of the Workscape
----------------------------------------------
+## The technical infrastructure of the Workscape
 
 When an organization is improving its Workscape, looking at consumer
 applications is a good way to think about what’s required. Ask net-savvy
 younger workers how they would like to learn new skills, and they bring
 up the features they enjoy in other services:
-
 -   Personalize my experience and make recommendations, like Amazon.
 -   Make it easy for me to connect with friends, like Facebook.
 -   Keep me in touch with colleagues and associates in other companies,
@@ -74,7 +70,6 @@ Others are not. You can’t afford to replicate Facebook or Google behind
 your firewall. That said, there are lots of applications you can
 implement at reasonable cost. Be skeptical if your collaborative
 infrastructure that doesn’t include these minimal functions:
-
 **Profiles** - for locating and contacting people with the right skills
 and background. Profile should contain photo, position, location, email
 address, expertise (tagged so it’s searchable). IBM’s Blue Pages
@@ -114,8 +109,7 @@ PCs.
 **Social network** - for online conversation, connecting with people,
 and all of the above functions.
 
-Conclusion
-----------
+## Conclusion
 
 Learning used to focus on what was in an individual's head. The
 individual took the test, got the degree, or earned the certificate. The

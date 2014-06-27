@@ -10,7 +10,6 @@ For the moment we consider the following division:
 This section focuses on existing learning contexts and examines in
 detail how they have been "organized" by their (co-)creators. At a
 "meta-level" of media, we can talk about this parallel structure:
-
 -   *Building Co-learning Platforms*
     -   Development trajectories (e.g. "design, implement, test,
         repeat")
@@ -24,7 +23,6 @@ designers" -- as well as for learners -- should be: *what features best
 support learning?*
 
 The answer will depend on the learning task and available resources.
-
 For example, nearly everyone agrees that the best way to learn a foreign
 language is through immersion. But not everyone who wants to learn, say,
 French, can afford to drop everything to go live in a French-speaking
@@ -41,8 +39,8 @@ associated "learning orientation" will also depend on the task and
 resources at hand. The following sections will develop this issue
 further through some specific case studies.
 
-Case study 1 (pilot, completed): "Paragogy" and the After Action Review.
-------------------------------------------------------------------------
+## Case study 1 (pilot, completed): "Paragogy" and the After Action
+Review.
 
 In our analysis of our experiences as course organizers at P2PU, we (Joe
 Corneli and Charlie Danoff) used the US Army's technique of After Action
@@ -55,7 +53,6 @@ paper](http://paragogy.net/ParagogyPaper2) [2]:
 > peers, and examines the operations of the unit as a whole.
 >
 > The four steps in an AAR are:
->
 > 1.  Review what was supposed to happen (training plans).
 > 2.  Establish what happened.
 > 3.  Determine what was right or wrong with what happened.
@@ -84,8 +81,7 @@ re-used in a design/administration/moderation approach [4]. For example,
 we also used the AAR to help structure our writing and subsequent work
 on [paragogy.net](http://paragogy.net).
 
-Case Study 2 (in progress): "Peeragogy".
-----------------------------------------
+## Case Study 2 (in progress): "Peeragogy".
 
 Our particular focus in the interviews was on drawing out and
 emphasizing the relational dimension of students, learning experiences
@@ -101,12 +97,10 @@ Peeragogy community with questions similar to those used by Boud and Lee
 [1] and then identify strengths and shortcomings as we did with the AAR
 above. These questions are derived from the AAR.
 
-Questions
----------
+## Questions
 
 These were discussed, refined, and answered on an etherpad: revisions to
 the original set of questions are marked in italics.
-
 1.  Who have you learned with or from in the Peeragogy project? *What
     are you doing to contribute to your peers' learning?*
 2.  How have you been learning during the project?
@@ -199,8 +193,7 @@ those. Some of the tensions highlighted in the answers are as follows:
     proposed asking questions in a more ongoing fashion, e.g., asking
     people who are leaving: "What made you want to quit the project?"
 
-Discussion
-----------
+## Discussion
 
 > **Lisewski and Joyce**: In recent years, the tools, knowledge base and
 > discourse of the learning technology profession has been bolstered by
@@ -219,7 +212,6 @@ studies and descriptive patterns. As we share our experiences and make
 needed adaptations, our techniques for doing peer learning and peer
 production become more robust. Based on the experiences described above,
 here are a few things people may want to try out in future projects:
-
 -   "Icebreaking" techniques or a "buddy system"; continual refactoring
     into teams.
 -   Maintain a process diagram that can be used to "triage" new ideas
@@ -229,17 +221,44 @@ here are a few things people may want to try out in future projects:
 -   Gathering some information from everyone who joins, and, if
     possible, everyone who leaves.
 
-  ------------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Paragogical Principles...**                                                                                      **Reflections on practice and experience suggest...**
-  1. *Changing context as a decentered center.* We interact by changing the space.                                   1. **Develop empirical studies and a critical apparatus.***It seems we begin with *w*eak ties, and then experience a slow formation of "peer" relationships, as we form and re-form our social context, and come to better understand our goals.*
-  2. *Meta-learning as a font of knowledge.* We interact by changing what we know about ourselves.                   2. **Find companions for the journey**. *We learn a lot about ourselves by interacting with others. But participants struggle to find the right way to engage:* *"co-learning", "co-teaching", or "co-producing"? Moreover, "People come--they stay for a while, they flourish, they build--and they go."*
-  3. *Peers provide feedback that wouldn’t be there otherwise.* We interact by changing our perspective on things.   3. **Work with real users**. *We begin with a weak structure at the outset but this may afford a more "flexible" approach as time goes on (see also this [handbook section](http://peeragogy.org/adding-structure-with-activities/ "Adding structure with activities") which offers advice on designing activities that help create a "flexible structure").*
-  4. *Learning is distributed and nonlinear.* We interact by changing the way things connect.                        4. **Study and build nonlinear interfaces**. *There are a number of technological concerns, which in a large part have to do with tensions between "content production" and "conversation", and to a lesser extent critique the platforms we're using.*
-  5. *Realize the dream if you can, then wake up!* We interact by changing our objectives.                           5. **Limit philosophizing**. E*ven with a small group, we can extract meaningful ideas about peer learning and form a strong collective effort, which moves things forward for those involved: this means work. We would not get the same results through "pure contemplation".*
-  ------------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Paragogical Principles...**
+**Reflections on practice and experience suggest...**
+1. *Changing context as a decentered center.* We interact by changing
+the space.
+1. **Develop empirical studies and a critical apparatus.***It seems we
+begin with *w*eak ties, and then experience a slow formation of "peer"
+relationships, as we form and re-form our social context, and come to
+better understand our goals.*
+2. *Meta-learning as a font of knowledge.* We interact by changing what
+we know about ourselves.
+2. **Find companions for the journey**. *We learn a lot about ourselves
+by interacting with others. But participants struggle to find the right
+way to engage:* *"co-learning", "co-teaching", or "co-producing"?
+Moreover, "People come--they stay for a while, they flourish, they
+build--and they go." *
+3. *Peers provide feedback that wouldn’t be there otherwise.* We
+interact by changing our perspective on things.
+3. **Work with real users**. *We begin with a weak structure at the
+outset but this may afford a more "flexible" approach as time goes on
+(see also this [handbook
+section](http://peeragogy.org/adding-structure-with-activities/ "Adding structure with activities")
+which offers advice on designing activities that help create a "flexible
+structure").*
+4. *Learning is distributed and nonlinear.* We interact by changing the
+way things connect.
+4. **Study and build nonlinear interfaces**. *There are a number of
+technological concerns, which in a large part have to do with tensions
+between "content production" and "conversation", and to a lesser extent
+critique the platforms we're using. *
+5. *Realize the dream if you can, then wake up!* We interact by changing
+our objectives.
+5. **Limit philosophizing**. E*ven with a small group, we can extract
+meaningful ideas about peer learning and form a strong collective
+effort, which moves things forward for those involved: this means work.
+We would not get the same results through "pure contemplation".*
+## 
 
-References
-----------
+## References
 
 1.  Boud, D. and Lee, A. (2005). [‘Peer learning’ as pedagogic discourse
     for research

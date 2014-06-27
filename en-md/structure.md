@@ -32,11 +32,9 @@ While we can't eliminate scarcity in one stroke, we can design
 activities for peer learning that are "scarcity aware" and that help us
 move in the direction of adaptive learning structures.
 
-Planning Peer Learning Activities
----------------------------------
+## Planning Peer Learning Activities
 
 We begin with two simple questions:
-
 -   How do we select an appropriate learning activity?
 -   How do we go about creating a learning activity if we don't find an
     existing one?
@@ -76,7 +74,6 @@ own.
 
 For example, in a mathematics learning context, you would be likely to
 find people...
-
 -   solving textbook-style problems;
 -   finding and sharing new research problems;
 -   asking questions when something seems too difficult;
@@ -103,8 +100,7 @@ able to support the written instructions or exercises with
 live/in-person feedback (e.g. meta-critique to coach and guide novice
 critics, a demonstration, etc.).
 
-One scenario: building activities for the Peeragogy Handbook
-------------------------------------------------------------
+## One scenario: building activities for the Peeragogy Handbook
 
 Adding a bunch of activities to the handbook won't solve all of our
 usability issues, but more activities would help. We can think about
@@ -118,9 +114,8 @@ each article or section from this perspective:
     e.g. [2], [3].)
 4.  What customizations do we need for this particular application?
 
-****As a quick example: designing a learning activity for the current
-page**
-
+*** *As a quick example: designing a learning activity for the current
+page **
 1.  *We want to be able to come up with effective learning activities,
     for instance, to accompany a "how to" article for peer learners*.
     These activities will extend from from the written word to the world
@@ -142,8 +137,7 @@ page**
     own experience, come back and create a related activity to accompany
     another handbook page!
 
-References
-----------
+## References
 
 1.  Bruffee, Kenneth A. (1984). "Collaborative learning and the
     conversation of mankind." *College English* 46.7, 635-652

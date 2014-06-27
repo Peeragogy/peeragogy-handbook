@@ -136,39 +136,39 @@ sed -i.bak s/post_content//g style2.html
 sed -i.bak s/post_content//g meet-the-team2.html
 sed -i.bak s/post_content//g license2.html
 
-pandoc --from=html --to=mediawiki introduction2.html		> introduction.mw
-pandoc --from=html --to=mediawiki howto2.html			> howto.mw
-pandoc --from=html --to=mediawiki peer-learning2.html		> peer-learning.mw
-# pandoc --from=html --to=mediawiki metalearning2.html		> metalearning.mw
-# pandoc --from=html --to=mediawiki plns2.html			> plns.mw
-# pandoc --from=html --to=mediawiki plp2.html			> plp.mw
-# pandoc --from=html --to=mediawiki play2.html			> play.mw
-# pandoc --from=html --to=mediawiki informal_workplace2.html	> informal_workplace.mw
-# pandoc --from=html --to=mediawiki to_peeragogy2.html		> to_peeragogy.mw
-pandoc --from=html --to=mediawiki convening2.html		> convening.mw
-pandoc --from=html --to=mediawiki k122.html		        > k12.mw
-pandoc --from=html --to=mediawiki researching2.html	        > researching.mw
-pandoc --from=html --to=mediawiki organizing2.html	        > organizing.mw
-pandoc --from=html --to=mediawiki structure2.html		> structure.mw
-pandoc --from=html --to=mediawiki student_syllabus2.html	> student_syllabus.mw
-pandoc --from=html --to=mediawiki connectivism2.html		> connectivism.mw
-pandoc --from=html --to=mediawiki participation2.html		> participation.mw
-pandoc --from=html --to=mediawiki workscape2.html		> workscape.mw
-pandoc --from=html --to=mediawiki cofac2.html			> cofac.mw
-pandoc --from=html --to=mediawiki coworking2.html		> coworking.mw
-pandoc --from=html --to=mediawiki designing_a_platform2.html	> designing_a_platform.mw
-pandoc --from=html --to=mediawiki assessment2.html	        > assessment.mw
-pandoc --from=html --to=mediawiki profitability2.html		> profitability.mw
-pandoc --from=html --to=mediawiki patterns2.html		> patterns.mw
-pandoc --from=html --to=mediawiki patterns_heuristics2.html	> patterns_heuristics.mw
-pandoc --from=html --to=mediawiki technologies2.html		> technologies.mw
-pandoc --from=html --to=mediawiki wiki2.html			> wiki.mw
-pandoc --from=html --to=mediawiki realtime2.html		> realtime.mw
-pandoc --from=html --to=mediawiki get-involved2.html		> get-involved.mw
-pandoc --from=html --to=mediawiki action2.html			> action.mw
-pandoc --from=html --to=mediawiki style2.html			> style.mw
-# pandoc --from=html --to=mediawiki meet-the-team2.html		> meet-the-team.mw
-pandoc --from=html --to=mediawiki license2.html			> license.mw
+pandoc --from=html --to=markdown introduction2.html		> introduction.md
+pandoc --from=html --to=markdown howto2.html			> howto.md
+pandoc --from=html --to=markdown peer-learning2.html		> peer-learning.md
+# pandoc --from=html --to=markdown metalearning2.html		> metalearning.md
+# pandoc --from=html --to=markdown plns2.html			> plns.md
+# pandoc --from=html --to=markdown plp2.html			> plp.md
+# pandoc --from=html --to=markdown play2.html			> play.md
+# pandoc --from=html --to=markdown informal_workplace2.html	> informal_workplace.md
+# pandoc --from=html --to=markdown to_peeragogy2.html		> to_peeragogy.md
+pandoc --from=html --to=markdown convening2.html		> convening.md
+pandoc --from=html --to=markdown k122.html		        > k12.md
+pandoc --from=html --to=markdown researching2.html	        > researching.md
+pandoc --from=html --to=markdown organizing2.html	        > organizing.md
+pandoc --from=html --to=markdown structure2.html		> structure.md
+pandoc --from=html --to=markdown student_syllabus2.html	> student_syllabus.md
+pandoc --from=html --to=markdown connectivism2.html		> connectivism.md
+pandoc --from=html --to=markdown participation2.html		> participation.md
+pandoc --from=html --to=markdown workscape2.html		> workscape.md
+pandoc --from=html --to=markdown cofac2.html			> cofac.md
+pandoc --from=html --to=markdown coworking2.html		> coworking.md
+pandoc --from=html --to=markdown designing_a_platform2.html	> designing_a_platform.md
+pandoc --from=html --to=markdown assessment2.html	        > assessment.md
+pandoc --from=html --to=markdown profitability2.html		> profitability.md
+pandoc --from=html --to=markdown patterns2.html		> patterns.md
+pandoc --from=html --to=markdown patterns_heuristics2.html	> patterns_heuristics.md
+pandoc --from=html --to=markdown technologies2.html		> technologies.md
+pandoc --from=html --to=markdown wiki2.html			> wiki.md
+pandoc --from=html --to=markdown realtime2.html		> realtime.md
+pandoc --from=html --to=markdown get-involved2.html		> get-involved.md
+pandoc --from=html --to=markdown action2.html			> action.md
+pandoc --from=html --to=markdown style2.html			> style.md
+# pandoc --from=html --to=markdown meet-the-team2.html		> meet-the-team.md
+pandoc --from=html --to=markdown license2.html			> license.md
 
 
 
@@ -325,40 +325,40 @@ sed -i.bak s/post_content//g strategy_as_learning2.html
 sed -i.bak s/post_content//g we_are2.html
 sed -i.bak s/post_content//g young_aspiring_blogger2.html
 
-pandoc --from=html --to=mediawiki heartbeat2.html                       >  heartbeat.mw
-pandoc --from=html --to=mediawiki carrying_capacity2.html		>  carrying_capacity.mw
-pandoc --from=html --to=mediawiki creating_a_guide2.html		>  creating_a_guide.mw
-pandoc --from=html --to=mediawiki discerning_a_pattern2.html		>  discerning_a_pattern.mw
-pandoc --from=html --to=mediawiki moderation2.html			>  moderation.mw
-pandoc --from=html --to=mediawiki newcomer2.html			>  newcomer.mw
-pandoc --from=html --to=mediawiki pattern_language2.html		>  pattern_language.mw
-pandoc --from=html --to=mediawiki polling_for_ideas2.html		>  polling_for_ideas.mw
-pandoc --from=html --to=mediawiki praxis_vs_poeisis2.html		>  praxis_vs_poeisis.mw
-pandoc --from=html --to=mediawiki roadmap2.html				>  roadmap.mw
-pandoc --from=html --to=mediawiki roles2.html				>  roles.mw
-pandoc --from=html --to=mediawiki wrapper2.html				>  wrapper.mw
-pandoc --from=html --to=mediawiki specific_project2.html		>  specific_project.mw
-pandoc --from=html --to=mediawiki isolation2.html			>  isolation.mw
-pandoc --from=html --to=mediawiki magical_thinking2.html		>  magical_thinking.mw
-pandoc --from=html --to=mediawiki messy_with_lurkers2.html		>  messy_with_lurkers.mw
-pandoc --from=html --to=mediawiki misunderstanding_power2.html		>  misunderstanding_power.mw
-pandoc --from=html --to=mediawiki navel_gazing2.html			>  navel_gazing.mw
-pandoc --from=html --to=mediawiki stasis2.html				>  stasis.mw
-pandoc --from=html --to=mediawiki stuck2.html				>  stuck.mw
-pandoc --from=html --to=mediawiki from_peer_production2.html		>  from_peer_production.mw
-pandoc --from=html --to=mediawiki cest_la_vie2.html			>  cest_la_vie.mw
-pandoc --from=html --to=mediawiki distributed_project_management2.html  >  distributed_project_management.mw
-pandoc --from=html --to=mediawiki improved_adaptivity2.html		>  improved_adaptivity.mw
-pandoc --from=html --to=mediawiki research_funding2.html		>  research_funding.mw
-pandoc --from=html --to=mediawiki whispering_gallery2.html		>  whispering_gallery.mw
-pandoc --from=html --to=mediawiki living_the_oer_dream2.html		>  living_the_oer_dream.mw
-pandoc --from=html --to=mediawiki making_our_own_tools2.html		>  making_our_own_tools.mw
-pandoc --from=html --to=mediawiki paragogy2.html			>  paragogy.mw
-pandoc --from=html --to=mediawiki technical_edge2.html			>  technical_edge.mw
-pandoc --from=html --to=mediawiki prolegomena2.html		        >  prolegomena.mw
-pandoc --from=html --to=mediawiki peeragogy_helps2.html			>  peeragogy_helps.mw
-pandoc --from=html --to=mediawiki starting_a_company2.html		>  starting_a_company.mw
-pandoc --from=html --to=mediawiki steal_this_book2.html			>  steal_this_book.mw
-pandoc --from=html --to=mediawiki strategy_as_learning2.html		>  strategy_as_learning.mw
-pandoc --from=html --to=mediawiki we_are2.html				>  we_are.mw
-pandoc --from=html --to=mediawiki young_aspiring_blogger2.html          >  young_aspiring_blogger.mw
+pandoc --from=html --to=markdown heartbeat2.html                       >  heartbeat.md
+pandoc --from=html --to=markdown carrying_capacity2.html		>  carrying_capacity.md
+pandoc --from=html --to=markdown creating_a_guide2.html		>  creating_a_guide.md
+pandoc --from=html --to=markdown discerning_a_pattern2.html		>  discerning_a_pattern.md
+pandoc --from=html --to=markdown moderation2.html			>  moderation.md
+pandoc --from=html --to=markdown newcomer2.html			>  newcomer.md
+pandoc --from=html --to=markdown pattern_language2.html		>  pattern_language.md
+pandoc --from=html --to=markdown polling_for_ideas2.html		>  polling_for_ideas.md
+pandoc --from=html --to=markdown praxis_vs_poeisis2.html		>  praxis_vs_poeisis.md
+pandoc --from=html --to=markdown roadmap2.html				>  roadmap.md
+pandoc --from=html --to=markdown roles2.html				>  roles.md
+pandoc --from=html --to=markdown wrapper2.html				>  wrapper.md
+pandoc --from=html --to=markdown specific_project2.html		>  specific_project.md
+pandoc --from=html --to=markdown isolation2.html			>  isolation.md
+pandoc --from=html --to=markdown magical_thinking2.html		>  magical_thinking.md
+pandoc --from=html --to=markdown messy_with_lurkers2.html		>  messy_with_lurkers.md
+pandoc --from=html --to=markdown misunderstanding_power2.html		>  misunderstanding_power.md
+pandoc --from=html --to=markdown navel_gazing2.html			>  navel_gazing.md
+pandoc --from=html --to=markdown stasis2.html				>  stasis.md
+pandoc --from=html --to=markdown stuck2.html				>  stuck.md
+pandoc --from=html --to=markdown from_peer_production2.html		>  from_peer_production.md
+pandoc --from=html --to=markdown cest_la_vie2.html			>  cest_la_vie.md
+pandoc --from=html --to=markdown distributed_project_management2.html  >  distributed_project_management.md
+pandoc --from=html --to=markdown improved_adaptivity2.html		>  improved_adaptivity.md
+pandoc --from=html --to=markdown research_funding2.html		>  research_funding.md
+pandoc --from=html --to=markdown whispering_gallery2.html		>  whispering_gallery.md
+pandoc --from=html --to=markdown living_the_oer_dream2.html		>  living_the_oer_dream.md
+pandoc --from=html --to=markdown making_our_own_tools2.html		>  making_our_own_tools.md
+pandoc --from=html --to=markdown paragogy2.html			>  paragogy.md
+pandoc --from=html --to=markdown technical_edge2.html			>  technical_edge.md
+pandoc --from=html --to=markdown prolegomena2.html		        >  prolegomena.md
+pandoc --from=html --to=markdown peeragogy_helps2.html			>  peeragogy_helps.md
+pandoc --from=html --to=markdown starting_a_company2.html		>  starting_a_company.md
+pandoc --from=html --to=markdown steal_this_book2.html			>  steal_this_book.md
+pandoc --from=html --to=markdown strategy_as_learning2.html		>  strategy_as_learning.md
+pandoc --from=html --to=markdown we_are2.html				>  we_are.md
+pandoc --from=html --to=markdown young_aspiring_blogger2.html          >  young_aspiring_blogger.md

@@ -45,8 +45,7 @@ lower cut-off in order to talk about 'massive':
 > people begin to be selective about which blogs they're reading, and
 > different (and interacting) subcommunities can form.
 
-A learning theory for the digital age
--------------------------------------
+## A learning theory for the digital age
 
 Traditionally, scholars distinguish between three main [categories of
 learning
@@ -95,8 +94,7 @@ up on *all* the content).
 > modeling and demonstration (on the part of a teacher) and practice and
 > reflection (on the part of a learner).
 
-Anatomy of a cMOOC
-------------------
+## Anatomy of a cMOOC
 
 One example of a MOOC that claims to embody the connectivist theory is
 [change.mooc.ca](http://change.mooc.ca/index.html). The “[how it
@@ -189,8 +187,7 @@ rules about privacy should be dealt with: what will be the status of the
 contributions? In this MOOC the status is public and open by default,
 for Downes this is an important element of the course.
 
-Technologies
-------------
+## Technologies
 
 Some MOOCs use Moodle, but Downes dislikes the centralization aspect and
 it's not as open as it could be, saying "people feel better writing in
@@ -200,8 +197,7 @@ mixtures of the many tools out there. People choose their environment -
 whether it is WoW or Minecraft. Students use Blogger, WordPress, Tumblr,
 Posterous as blogging tools.
 
-RSS harvesting is a key element
--------------------------------
+## RSS harvesting is a key element
 
 Give participants a means to contribute their blogfeed. In “[Add a New
 Feed](http://change.mooc.ca/new_feed.htm),” Downes explains how to get
@@ -266,8 +262,7 @@ Online Course](http://www.downes.ca/presentation/290) by Stephen Downes,
 in which he focuses on research and survey issues, preparing events, and
 other essentials.
 
-Resources
----------
+## Resources
 
 -   Change MOOC: [How this Course Works](http://change.mooc.ca/how.htm)
 -   [What is a MOOC](http://www.youtube.com/watch?v=eW3gMGqcZQc) (video)

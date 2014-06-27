@@ -1,5 +1,4 @@
 Authors: Gigi Johnson and Joe Corneli
-
 > So you've decided you want to try peer learning? Maybe you've already
 > found a few people who will support you in this effort.
 > Congratulations! It's time now to focus your thinking. How will you
@@ -17,8 +16,7 @@ Authors: Gigi Johnson and Joe Corneli
 > ability to enhance and improve the share of each participant; the
 > expectation of success and potential benefit."
 
-Group identity
---------------
+## Group identity
 
 Note that there are many groups that may not need to be “convened",
 since they already exist. There is a good story from [A. T.
@@ -33,8 +31,7 @@ kicking off a project. What steps should you take? We suggest you take a
 moment to ponder the following questions first - and revisit them
 afterward, as a way to identify best practices for the next effort.
 
-There will be a quiz
---------------------
+## There will be a quiz
 
 Those taking the initiative should ask themselves the traditional Who,
 What, Where, When, Why, and How. ([Simon
@@ -53,12 +50,9 @@ its positive outcomes.
 width="300"]![Kipling](http://metameso.org/~joe/kipling.jpg) Engraving
 of Rudyard Kipling (1865-1936). "I keep six honest serving-men (They
 taught me all I knew)"[/caption]
-
-Expectations for participants
------------------------------
+## Expectations for participants
 
 **1. Who: Roles and flux**
-
 -   What are some of the roles that people are likely to fall into (e.g.
     Newcomer, Wrapper, Lurker, Aggregator, etc.)?
 -   How likely is it that participants will stick with the project? If
@@ -71,7 +65,6 @@ Expectations for participants
     support that? If not, how will people stay focused?
 
 **2. What: Nature of the project**
-
 -   What skills are required? What skills are you trying to build?
 -   What kinds of change will participants undergo? Will they be heading
     into new ground? Changing their minds about something? Learning
@@ -83,7 +76,6 @@ Expectations for participants
     given.
 
 **3. When: Time management**
-
 -   What do you expect the group to do, from the moment it convenes, to
     the end of its life-span, to create the specific outcome that will
     exist at the conclusion of its last meeting? (C. Gersick.) Note that
@@ -105,8 +97,7 @@ Expectations for participants
 -   Does everyone need to participate equally? How might non-equal
     participation play out for participants down the line?
 
-**4. Where: Journey vs Destination**
-
+**4. Where: Journey vs Destination **
 -   What structures will support participants in their journey to the
     end result(s) you (or they) have envisioned? What content can you
     use to flesh out this structure?
@@ -114,7 +105,6 @@ Expectations for participants
     or needs as participants learn, discover, and progress?
 
 **5. Why: Tool/platform choice**
-
 -   What tools are particularly suited to this group? Consider such
     features as learning styles and experiences, geographical diversity,
     the need for centralization (or de-centralization), cultural
@@ -130,7 +120,6 @@ Expectations for participants
     expansion?
 
 **6. How: Linearity vs Messiness**
-
 -   How will your group manage feedback in a constructive way?
 -   Why might participants feel motivated to give feedback?
 -   How firm and extensive are the social contracts for this group? Do
@@ -144,8 +133,7 @@ Expectations for participants
     (Alternatively, if the project is mostly distributed, do you have
     any facilities in place for coming together as a group?)
 
-Cycles of group development
----------------------------
+## Cycles of group development
 
 The above questions remain important thoughout the life of the project.
 People may come and go, particpants may propose fundamentally new
@@ -154,7 +142,7 @@ vice-versa. The questions we suggest can be most effective if your group
 discusses them over time, as part of its workflow, using synchronous
 online meetings (e.g., [Big Blue Button](http://www.bigbluebutton.org/),
 [Adobe
-Connect](http://success.adobe.com/en/na/sem/products/connect/1109_6011_connect_webinars.html?sdid=IEASO&skwcid=TC|22191|adobe%20connect||S|e|5894715262),
+Connect](http://success.adobe.com/en/na/sem/products/connect/1109_6011_connect_webinars.html?sdid=IEASO&skwcid=TC%7C22191%7Cadobe%20connect%7C%7CS%7Ce%7C5894715262),
 [Blackboard
 Collaborate](http://www.blackboard.com/platforms/collaborate/overview.aspx)),
 forums, Google docs, wikis, and/or email lists. Regular meetings are one
@@ -181,8 +169,7 @@ milestones from the previous section!). Nevertheless, there are some
 strategies can be used to make this conflict productive, rather than
 merely destructive (see Ozturk and Simsek [3]).
 
-References
-----------
+## References
 
 1.  Engeström, Y. (1999). Innovative learning in work teams: Analyzing
     cycles of knowledge creation in practice. In Y. Engeström, R.
@@ -193,8 +180,8 @@ References
     (Oct.): 9-41.
 3.  Ozturk and Simsek, "Of Conflict in Virtual Learning Communiities in
     the Context of a Democratic Pedagogy: A paradox or sophism?," in
-    *Proceedings of the Networked Learning Conference, 2012,
-    Maastricht.*[Video](http://www.lancaster.ac.uk/fass/edres/seminars/Ozturk300311.htm "Video of presentation (requires Flash)")
+    *Proceedings of the Networked Learning Conference, 2012, Maastricht.
+    *[Video](http://www.lancaster.ac.uk/fass/edres/seminars/Ozturk300311.htm "Video of presentation (requires Flash)")
     or
     [text.](http://networkedlearningconference.org.uk/abstracts/pdf/ozturk.pdf "PDF of presentation (requires pdf reader)")
 

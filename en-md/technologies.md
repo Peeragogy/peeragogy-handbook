@@ -27,7 +27,6 @@ current lives. Do we have time for three more tools in our busy days? Do
 more tools help -- or do they interfere with our work?
 
 In this section, we'll share with you a few issues:
-
 -   What technologies are most useful in peer learning? What do we use
     them for? What features or functions help our co-learning process?
 
@@ -48,9 +47,7 @@ them, will change as the co-learning project moves along. Technologies
 themselves tend to change rapidly. Are you willing to change tools
 during the project as your needs and users change, or do you plan to use
 a given tool set from the beginning to the end of your project?
-
-Features and Considerations
----------------------------
+## Features and Considerations
 
 We will begin below with a discussions of "features" and initial
 considerations, and then move to a broader "Choose Your Own
@@ -112,7 +109,6 @@ comfortable. Members can be co-teachers to each other -- as we have have
 -- in new platforms. What *type of tools*, based on the features that we
 need, shall we start out with? Resnick *at al.* [6] looked at tools
 having:
-
 -   Low thresholds (easy to get people started)
 -   Wide walls (able to bring in lots of different situations and uses)
     and
@@ -147,7 +143,6 @@ axes:
 
 Each will link to pages that will prompt you with features,
 functionality, and technology tool ideas.
-
 ### Time/Place
 
 We can further break down tools into whether they create or distribute,
@@ -161,45 +156,38 @@ both ways. We seem to be considering here mostly tools good for group
 work, but not for solo, while many others are much easier solo or in
 smaller groups.
 
-  ------------------------------ ------------------------------------------------------------------- ---------------------------------------------------------------------------------------
-                                 ****Same Time (Synchronous)****                                     **Different Time (Asyncronous)**
-  **Same Place (Co-located)**    **Face-to Face**: Display-focused (e.g., Smartboards)               **Continuous Task**: Groupware, project management
-  **Different Place (Remote)**   **Remote Interaction**: Videoconference, IM, Chat, Virtual Worlds   **Communication & Coordination**: Email, bulletin boards, Wikis, blog, workflow tools
-  ------------------------------ ------------------------------------------------------------------- ---------------------------------------------------------------------------------------
-
+****Same Time (Synchronous)****
+**Different Time (Asyncronous)**
+**Same Place (Co-located)**
+**Face-to Face**: Display-focused (e.g., Smartboards)
+**Continuous Task**: Groupware, project management
+**Different Place (Remote)**
+**Remote Interaction**: Videoconference, IM, Chat, Virtual Worlds
+**Communication & Coordination**: Email, bulletin boards, Wikis, blog,
+workflow tools
 Some tools are synchronous, such as Google+ Hangouts, Blackboard
 Collaborate, and Adobe Connect, while others let us work asynchronously,
 such as wikis, forums, and Google Docs. We seem to be considering here
 mostly tools good for group work, but not for solo, while many others
 are much easier solo or in smaller groups.
-
 ### Stages of Activities and Tasks
 
 Ben Shneiderman [5] has simplified the abundant models in this area
 (e.g., Couger and Cave) with a clear model of 4 general activities and 8
 tasks in creation for individuals, which we can lean on as another
 framework for co-creation in co-learning.
+## Collect
 
-Collect
--------
+## Relate
 
-Relate
-------
+## Create
 
-Create
-------
-
-Distribute
-----------
+## Distribute
 
 Searching Visualizing
-
 Consulting Others
-
 Thinking Exploring Composing Reviewing
-
 Disseminating
-
 Tools and functions won't be clear cut between areas. For example, some
 tools are more focused on being generative, or for creating content.
 Wikis, Etherpad, Google docs, and others usually have a commenting/talk
@@ -214,7 +202,6 @@ forums, etc.
 Given that we are exploring learning, we can look to Bloom's Taxonomy
 (revised, see [9]) for guidance as to how we can look at knowledge
 support. Starting at the bottom, we have:
-
 -   Remembering, as a base;
 
 -   Understanding,
@@ -282,8 +269,7 @@ linked toolset with multiple tags, hopefully making it easier for you to
 evaluate which tool suits best the necessities of the group. Please
 consider this a starting point for your own connected exploration.
 
-Appendix: Features and Functions
---------------------------------
+## Appendix: Features and Functions
 
 Weaving all of these frameworks together, we have brought together a
 shared taxonomy for us to discuss and think about co-learning technology
@@ -293,14 +279,11 @@ framework for the linked resource guide. For convenience and to help
 keep it up to date, we're publishing this resource [on Google
 Docs](http://goo.gl/H02fMA). We present an overview below.
 
-Activities & Tasks
-------------------
+## Activities & Tasks
 
-Features/Functions
-------------------
+## Features/Functions
 
 **Planning/Designing**
-
 -   Communicating
 -   Deciding and Creating Alternatives
 
@@ -313,7 +296,6 @@ Features/Functions
 -   Visualizing
 
 **Collect/Share**
-
 -   Searching
 -   Visualizing
 
@@ -328,14 +310,12 @@ Features/Functions
 -   Surveys and Questionnaires
 
 **Relate**
-
 -   Consulting Others from the Outside
 
 -   Qualitative research
 -   Quantitative research
 
 **Communication**
-
 -   Connecting with Others in the Group
 
 -   Project Planning - Scheduling
@@ -346,7 +326,6 @@ Features/Functions
 -   Presentation and Document Sharing
 
 **Co-Create**
-
 -   Thinking (Free Association)
 -   Exploring
 -   Composing
@@ -358,7 +337,6 @@ Features/Functions
     data visualization)
 
 **Distribute/Action**
-
 -   Disseminating
 
 -   Publishing Platforms (traditional publishing, social media/sharing
@@ -366,7 +344,6 @@ Features/Functions
 -   Visualization (for presentation)
 
 **Feedback**
-
 -   Listening
 
 -   Social Monitoring

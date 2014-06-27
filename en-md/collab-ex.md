@@ -1,5 +1,4 @@
-Part I.
-=======
+# Part I.
 
 *by*: Peter Taylor Collaborative Exploration invites participants to
 shape their own directions of inquiry and develop their skills as
@@ -13,9 +12,7 @@ Collaborative Explorations as well as ideas and questions about how to
 make sense of what happens in them. A companion entry conveys one
 participant’s experience with several Collaborative Explorations
 (hereafter, “CE”).
-
-Overview and contrast to cMOOCs
--------------------------------
+## Overview and contrast to cMOOCs
 
 The tangible goal of any CE is to develop contributions to the topic
 defined by the “case”, which is written by the host or originator of the
@@ -55,7 +52,6 @@ fraction will complete it, while CE best practices focus on establishing
 effective learning in small online communities, and then potentially
 scale up from there by multiplying out. CEs aim to address the needs of
 online learners who want to:
-
 -   dig deeper, make “thicker” connections with other learners
 -   connect topics with their own interests
 -   participate for short periods of time
@@ -68,7 +64,6 @@ contents is less common. By contrast, CEs are structured to elicit
 participants’ thoughtful reflections and syntheses. The use of the
 internet for CEs, in contrast, is guided by two principles of online
 education (Taylor 2007).
-
 -   Use computers first and foremost to teach or learn things that are
     difficult to teach or learn with pedagogical approaches that are not
     based on computers
@@ -81,11 +76,10 @@ evolving guides to materials and resources. At the same time,
 participants benefit from the support of instructors/facilitators and
 peers who they can trust, and integrate what they learn with their own
 personal, pedagogical, and professional development.
+## Example scenarios or “cases”
 
-Example scenarios or “cases”
-----------------------------
-
-### Connectivist MOOCs: Learning and collaboration, possibilities and limitations
+### Connectivist MOOCs: Learning and collaboration, possibilities and
+limitations
 
 The core faculty member of a graduate program at a public urban
 university wants help as they decide how to contribute to efforts at the
@@ -99,8 +93,8 @@ is just how learning works in cMOOCs. What are the possibilities and
 limitations of this educational strategy? How do they bear on themes
 like creativity, community, collaboration, and openness? The program is
 especially interested in anticipating any undesirable consequences...
-
-### Science and policy that would improve responses to extreme climatic events
+### Science and policy that would improve responses to extreme climatic
+events
 
 Recent and historical climate-related events shed light on the social
 impact of emergency plans, investment in and maintenance of
@@ -115,9 +109,7 @@ budget, organization, and so on. It should even be possible to engage
 people who do not buy into the idea of human-induced climate
 change—after all, whatever the cause, extreme climatic events have to be
 dealt with....
-
-The structure
--------------
+## The structure
 
 Independent of the topic, we’ve found the following common structure
 useful for our online CEs. *Before the first live session*: Participants
@@ -150,13 +142,10 @@ and to the experiential goal, as well as (b) how to extend what has
 emerged during the CE. *After session 4 (optional)*: Participants share
 on a public Google+ community not only the products they have prepared,
 but also reflections on the Collaborative Exploration process.
-
-How to make sense of what happens in CEs
-----------------------------------------
+## How to make sense of what happens in CEs
 
 (Re-)engagement with oneself as an avid learner and inquirer in CEs is
 made possible by the combination of:
-
 -   Processes and tools used for inquiry, dialogue, reflection, and
     collaboration;
 -   Connections made among the diverse participants who bring to bear
@@ -173,16 +162,12 @@ support inquiries of others; other practices of critical intellectual
 exchange and cooperation; and that they will be more prepared to
 challenge the barriers to learning that are often associated with
 expertise, location, time, gender, race, class, or age.
-
-Acknowledgements
-----------------
+## Acknowledgements
 
 The comments of Jeremy Szteiter and the contributions of the
 participants of the 2013 Collaborative Explorations have helped in the
 preparation of this article.
-
-Part II.
-========
+# Part II.
 
 *by*: Teryl Cartwright As a May graduate of the Master’s program in
 Critical and Creative Thinking (CCT) at UMass Boston, I owe my gratitude
@@ -191,9 +176,7 @@ informally continue my education less than a month later. It is a
 tribute to them that I would then take four consecutive CEs without
 stopping. They can best share how to run a CE, but as a “student,” it is
 how to creatively take a CE that inspires what I’d like to share.
-
-June 2013 CE: Scaffolding Creative Learning
--------------------------------------------
+## June 2013 CE: Scaffolding Creative Learning
 
 I was grateful participants took the time to post links and ideas to
 support my inquiries, yet something else intrigued me about the
@@ -205,9 +188,7 @@ back my learning too, so I combined the ideas of all the participants,
 adapted and taught a lesson outside the CE and then shared the results.
 From this jumping into someone else’s scaffolding, I went into even more
 experimental learning in the next CE.
-
-July 2013 CE: Design in Critical Thinking
------------------------------------------
+## July 2013 CE: Design in Critical Thinking
 
 In a second CE, I took the title literally and developed a design IN
 critical thinking. To try out my triangle tangent thinking model, during
@@ -221,9 +202,7 @@ triangle drawing works as a lesson plan; the class took the tangent, but
 surprisingly, I wasn’t just relegated to moderator, it became a true
 co-facilitation,a model of change at the midpoint for both the
 individual and community in the choices and direction.
-
-September 2013 CE: Everyone Can Think Creatively
-------------------------------------------------
+## September 2013 CE: Everyone Can Think Creatively
 
 This CE had to be commended for its participants humoring my project and
 allowing the exploration of testing a CE itself. Was it possible to be a
@@ -238,9 +217,7 @@ would have been easy for them to ignore my continued posting, yet the
 community of a CE cannot be praised enough. They were supportive of me
 and finding academic colleagues who have a sense of humor is mercifully
 not novel, but extremely useful in this experience.
-
-October 2013 CE: Stories to Scaffold Creative Learning
-------------------------------------------------------
+## October 2013 CE: Stories to Scaffold Creative Learning
 
 In this CE I gave myself the challenge of indirect teaching. Could I be
 a story “shower”, not teller? I took concepts important to me about
@@ -262,18 +239,14 @@ the intense focus together on a topic. Yet seeing where the
 participant-directed ‘design as you go’ curriculum ends up is worth
 investing in and sharing with others. After all, there are many other
 ways still out there to try out CEs.
-
-Postscript
-----------
+## Postscript
 
 I also ran a CE for the Susquehanna Conference of the UMC for 10 days,
 working with a group of professionals exploring a call into ordained
 ministry. Going in cold, I had to work harder to do community building
 without the Google hangout meetings and recommend their inclusion to
 increase the comfort level and participation of the group members.
-
-Resources
----------
+## Resources
 
 Further examples of CE scenarios can be viewed at
 [http://cct.wikispaces.com/CEt](http://cct.wikispaces.com/CEt).
@@ -281,9 +254,7 @@ Recommended readings below convey some of the sources for the CE
 processes. Ideas about possible extensions of CEs can be viewed in the
 full prospectus at
 [http://cct.wikispaces.com/CEp](http://cct.wikispaces.com/CEp).
-
-References
-----------
+## References
 
 1.  Morrison, D. (2013). “[A tale of two MOOCs @ Coursera: Divided by
     pedagogy](http://bit.ly/164uqkJ)”.
@@ -294,8 +265,7 @@ References
 3.  Taylor, P. J. (2013). “[Supporting change in creative
     learning](http://wp.me/p1gwfa-vv)”.
 
-Recommended Reading
--------------------
+## Recommended Reading
 
 1.  Paley, V. G. (1997). The Girl with the Brown Crayon. Cambridge, MA,
     Harvard University Press.

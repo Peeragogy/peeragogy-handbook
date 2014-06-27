@@ -1,5 +1,4 @@
 Author: Jan Herder
-
 > From this conversational piece you can engage in a journey to affect
 > your learning space through many points of entry interacting with the
 > physical one. We hope to inspire emerging structure and reciprocal
@@ -10,13 +9,10 @@ Author: Jan Herder
 width="540"][![image](https://lh6.googleusercontent.com/m119p5TEeC2AwVv3rcDRLscSjbCQX1HE0iarrlEuYxYJVvqmSjinIHzMVtlwGOMfZNc8qHbQYsYdtOqkF6pjl-ts3WHUFu4NXyguaDsJTVqTWeFnT2mTH02w6A)](https://lh6.googleusercontent.com/m119p5TEeC2AwVv3rcDRLscSjbCQX1HE0iarrlEuYxYJVvqmSjinIHzMVtlwGOMfZNc8qHbQYsYdtOqkF6pjl-ts3WHUFu4NXyguaDsJTVqTWeFnT2mTH02w6A)
 A visualization of the facilitated peer to peer SOLE (Self-Organized
 Learning Environment) [/caption]
-
-The Guiding Strategy:
----------------------
+## The Guiding Strategy:
 
 In his [Peeragogical Case
 Study](http://peeragogy.org/case-study-5ph1nx/) David Preston states:
-
 > Peeragogical interaction requires refining relational and topical
 > critique, as well as skills in other “meta” literacies, including but
 > not limited to critical thinking, collaboration, conflict resolution,
@@ -61,9 +57,7 @@ considered as the learners participating. As a learning designer, I am
 also seeking more clues about the living structure of a well crafted
 SOLE.
 [![image](https://lh6.googleusercontent.com/UMoSK0Qr2zeCPdjVLvceq9_jj9XcVKQcbNGL5r99e9DkZTZ3S6e6NEfx1NHXpH9MNAPxiUIoVU1lhqqS9hnm_g_8Sc2-FfzS8O2-LRhBR0copHWApHVF9LFi0w)](https://lh6.googleusercontent.com/UMoSK0Qr2zeCPdjVLvceq9_jj9XcVKQcbNGL5r99e9DkZTZ3S6e6NEfx1NHXpH9MNAPxiUIoVU1lhqqS9hnm_g_8Sc2-FfzS8O2-LRhBR0copHWApHVF9LFi0w)
-
-Centers within the Center
--------------------------
+## Centers within the Center
 
 SOLEs exist in a particular context. Take Sugata’s [hole in the
 wall](http://www.ted.com/talks/sugata_mitra_shows_how_kids_teach_themselves.html)
@@ -282,9 +276,27 @@ SOLE provides. As facilitator and designer, you are, most of all, in a
 reciprocal relationship with the other learners. This is the essence of
 being a peer, an interaction that respects what each of us brings to the
 experience.
+## A Review
 
-References
-----------
+> **Sugata Mitra**: It is great to see the thinking that has gone into
+> taking the idea of a SOLE forward. To my mind, SOLEs are quite
+> experimental at this time and efforts such as these will provide
+> invaluable data. I look forward to this. I notice that most of the
+> important design features of a SOLE are incorporated into the article.
+> I repeat them anyway, just to emphasise: 1. Large, publicly visible
+> displays are very important, this is what resulted in the surprising
+> results in the hole in the wall experiments and subsequent SOLEs for
+> children in England and elsewhere. 2. The absence of unnecessary
+> people in the learning space, no matter who they are; parents,
+> teachers, principals, curious adults etc. 3. Free, undirected
+> activity, conversation and movement. 4. A certain lack of order: I
+> must emphasise that ‘Self Organised’, the way I use it does not mean
+> ‘organising of the self’. Instead it has a special meaning from the
+> subject, Self Organising Systems, a part of Chaos Theory. The SOLE
+> should be a space at the ‘edge of chaos’, thereby increasing the
+> probability of the appearance of ‘emergent order’.
+
+## References
 
 1.  [Case Study:
     5PH1NX](http://peeragogy.org/case-study-5ph1nx/ "Peeragogy Case Study: 5PH1NX ")

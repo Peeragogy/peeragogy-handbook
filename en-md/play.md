@@ -67,7 +67,6 @@ game-based learning and peer learning. Classic strategy games like
 also provide clear examples of peer learning practices: the question is
 partly, what skills and mindsets do our game-related practices really
 teach?
-
 > **Socrates**: "No compulsory learning can remain in the soul . . . ln
 > teaching children, train them by a kind of game, and you will be able
 > to see more clearly the natural bent of each." (quoted by Thomas
@@ -88,8 +87,7 @@ teach?
     with a group of people online and performing theatrical performances
     on a shared topic that are recorded.
 
-References
-----------
+## References
 
 1.  Gee, J. P. (1992). *The social mind: Language, ideology, and social
     practice*. Series in language and ideology. New York: Bergin &
