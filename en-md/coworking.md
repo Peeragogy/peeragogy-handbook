@@ -1,5 +1,4 @@
 Author: Joe Corneli
-
 > The word "learning" does not adequately capture what it means to
 > figure out the “*for what purpose or reason*” dimension that is
 > essential for a peeragogical endeavor. Interpersonal exchange and
@@ -10,8 +9,7 @@ Author: Joe Corneli
 > of thinking about how to do co-design when build systems for peer
 > learning and peer production.
 
-Co-working as the flip side of convening
-----------------------------------------
+## Co-working as the flip side of convening
 
 > **Linus Torvalds**: The first mistake is thinking that you can throw
 > things out there and ask people to help. That's not how it works. You
@@ -45,9 +43,7 @@ people...and in fact the most active 2%, which is 1400 people, have done
 communities.
 
 ![image](http://metameso.org/~joe/tom-sawyer.jpg)
-
-A little theory
----------------
+## A little theory
 
 In many natural systems, things are not distributed equally, and it is
 not atypical for e.g. 20% of the population to control 80% of the wealth
@@ -90,8 +86,7 @@ institutions and governments; we could contrast Aaron Swartz, the
 individual, with the peer-to-peer infrastructures like the ones that run
 PirateBay, which have proved much harder to stop.
 
-Co-working: what is an institution?
------------------------------------
+## Co-working: what is an institution?
 
 As idealists, we would love to be able to create systems that are both
 powerful and humane. Some may reflect with a type of sentimental
@@ -102,7 +97,6 @@ languages, for example, are so expressive and adaptive that most
 sentences have never been said before. A well-articulated system lends
 itself to "local solutions to local problems" -- but in the linguistics
 case, this is only because all words are not created equal.
-
 > **Dr Seuss**: My brothers read a little bit. Little words like 'If'
 > and 'It.' My father can read big words, too, Like CONSTANTINOPLE and
 > TIMBUKTU.
@@ -115,8 +109,7 @@ from Aaron Swartz. But we will not get so deeply into that here: you can
 explore it on your own! For now, it is enough to say that an institution
 is a bit like a language. This will help us a lot in the next section.
 
-Designing a platform for peer learning**
-----------------------------------------
+## Designing a platform for peer learning* *
 
 > [PlanetMath](planetmath.org "PlanetMath.org") *is a virtual community
 > which aims to help make mathematical knowledge more accessible.*
@@ -169,7 +162,6 @@ would be helpful to think of every object as being part of at least one
 project: everything should have someone looking after it! Importantly,
 getting back to the very beginning of this article, each project can
 define its own purpose for existing. Here's how I put it in my thesis:
-
 > *Actions and artifacts are embedded with projects, which can be
 > modeled in terms of informal user experience and formal system
 > features. Project updates can be modeled with a language of
@@ -184,9 +176,7 @@ extended further, and I hope this will happen in further study. In
 particular, we need to understand more about how the "sub-language" of
 project updates (which connects to our
 [Roadmap](http://peeragogy.org/practice/roadmap/ "Roadmap") pattern).
-
-Another way to think about things
----------------------------------
+## Another way to think about things
 
 The five categories I used above (Context, Engagement, Quality,
 Structure, and Heuristic) come from reflecting on the 5 paragogy
@@ -202,20 +192,17 @@ why Nowak's work is so essential is that we already have theories of
 local collaboration (like Ostrom's, mentioned above): his five rules can
 act as "glue" that bring different local entities together. I hope you
 can use these ideas in your own design projects!
-
 > *In a "kin selection" regime, we cooperate with whomever (or whatever)
 > is "related".*
 
 On PlanetMath, the most important senses of "relatedness" apply to
 elements of the subject domain: encyclopedia pages are linked together
 if the topics relate.
-
 > *In a "direct reciprocity" regime, we help those who help us.*
 
 One of the key legacy features of PlanetMath is that every object in the
 system is "discussable." This is the most easily graspable sort of peer
 interaction, direct feedback, starting a conversation.
-
 > *In an "indirect reciprocity" regime, we are building something that
 > may be useful later on -- like a good reputation.*
 
@@ -223,7 +210,6 @@ An important legacy feature of PlanetMath is that, unlike Wikipedia,
 articles are not generally open to the public to edit: high-quality
 resources "emerge" from the mediated engagement of individuals in a peer
 review process.
-
 > *In a "spatial selection" regime, we are again defining an "inside"
 > and "outside."*
 
@@ -231,19 +217,17 @@ With the new system, we see that "an article without an attached
 problem" is not as practical as an article that has an attached problem;
 similarly, "a problem without a solution" is lacking something. This
 helps people see what's missing, and what remains to be done.
-
 > *In a "group selection" regime, we are building "sets" of activities
 > and patterns (milestones, roles) which can then act as selectors for
-> behavior.*
+> behavior. *
 
 Co-working requires people to be able to join groups, and it requires
 the groups to be able to structure their workflow. In some sense this is
 similar to an individual's work being structured by the use of
 heuristics. A person's choice to join this group instead of that one, is
 a basic social heuristic.
-
-The discussion continues: Reliving the history of mathematics as a peeragogical game?
--------------------------------------------------------------------------------------
+## The discussion continues: Reliving the history of mathematics as a
+peeragogical game?
 
 These notes have shown one approach to the design of spaces for learning
 and knowledge building. Although the article has focused on mathematics
@@ -251,7 +235,6 @@ learning, similar reflections would apply to designing other sorts of
 learning spaces, for instance, to the continued development of the
 Peeragogy project itself! -- and perhaps to the development of a new
 kind of institutions.
-
 > **Doug Breitbart**: It occurred to me that you could add a learning
 > dimension to the site that sets up the history of math as a series of
 > problems, proofs and theorems that, although already solved, could be
@@ -260,8 +243,7 @@ kind of institutions.
 > and deconstruction of how they were arrived at, when the visitor
 > decides to throw in the towel).
 
-Reference
----------
+## Reference
 
 1.  Corneli, J. (2014). [Peer Produced Peer Learning: A Mathematics Case
     Study](http://metameso.org/~joe/thesis-outline.html). Unpublished

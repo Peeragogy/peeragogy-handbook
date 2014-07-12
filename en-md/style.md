@@ -1,7 +1,5 @@
 *This is a How-To Handbook.*
-
-Keep it short
--------------
+## Keep it short
 
 The easiest sections to read are those that are shorter and include some
 kind of visual (video or image) and have some personal connection (i.e.
@@ -9,8 +7,7 @@ they tell a story). For anything longer, break it up into sub-pages, add
 visuals, make sure each sub-page is accessible to someone (who is it?).
 Think clearly of this reader, talk to them.
 
-Make it clear
--------------
+## Make it clear
 
 We'll illustrate this point by example. The original full title of the
 book was "The Peeragogy Handbook: A resource for self-organizing
@@ -28,8 +25,7 @@ completely and see what's left. The easiest thing to do in such cases is
 to delete the sentence completely and start over: when in doubt, speak
 plainly.
 
-Don't overdo it with bullet points
-----------------------------------
+## Don't overdo it with bullet points
 
 Text can be very hard to read when there are more than a few bullet
 points included. Numbered lists should also be used sparingly. It also
@@ -42,15 +38,13 @@ elsewhere to get good content (and indeed, we should make it easy for
 them to find the best treatments around!). It is not very pleasant to
 have to *read* a taxonomy.
 
-Include activities
-------------------
+## Include activities
 
 When reading, editing or otherwise working your way through the book,
 please make note of any activities or exercises that come to mind, and
 share them. We're always striving to be more practical and applicable.
 
-Don't be overly chatty
-----------------------
+## Don't be overly chatty
 
 In our efforts to escape from academia-speak and simplify the text in
 the handbook, it's important to make sure we are not heading towards the
@@ -63,8 +57,7 @@ sometimes express ourselves in run-on sentences. While this is perfectly
 natural in speech, it can be confusing and complex in written text.
 Let's strive for the perfect balance of simple yet professional writing.
 
-Additional style bonus points
------------------------------
+## Additional style bonus points
 
 -   Avoid double lines after paragraphs; this is a leftover from the age
     of typewriters and can create "rivers" of white space.
@@ -74,14 +67,12 @@ Additional style bonus points
 -   Capitalize the first word of headings and subheadings; lower case
     all others.
 
-Format your HTML nicely
------------------------
+## Format your HTML nicely
 
 We need to be able to process the content from this Wordpress site and
 turn it into various formats like LaTeX and EPUB. Our automated tools
 work much better if pages are formatted with simple and uniform HTML
 markup. Some key points:
-
 -   Mark up your links: use [The Peeragogy
     Handbook](http://peeragogy.org) instead of
     [http://peeragogy.org](http://peeragogy.org). It's best if the link

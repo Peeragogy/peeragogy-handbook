@@ -10,7 +10,7 @@
 
 \noindexintoc
 
-
+\usepackage{relsize}
 \usepackage{afterpage}
 
 \newcommand\blankpage{%
@@ -340,10 +340,10 @@
 \quad \\[3in] 
 \large{ISBN: 978-0-9776396-4-9}
 \quad \\[.2in] 
-\large{Cover design: Fabrizio Terzi and Alec Hutson \\
+\large{Cover: Fabrizio Terzi \& Charlotte Pierce \\
 Illustrations: Amanda Lyons}
 \quad \\[.2in]
-\large{Typeset in Linux Libertine with \XeLaTeX.
+\large{Typeset in Linux Libertine with \XeLaTeX. \\
 Sources available at \url{http://git.io/Handbook}.}
 \quad \\[.2in]
 \large{Jointly published by Pierce Press and PubDomEd.}
@@ -605,11 +605,20 @@ Sources available at \url{http://git.io/Handbook}.}
 \cleardoublepage
 %\let\oldtwocolumn\twocolumn
 %\renewcommand{\twocolumn}[1][]{#1}
-%\phantomsection
-%\addcontentsline{toc}{chapter}{Web Pages Cited in This Book}
-\renewcommand{\indexname}{Web Pages Cited in This Book}
+\begingroup
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
+\chapter{Web Pages Cited in This Book}
+\renewcommand{\indexname}{}
+\vspace{-1in}
 \onecolindex
+\begingroup
+%\let\oldurl\url
+%\renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+\smaller
 \printindex
+\endgroup
+\endgroup
 %\renewcommand{\twocolumn}[1][]{\oldtwocolumn}
 
 \newpage

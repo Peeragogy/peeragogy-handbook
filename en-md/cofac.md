@@ -1,5 +1,4 @@
 Authors: Maria Arenas and Charlie Danoff
-
 Facilitation is a process of helping groups work cooperatively and
 effectively. Facilitation can be particularly helpful for individuals
 who, based on a certain level of insecurity or inexperience, tend to
@@ -9,8 +8,7 @@ is done in service to the group and the group dialogue and process. For
 example, a facilitator may simply "hold space" for the group, by setting
 up a meeting or a regular series of discussions.
 
-Co-facilitating in peer-to-peer learning
-----------------------------------------
+## Co-facilitating in peer-to-peer learning
 
 Co-facilitation can be found in collaborations between two or more
 people who need each other to complete a task, for example, learn about
@@ -21,7 +19,6 @@ learning requires that there be some kind of lasting change that is
 important in terms of the learner’s life; in peeragogy, one way to
 measure the effectiveness of co-facilitation is to look for a change in
 the peer group.
-
 Co-facilitation roles can be found in groups/teams like basketball,
 health, Alcoholics Anonymous, spiritual groups, etc. For example,
 self-help groups are composed of people who gather to share common
@@ -47,8 +44,7 @@ take place; but they should also challenge the participants.
 > learning. Too much autonomy for participants and laissez-faire on your
 > part, and they may wallow in ignorance, misconception, and chaos. [3]
 
-Co-facilitating discussion forums
----------------------------------
+## Co-facilitating discussion forums
 
 If peers are preparing a forum discussion, here are some ideas from
 “[The Community Tool
@@ -61,12 +57,10 @@ helpful as guidelines:
 -   Be aware of mutual blind spots in facilitating and observing others.
 -   Watch out for different rhythms of intervention.
 
-Co-facilitating wiki workflows
-------------------------------
+## Co-facilitating wiki workflows
 
 A good place to begin for any group of co-facilitators working with a
 wiki are Wikipedia's famous "5 Pillars."
-
 -   Wikipedia is an encyclopedia.
 -   Wikipedia writes articles from a neutral point-of-view.
 -   Wikipedia is free content that anyone can edit, use, modify, and
@@ -75,8 +69,7 @@ wiki are Wikipedia's famous "5 Pillars."
     manner.
 -   Wikipedia does not have firm rules.
 
-Co-facilitating live sessions
------------------------------
+## Co-facilitating live sessions
 
 Learning experiences in live sessions are described in the article
 [Learning Re-imagined: Participatory, Peer, Global,
@@ -91,8 +84,7 @@ But we want to emphasize one point here:
 > tools; keep everything as easily accessible as possible to ensure you
 > realize your goals.
 
-References
-----------
+## References
 
 1.  Fink, L. D (2003). *Creating significant learning experiences: An
     integrated approach to designing college courses*. John Wiley &

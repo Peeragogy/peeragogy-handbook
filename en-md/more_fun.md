@@ -1,5 +1,4 @@
 Consider the following learning scenarios:
-
 1.  A small study group for a tough class in Quantum Mechanics convenes
     at at the library late one night, resolving to do well on the next
     day’s exam. The students manage to deflect their purpose for a while
@@ -23,7 +22,6 @@ they master a trick. In most cases, the primary motivation for learning
 physics is extrinsic, coming from parents' and society’s expectations
 that the student excel and assure his or her future by getting into a
 top college.
-
 The student very well could be intrinsically motivated to have a glowing
 report card, but not for the joy of learning physics or chemistry, but
 because of the motivation to earn a high grade as part of her overall
@@ -49,7 +47,6 @@ have to accept that.
 width="300"]![Mendeleev](http://24.media.tumblr.com/tumblr_m25ta0G1pC1rttc8xo1_r1_500.jpg)
 Photo of Dmitri Mendeleev (1834-1907). Found on The Guardian’s Notes &
 Theories blog. Public domain.[/caption]
-
 One way to think about fun learning is that it’s fun to learn - and be
 aware that you're learning - new patterns. Jürgen Schmidhuber wrote: “A
 [...] learner maximizes expected fun by finding or creating data that is
@@ -60,8 +57,7 @@ patterns: novel tricks that are learnable. (By the way, a few people,
 like mathematician William Stein, find ways to combine the love of
 science and skateboarding.)
 
-Learner, know thyself: a self-evaluation technique
---------------------------------------------------
+## Learner, know thyself: a self-evaluation technique
 
 The learning contributed and acquired by each member of the peer
 learning enterprise depends on a healthy sense of self-awareness. When
@@ -80,7 +76,6 @@ learning activities, social reinforcements, and visible reward. The
 peeragogical view is that learning is most effective when it contains
 some form of enjoyment or satisfaction, or when it leads to a concrete
 accomplishment.
-
 When joining the Peeragogy project, Charles Jeffrey Danoff did a brief
 self-evaluation about what makes him interested in learning:
 
@@ -98,9 +93,7 @@ self-evaluation about what makes him interested in learning:
 
 We will explore the patterns of peer learning in more detail in the
 section on [practice](http://peeragogy.org/practice/).
-
-Reference
----------
+## Reference
 
 1.  Schmidhuber, J. (2010). Formal theory of creativity, fun, and
     intrinsic motivation. Autonomous Mental Development (IEEE), 2(3),

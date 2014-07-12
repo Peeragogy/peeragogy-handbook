@@ -1,5 +1,4 @@
 *Author:* Régis Barondeau
-
 In the context of P2P-learning, a wiki platform can be a useful and
 powerful collaboration tool. This section will help you understand what
 a wiki is and what it is not, why you should use it, how to choose a
@@ -7,8 +6,7 @@ wiki engine and finally how you could use it in a P2P context. Some
 examples of P2P-learning projects run on wikis will help you see the
 potential of the tool.
 
-What is a wiki?
----------------
+## What is a wiki?
 
 For [Ward Cunningham](http://en.wikipedia.org/wiki/Ward_cunningham)
 father of the wiki, "a wiki is a freely expandable collection of
@@ -24,8 +22,7 @@ You can watch this CommonCraft video [wiki in plain
 english](http://www.youtube.com/watch?v=-dnL00TdmLY "wiki in plain english")
 to better understand what a wiki is.
 
-What differentiates the wiki from other co-editing tools?
----------------------------------------------------------
+## What differentiates the wiki from other co-editing tools?
 
 The previous definitions show that a wiki is a "website," in other words
 it is composed of pages that are connected together by hyperlinks.In
@@ -85,12 +82,10 @@ a wiki is better than other tools but if you need a wiki engine to
 address your needs you may consider going with a strong wiki engine
 rather than a "micro-wiki" engine embedded in an other tool.
 
-Why use a wiki?
----------------
+## Why use a wiki?
 
 Those are the main reasons you should consider a wiki for your peer
 learning projects :
-
 -   To reduce coordination complication by having a central and always
     up to date place to store your content. You will reduce e-mail usage
     drasticly, and have access to your content from everywhere using any
@@ -114,14 +109,12 @@ learning projects :
     tool.
 
 Using a hyperlinks you can...
-
 > **Gérard Ayache**: "...jump by a single click from a network node to
 > the other, from a computer to an other, from one information to the
 > other, from one univers to the other, from one brain to the other."
 > (Translated from [5].)
 
-How to choose a wiki engine?
-----------------------------
+## How to choose a wiki engine?
 
 You will find more than a hundred different wiki engines.
 
@@ -149,8 +142,7 @@ features of more than a hundred wiki engines.
 [Here](http://c2.com/cgi/wiki?TopTenWikiEngines) is the top ten list of
 the best wiki engines by Ward Cunningham.
 
-How can a wiki be useful in a peeragogy project?
-------------------------------------------------
+## How can a wiki be useful in a peeragogy project?
 
 A wiki is a good tool collaborative projects and a specially suited for
 work in progress as you can easily track changes using the history,
@@ -158,7 +150,6 @@ compare those version and if necessary roll back a previous versions. In
 other words, nothing gets lost.
 
 Here are some ideas about how to use a wiki in a peeragogy project :
-
 -   **Use a wiki as your learning platform**. It can also support
     [Massive Open Online Courses
     (MOOCs)](http://socialmediaclassroom.com/host/peeragogy/wiki/connectivism-practice-how-organize-a-mooc).
@@ -193,8 +184,7 @@ Here are some ideas about how to use a wiki in a peeragogy project :
     forget that a wiki can look way better than a Wikipedia page if you
     customize it
 
-Examples of peeragogy projects run on wikis
--------------------------------------------
+## Examples of peeragogy projects run on wikis
 
 [Appropedia](http://www.appropedia.org/Welcome_to_Appropedia) is a wiki
 site for collaborative solutions in
@@ -214,9 +204,7 @@ adaptable solutions.
 [Teahouse](http://en.wikipedia.org/wiki/Wikipedia:Teahouse) is a
 peeragogy project run on a wiki that gives newcomers a place to learn
 about Wikipedia culture and get feedback from experienced Wikipedians.
-
-What are the best practices when using a wiki?
-----------------------------------------------
+## What are the best practices when using a wiki?
 
 -   **Cofacilitation** -- help each other learn, help each other
     administer
@@ -230,8 +218,7 @@ What are the best practices when using a wiki?
     constraining creativity
 -   **Fun** -- make it fun for people to contribute
 
-References
-----------
+## References
 
 1.  Leuf, Bo, et Ward, Cunningham. 2001. The Wiki way : quick
     collaboration on the Web. Boston: Addison-Wesley, xxiii, 435 p. p.14
@@ -240,7 +227,7 @@ References
     community - The wiki and the blog](http://ssrn.com/abstract=755904).
     Studies in Intelligence. vol. 49, no 3. Online :
 4.  Barondeau, Régis. 2010. [La gestion de projet croise le
-    wiki](http://www.regisbarondeau.com/Chapitre+4%3A+Analyse+du+cas#Synth_se).
+    wiki](http://www.regisbarondeau.com/Chapitre+4:+Analyse+du+cas#Synth_se).
     École des Sciences de la Gestion, Université du Québec à Montréal,
     180 pp.
 5.  Ayache, Gérard. 2008. Homo sapiens 2.0 : introduction à une histoire

@@ -40,8 +40,7 @@ deep inquiry on a topic that they are less familiar with. This will
 *even out* the expertise level across the cohort as well as ensure that
 a co-learner is neither bored nor dominating the dialogue.
 
-3 example designs to structure the learning
--------------------------------------------
+## 3 example designs to structure the learning
 
 ### Weekly topics structure
 
@@ -94,8 +93,7 @@ their original topic in the fourth.
 > *Con:* co-learners may receive a topic that is poorly researched or
 > otherwise neglected.
 
-Content
--------
+## Content
 
 ### A vast number of topics
 
@@ -154,8 +152,7 @@ be outlined ahead of time:
 > follow up by sharing both what you learned and what you accomplished
 > because he or she helped you.
 
-Shared goals and group norms
-----------------------------
+## Shared goals and group norms
 
 ### Choosing useful outputs
 
@@ -202,16 +199,15 @@ kicking off the official learning process.
 >
 > *Norms:* Use
 > [netiquette](http://en.wikipedia.org/wiki/Netiquette#Netiquette)? No
-> [flaming](http://en.wikipedia.org/wiki/Flaming_%28Internet%29)? Post
-> your vacation days to a [shared
+> [flaming](http://en.wikipedia.org/wiki/Flaming_(Internet))? Post your
+> vacation days to a [shared
 > calendar](http://support.google.com/calendar/bin/answer.py?hl=en&answer=36598)?
 > Cultural norms?
 >
 > *Members:* It is useful to include a photo and a link to a public
 > profile such as Twitter, Google+ or Facebook.
 
-Assessments and feedback loops
-------------------------------
+## Assessments and feedback loops
 
 ### Co-authored assessment rubrics
 
@@ -270,8 +266,7 @@ requirements. In this case, it may be possible to require that the
 co-learners self-organize entirely, or there may be intermediary
 assignments such as the charter, project plan or literary review.
 
-Cyclical use of these models
-----------------------------
+## Cyclical use of these models
 
 ### So much more to learn
 
@@ -288,8 +283,7 @@ potential topics are collected at all times. These unexplored topics can
 be harvested for use in another learning cycle, continuing until the
 group achieves comprehensive mastery.
 
-Risks
------
+## Risks
 
 This format is not without its own unique pitfalls: some challenges are
 learner disorientation or frustration in a new learning structure with

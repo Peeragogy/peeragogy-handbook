@@ -32,7 +32,6 @@ to test the waters first, feel free to use the comment thread attached
 to each page on peeragogy.org to suggest any changes or additions, and
 to share a bit about your story. We might quote you in future versions
 of the book to help improve the resource for others, like this:
-
 **John Glass**: Reading through the handbook, it strikes me that the
 users will be fairly sophisticated folks. They will have ample knowledge
 of various tech platforms, resources, a fair amount of formal education,

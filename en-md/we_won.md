@@ -23,12 +23,11 @@ collected in the recommended readings at the end of the book.)
     picture)
 
 [caption id="" align="aligncenter"
-width="300"][![image](http://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Challenge_vs_skill.svg/300px-Challenge_vs_skill.svg.png "Challenge vs. Skill")](http://commons.wikimedia.org/wiki/File%3AChallenge_vs_skill.svg)
+width="300"][![image](http://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Challenge_vs_skill.svg/300px-Challenge_vs_skill.svg.png "Challenge vs. Skill")](http://commons.wikimedia.org/wiki/File:Challenge_vs_skill.svg)
 [Challenge vs.
-Skill](http://commons.wikimedia.org/wiki/File%3AChallenge_vs_skill.svg).
+Skill](http://commons.wikimedia.org/wiki/File:Challenge_vs_skill.svg).
 By w:User:Oliverbeatson (w:File:Challenge vs skill.jpg) [Public domain],
 via Wikimedia Commons[/caption]
-
 ### Peer learning for one
 
 Can you apply the ideas of peer learning on your own? In a certain
@@ -63,8 +62,7 @@ don't be sparing with your criticism and creative ideas! You'll find
 some further reflections on these matters in the sections on
 [peeragogical assessment](http://peeragogy.org/assessment/ "Assess").
 
-References
-----------
+## References
 
 1.  Corneli, J., and Mikroyannidis, A. (2012). Crowdsourcing education
     on the Web: a role-based analysis of online learning communities, in

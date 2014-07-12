@@ -11,9 +11,9 @@ together with all associated claims and causes of action with respect to
 this work to the extent possible under the law.**
 
 Signed:
-
 -   Bryan Alexander
 -   Paul Allison
+-   Elisa Armendariz
 -   Régis Barondeau
 -   Doug Breitbart
 -   George Brett
@@ -34,6 +34,7 @@ Signed:
 -   Christopher Tillman Neal
 -   Ted Newcomb
 -   Stephanie Parker
+-   Miguel Angel Pérez Alvarez
 -   Charlotte Pierce
 -   David Preston
 -   Howard Rheingold
@@ -58,7 +59,6 @@ fun!
 
 These Creative Commons license options were proposed by various members
 of the community:
-
 -   *CC Zero* - public domain; no restrictions for downstream users
 -   *CC By-SA* - requires downstream users to include attribution and to
     license their work in the same way

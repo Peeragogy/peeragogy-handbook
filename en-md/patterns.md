@@ -4,15 +4,14 @@
 > want to take a look over the patterns we have collected here. You will
 > likely return here many times as your project develops.
 
-What is a pattern?
-------------------
+## What is a pattern?
 
 A pattern is anything that has a repeated effect. In the context of
 peeragogy, the practice is to repeat processes and interactions that
 advance the learning mission. Frequent occurrences that are not
 desirable are called anti-patterns!
 
-> **Christopher Alexander**: “Each pattern describes a problems which
+> **Christopher Alexander**: “Each pattern describes a problem which
 > occurs over and over again in our environment, and then describes the
 > core of the solution to that problem, in a way that you can use this
 > solution a million times over, without ever doing it the same way
@@ -47,14 +46,50 @@ that Christopher Alexander introduced in his book, *A Pattern Language*.
 Peeragogy can help to extend and enrich this network, and, as we shall
 see, patterns can be used by those involved to do ongoing “emergent”
 design, not only by building new structures, but by adapting and
-improving our catalog of patterns as we go.
+improving our catalog of patterns as we go. For consistency, and easy
+use, adaptation, and extension we present the patterns using the
+following template. The format is meant to be neutral and easy to work
+with -- it's, intentionally, an outline that you might use to write a
+short abstract describing an active project.
 
-Patterns of peeragogy
----------------------
+> **Title**: *Encapsulate the idea - possibly include a subtitle*
+>
+> **Definition**: *Explain the idea and the context in which it is
+> meaningful. (You can link to other patterns, if they are useful for
+> clarifying the relevant context.)*
+>
+> **Problem**: *Explain why there’s some issue to address here.*
+>
+> **Solution**: *Talk about an idea about how to address the issue.*
+>
+> **Challenges**: *Talk about what can go wrong.*
+>
+> **What’s Next**: *Talk about specific next steps. (Again, link to
+> other patterns, if they are useful for clarifying the relevant
+> context.)*
+>
+> The pattern template also includes the following optional elements:
+>
+> [**Objectives**: *Explain the purpose(s) of the proposed solution’s
+> functioning, if they aren't fully specified by the description of the
+> solution itself.*]
+>
+> [**Examples**: *Present example(s) that have been encountered, if this
+> aids comprehension.*]
+>
+> [**References**: *Citations, if relevant.*]
+
+Notice the emphasis the active aspect of things -- the "What's Next"
+section concretely links the patterns we discuss here to the Peeragogy
+project. If you adapt them for use in your own project, you're likely to
+have a different set of next steps. Although we think that these
+patterns can be generally useful, they aren't useful in the abstract,
+but rather, as a way for discussing what we actually do.
+
+## Patterns of peeragogy
 
 Here is our index of the main patterns we've found so far (described in
 more detail after the jump):
-
 -   [Wrapper](http://peeragogy.org/patterns/wrapper/) - Front end
     appearance to participants. Consolidate and summarize.
 -   [Discerning a
@@ -89,13 +124,17 @@ more detail after the jump):
     Repurposing, tinkering, or creating from scratch?
 
 We'll introduce three additional patterns in the chapter on [researching
-peeragogy](http://peeragogy.org/to-peeragogy/researching-peeragogy/ "Researching peeragogy").
+peeragogy](http://peeragogy.org/to-peeragogy/researching-peeragogy/ "Researching peeragogy"),
+and one more in a short [case
+study](http://peeragogy.org/case-study-learning-to-use-technology-with-peers-the-case-of-swats/)
+that appears later on in this section.
+## Anti-patterns for Peeragogy
 
-Anti-patterns for Peeragogy
----------------------------
-
-And some "anti-patterns" (things to avoid if possible):
-
+And some "anti-patterns" (things to avoid if possible). Note that we use
+the same template to talk about both patterns and anti-patterns, but
+here, although the proposed solution may look like a good idea
+initially, but it doesn't work so well over the long term. Pay
+particular attention to the challenges that arise in practice!
 -   [Isolation](http://peeragogy.org/antipatterns/isolation/) - A tale
     of silos, holes, and not-invented-here.
 -   [Magical
@@ -117,8 +156,7 @@ And some "anti-patterns" (things to avoid if possible):
     ties](http://peeragogy.org/antipatterns/stuck-at-the-level-of-weak-ties/)
     - Can we deepen the connection?
 
-What is a use case?
--------------------
+## What is a use case?
 
 A use case describes someone (or something) who uses a given system or
 tool to achieve a goal. A use case can include a title, a summary of the
@@ -137,8 +175,7 @@ short, they are a lot like design patterns, which they may contain in
 hidden or explicit form. Use cases are presented in vignettes that
 appear throughout the book (like the one at the end of this section).
 
-A peeragogy pattern language
-----------------------------
+## A peeragogy pattern language
 
 By looking at how patterns combine in real and hypothetical use cases,
 you can start to identify a *pattern language* that can be used in your
@@ -150,7 +187,7 @@ their plan is just to see what develops. You can see here how peeragogy
 patterns often break down further into individual micro-steps: we'll say
 more about that shortly.
 
-![Roadmap](http://peeragogy.org/wp-content/uploads/2013/03/pattern-map1.jpg)
+[![pattern-language](http://peeragogy.org/wp-content/uploads/2012/04/pattern-language.jpg)](http://peeragogy.org/wp-content/uploads/2012/04/pattern-language.jpg)
 
 The subsequent main sections of this book --
 [*Convene*](http://peeragogy.org/convene/ "Convene"),
@@ -168,23 +205,19 @@ What we've put together here is a starter kit.
 > glimpses of a much deeper level of structure, and is ultimately within
 > this deeper level of structure, that the origin of life occurs. [2]
 
-Patterns and Problem Solving
-----------------------------
+## Patterns and Problem Solving
 
 Ten potentially useful things to do when you're solving a problem are
 described by the computer scientist Marvin Minsky in a series of
 [m](http://web.media.mit.edu/~minsky/OLPC-1.html)[e](http://web.media.mit.edu/~minsky/OLPC-2.html)[m](http://web.media.mit.edu/~minsky/OLPC-3.html)[o](http://web.media.mit.edu/~minsky/OLPC-4.html)[s](http://web.media.mit.edu/~minsky/OLPC-5.html)
 written for the One Laptop Per Child project. We can sum them up
 visually with the following diagram:
-
 ![image](http://metameso.org/~joe/heuristic-images.jpg)
-
 We can also see some interesting connections between these intuitive
 problem solving heuristics and peeragogy patterns listed above. This can
 help illustrate further connections between the patterns, and some of
 the ways that groups can apply them to solve real-world problem. To
 elaborate briefly:
-
 -   Simplify things for **Newcomers**. We don't expect a newcomer to
     enter at full speed.
 -   Use a **Roadmap** to guide us from one phase to another, while the

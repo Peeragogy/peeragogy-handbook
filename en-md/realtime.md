@@ -1,6 +1,5 @@
 Author: [Howard
 Rheingold](http://peeragogy.org/resources/meet-the-team/ "Meet the Team")
-
 ### Summary
 
 Web services that enable broadband-connected learners to communicate in
@@ -13,8 +12,7 @@ for-free or for-fee platforms, tips on participative activities for
 real-time meetings, and suggestions for blending real-time and
 asynchronous media.
 
-Real-time meeting media
------------------------
+## Real-time meeting media
 
 The *Peeragogy Handbook* was conceived and constructed by a group of
 people on four continents who had not met and had not known about each
@@ -54,16 +52,13 @@ Free phone conferencing services provide another technological "lowest
 common denominator": some provide a few extras like downloadable
 recordings.
 ![image](http://socialmediaclassroom.com/host/peeragogy/system/files/images/Elluminate.img_assist_custom-800x694.png)
-
-Features of real-time meeting platforms
----------------------------------------
+## Features of real-time meeting platforms
 
 There are many free services for chat, screen-sharing, whiteboards, and
 video conferencing, but combining all these components in separate panes
 of the same screen (preferably) or as separate tabs of a browser can
 have a powerful synchronizing and harmonizing effect on the group. The
 features to look for in meeting platforms include:
-
 **Audio and video**: Choose platforms that enable
 voice-over-internet-protocol (VOIP) and easy ways for participants to
 configure their microphones and speakers. Today's webcams, together with
@@ -110,12 +105,11 @@ Collaborative anonymous mind-mapping of the discussion is one technique
 to try with whiteboards. The whiteboard can also be used to generate an
 emergent agenda for an "un-meeting".
 
-Configuring Google+ Hangout - a free alternative for up to 10 people
---------------------------------------------------------------------
+## Configuring Google+ Hangout - a free alternative for up to 10 people
 
 For up to 10 people, each equipped with a webcam, microphone, and
 broadband connection, [Google+
-Hangout](http://lifehacker.com/5842191/google%252B-hangouts-adds-screen-sharing-google-docs-collaboration-and-more "Google+ Hangouts, a free option")
+Hangout](http://lifehacker.com/5842191/google%2B-hangouts-adds-screen-sharing-google-docs-collaboration-and-more "Google+ Hangouts, a free option")
 can provide high-quality audio-video conferencing. By enabling the
 text-chat feature and adding Google Docs (text documents, presentations,
 or spreadsheets), screensharing, and SketchUp (whiteboard), it is
@@ -129,9 +123,7 @@ that it is possible to [stream a Hangout and record it to
 YouTube](http://www.google.com/+/learnmore/hangouts/onair.html), again
 at no cost to the user. We've used this tool extensively in the
 Peeragogy project.
-
-Suggestions for real-time meetings
-----------------------------------
+## Suggestions for real-time meetings
 
 In the nine online courses I have facilitated, the emphasis on
 co-learning encouraged participants to suggest and shape active roles
@@ -141,9 +133,7 @@ about collective learning which can be as pleasurable as well as useful.
 Typically we first brainstorm, then analyze, then organize and present
 the knowledge that we discover, construct, and ultimately convey
 together.
-
-Roles for participants in real-time meetings
---------------------------------------------
+## Roles for participants in real-time meetings
 
 -   **Searchers:** search the web for references mentioned during the
     session and other resources relevant to the discussion, and publish
@@ -162,13 +152,11 @@ Roles for participants in real-time meetings
     text-chat channels for discussing nominations, a group can quickly
     set its own agenda for the real-time session.
 
-The Paragogical Action Review
------------------------------
+## The Paragogical Action Review
 
 Charlie Danoff and Joe Corneli slightly modified the US Army's "After
 Action Review" into a technique for evaluating peer learning as it
 happens. The five steps in the "PAR" are:
-
 1.  Review what was supposed to happen
 2.  Establish what is happening
 3.  Determine what’s right and wrong with what we are doing
@@ -180,7 +168,6 @@ reassess the medium, the readings, the group dynamics, or any other
 choices that have learning relevance. The focus in the PAR is on change:
 as such, it provides a simple way to help implement the "double loop
 learning" described Chris Argris [1].
-
 ### Reference
 
 1.  Argyris, Chris. "[Teaching smart people how to

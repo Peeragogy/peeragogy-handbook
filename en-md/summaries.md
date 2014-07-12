@@ -1,7 +1,6 @@
 [caption id="" align="aligncenter"
 width="304"][![moonshine](http://peeragogy.org/wp-content/uploads/2013/12/moonshine.jpg)](http://peeragogy.org/chapter-summaries/moonshine/)
 Distilled for your convenience[/caption]
-
 ### Peering into Learning
 
 This is a quick introduction to the main ideas used in the rest of the
@@ -20,7 +19,6 @@ riddles with more than one answer, so we’ve included this detailed
 narrative example of peeragogy in action near the beginning of the book.
 Explore this case study for ideas and encouragement for your own
 learning adventures.
-
 ### Peeragogy in practice: Patterns, use cases, and examples
 
 **PEERAGOGY IN PRACTICE** In this chapter we show some of the signposts
@@ -44,7 +42,6 @@ a scenario or story with actors, actions, and outcomes. These scenarios
 provide a platform for examining outcomes patterns or anti-patterns. The
 parameters of use cases can be manipulated to establish best paths to
 success.
-
 ### Convening a Group
 
 You’ll probably want to use this chapter to organize your thinking as
@@ -69,7 +66,6 @@ with your physical learning space. Within this chapter of word and
 picture images, the emerging structure and reciprocal mentoring that may
 be inspired causes a ripple effect on those who open the door to its
 possibilities.
-
 ### Organizing a learning context
 
 We talk about how peer learning is organized into "courses" and
@@ -103,7 +99,6 @@ workscape, people are free-range learners: protect the learning
 environment, provide nutrients for growth, and let nature take its
 course. A workscape features profiles, an activity stream, wikis,
 virtual meetings, blogs, bookmarks, mobile access and a social network.
-
 ### Introduction to Cooperation: Co-facilitation
 
 Sometimes omitting the figurehead empowers a group. Co-facilitation
@@ -123,7 +118,6 @@ the learning of the whole group by sharing and reflecting upon their
 findings. These interactions of supportive mutual inquiry evolve the
 content and structure within a short time frame and with open-ended
 results.
-
 ### Assessment
 
 Asking questions about assessment in the context of the Handbook (Who
@@ -135,7 +129,6 @@ itself, as one example. **RESEARCHING PEERAGOGY** Three new patterns are
 introduced (Frontend and Backend, Spanning Set, and Minimum Viable
 Project) which form the basis of a “meta-model” that can be used to
 study and design for peer learning.
-
 ### Technologies, Services, and Platforms
 
 Issues of utility, choice, coaching, impact and roles attach to the wide
@@ -157,7 +150,6 @@ audio, video, slides, whiteboards, chat, and screen-sharing. Possible
 roles for participants in real-time meetings include searchers,
 contextualizers, summarizers, lexicographers, mappers, and curators.
 This mode of interaction supports emergent agendas.
-
 ### Resources
 
 Here we present several ways to get involved in peer learning, including

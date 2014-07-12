@@ -5,7 +5,6 @@ of his new-found peeragogical insights suggests an approach where
 individuals research specific factors and the team work together to draw
 out themes and strategic options. As a start he proposes that each board
 member researches an area of specific knowledge or interest.
-
 > Jim, the Chairman, identifies questions he wants to ask the Chairs of
 > other Housing Associations. Pamela (a lawyer) agrees to do an analysis
 > of the relevant legislation. Clare, the CEO, plans out a series of

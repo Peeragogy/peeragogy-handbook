@@ -3,7 +3,6 @@ resources (and relationships with them) that people cultivate in order
 to form their own public or private learning networks — living, growing,
 responsive sources of information, support, and inspiration that support
 self-learners.
-
 > **Howard Rheingold**: “When I started using social media in the
 > classroom, I looked for and began to learn from more experienced
 > educators. First, I read and then tried to comment usefully on their
@@ -33,7 +32,6 @@ you are sharing what you learn and discover with those in your network
 and not just taking, if you want to see your network expand.
 
 ![image](http://peeragogy.org/wp-content/uploads/2013/09/cultivate.jpeg)
-
 ### Peer learning networks
 
 As you convene your peer learning group, in one form or another you will

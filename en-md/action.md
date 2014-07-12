@@ -2,11 +2,10 @@ We have been writing the missing manual for peer-produced peer learning
 - the “Peeragogy Handbook” ([peeragogy.org](http://peeragogy.org/)).
 Throughout the building of this work, we, ourselves peer learners in
 this quest, have been mindful of these four questions:
-
 1.  *How does a motivated group of self-learners choose a subject or
-    skill to learn?*
+    skill to learn? *
 2.  *How can this group identify and select the best learning resources
-    about that topic?*
+    about that topic? *
 3.  *How will these learners identify and select the appropriate
     technology and communications tools and platforms to accomplish
     their learning goal?*
@@ -34,7 +33,6 @@ facilitators or theorists who want to hone their practice or approach.
 Together, we will use our various talents to build effective methods and
 models for peer produced peer learning. Let’s get started!
 ![image](http://metameso.org/~joe/OpenBook-2-1.jpg)
-
 **Setting the initial challenge and building a framework for
 accountability among participants is an important starting point.**
 
@@ -79,7 +77,6 @@ visionary.” In short,
 
 **Other people can support you in achieving your goal and make the work
 more fun too.**
-
 *Activity* – Write an invitation to someone who can help as a
 co-facilitator on your project. Clarify what you hope to learn from them
 and what your project has to offer. Helpful questions to consider as you
@@ -115,8 +112,7 @@ list.
 
 **Solidifying your work plan and learning strategy together with
 concrete measures for ‘success’ can move the project forward
-significantly.**
-
+significantly. **
 *Activity* – Distill your ideas by writing an essay, making visual
 sketches, or creating a short video to communicate the unique plans for
 organization and evaluation that your group will use. By this time, you
@@ -153,7 +149,6 @@ productive.
 **Wrap up the project with a critical assessment of progress and
 directions for future work. Share any changes to this syllabus that you
 think would be useful for future peeragogues!**
-
 *Activity* – Identify the main obstacles you encountered. What are some
 goals you were not able to accomplish yet? Did you foresee these
 challenges at the outset? How did this project resemble or differ from
@@ -186,8 +181,7 @@ moment, we're still waiting to see the first remix edition, but we're
 confident that it will come along in due course. Maybe you'll be the one
 who makes it!
 
-Micro-Case Study: The Peeragogy Project, Year 1
------------------------------------------------
+## Micro-Case Study: The Peeragogy Project, Year 1
 
 Since its conception in early 2012, the Peeragogy Project has collected
 over 3700 comments in our discussion forum, and over 200 pages of
@@ -200,8 +194,7 @@ and this accompanying syllabus will provide a seed for a new phase of
 learning, with many new contributors and new ideas drawn from real-life
 applications.
 
-Micro-Case Study: The Peeragogy Project, Year 2
------------------------------------------------
+## Micro-Case Study: The Peeragogy Project, Year 2
 
 10 new handbook contributors joined in the project's second year. We've
 begun a series of weekly Hangouts on Air that have brought in many

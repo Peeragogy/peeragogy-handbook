@@ -1,5 +1,4 @@
-From syllabus and curriculum to personal and peer learning plans
-----------------------------------------------------------------
+## From syllabus and curriculum to personal and peer learning plans
 
 Part of the reason for the effectiveness of peeragogy is that the
 “syllabus” or “curriculum” -- more generally, the learning plan -- is
@@ -58,8 +57,7 @@ the record to reflect and evaluate key elements of the process for you
 as a facilitator and as a member of the peer learning group. Adapt your
 next phase of planning accordingly.
 
-From corporate training to learning on the job
-----------------------------------------------
+## From corporate training to learning on the job
 
 [caption id="attachment\_1999" align="aligncenter" width="380"][![Venn
 diagram by Joachim
@@ -67,7 +65,6 @@ Stroh](http://peeragogy.org/wp-content/uploads/2012/12/learn.png)](http://peerag
 "I think because of the tremendous changes we see in education and at
 work, the sets (attitudes) are beginning to overlap more and more," said
 Joachim Stroh of the Google+ community, Visual Metaphors.[/caption]
-
 Today’s knowledge workers typically have instant, ubiquitous access to
 the internet. The measure of their ability is an open-book exam. “What
 do you know?” is replaced with “What can you do?” And if they get bored,

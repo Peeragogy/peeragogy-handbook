@@ -2,7 +2,6 @@
 > it as a "curiously trans-media" use case in peeragogical assessment
 
 *Author:* David Preston
-
 > Over the last several decades technology has driven massive shifts in
 > the way we communicate and collaborate. Information technology,
 > socioeconomic trends, an increasingly complex and uncertain future,
@@ -35,15 +34,13 @@
 > old and so make possible a direct, unmediated contact with the new,
 > the mystery, moment by moment, of our existence.
 
-Enter 5PH1NX
-------------
+## Enter 5PH1NX
 
 On Monday, April 2, 2011, students in three English classes at a
 California public high school discovered anomalies in the day's entry on
 their course blog. (Reminder: not so long ago this sentence would have
 been rightly interpreted as being science fiction.) The date was wrong
 and the journal topic was this:
-
 > In The Principles of Psychology (1890), William James wrote, "The
 > faculty of voluntarily bringing back a wandering attention, over and
 > over again, is the very root of judgment, character and will. No one
@@ -68,8 +65,7 @@ and the journal topic was this:
 > you than they did before. I've had that experience myself. But don't
 > let appearance**s** fool you. There's always only one reality.”
 
-Find the jokers
----------------
+## Find the jokers
 
 ![image](http://2.bp.blogspot.com/-9EhJ64lXiiw/UNDnBcrI0LI/AAAAAAAAAlQ/stlSWvuqDKI/s320/5ph1nx+1Q84+jokers.jpg)
 
@@ -103,7 +99,7 @@ through nonfiction articles and literary selections such as Montaigne's
 Essays, Plato's Allegory of the Cave, Bukowski's Laughing Heart,
 Shakespeare's Hamlet, Sartre's No Exit and others. The first poem
 assigned in the course was Bukowski's “[Laughing
-Heart](http://www.youtube.com/watch?v=bHOHi5ueo0A)?”: *The Gods will
+Heart](http://www.youtube.com/watch?v=bHOHi5ueo0A)”: *The Gods will
 offer you chances. Know them. Take them.* So it is with knowledge and
 understanding. Today we are presented with an overwhelming,
 unprecedented quantity and variety of data in our physical and virtual
@@ -112,9 +108,7 @@ analyze, evaluate, and act on information. On the back of each Joker
 card was a QR code that linked to a blog page with riddles and clues to
 a search. At this point students realized they were playing a game. A
 tab on the blog page labeled “The Law” laid out the rules of engagement:
-
-This is The Law
----------------
+## This is The Law
 
 1.  You cannot "obey" or "break" The Law. You can only make good
     decisions or bad decisions.
@@ -133,7 +127,7 @@ This is The Law. After a second set of on-campus and blog quests,
 students noticed a shift in 5PH1NX. A couple of weeks before the first
 clue was published, during a Socratic seminar on Derrida's concept of
 Free Play, a student said, "We learn best when adults take away the
-crutches and there is no safety net."? The quote was used in the next
+crutches and there is no safety net." The quote was used in the next
 clue; students began to realize that the game was not pre-determined.
 5PH1NX was evolving in response to their contributions. This is a
 manifestation of the hackneyed writing cliché: show, don't tell. The
@@ -142,7 +136,6 @@ designed to engage learners over a vacation break in fun, collaborative,
 social media-friendly missions that required engagement in the
 community, expansion of their personal learning networks, and
 documentation on their blogs. For example:
-
 ### FEAT \#1
 
 *Buy a ticket to "The Hunger Games" (or any other movie that's likely to
@@ -157,14 +150,11 @@ Students had been using the Internet without an Acceptable Use Policy
 all year; such policies are one-to-many artifacts of a central authority
 and far weaker than community norms. So rather than introduce "rules"
 5PH1NX simply provided a reminder of the client-side responsibility.
-
-The Emergence of Peeragogical Assessment
-----------------------------------------
+## The Emergence of Peeragogical Assessment
 
 The third page on the Feats of Wisdom blog was entitled *Identifying and
 Rewarding Greatness*, where learners were greeted with the following
 paragraph:
-
 > If you see something that was done with love, that pushed the
 > boundaries, set the standard, broke the mold, pushed the envelope,
 > raised the bar, blew the doors off, or rocked in some previously
@@ -193,9 +183,7 @@ coursework. This was learner-centered Peeragogical assessment in action;
 learners identified a need and an opportunity, they built a tool for the
 purpose, they managed it themselves, and they leveraged it in a
 meaningful way to support student achievement in the core curriculum.
-
-Project Infinity 2 & Implications for the Future
-------------------------------------------------
+## Project Infinity 2 & Implications for the Future
 
 Alumni from the Class of 2012 felt such a strong positive connection to
 their experience in Open Source Learning and Peeragogical assessment
@@ -240,7 +228,7 @@ of conversations about in-person retreats and the alumni community led
 to students wanting to create a massively multiple player learning
 cohort. Imagine 50,000-100,000 learners collaborating and sharing
 information on a quest to pass an exam by solving a puzzle that leads
-them to a "Learning Man Festival"? over Summer break. When 5PH1NX
+them to a "Learning Man Festival" over Summer break. When 5PH1NX
 players return from Winter Break in January they will transform their
 roles relative to the game and the course. Several have already shared
 "AHA!" moments in which they discovered ways to share ideas and
@@ -264,9 +252,7 @@ probability to a world of possibility. As one student put it in a video
 entitled "We Are Superman," "What we are doing now may seem small, but
 we are part of something so much bigger than we think. What does this
 prove? It proves everything; it proves that it's possible."
-
-Background
-----------
+## Background
 
 A world in which work looks like what's described in the PSFK think
 tank's **[Future of Work Report
@@ -282,7 +268,6 @@ Skinner's Box 2.0. So what is to be done? How can we use emerging tools
 and culture to deliver such an amazing individual and collaborative
 experience that it shatters expectations and helps students forget
 they're in school long enough to fall in love with learning again?
-
 Education in the Information Age should enable learners to find,
 analyze, evaluate, curate, and act on the best available information.
 Pursuing an interdisciplinary path of inquiry in an interest-based
@@ -357,7 +342,7 @@ evidence of their own inability: "I'm just not good at math."
 How do we know when we're really good at something? Standardized testing
 feedback doesn't help learners improve. Most of us don't have a natural
 talent for offering or accepting criticism. And yet, as Wole Soyinka put
-it, "The greatest threat to freedom is the absence of criticism."?
+it, "The greatest threat to freedom is the absence of criticism."
 Peeragogical interaction requires refining relational and topical
 critique, as well as skills in other "meta" literacies, including but
 not limited to critical thinking, collaboration, conflict resolution,

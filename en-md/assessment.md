@@ -1,18 +1,16 @@
 Authors: Joe Corneli and David Preston
-
 > This article is about both assessment in peer learning and an exercise
 > in assessment, as we put our strategy for assessment into practice by
 > evaluating the [Peeragogy
 > Handbook](http://peeragogy.org "Peer Handbook") itself.
 
-Adapting strategies for learning assessment to the peer-learning context
-------------------------------------------------------------------------
+## Adapting strategies for learning assessment to the peer-learning
+context
 
 In “[Effective Grading: A Tool for Learning and
 Assessment](http://books.google.com/books?id=EJxy06yX_NoC&printsec=frontcover&source=gbs_atb#v=onepage&q&f=false "Effective Grading: A Tool for Learning and Assessment"),”
 Barbara E. Walvoord and Virginia Johnson Anderson have outlined an
 approach to grading. They address three questions:
-
 1.  Who needs to know, and why?
 2.  Which data are collected?
 3.  How does the assessment body analyze data and present findings?
@@ -24,7 +22,6 @@ understand - and assess - any strategy for assessment! For example,
 consider "formative assessment" (in other words, keeping track of how
 things are going). In this context, the answers to the questions above
 would be:
-
 1.  Teachers need to know about the way students are thinking about
     their work, so they can deliver better teaching.
 2.  Teachers gather a lot of these details on learning activities by
@@ -37,7 +34,6 @@ would be:
 This is very much a "teacher knows best" model! In order to do something
 like formative assessment among peers, we would have to make quite a few
 adjustments.
-
 1.  At least some of the project participants would have to know how
     other participants are thinking about their work as well as
     analyzing their own progress. We are then able to "deliver better
@@ -67,9 +63,7 @@ has been to show that when the familiar roles from formal education
 devolve "to the people," the way assessment looks can change a lot. In
 the following section, we offer and begin to implement an assessment
 strategy for evaluating the peeragogy project as a whole.
-
-Case study in peeragogical evaluation: the Peeragogy project itself
--------------------------------------------------------------------
+## Case study in peeragogical evaluation: the Peeragogy project itself
 
 We can evaluate this project partly in terms of its main "deliverable,"
 the Peeragogy Handbook (which you are now reading). In particular, we
@@ -83,7 +77,6 @@ are two very different questions, with two different targets for
 analysis -- though the book's co-creators are also part of the "intended
 audience". Indeed, we might start by asking "how has working on this
 book been useful for us?"
-
 ### A methodological interlude: "Follow the money"
 
 The metrics for learning in corporations are business metrics based on
@@ -100,7 +93,6 @@ going to decide whether or not to continue investing. Because the figure
 involves judgment, it’s never going to be accurate to the first decimal
 place. Fortunately, it doesn’t have to be. Ballpark numbers are solid
 enough for making decisions.
-
 [![jay-cross](http://peeragogy.org/wp-content/uploads/2012/04/jay-cross-300x169.jpg)](http://peeragogy.org/assessment/jay-cross/)
   ~ Are we serving the customer better? [Assessing Workplace
     Learning](http://vimeo.com/45989089) from [Jay
@@ -133,7 +125,6 @@ interviewing less than 100 people out of 2000 yields an answer within
 10% nineteen times out of twenty, a higher confidence level than most
 estimates in business. Interviewing 150 people will give you the right
 estimate 99% of the time.
-
 ### Roadmaps in Peer Learning
 
 ![image](http://upload.wikimedia.org/wikipedia/commons/6/60/Lewis_Carroll_-_Henry_Holiday_-_Hunting_of_the_Snark_-_Plate_4.jpg)
@@ -166,7 +157,6 @@ members of the Peeragogy Google+ community, as well as to the currently
 active members of the Peeragogy mailing list. The responses outlining
 the project’s purpose ranged from the general: “How to make sense of
 learning in our complex times” - to much more specific:
-
 > **Anonymous Survey Respondent 1**: Push education further, providing a
 > toolbox and [techniques] to self-learners. In the peeragogy.org
 > introduction page we assume that self-learners are self-motivated,
@@ -182,7 +172,6 @@ participated by joining the Google+ community) was: “[Seeking]
 shared aim of learning.” More active participants justified their
 participation in terms of what they get out of taking an active role,
 for instance:
-
 > **Anonymous Survey Respondent 2**: “Contributing to the project allows
 > me to co-learn, share and co-write ideas with a colourful mix of great
 > minds. Those ideas can be related to many fields, from communication,
@@ -190,7 +179,6 @@ for instance:
 
 The most active participants justified their participation in terms of
 beliefs or a sense of mission:
-
 > **Anonymous Survey Respondent 3**: “Currently we are witnessing many
 > efforts to incorporate technology as an important tool for the
 > learning process. However, most of the initiatives are reduced to the
@@ -202,7 +190,6 @@ beliefs or a sense of mission:
 > learn and find new strategies to learn better with my students.”
 
 Or again:
-
 > **Anonymous Survey Respondent 4**: “I wanted to understand how ”peer
 > production” really works. Could we create a well-articulated system
 > that helps people interested in peer production get their own goals
@@ -212,7 +199,6 @@ Or again:
 
 They also expressed criticism of the project, implying that they may
 feel rather powerless to make the changes that would correct course:
-
 > **Anonymous Survey Respondent 5**: “Sometimes I wonder whether the
 > project is not too much ‘by education specialists for education
 > specialists.’ I have the feeling peer learning is happening anyway,
@@ -221,7 +207,6 @@ feel rather powerless to make the changes that would correct course:
 > experts. Or at least, quite a few of them are.”
 
 Another respondent was more blunt:
-
 > **Anonymous Survey Respondent 6**: “What problems do you feel we are
 > aiming to solve in the Peeragogy project? We seem to not be sure. How
 > much progress did we make in the first year? Some... got stuck in
@@ -238,7 +223,6 @@ peers will find pathways to turn their excitement into shared products
 or process. For example, one respondent (who had only joined the Google+
 community) had not yet introduced current, fascinating projects
 publicly:
-
 > **Anonymous Survey Respondent 7**: “I joined the Google+ community
 > because I am interested in developing peer to peer environments for my
 > students to learn in. We are moving towards a community-based,
@@ -253,7 +237,6 @@ Responses such as this highlight our need to make ourselves available to
 hear about exciting new projects from interested peers, simultaneously
 giving them easier avenues to share. Our work on developing a peeragogy
 accelerator in the next section is an attempt to address this situation.
-
 ### Summary
 
 We can reflect back on how this feedback bears on the main sections of
@@ -274,9 +257,7 @@ communities of life long learners to practice digital literacies."
 **Assess** *How can we be effective and relevant?* "I am game to also
 explore ways attach peeragogy to spaces where funding can flow based on
 real need in communities."
-
-Conclusion
-----------
+## Conclusion
 
 We can estimate individual learning by examining the real problems
 solved by the individual. It makes sense to assess the way groups solve
