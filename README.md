@@ -35,7 +35,7 @@ or live large and convert to
 
 # The steps you need to take to build the book are then as follows
 
-Obtain a backup of the [Wordpress site](http://peeragogy.org).  
+Obtain a backup of the [Wordpress site](http://peeragogy.org).
 
 Then:
 
@@ -49,7 +49,7 @@ mysql> drop database peeragogyB; create database peeragogyB;
 ```
 
 ```
-mysql -u peeragogyB --password=peeragogyB peeragogyB < database_stephani_wrdp2.sql  
+mysql -u peeragogyB --password=peeragogyB peeragogyB < database_stephani_wrdp2.sql 
 ```
 
 ```
