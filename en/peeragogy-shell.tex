@@ -2,6 +2,8 @@
 
 %\usepackage{showframe}
 
+\newcounter{labelstepper}
+
 \newcommand{\attrib}[1]{\vspace*{-.5cm}%
 {\centering {\sc #1}\par}%
 \vspace*{1cm}}
@@ -14,6 +16,14 @@
 %% \makeatother
 
 \usepackage{pdfpages}
+
+\usepackage[framemethod=tikz]{mdframed}
+\mdfsetup{
+skipabove=\baselineskip,
+skipbelow=\baselineskip,
+innertopmargin=3pt,
+innerbottommargin=3pt
+}
 
 \noindexintoc
 
@@ -355,18 +365,18 @@
 {\small Lisa Snow MacDonald, Dorotea Marciniak, Paola Ricaurte} \\[.25in]
 
 \emph{with contributions from} \\
-{\small Bryan Alexander, Paul Allison, Elisa Armendariz,} \\
+{\small Bryan Alexander, Paul Allison, Elisa Armend\'ariz,} \\
 {\small R\'egis Barondeau, George Brett, Suz Burroughs,}\\ 
 {\small Teryl Cartwright, Jay Cross, Julian Elve,}\\
 {\small Mar\'ia Fernanda Arenas, James Folkestad, Kathy Gill,}\\
 {\small John Glass, John Graves, Jan Herder,} \\
-{\small Gigi Johnson, Anna Keune, Kyle Larson,} \\
-{\small Roland Legrand, Christopher Tillman Neal, Ted Newcomb,} \\
-{\small Stephanie Parker, Miguel Angel Pérez Alvarez, David Preston,} \\
-{\small Stephanie Schipper, Peter Taylor, Fabrizio Terzi,} \\
-{\small and Geoff Walker}
+{\small Matthew Herschler, Gigi Johnson, Anna Keune,} \\
+{\small Kyle Larson, Roland Legrand, Christopher Tillman Neal,} \\
+{\small Ted Newcomb, Stephanie Parker, Miguel \'Angel P\'erez \'Alvarez,} \\
+{\small David Preston, Stephanie Schipper, Peter Taylor,} \\
+{\small Fabrizio Terzi, and Geoff Walker}
 }
-\date{\today\ (version 3.0$\alpha_3$)}
+\date{\today\ (version 3.0$\beta_1$)}
 \maketitle
 \thispagestyle{empty}
 
@@ -375,16 +385,32 @@
 \end{center}
 \quad \\[4in] 
 \begin{center}
-\large{ISBN: 978-0-9776396-4-9}
+\large{The Peeragogy Handbook, 3rd Edition.\\
+ISBN: 978-0-9776396-4-9}
 \quad \\[.2in] 
 \large{Cover art and illustrations: Amanda Lyons}
 \quad \\[.2in]
 \large{Typeset in Linux Libertine with \XeLaTeX. \\
 Sources available at \url{http://git.io/Handbook}.}
 \quad \\[.2in]
-\large{Jointly published by Pierce Press and PubDomEd.}
+\large{Jointly published by PubDomEd and Pierce Press.}
 \end{center}
 \thispagestyle{empty}
+\clearpage
+
+\quad \\[1.5in] 
+\begin{quote}
+\noindent This 3rd Edition of the \emph{Peeragogy Handbook} is
+dedicated to one of our most convivial -- indeed, lovable --
+volunteers. George Brett was a quiet and learned man with a sense of
+fun.  His mail art name was geORge and for a while he was known by
+many online for the selfies he took with his yellow rubber duckie. Far
+from being a full-time funster, George has been involved in expanding
+the educational uses of the Internet since before it was the Internet,
+both in his work with government institutions and his many online
+volunteer activities. He gifted the Peeragogy project not only with
+his knowledge and labor, but with his warmth and fun.  We miss him.
+\end{quote}
 \cleardoublepage
 
 \frontmatter
@@ -394,7 +420,7 @@ Sources available at \url{http://git.io/Handbook}.}
 {
 \changepage{10mm}{}{}{}{}{-10mm}{}{}{}{}{}{}{}{}
 %
-\renewcommand{\baselinestretch}{1.2}\normalsize
+\renewcommand{\baselinestretch}{1.1}\normalsize
 \tableofcontents*
 \renewcommand{\baselinestretch}{1.0}\normalsize
 }
@@ -418,10 +444,35 @@ Sources available at \url{http://git.io/Handbook}.}
 \addcontentsline{toc}{chapter}{Preface to the Third Edition}
 \chapter*{Preface to the Third Edition}
 
-Charlie and Charlotte, and all, please say something here, if we want
-a preface.  Should not be redundant with what's in the Introduction.
-(And please check the 1st page of the introduction since it's probably
-a bit wonky.)
+
+The \emph{Peeragogy Handbook} isn't a normal book.  It is an evolving
+guide, and it tells a collaboratively written story that \emph{you}
+can help write.  It is a living document, and we've released a new
+version every year as we improve the material.
+
+We've built the book collaboratively online.  At any given moment the
+latest version is available on peeragogy.org and git.io/Handbook.  You
+can comment on each page in the online edition.  And you can talk
+directly with the contributors and connect with others who are
+interested in applying peeragogy in the \emph{Peeragogy in Action}
+community
+\href{https://plus.google.com/communities/107386162349686249470}{on
+  G+}.
+
+But the print edition lets you do some things that the web doesn't.
+Get out a pen or pencil and mark it up as you read -- underline, or
+cross things out.  Ask questions and think about how things could be
+said better or how the ideas could be made more effective.  And get
+back to us with your ideas for the next edition.  We're not being lazy
+-- this is what we've been doing ourselves for three years!
+
+To make it easier to dive into the content, we're kicking things off
+with a short workbook that contains a concise guide to the who, what,
+when, where, how and why of peeragogy.  We've also updated our pattern
+catalog, added more case studies, and made numerous small improvements
+to the text throughout.
+
+{\flushright The Editors\\March, 2015\\}  
 \clearpage
  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
 
@@ -435,6 +486,10 @@ a bit wonky.)
 
 \includepdf[page={1-},offset=5mm 0mm,
 pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
+
+\newpage
+
+\input{landmarks.tex}
 
 \chapter[\textbf{Chapter Summaries}]{Chapter Summaries}
 %
@@ -500,6 +555,10 @@ pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 \section*{Stuck at the level of weak ties}
 \input{stuck.tex}
 
+\chapter{Roadmap for the Peeragogy Project}
+
+\input{whats-next-summary.tex}
+
 \chapter{Case Study: SWATs}
 \input{swats.tex}
 
@@ -533,10 +592,6 @@ pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 \chapter[\textbf{The student authored syllabus}]{ The student authored syllabus } 
 %
 \input{student_syllabus.tex}
-%
-\chapter[\textbf{How to Organize a MOOC}]{ Connectivism in Practice ---  How to Organize a cMOOC}
-%
-\input{connectivism.tex}
 %
 \chapter[\textbf{Case Study: Collaborative Explorations}]{ Case Study: Collaborative Explorations}
 %
@@ -589,6 +644,10 @@ pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 \chapter[\textbf{Real-time Meetings}]{ Real-time Meetings } 
 %
 \input{realtime.tex}
+%
+\chapter[\textbf{How to Organize a MOOC}]{ Connectivism in Practice ---  How to Organize a cMOOC}
+%
+\input{connectivism.tex}
 
 
 \part{Resources} \label{resources-part} %%%%%%%%%%%%%%%%%%%%
