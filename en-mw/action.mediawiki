@@ -1,6 +1,6 @@
-Hi Anna, Grusse schoen.
+ES>Hola.
 
-We have been writing the missing manual for peer-produced peer learning - the “Peeragogy Handbook” ([http://peeragogy.org/ peeragogy.org]). Throughout the building of this work, we, ourselves peer learners in this quest, have been mindful of these four questions:
+EN>We have been writing the missing manual for peer-produced peer learning - the “Peeragogy Handbook” ([http://peeragogy.org/ peeragogy.org]). Throughout the building of this work, we, ourselves peer learners in this quest, have been mindful of these four questions:
 
 # ''How does a motivated group of self-learners choose a subject or skill to learn?''
 # ''How can this group identify and select the best learning resources about that topic?''
