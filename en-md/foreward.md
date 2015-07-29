@@ -95,7 +95,7 @@ What made this work? Polycentric leadership is one key. Many different
 members of the project stepped up at different times and in different
 ways and did truly vital things for the project. Currently, over 30
 contributors have signed the CC Zero waiver and have material in the
-handbook; over 600 joined our Peeragogy in Action community on G+; and
+handbook; over 600 joined our [Peeragogy in Action community on G+](http://polr.me/2qe); and
 over 1000 tweets mention peeragogy.org. People clearly like the concept
 of peeragogy -- but a healthy number of these people also like
 participating in the process.
