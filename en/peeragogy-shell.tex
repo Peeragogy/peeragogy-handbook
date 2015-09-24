@@ -1,8 +1,15 @@
 \documentclass[ebook, 12pt, twoside]{memoir}
 
+\nobibintoc
+
 %\usepackage{showframe}
 
 \newcounter{labelstepper}
+
+\newcommand{\patternname}[1]{\hyperref[sec:#1]{{\sc #1}}}
+\newcommand{\patternnameext}[1]{{\sc #1}}
+\newcommand{\patternnameplural}[1]{\hyperref[sec:#1]{{\sc #1s}}}
+\newcommand{\patternnameposesssive}[1]{\hyperref[sec:#1]{{\sc #1's}}}
 
 \newcommand{\attrib}[1]{\vspace*{-.5cm}%
 {\centering {\sc #1}\par}%
@@ -141,6 +148,12 @@ innerbottommargin=3pt
 \newcommand\marktransition{\begin{center}◆\end{center}}
 \newcommand\marktransitionempty{\begin{center}\quad\end{center}}
 
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{positioning,backgrounds,fit,arrows,arrows.meta,shapes,shadows}
+\usetikzlibrary{shapes.multipart}
+\usepackage{pgflibraryarrows}
+
 \usepackage{wrapfig}
 
 %\usepackage[T1]{fontenc}
@@ -148,7 +161,24 @@ innerbottommargin=3pt
 
 \usepackage[english,greek]{babel}
 
-\usepackage[super]{natbib}
+%\usepackage[sectionbib]{natbib}
+%\usepackage[sectionbib]{chapterbib}
+%\sectionbib{\section*}{section} 
+%\renewcommand\bibsection{\section*{\bibname}}
+
+\usepackage[style=numeric]{biblatex}
+\addbibresource{pattern-catalog-bib.bib}
+
+\defbibheading{subbibliography}[\refname]{%
+    \subsubsection*{#1}%
+    \ifmemoirbibintoc
+      {\phantomsection
+       \addcontentsline{toc}{section}{#1}}
+      {}%
+    \if@twoside\markright{\memUChead{#1}}\fi}
+
+%% \usepackage{etoolbox}
+%% \patchcmd{\thebibliography}{\section*}{\protect\subsection*}{}{}
 
 \usepackage{ctable}
 
@@ -345,6 +375,7 @@ innerbottommargin=3pt
 % \usepackage{longtable}
 
 \begin{document}
+%
 \sloppy \pagestyle{empty} \thispagestyle{empty}
 \selectlanguage{english}
 \begin{center}
@@ -376,7 +407,7 @@ innerbottommargin=3pt
 {\small David Preston, Stephanie Schipper, Peter Taylor,} \\
 {\small Fabrizio Terzi, and Geoff Walker}
 }
-\date{\today\ (version 3.0$\beta_2$)}
+\date{\today\ (version 3.0$\beta_3$)}
 \maketitle
 \thispagestyle{empty}
 
@@ -420,7 +451,7 @@ his knowledge and labor, but with his warmth and fun.  We miss him.
 {
 \changepage{10mm}{}{}{}{}{-10mm}{}{}{}{}{}{}{}{}
 %
-\renewcommand{\baselinestretch}{1.1}\normalsize
+\renewcommand{\baselinestretch}{1.2}\normalsize
 \tableofcontents*
 \renewcommand{\baselinestretch}{1.0}\normalsize
 }
@@ -472,7 +503,7 @@ when, where, how and why of peeragogy.  We've also updated our pattern
 catalog, added more case studies, and made numerous small improvements
 to the text throughout.
 
-{\flushright The Editors\\March, 2015\\}  
+{\flushright The Editors\\September, 2015\\}
 \clearpage
  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
 
@@ -506,65 +537,49 @@ pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 
 \part{~Peeragogy in Practice} \label{practice-part}  %%%%%%%%%%%%%%%%%%%%
 %
-\chapter[\textbf{Thinking about patterns}]{Thinking about patterns}
+\chapter[\textbf{Thinking about patterns}]{Thinking about patterns} \label{thinking-in-patterns}
 \input{patterns.tex}
 %
-\chapter[\textbf{Patterns}]{ Patterns } 
+\chapter[\textbf{Patterns}]{ Patterns of Peeragogy } \label{patterns}
+\input{Patterns_Introduction.tex} \label{sec:Introduction}
+%
+\section*{Peeragogy} \label{sec:Peeragogy}
+\input{Peeragogy_Project.tex}
+%
+\section*{Roadmap} \label{sec:Roadmap}
+\input{Roadmap.tex}
+%
+\section*{Reduce, reuse, recycle} \label{sec:Reduce, reuse, recycle}
+\input{Use_or_make.tex} 
+%
+\section*{Carrying Capacity} \label{sec:Carrying capacity}
+\input{Carrying_capacity.tex}
+%
+\section*{A specific project} \label{sec:A specific project}
+\input{A_specific_project.tex}
+%
+\section*{Wrapper} \label{sec:Wrapper}
+\input{Wrapper.tex}
+%
+\section*{Heartbeat} \label{sec:Heartbeat}
+\input{Heartbeat.tex}
+%
+\section*{Newcomer} \label{sec:Newcomer}
+\input{Newcomer.tex}
+%
+\section*{Scrapbook} \label{sec:Scrapbook}
+\input{Scrapbook.tex}
 
-\section*{Wrapper}
-\input{wrapper.tex}
-\section*{Discerning a Pattern}
-\input{discerning_a_pattern.tex}
-\section*{Polling for Ideas}
-\input{polling_for_ideas.tex}
-\section*{Creating a Guide}
-\input{creating_a_guide.tex}
-\section*{Newcomer}
-\input{newcomer.tex}
-\section*{Roadmap}
-\input{roadmap.tex}
-\section*{Roles}
-\input{roles.tex}
-\section*{Focusing on a specific project}
-\input{specific_project.tex}
-\section*{Carrying Capacity}
-\input{carrying_capacity.tex}
-\section*{Heartbeat}
-\input{heartbeat.tex}
-\section*{Moderation}
-\input{moderation.tex}
-%\section*{Pattern Language}
-%\input{pattern_language.tex}
-\section*{Use or Make?}
-\input{praxis_vs_poeisis.tex}
 
-\chapter[\textbf{Antipatterns}]{Antipatterns}
-
-\section*{Isolation}
-\input{isolation.tex}
-\section*{Magical thinking}
-\input{magical_thinking.tex}
-\section*{Messy with Lurkers}
-\input{messy_with_lurkers.tex}
-\section*{Misunderstanding Power}
-\input{misunderstanding_power.tex}
-\section*{Navel Gazing}
-\input{navel_gazing.tex}
-\section*{Stasis}
-\input{stasis.tex}
-\section*{Stuck at the level of weak ties}
-\input{stuck.tex}
-
-\chapter{Roadmap for the Peeragogy Project} \label{distributed-roadmap}
-
-\input{whats-next-summary.tex}
+\chapter{Emergent Roadmap} \label{sec:Distributed_Roadmap}
+\input{Distributed_Roadmap.tex} 
 
 \chapter{Case Study: SWATs} \label{swats}
 \input{swats.tex}
 
 \part{~Convening A Group} \label{convening-part} %%%%%%%%%%%%%%%%%%%%
 %
-\chapter[\textbf{Convening}]{Building Your Co-Learning Group}
+\chapter[\textbf{So you've decided to peer learning\ldots}]{So you've decided to try peer learning\ldots}
 \input{convening.tex}
 %
 \chapter[\textbf{Play and learning}]{Play and learning}
