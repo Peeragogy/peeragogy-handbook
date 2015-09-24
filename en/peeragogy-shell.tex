@@ -12,8 +12,10 @@
 \newcommand{\patternnameposesssive}[1]{\hyperref[sec:#1]{{\sc #1's}}}
 
 \newcommand{\attrib}[1]{\vspace*{-.5cm}%
-{\centering {\sc #1}\par}%
-\vspace*{1cm}}
+{\centering{\sc#1}\par}%
+\vspace*{1cm}%
+\par%
+\noindent\ignorespaces}
 %% \makeatletter
 %% \renewcommand\@dotsep{10000}
 %% \renewcommand{\l@part}{\l@chapter}
@@ -159,7 +161,13 @@ innerbottommargin=3pt
 %\usepackage[T1]{fontenc}
 %\usepackage[math]{kurier} % {regular} {light} {condensed} {mathnoalias} {math}
 
-\usepackage[english,greek]{babel}
+\usepackage{polyglossia}
+\setmainlanguage[variant=american]{english}
+\PolyglossiaSetup{english}{indentfirst=false}
+\setotherlanguage{greek}
+%\newfontfamily\greekfont{GFS Bodoni}[Ligatures=TeX,Script=Greek]
+%\newfontfamily\greekfont{GFS Complutum}[Ligatures=TeX,Script=Greek]
+\newfontfamily\greekfont{GFS Artemisia}[Ligatures=TeX,Script=Greek]
 
 %\usepackage[sectionbib]{natbib}
 %\usepackage[sectionbib]{chapterbib}
@@ -176,6 +184,29 @@ innerbottommargin=3pt
        \addcontentsline{toc}{section}{#1}}
       {}%
     \if@twoside\markright{\memUChead{#1}}\fi}
+
+\DeclareFieldFormat{labelnumberwidth}{#1\adddot}
+\newlength{\periodwidth}
+\settowidth{\periodwidth}{.}
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{%
+        \printfield{prefixnumber}%
+        \printfield{labelnumber}%
+        }%
+     }%
+  {
+   \setlength{\labelwidth}{\labelnumberwidth}%
+   \setlength{\leftmargin}{\labelwidth}%
+   \setlength{\labelsep}{\biblabelsep}%
+   %\addtolength{\labelsep}{1em}
+   \addtolength{\leftmargin}{1em}%
+   \setlength{\itemsep}{\bibitemsep}%
+   \setlength{\parsep}{\bibparsep}}%
+   \renewcommand*{\makelabel}[1]{\hss##1}%
+  }
+  {\endlist}
+  {\item\hskip-\periodwidth}
 
 %% \usepackage{etoolbox}
 %% \patchcmd{\thebibliography}{\section*}{\protect\subsection*}{}{}
@@ -475,33 +506,13 @@ his knowledge and labor, but with his warmth and fun.  We miss him.
 \addcontentsline{toc}{chapter}{Preface to the Third Edition}
 \chapter*{Preface to the Third Edition}
 
-
-The \emph{Peeragogy Handbook} isn't a normal book.  It is an evolving
-guide, and it tells a collaboratively written story that \emph{you}
-can help write.  It is a living document, and we've released a new
-version every year as we improve the material.
-
-We've built the book collaboratively online.  At any given moment the
-latest version is available on peeragogy.org and git.io/Handbook.  You
-can comment on each page in the online edition.  And you can talk
-directly with the contributors and connect with others who are
-interested in applying peeragogy in the \emph{Peeragogy in Action}
-community
-\href{https://plus.google.com/communities/107386162349686249470}{on
-  G+}.
-
-But the print edition lets you do some things that the web doesn't.
-Get out a pen or pencil and mark it up as you read -- underline, or
-cross things out.  Ask questions and think about how things could be
-said better or how the ideas could be made more effective.  And get
-back to us with your ideas for the next edition.  We're not being lazy
--- this is what we've been doing ourselves for three years!
-
-To make it easier to dive into the content, we're kicking things off
-with a short workbook that contains a concise guide to the who, what,
-when, where, how and why of peeragogy.  We've also updated our pattern
-catalog, added more case studies, and made numerous small improvements
-to the text throughout.
+The Second Edition of the \emph{Handbook} came out two years ago.
+We've been keeping at it since then.  This time around, we're kicking
+things off with a short workbook that contains a concise guide to the
+who, what, when, where, how and why of peeragogy.  We've thoroughly
+revised the pattern catalog, added more case studies, and made
+numerous small improvements to the text (and the typesetting!)
+throughout.
 
 {\flushright The Editors\\September, 2015\\}
 \clearpage
@@ -540,7 +551,9 @@ pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 \chapter[\textbf{Thinking about patterns}]{Thinking about patterns} \label{thinking-in-patterns}
 \input{patterns.tex}
 %
-\chapter[\textbf{Patterns}]{ Patterns of Peeragogy } \label{patterns}
+\let\oldfootnote\footnote
+\renewcommand*{\footnote}[1]{}%
+\chapter[\textbf{Patterns of Peeragogy}]{ Patterns of Peeragogy } \label{patterns}
 \input{Patterns_Introduction.tex} \label{sec:Introduction}
 %
 \section*{Peeragogy} \label{sec:Peeragogy}
@@ -570,9 +583,10 @@ pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 \section*{Scrapbook} \label{sec:Scrapbook}
 \input{Scrapbook.tex}
 
-
 \chapter{Emergent Roadmap} \label{sec:Distributed_Roadmap}
 \input{Distributed_Roadmap.tex} 
+
+\renewcommand*{\footnote}[1]{\oldfootnote{#1}}%
 
 \chapter{Case Study: SWATs} \label{swats}
 \input{swats.tex}
