@@ -1,0 +1,84 @@
+\begin{refsection}% DK: This is a bit self-referential. You have roadmap embedded throughout the description of the pattern. E.g. the context and problem should be able to describe the situation before the solution has been applied, so you should be able to describe them without the solution name in them.
+
+% DK: How is this different from a Backlog? Who “owns” the roadmap? How are changes made to it? How precise is it? Does it have a time dimension to it? You refer to deadlines later on. Does the roadmap include them? (What do deadlines really mean in a project like this anyhow?) Priority?
+
+\paragraph{Context} \patternname{Peeragogy} has both distributed and centralized aspects. The different discussants or contributors who collaborate on a project have different points of view and heterogeneous priorities, but they come together in conversations and joint activities.
+\textbf{Different people will have different goals and interests in mind; some may be quite specific, and some rather vague.  Upon further scrutiny, some of these goals will be seen to be well-aligned, others less so.}
+
+\paragraph{Problem} In order to collaborate, people need a way to share current, though incomplete, understanding of the space they are working in, and to nurture relationships with one another and the other elements of this space.  Without a sense of our individual goals or how they fit together in the context of addressing outstanding problems, it is difficult for people to help out, or to assess the 
+project's progress.  At the outset, there may not even be a project or a vision for a project, but a only loose collection of motivations and sentiments.  Once the project is running, people are likely to pull in different directions.   
+
+\paragraph{Solution} Building a guide to current and upcoming activities, experiments, goals and working methods can help \patternnameplural{Newcomer} and old-timers alike see where they can jump in.  This guide may take various forms, and different levels of detail.  It may be a research question or an outline, an organizational mission statement or a business plan.  It may be a design pattern or a pattern language \cite{kohls2010structure}.  It may combine features of a manifesto, a syllabus, and an issue tracker.  The distinguishing qualities of a project \patternname{Roadmap} are that it should be adaptive to circumstances and that it should ultimately get us from \emph{here} to \emph{there}.  By this same token, any given version of the roadmap is seen as fallible.  It should be accessible to everyone with an interest in the project, though in practice not everyone will choose to update it.  In lieu of widespread participation, the project's \patternname{Wrapper} should attempt to synthesize an accurate roadmap informed by participants' behavior, and should help moderate in case of conflict.  However, full consensus is not necessary.  Different goals, with different \emph{heres} and \emph{theres}, can be pursued separately, while maintaining communication.  To the extent that it's possible, combining everyone's individual plan into an overall \patternname{Roadmap} can help give everyone a sense of what's going on.
+
+\paragraph{Rationale} Unless the project's plan is easy for people to see and to update, they are not likely to use it, and are less likely to get involved.  The key point of the roadmap is to help support involvement by those who \emph{are} involved.   The level of detail in the roadmap (and the existence of a roadmap at all) should correspond to the felt need for sharing information and to the tolerance of uncertainty among participants.  
+% DK: This seems more like advice about how to implement the solution than it is an explanation of how the solution addresses the forces from the context/problem [jc: fixed]
+The structure of the roadmap should be able shift along with its contents: it is an antidote to \patternnameext{Tunnel Vision} \cite[pp. 121--124]{david2001software}. 
+In the Peeragogy project our roadmap evolved from an outline of the first draft of the
+\emph{Peeragogy Handbook}, to a schedule of meetings with a regular
+``\patternname{Heartbeat}'' supplemented by a list of upcoming submission deadlines, to the emergent objectives listed in Section \ref{sec:Distributed_Roadmap} of the current paper.
+By contrast, we've seen that a list of nice-to-have features is comparatively
+unlikely to \emph{go} anywhere.  A backlog of tasks and a realistic
+plan for accomplishing them can be vastly different things.
+%
+An adaptive roadmap that incorporates multiple simultaneous solution paths
+can achieve integration around core values without over-determining or
+over-constraining participation. 
+
+\paragraph{Resolution}
+% DK: This seems like Rationale to me [jc: fixed]
+Using the pattern catalog as an
+organizational tool gives us a robust mechanism for
+building and maintaining a ``distributed'', and ultimately
+``emergent'' roadmap -- whose components are rooted in real problems
+and justifiable solutions, with a concrete resolution and
+followthrough.  When these components are put together, we get a
+reasonably coherent and actionable idea of where the project is going.
+%
+The roadmap can give \patternnameplural{Newcomer} a reasonable idea of what it would mean to participate in the project, and can help them  decide whether, where, and how to get involved.
+
+\paragraph{Example 1}  The \emph{Help} link present on every Wikipedia page could be seen as a
+localized \patternname{Roadmap} for individual user
+engagement.\footnote{\url{https://en.wikipedia.org/wiki/Help:Contents}}
+It tells users what they can do on the site:
+
+\begin{quotation}
+\noindent 
+I want to read or find an article;
+I want to edit an article;
+I want to report a problem with an article;
+I want to create a new article or upload media;
+I have a factual question\ldots
+~[Etc.]
+\end{quotation}
+
+Community-organized WikiProjects and official Wikimedia projects announce their objectives  and invite others to get involved (cf.~\patternname{A
+  specific project}).  Wikimedia previously developed
+a detailed strategic plan drawing on community input
+\cite{wikimedia2011plan}.  The current description of the State of
+the Wikimedia Foundation includes a pointer to a two-week 2015
+Strategy Community Consultation (now closed for purposes of
+review and synthesis).\footnote{\url{https://meta.wikimedia.org/wiki/Communications/State_of_the_Wikimedia_Foundation}}\textsuperscript{,}\footnote{\url{https://blog.wikimedia.org/2015/02/23/strategy-consultation/}}\textsuperscript{,}\footnote{\url{https://meta.wikimedia.org/wiki/2015_Strategy/Community_consultation}}
+
+\paragraph{Example 2}
+In the future university, maintaining a special President's Residence
+would presumably be an undue opulence.  However it may be appropriate
+for project facilitators to gather at a University Hall for the
+primary purpose of working together on the university's
+\patternname{Roadmap}.  For now, we mostly meet online, and in person
+less frequently: at cafes, when passing through town, or at
+conferences.  In New York alone, there are a million members of
+meetup.com with similar habits, although they most likely have never
+heard of
+peeragogy.\footnote{\url{http://blog.meetup.com/thanks-a-million-ny/}}
+There is strength in numbers -- and there is leverage in organization.
+Whatever we balance we strike between ``global'' and ``local''
+operations, the purpose of our roadmap is to help us get organized.
+
+\begin{framed}
+\noindent
+\emph{What's Next.}
+If we sense that something needs to change about the project, that is a clue that we might need to record a new pattern, or revise our existing patterns.
+\end{framed}
+
+\printbibliography[heading=subbibliography]
+\end{refsection}

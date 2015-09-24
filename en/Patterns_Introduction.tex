@@ -1,0 +1,82 @@
+\begin{refsection}
+Readers will have encountered \emph{peer production}, at least in applications like Wikipedia, StackExchange, and free/libre/open source software development.   
+%
+Readers will also be familiar with \emph{peeragogy}, even if the name is unfamiliar.  Simply put, peeragogy is active learning together with others.  Participants in a peeragogical endeavor collaboratively build emergent structures that are responsive to their changing context. They learn -- and they adapt.
+%
+Taking inspiration from the notable successes of peer production, we are using peeragogy to help design the future of learning, inside and outside of institutions.
+
+We have found design patterns useful for organizing our work on this momentous task.  However, there is a difference between the pattern language we present here and previous collections of design patterns that touch on similar domains -- like \emph{Liberating Voices: A Pattern Language for Communication Revolution} \cite{schuler2008liberating} and \emph{Pedagogical Patterns: Advice for Educators} \cite{bergin2012pedagogical}.  At the level of the pattern template, our innovation is simply to add a ``What's next'' annotation to each pattern, which anticipates the way the pattern will continue to ``resolve'' in our work. 
+
+% The patterns we introduce here focus on negotiating the execution and implementation of solutions in their practical context.
+%  This often requires compromise, adjustments and even restarts.  
+
+This mirrors the central considerations of our approach, which is all about human interaction, and the challenges, fluidity and lack of predictability that comes with it.  Something that works for one person may not work for another or may not even work for the same person in a slightly different situation.  Nevertheless, it is hard to argue with a formula like ``If W applies, do X to get Y.'' In our view, other pattern languages often achieve this sort of common sense rationality, and then stop.  Failure in the prescriptive model only begins when people try to define things more carefully and make context-specific changes -- when they actually try to put ideas into practice.  The problem lies in the inevitable distance between \emph{do as I say}, \emph{do as I do}, and \emph{do with me} \cite[p.~26]{deleuze1994difference}.
+%One is put in mind of Alfred Korzybski's famous remark: ``the map is not the territory.''  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.9\textwidth,trim=0 30 10 2, clip=true]{wisconsin-map}
+\end{center}
+\caption{A prototypical university.  Caption reads: ``Wisconsin State
+  University, Madison, Wis. 1879''.  Inset captions describe the
+  pictured buildings: ``Ladies Hall, South Dormitory, University Hall,
+  Assembly Halls \& Library, North Dormitory, Science Hall, President's
+  Residence, University Farm, and Washburn Observatory.''  Public
+  domain.\label{madison-map}}
+\end{figure} 
+
+This paper outlines a new approach to the organization of learning, drawing on the principles of free/libre/open source software (FLOSS) and open culture.  Mako Hill suggests that one recipe for success in peer production is to take a familiar idea -- his example is an encyclopedia -- and make it easy for people to participate in building it \cite[Chapter 1]{mako-thesis}.  Another inspiring familiar idea is the university.  We will take hold of ``learning in institutions'' as a map (Figure \ref{madison-map}), though it does not fully conform to the tacitly-familiar territory of peeragogy.  To be clear, peeragogy is not just for teachers and students, but for \emph{any group of people who want to learn anything}.\footnote{\url{https://www.youtube.com/watch?v=TDRGJzoNbAc}}
+
+Indeed, the strong version of our claim is that peeragogy is needed in applications of any map, blueprint, or design that seeks to involve people as people.  In some idealized sense, ``control'' is all that's required to move from a well-thought-out design to successful execution.  But, at the very least, this leaves the question: where do the designs come from in the first place \cite{von2003cybernetics}?
+%
+Once they exist, designs need to be interpreted, and often, revised.  People may think that they are on the same page, only to find out that their understandings are wildly different.  For  example, everyone may agree that the group needs to go ``that way.''  But how far?  How fast?  It is rare for a project to be able to set or even define all parameters accurately and concisely at the beginning.
+
+This is true for pattern languages as well.  We describe them in text, but they become a ``living language'' \cite[p.~xvii]{alexander1977pattern}  just insofar as they are linked to action.  Many things have changed since Alexander suggested that ``you will get the most `power' over the language, and make it your own most effectively, if you write the changes in, at the appropriate places in the book'' \cite[p.~xl]{alexander1977pattern}.  We see more clearly that we can build living designs, and inscribe their changing form not just in the margins of a book, or even a shared wiki, but in the lifeworld itself.  
+
+Although we are often thinking about learning and adaptation that takes
+place far outside of formal institutions, the historical conception
+of the university can offer some guidance.
+%
+The model university is not separate from the life of the state or its
+citizenry, but aims to ``assume leadership in the application of
+knowledge for the direct improvement of the life of the people in
+every sphere'' \cite[p.~88]{curti1949university}. Research that \emph{adds
+to the store of knowledge} is another fundamental
+obligation \cite[p.~550]{curti1949university}.    
+%% We use the patterns of peeragogy to
+%% \emph{constitute and occupy practical or speculative problems as such}
+%% \cite[p.~204]{deleuze1994difference}.
+%% %
+%% Our patterns are a living language just insofar as they are linked to
+%% action.
+
+% Till Sch{\"u}mmer \emph{et al.}~have emphasized that pattern authors ``talk about what by definition is tacit'' and highlight the role of nonverbal communication ``needed to communicate the unspeakable'' \cite[p.~9]{schummer2014beyond}.
+
+Our emergent approach to collaboration and knowledge-building is likely to be of interest to theorists in fields like organization studies and, perhaps surprisingly, computer science, where researchers are increasingly making use of social approaches to software design and development (e.g., via the \href{http://www.agilemanifesto.org/}{Manifesto for Agile Software Development}) as well as agent-based models of computation and learning \cite{minsky1967programming,poetry-workshop}.  
+%
+The design pattern community in particular is very familiar with practices that we think of as peeragogical, notably shepherding and writers workshops \cite{harrison1999language,coplien1997pattern}.  We hope to help design pattern authors and researchers expand on these strengths.
+
+The next section introduces \patternname{Peeragogy} more explicitly in the form of a design pattern.  Sections \ref{sec:Roadmap}--\ref{sec:Scrapbook} present the other patterns in our pattern language.  Figure \ref{fig:connections} illustrates their interconnections.  In each pattern description, the key forces that apply within the pattern's context are highlighted in bold face.  Each pattern also includes two examples.  The first example shows how the pattern is exhibited in current Wikimedia projects.  We have selected Wikimedia as a source of examples because we are relatively familiar with it, and because the relevant data is readily available to readers.  The second example shows how the given pattern could be applied in the design of a future university.  Whereas existing projects like Wikimedia's Wikiversity\footnote{\url{https://www.wikiversity.org/}} and the Peer-2-Peer University (P2PU) have created ``a model for lifelong learning alongside traditional formal higher education,''\footnote{\url{https://www.p2pu.org/en/}} they stop well short of offering accredited degrees.  What would an accredited free/libre/open university offering general education look like?  How would it compare or contrast with the typical or stereotypical image of a university from Figure \ref{madison-map}?
+
+Each pattern concludes with a ``What's next'' annotation, and Chapter \ref{sec:Distributed_Roadmap} collects these next steps and summarizes the outlook of the Peeragogy project.  It also
+sums up what's unique about this catalog, positioning it work as a hands-on complement to existing sociological and historical research about peer production (surveyed in \cite{benkler2015peer}).
+
+\begin{figure}
+{\centering
+\input{pattern-language-tikz}
+
+\par
+}
+\caption{Connections between the patterns of peeragogy.  An arrow points from pattern \textbf{A} to pattern \textbf{B} if the description of pattern \textbf{A} references pattern \textbf{B}. Labels at the borders of the figure correspond to the main sections of the \emph{Peeragogy Handbook}.\label{fig:connections}}
+\end{figure}
+
+% deferring a more detailed elaboration of next steps in the educational arena to future work that will build on this basis.
+% Technology has come a long way since Alexander suggested ``you will get the most `power' over the language, and make it your own most effectively, if you write the changes in, at the appropriate places in the book'' \cite[p.~xl]{alexander1977pattern}.
+% While Christian Kohls insightfully describes patterns as the unique resolution of the dynamical forces acting in a given context \cite{kohls2010structure,kohls2011structure}.
+%%% Patterns come to you through mindful awareness ... Charlotte: I think about patterns all the time now, I think about what makes me productive in a team.
+% So, while we speak the same language as other developers of design patterns, our orientation is somewhat different, and our understanding of the word `pattern' is nuanced because we aim to take full account of the lifecycle of patterns.  Our work contributes to a recent ``performative'' turn \cite{schummer2014beyond}, which we believe gets at the heart of what design patterns can do.
+%  
+% In practical terms, we believe the patterns that we introduce here will be useful for students and educators who want their work to have real-world relevance, to activists and policy-makers who want to develop practicable solutions to large-scale problems, and to employees and managers who, like it or not, find themselves working in distributed teams. 
+
+\printbibliography[heading=subbibliography]
+\end{refsection}
