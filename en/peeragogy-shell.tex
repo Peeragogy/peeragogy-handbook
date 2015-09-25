@@ -208,8 +208,11 @@ innerbottommargin=3pt
   {\endlist}
   {\item\hskip-\periodwidth}
 
-%% \usepackage{etoolbox}
-%% \patchcmd{\thebibliography}{\section*}{\protect\subsection*}{}{}
+
+\toks0\expandafter{\biburlsetup}
+\edef\biburlsetup{\the\toks0 \Urlmuskip =0mu\relax}
+
+
 
 \usepackage{ctable}
 
@@ -422,20 +425,18 @@ innerbottommargin=3pt
 \emph{Managing Editors}\\
 {\small Charles Jeffrey Danoff and Charlotte Pierce} \\[.25in]
 
-\emph{Editorial Board}\\
-{\small Doug Breitbart, Joseph Corneli, Amanda Lyons,}\\
-{\small Lisa Snow MacDonald, Dorotea Marciniak, Paola Ricaurte} \\[.25in]
-
-\emph{with contributions from} \\
+\emph{Contributors} \\
 {\small Bryan Alexander, Paul Allison, Elisa Armend\'ariz,} \\
-{\small R\'egis Barondeau, George Brett, Suz Burroughs,}\\ 
-{\small Teryl Cartwright, Jay Cross, Julian Elve,}\\
-{\small Mar\'ia Fernanda Arenas, James Folkestad, Kathy Gill,}\\
-{\small John Glass, John Graves, Jan Herder,} \\
-{\small Matthew Herschler, Gigi Johnson, Anna Keune,} \\
-{\small Kyle Larson, Roland Legrand, Christopher Tillman Neal,} \\
-{\small Ted Newcomb, Stephanie Parker, Miguel \'Angel P\'erez \'Alvarez,} \\
-{\small David Preston, Stephanie Schipper, Peter Taylor,} \\
+{\small R\'egis Barondeau, George Brett, Doug Breitbart,}\\ 
+{\small Suz Burroughs, Teryl Cartwright, Joseph Corneli,}\\
+{\small Jay Cross, Julian Elve, Mar\'ia Fernanda Arenas,}\\
+{\small James Folkestad, Kathy Gill, John Glass,} \\
+{\small John Graves, Jan Herder, Matthew Herschler,} \\
+{\small Gigi Johnson, Anna Keune, Kyle Larson,} \\
+{\small Roland Legrand, Amanda Lyons, Dorotea Marciniak,} \\
+{\small Christopher Tillman Neal, Ted Newcomb, Stephanie Parker,} \\
+{\small Miguel \'Angel P\'erez \'Alvarez, David Preston, Paola Ricaurte,} \\
+{\small Stephanie Schipper, Lisa Snow MacDonald, Peter Taylor,} \\
 {\small Fabrizio Terzi, and Geoff Walker}
 }
 \date{\today\ (version 3.0$\beta_3$)}
@@ -445,12 +446,14 @@ innerbottommargin=3pt
 \begin{center}
 {\large All the text in this book has been donated to the Public Domain.}
 \end{center}
-\quad \\[4in] 
+\quad \\[3.5in] 
 \begin{center}
 \large{The Peeragogy Handbook, 3rd Edition.\\
-ISBN: 978-0-9776396-4-9}
+ISBN: 978-0-9855722-2-8}
 \quad \\[.2in] 
-\large{Cover art and illustrations: Amanda Lyons}
+\large{Cover art and illustrations: Amanda Lyons}\\
+\large{Companion website design: Fabrizio Terzi}\\
+\large{Layout and typesetting: Joseph Corneli}\\
 \quad \\[.2in]
 \large{Typeset in Linux Libertine with \XeLaTeX. \\
 Sources available at \url{http://git.io/Handbook}.}
@@ -475,7 +478,9 @@ his knowledge and labor, but with his warmth and fun.  We miss him.
 \end{quote}
 \cleardoublepage
 
+
 \frontmatter
+
 \pagestyle{empty}
 \thispagestyle{empty}
 \setcounter{page}{-1}
@@ -488,23 +493,24 @@ his knowledge and labor, but with his warmth and fun.  We miss him.
 }
 %\afterpage{\blankpage}
 
-\mainmatter
-
 % For an overview of the traditional order of the first parts of a book, see:
 % http://bit.ly/1BJiaJt 
 
+\newpage
  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
 \phantomsection
-\addcontentsline{toc}{chapter}{Foreword}
+\pagestyle{plain}
 \chapter*{Foreword}
+\addcontentsline{toc}{chapter}{Foreword}
 %
 \input{foreword.tex}
  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
 
+\newpage
  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
 \phantomsection
-\addcontentsline{toc}{chapter}{Preface to the Third Edition}
 \chapter*{Preface to the Third Edition}
+\addcontentsline{toc}{chapter}{Preface to the Third Edition}
 
 The Second Edition of the \emph{Handbook} came out two years ago.
 We've been keeping at it since then.  This time around, we're kicking
@@ -517,6 +523,8 @@ throughout.
 {\flushright The Editors\\September, 2015\\}
 \clearpage
  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
+
+\mainmatter
 
 \part{Introduction} \label{intro-part} %%%%%%%%%%%%%%%%%%%%
 \pagestyle{companion}
