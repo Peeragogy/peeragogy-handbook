@@ -1,5 +1,7 @@
 \documentclass[ebook, 12pt, twoside]{memoir}
 
+\usepackage[table,dvipsnames]{xcolor}
+
 \nobibintoc
 
 %\usepackage{showframe}
@@ -10,6 +12,8 @@
 \newcommand{\patternnameext}[1]{{\sc #1}}
 \newcommand{\patternnameplural}[1]{\hyperref[sec:#1]{{\sc #1s}}}
 \newcommand{\patternnameposesssive}[1]{\hyperref[sec:#1]{{\sc #1's}}}
+
+\usepackage{collect}
 
 \newcommand{\attrib}[1]{\vspace*{-.5cm}%
 {\centering{\sc#1}\par}%
@@ -106,6 +110,8 @@ innerbottommargin=3pt
       SmallCapsFeatures = { Color=FFFFFF,
                             RawFeature={+smcp,+hlig,+dlig}}} ]{Linux Libertine} 
 
+\newcommand{\icon}{\fontspec{Symbola}}
+
 \let\sc\scshape
 
 \newcommand{\hookuparrow}{%
@@ -154,6 +160,7 @@ innerbottommargin=3pt
 \usetikzlibrary{calc}
 \usetikzlibrary{positioning,backgrounds,fit,arrows,arrows.meta,shapes,shadows}
 \usetikzlibrary{shapes.multipart}
+\usetikzlibrary{intersections}
 \usepackage{pgflibraryarrows}
 
 \usepackage{wrapfig}
@@ -244,6 +251,8 @@ innerbottommargin=3pt
 
 % Various things to adjust spacing in TOC
 % This is also adjusted by baselinestretch where the TOC is printed, see below.
+
+\usepackage{morewrites}
 
 \usepackage{etoolbox}
 \makeatletter
@@ -406,7 +415,7 @@ innerbottommargin=3pt
 
 %\renewcommand*{\href}[2]{\stepcounter{endnote}\hrefold{#1}{#2}\endnotetext[\theendnote]{{\sc #2}\ldots\ \url{#1}}}
 
-% \usepackage{longtable}
+\usepackage{tabularx}
 
 \begin{document}
 %
@@ -549,7 +558,7 @@ typesetting!)  throughout.
 \newpage
 
 \includepdf[page={1-},offset=5mm 0mm,
-pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert-merge-text.pdf}
+pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 
 \chapter[\textbf{Chapter Summaries}]{Chapter Summaries}
 %
