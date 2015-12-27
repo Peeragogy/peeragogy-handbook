@@ -4,6 +4,7 @@
 \begin{center}
 \includegraphics[width=.9\textwidth,trim=0 30 10 2, clip=true]{wisconsin-map}
 \end{center}
+\vspace{-.2cm}
 \caption{A prototypical university.  Caption reads: ``Wisconsin State
   University, Madison, Wis. 1879''.  Inset captions describe the
   pictured buildings: ``Ladies Hall, South Dormitory, University Hall,
@@ -40,7 +41,7 @@ on familiar roles \cite{corneli+crowdsourcing}?  How would it compare
 with historical efforts like the Tuskegee Institute that involved
 students directly in the production of physical infrastructure
 \cite{washington1986up,building-peeragogy-accelerator}?
-
+%
 We use the word \emph{peeragogy} to talk about collaboration in
 relatively non-hierarchical settings.  Examples are found in
 education, but also in business, government, volunteer, and NGO
@@ -73,7 +74,6 @@ anticipates the way the pattern will continue to ``resolve''.
 
 This addition mirrors the central considerations of our approach, which is all about human interaction, and the challenges, fluidity and unpredictability that come with it.  Something that works for one person may not work for another or may not even work for the same person in a slightly different situation.  We need to be ready to clarify and adjust what we do as we go.   Even so, it is hard to argue with a sensible-sounding formula like ``If W applies, do X to get Y.'' In our view, other pattern languages often achieve this sort of common sense rationality, and then stop.  Failure in the prescriptive model only begins when people try to define things more carefully and make context-specific changes -- when they actually try to put ideas into practice.  The problem lies in the inevitable distance between \emph{do as I say}, \emph{do as I do}, and \emph{do with me} \cite[p.~26]{deleuze1994difference}.
 %One is put in mind of Alfred Korzybski's famous remark: ``the map is not the territory.''   
-
 %% Indeed, the strong version of our claim is that peeragogy is needed in applications of any map, blueprint, or design that seeks to involve people as people.
 %% In some idealized sense, according to a certain school of thought, ``control'' is all that's required to move from a well-thought-out design to successful execution.  But, where do the designs come from in the first place \cite{von2003cybernetics}?
 %% %
@@ -95,20 +95,90 @@ And yet design becomes a ``living language'' \cite[p.~xvii]{alexander1977pattern
 
 Learning and collaboration are of interest to both organizational studies and computer science, where researchers are increasingly making use of social approaches to software design and development, as well as agent-based models of computation \cite{minsky1967programming,poetry-workshop}.
 %
-The design pattern community in particular is very familiar with practices that we think of as peeragogical, including shepherding, writers workshops, and design patterns themselves \cite{harrison1999language,coplien1997pattern,meszaros1998pattern}.  We hope to help design pattern authors and researchers expand on these strengths.
+The design pattern community in particular is very familiar with practices that we think of as peeragogical, including shepherding, writers workshops, and design patterns themselves \cite{harrison1999language,coplien1997pattern,meszaros1998pattern}.  %% We hope to help design pattern authors and researchers expand on these strengths.
 
 \subsection*{Pattern template}
 
 %This section will give the reader a sense of how the paper is organized. 
 
-\begin{wraptable}{r}{.52\textwidth}
-{\small
 
+%% \begin{wraptable}{r}{.52\textwidth}
+%% {\small
+
+%% \begin{tabular}{|p{.5\textwidth}|}
+%% \hline
+%% \emph{Motivation} for using this pattern.\\ \hline
+%% \end{tabular}
+%% \vspace{-.1cm}
+
+%% \begin{tabular}{|p{.5\textwidth}|}
+%% \hline
+%% \emph{Context} of application.\\ \hline
+%% \emph{Forces} that operate within the context of application, each with a mnemonic glyph. \\ \hline
+%% \emph{Problem} the pattern addresses.\\ \hline
+%% \emph{Solution} to the problem.\\ \hline
+%% \emph{Rationale} for this solution.\\ \hline
+%% \emph{Resolution} of the forces, named in bold.\\ \hline
+%% \end{tabular}
+%% \vspace{.1cm}
+
+%% %% \begin{tabular}{|p{.5\textwidth}|}
+%% %% \hline
+%% %% \emph{Inversion} Problems that could arise, and when \emph{not} to use the pattern.\\ \hline
+%% %% \end{tabular}
+%% %% \vspace{.1cm}
+
+%% \begin{tabular}{|p{.5\textwidth}|}
+%% \hline
+%% \emph{Example 1}: How the pattern manifests in current Wikimedia projects.\\ \hline
+%% \emph{Example 2}: How the pattern could inform the design of a future university.\\ \hline
+%% \end{tabular}
+%% \vspace{.1cm}
+
+%% \begin{tabular}{|p{.5\textwidth}|}
+%% \hline
+%% \emph{What's Next in the Peeragogy Project}: How the pattern relates to our collective intention in the Peeragogy project\\ \hline
+%% \end{tabular}
+
+%% \vspace{-.1cm}
+%% \caption{Pattern template.\label{tab:pattern-template}}
+%% \vspace{-.9cm}
+%% }
+%% \end{wraptable}
+
+Table \ref{tab:pattern-template} shows the pattern template that we use to present our patterns.
+Along with the traditional design patterns components \cite{meszaros1998pattern}, each of our patterns is fleshed out with two illustrative examples.  The first is descriptive, and looks at how the pattern applies in current Wikimedia projects.  We selected Wikimedia as a source of examples because the project is familiar, a demonstrated success, and readily accessible.  The second example shows how the pattern could be applied in the design of a future university.  Each pattern concludes with a boxed annotation: ``\emph{What's Next in the Peeragogy Project}''.
+
+%% Section \ref{sec:Peeragogy} defines the concept of \patternname{Peeragogy} more explicitly the form of a design pattern.  Sections \ref{sec:Roadmap}--\ref{sec:Scrapbook} present the other patterns in our pattern language. Figure \ref{fig:connections} illustrates their interconnections. Table \ref{tab:core} summarizes the ``nuts and bolts'' of the pattern language.
+%% Section \ref{sec:Distributed_Roadmap} collects our ``What's Next'' steps, summarizes the outlook of the Peeragogy project.
+
+%OSS: who cares? start w/example?
+\subsection*{A short motivating example}
+When one relative \patternname{Newcomer} was still in the onboarding
+process in Peeragogy project, she hit a wall in understanding the
+``patterns'' section in the \emph{Peeragogy Handbook} v1.  A more
+seasoned peer invited her to a series of separate discussions with
+their own \patternname{Heartbeat} to flesh out the patterns and make
+them more accessible.  At that time the list of patterns was simply a
+list of paragraphs describing recurrent trends.  During those
+sessions, the impact and meaning of patterns captured her imagination.
+She went on to become the champion for the pattern language and its
+application in the Peeragogy project.  During a ``hive editing''
+session, she proposed the template we initially used to give structure
+to the patterns.  She helped further revise the pattern language for
+the \emph{Peeragogy Handbook} v3, and attended PLoP 2015.  While a new
+domain can easily be overwhelming, this newcomer found \patternname{A
+  specific project} to start with, and scaffolded her knowledge and
+contributions from that foundation.
+
+\begin{table}
+{\centering
+\vspace{-.65cm}
 \begin{tabular}{|p{.5\textwidth}|}
 \hline
 \emph{Motivation} for using this pattern.\\ \hline
 \end{tabular}
-\vspace{-.1cm}
+\vspace{.1cm}
 
 \begin{tabular}{|p{.5\textwidth}|}
 \hline
@@ -139,21 +209,13 @@ The design pattern community in particular is very familiar with practices that 
 \emph{What's Next in the Peeragogy Project}: How the pattern relates to our collective intention in the Peeragogy project\\ \hline
 \end{tabular}
 
+\par}
 \vspace{-.1cm}
 \caption{Pattern template.\label{tab:pattern-template}}
 \vspace{-.9cm}
-}
-\end{wraptable}
+\end{table}
 
-Table \ref{tab:pattern-template} shows the pattern template that we use to present our patterns.
-Along with the traditional design patterns components \cite{meszaros1998pattern}, each of our patterns is fleshed out with two illustrative examples.  The first is descriptive, and looks at how the pattern applies in current Wikimedia projects.  We selected Wikimedia as a source of examples because the project is familiar, a demonstrated success, and readily accessible.  The second example shows how the pattern could be applied in the design of a future university.  Each pattern concludes with a boxed annotation: ``\emph{What's Next in the Peeragogy Project}''.
-
-%% Section \ref{sec:Peeragogy} defines the concept of \patternname{Peeragogy} more explicitly the form of a design pattern.  Sections \ref{sec:Roadmap}--\ref{sec:Scrapbook} present the other patterns in our pattern language. Figure \ref{fig:connections} illustrates their interconnections. Table \ref{tab:core} summarizes the ``nuts and bolts'' of the pattern language.
-%% Section \ref{sec:Distributed_Roadmap} collects our ``What's Next'' steps, summarizes the outlook of the Peeragogy project.
-
-%OSS: who cares? start w/example?
-\subsection*{A short motivating example}
-When one relative \patternname{Newcomer} was still in the onboarding process in Peeragogy project, she hit a wall in understanding the ``patterns'' section in the \emph{Peeragogy Handbook} v1.  A more seasoned peer invited her to a series of separate discussions with their own \patternname{Heartbeat} to flesh out the patterns and make them more accessible.  At that time the list of patterns was simply a list of paragraphs describing recurrent trends.  During those sessions, the impact and meaning of patterns captured her imagination.  She went on to become the champion for the pattern language and its application in the Peeragogy project.  During a ``hive editing'' session, she proposed the template we initially used to give structure to the patterns.  She helped further revise the pattern language for the \emph{Peeragogy Handbook}  v3, and attended PLoP 2015.  While a new domain can easily be overwhelming, this newcomer found \patternname{A specific project} to start with, and scaffolded her knowledge and contributions from that foundation.
+\FloatBarrier
 
 \begin{figure}
 \vspace{-.9in}
@@ -165,6 +227,8 @@ When one relative \patternname{Newcomer} was still in the onboarding process in 
 
 \caption{Connections between the patterns of peeragogy.  An arrow points from pattern \textbf{A} to pattern \textbf{B} if the text of the description of pattern \textbf{A} references pattern \textbf{B}.  Labels at the borders of the figure correspond to the main sections of the \emph{Peeragogy Handbook}.\label{fig:connections}}
 \end{figure}
+
+\FloatBarrier
 
 \begin{table}
 {\footnotesize
