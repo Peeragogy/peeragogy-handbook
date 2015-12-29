@@ -28,6 +28,7 @@
 %% \renewcommand{\l@subsubsection}{\@dottedtocline{3}{7.4em}{4.5em}}
 %% \makeatother
 
+%\usepackage{tocloft}
 \usepackage{pdfpages}
 
 \usepackage[framemethod=tikz]{mdframed}
@@ -50,6 +51,9 @@ innerbottommargin=3pt
     \newpage}
 
 \usepackage{enumitem}
+\newlist{commalist}{description*}{4}
+\setlist[commalist]{itemjoin={{,}},itemjoin*={{, and}},afterlabel=\unskip}
+
 \usepackage{array}
 \def\Tiny{\fontsize{8pt}{8pt} \selectfont}
 
@@ -67,6 +71,10 @@ innerbottommargin=3pt
 %\setmathrm{Linux Biolinum O}
 
 \usepackage[MnSymbol]{mathspec}
+
+% Useful for making an ebook that doesn't annoy people
+\defaultfontfeatures{Ligatures={NoCommon, NoDiscretionary, NoHistoric, NoRequired, NoContextual}}
+
 \setmathsfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Linux Libertine}
 \setminwhitespace % not sure if this helps
 \setmathrm{Linux Biolinum}
@@ -94,7 +102,7 @@ innerbottommargin=3pt
 
 \setmainfont[Mapping= tex-text,
      SmallCapsFont={Linux Libertine},   
-     SmallCapsFeatures= {Color=FFFFFF, RawFeature={+smcp,+hlig,+dlig}},   
+     SmallCapsFeatures= {Color=FFFFFF, RawFeature={+smcp,-hlig,-dlig}},   
      BoldFont={Linux Biolinum Bold},   
 %     BoldFeatures={Color = FFFFFF,SmallCapsFont={Linux Libertine Capitals O Bold},%
 %       SmallCapsFeatures = { Color=FFFFFF,   RawFeature={+smcp,+hlig,+dlig}} },  
@@ -108,7 +116,9 @@ innerbottommargin=3pt
      BoldItalicFeatures={ Color = FFFFFF, %
       SmallCapsFont={Linux Libertine Capitals Semibold Italic},  %
       SmallCapsFeatures = { Color=FFFFFF,
-                            RawFeature={+smcp,+hlig,+dlig}}} ]{Linux Libertine} 
+                            RawFeature={+smcp,-hlig,-dlig}}} ]{Linux Libertine} 
+
+
 
 \newcommand{\icon}{\fontspec{Symbola}}
 
@@ -329,28 +339,28 @@ innerbottommargin=3pt
 \setlength{\marginparwidth}{0pt}
 
 %% Useful for book format but for ebook we might as well have them all be the same, see below
-\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
-                        {\normalfont\large\bfseries\scshape\leftmark}
-\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
-                       {\normalfont\bfseries\scshape\thepage}
-
-%\usepackage{fancyhdr}
-
-%\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
-%                        {\normalfont\bfseries\scshape\thepage}
+%\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
+%                        {\normalfont\large\bfseries\scshape\leftmark}
 %\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
 %                       {\normalfont\bfseries\scshape\thepage}
 
+%\usepackage{fancyhdr}
+
+\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
+                        {\normalfont\bfseries\scshape\thepage}
+\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+                       {\normalfont\bfseries\scshape\thepage}
+
 %% These settings are great for building an actual ebook... basically the same as
 %% using the ``oneside'' setting but two-sided to get the headings to work...
-%\settypeblocksize{7.4in}{4.4in}{*}
-%\setlrmargins{.8in}{*}{*}
-%\setulmargins{.9in}{*}{*}
+\settypeblocksize{7.4in}{4.4in}{*}
+\setlrmargins{.8in}{*}{*}
+\setulmargins{.9in}{*}{*}
 
 %% But this gives a two-sided flip/flop to the version of the book for print:
-\settypeblocksize{7.4in}{4.4in}{*}
-\setlrmargins{1in}{*}{*}
-\setulmargins{.9in}{*}{*}
+%\settypeblocksize{7.4in}{4.4in}{*}
+%\setlrmargins{1in}{*}{*}
+%\setulmargins{.9in}{*}{*}
 
 \setheadfoot{2\onelineskip}{2\onelineskip}
 %%\setheaderspaces{*}{1.5\onelineskip}{*}
@@ -428,27 +438,30 @@ innerbottommargin=3pt
 \clearpage\mbox{}\clearpage    %% blank pages
 \title{The Peeragogy Handbook\\[.5in]}
 \author{
-\emph{Founding Editor}\\
-{\small Howard Rheingold}\\[.3in]
+%%
 
-\emph{Managing Editors}\\
-{\small Charles Jeffrey Danoff and Charlotte Pierce} \\[.25in]
+\emph{Editorial Board}\\
+{\small Joseph Corneli, Charles Jeffrey Danoff, Paola Ricaurte,}\\
+{\small Charlotte Pierce, and Lisa Snow Macdonald} \\[.25in]
 
 \emph{Contributors} \\
 {\small Bryan Alexander, Paul Allison, Elisa Armend\'ariz,} \\
 {\small R\'egis Barondeau, George Brett, Doug Breitbart,}\\ 
-{\small Suz Burroughs, Teryl Cartwright, Joseph Corneli,}\\
-{\small Jay Cross, Karen Beukema Einstein, Julian Elve,}\\
-{\small Mar\'ia Fernanda Arenas, James Folkestad, Kathy Gill,} \\
-{\small John Glass, John Graves, Jan Herder,} \\
-{\small Matthew Herschler, Gigi Johnson, Anna Keune,} \\
-{\small Kyle Larson, Roland Legrand, Amanda Lyons,} \\
-{\small Dorotea Mar, Christopher Tillman Neal, Ted Newcomb,} \\
-{\small Stephanie Parker, Miguel \'Angel P\'erez \'Alvarez, David Preston,} \\
-{\small Paola Ricaurte, Stephanie Schipper, Lisa Snow MacDonald,} \\
-{\small Peter Taylor, Fabrizio Terzi, and Geoff Walker}
+{\small Suz Burroughs, Teryl Cartwright, Jay Cross}\\
+{\small Karen Beukema Einstein, Julian Elve, Mar\'ia Fernanda Arenas,}\\
+{\small James Folkestad, Kathy Gill, John Glass,} \\
+{\small John Graves, Jan Herder, Matthew Herschler,} \\
+{\small Gigi Johnson, Anna Keune, Kyle Larson,} \\
+{\small Roland Legrand, Amanda Lyons, Dorotea Mar,} \\
+{\small Christopher Tillman Neal, Ted Newcomb, Stephanie Parker,} \\
+{\small Miguel \'Angel P\'erez \'Alvarez, David Preston, Stephanie Schipper,} \\
+{\small Peter Taylor, Fabrizio Terzi, and Geoff Walker}\\[.25in]
+
+\emph{Founded by}\\
+{\small Howard Rheingold}\\[.25in]
 }
-\date{\today\ (version 3.0$\beta_6$)}
+
+\date{1 January, 2016 (version 3.0)}
 \maketitle
 \thispagestyle{empty}
 
@@ -460,12 +473,13 @@ innerbottommargin=3pt
 \large{The Peeragogy Handbook, 3rd Edition.\\
 ISBN: 978-0-9855722-2-8}
 \quad \\[.2in] 
-\large{Cover art and illustrations: Amanda Lyons}\\
-\large{\url{peeragogy.org} design: Fabrizio Terzi}\\
-\large{Layout and typesetting: Joseph Corneli}\\
+%% \large{Cover art and illustrations: Amanda Lyons}\\
+%% \large{\url{peeragogy.org} design: Fabrizio Terzi}\\
+%% \large{Layout and typesetting: Joseph Corneli}\\
 \quad \\[.2in]
 \large{Typeset in Linux Libertine with \XeLaTeX. \\
-Sources available at \url{http://git.io/Handbook}.}
+Sources available at \url{http://git.io/Handbook}.\\
+Companion website at \url{http://peeragogy.org}.}
 \quad \\[.2in]
 \large{Jointly published by PubDomEd and Pierce Press.}
 \end{center}
@@ -556,9 +570,12 @@ typesetting!)  throughout.
 \input{introduction.tex}
 
 \newpage
-
-\includepdf[page={1-},offset=5mm 0mm,
-pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
+%\cftaddtitleline{toc}{chapter}{Workbook}{\thepage}
+%\addcontentsline{toc}{section}{~\protect\vspace{-1.5cm}}
+\addtocontents{toc}{%
+ \protect\vspace{-.5cm}%
+}
+\includepdf[addtotoc={1,chapter,0,Workbook,chap:workbook},page={1-},offset=0mm 0mm,pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 
 \chapter[\textbf{Chapter Summaries}]{Chapter Summaries}
 %
@@ -580,6 +597,8 @@ pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 %
 \let\oldfootnote\footnote
 \renewcommand*{\footnote}[1]{}%
+\let\oldtextsuperscript\textsuperscript
+\renewcommand*{\textsuperscript}[1]{}%
 \chapter[\textbf{Patterns of Peeragogy}]{ Patterns of Peeragogy } \label{patterns}
 \input{Patterns_Introduction.tex} \label{sec:Introduction}
 %
@@ -614,6 +633,7 @@ pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 \input{Distributed_Roadmap.tex} 
 
 \renewcommand*{\footnote}[1]{\oldfootnote{#1}}%
+\renewcommand*{\textsuperscript}[1]{\oldtextsuperscript{#1}}%
 
 \chapter{Case Study: SWATs} \label{swats}
 \input{swats.tex}
@@ -767,7 +787,7 @@ pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 \input{license.tex}
 %
 \pagestyle{empty} \thispagestyle{empty}
-\clearpage\mbox{}\clearpage\mbox{}\clearpage\mbox{}\clearpage    %% blank pages
+\clearpage\mbox{}\clearpage\mbox{}\clearpage    %% blank pages
 
 \end{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
