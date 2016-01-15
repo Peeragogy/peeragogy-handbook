@@ -339,28 +339,31 @@ innerbottommargin=3pt
 \setlength{\marginparwidth}{0pt}
 
 %% Useful for book format but for ebook we might as well have them all be the same, see below
-%\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
-%                        {\normalfont\large\bfseries\scshape\leftmark}
-%\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
-%                       {\normalfont\bfseries\scshape\thepage}
-
-%\usepackage{fancyhdr}
-
-\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
-                        {\normalfont\bfseries\scshape\thepage}
+\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
+                        {\normalfont\large\bfseries\scshape\leftmark}
 \makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
                        {\normalfont\bfseries\scshape\thepage}
 
+% NOTE: for building the print version, it's also necessary to change
+% the offset in the \includepdf command to offset=5mm 0mm vs offset=0mm 0mm for the ebook version
+
+%\usepackage{fancyhdr}
+
+%\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
+%                        {\normalfont\bfseries\scshape\thepage}
+%\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+%                       {\normalfont\bfseries\scshape\thepage}
+
 %% These settings are great for building an actual ebook... basically the same as
 %% using the ``oneside'' setting but two-sided to get the headings to work...
-\settypeblocksize{7.4in}{4.4in}{*}
-\setlrmargins{.8in}{*}{*}
-\setulmargins{.9in}{*}{*}
+%\settypeblocksize{7.4in}{4.4in}{*}
+%\setlrmargins{.8in}{*}{*}
+%\setulmargins{.9in}{*}{*}
 
 %% But this gives a two-sided flip/flop to the version of the book for print:
-%\settypeblocksize{7.4in}{4.4in}{*}
-%\setlrmargins{1in}{*}{*}
-%\setulmargins{.9in}{*}{*}
+\settypeblocksize{7.4in}{4.4in}{*}
+\setlrmargins{1in}{*}{*}
+\setulmargins{.9in}{*}{*}
 
 \setheadfoot{2\onelineskip}{2\onelineskip}
 %%\setheaderspaces{*}{1.5\onelineskip}{*}
@@ -576,7 +579,7 @@ typesetting!)  throughout.
 \addtocontents{toc}{%
  \protect\vspace{-.5cm}%
 }
-\includepdf[addtotoc={1,chapter,0,Workbook,chap:workbook},page={1-},offset=0mm 0mm,pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
+\includepdf[addtotoc={1,chapter,0,Workbook,chap:workbook},page={1-},offset=5mm 0mm,pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 
 \chapter[\textbf{Chapter Summaries}]{Chapter Summaries}
 %
