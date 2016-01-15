@@ -24,7 +24,8 @@ grep -o "<a href=\"\./[^\"]*" index.html \
 
 **To build the book:**
 
-In the relevant subdirectory (probably `en`), run:
+Copy the tex files you generated in the last step into the relevant
+subdirectory (probably `en`), and run:
 
 ```
 xelatex peeragogy-shell.tex
