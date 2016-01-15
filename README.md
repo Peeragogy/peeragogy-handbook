@@ -12,13 +12,13 @@ the book has been [translated into](http://peeragogy.net).
 
 **To convert:**
 
-```
+``` shell
 grep -o "<a href=\"\./[^\"]*" index.html \
  | sed -r "s/<a href=\"\.\/(.*).html/\1/" \
  | xargs -I {} pandoc -o {}.tex {}.md
 ```
 
-**To build**
+**To build:**
 
 ```
 xelatex peeragogy-shell.tex
