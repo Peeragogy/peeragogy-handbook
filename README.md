@@ -4,10 +4,6 @@ peeragogy-handbook
 This book and accompanying [website](http://peeragogy.org) are a
 resource for self-organizing self-learners.
 
-This git repository contains the LaTeX source code for building the
-book.  Specifically, we plan to have one branch for each language that
-the book has been [translated into](http://peeragogy.net).
-
 ## Requirements for building the book locally
 
 **To convert:**
