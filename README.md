@@ -4,9 +4,17 @@ peeragogy-handbook
 This book and accompanying [website](http://peeragogy.org) are a
 resource for self-organizing self-learners.
 
+We originally were writing the book on a Wordpress site, but
+[migrated the sources to Jekyll](https://github.com/Peeragogy/Peeragogy.github.io).
+Some of the old scripts in this repository have to do with extracting
+content from Wordpress, but you can ignore them: It's much simpler
+now.
+
 ## Requirements for building the book locally
 
-**To convert:**
+Get a copy of the markdown contents of the book by cloning https://github.com/Peeragogy/Peeragogy.github.io
+
+**To convert to `.tex` format:**
 
 ``` shell
 grep -o "<a href=\"\./[^\"]*" index.html \
@@ -14,13 +22,13 @@ grep -o "<a href=\"\./[^\"]*" index.html \
  | xargs -I {} pandoc -o {}.tex {}.md
 ```
 
-**To build:**
+**To build the book:**
+
+In the relevant subdirectory (probably `en`), run:
 
 ```
 xelatex peeragogy-shell.tex
 ```
-
-in the relevant subdirectory (probably `en`).
 
 # Further notes
 
