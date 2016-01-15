@@ -10,78 +10,41 @@ the book has been [translated into](http://peeragogy.net).
 
 ## Requirements for building the book locally
 
-* **mysql** 
-* **unzip**
-* **bash**
-* **tr**
-* **sed**
-* **pandoc**
-* **patch**
-* **xelatex**
-* and **git**, if you want to share your version
-
-If you have any questions on how to set up or use these tools, feel
-free to ask in our
-[G+](https://plus.google.com/communities/107386162349686249470).
-
-# Configuring your database
-
-Because we're working with UTF-8 encoded HTML (as it comes from the
-website), it is important that your local MySQL database be set up to
-work with UTF-8.  Instructions on that are
-[here](http://cameronyule.com/2008/07/configuring-mysql-to-use-utf-8/),
-or live large and convert to
-[utf8mb4](http://mathiasbynens.be/notes/mysql-utf8mb4).
-
-# The steps you need to take to build the book are then as follows
-
-Obtain a backup of the [Wordpress site](http://peeragogy.org).
-
-Then:
+**To convert:**
 
 ```
-unzip peeragogy-org-backup-complete-2012-12-17-12-42-23.zip
+grep -o "<a href=\"\./[^\"]*" index.html \
+ | sed -r "s/<a href=\"\.\/(.*).html/\1/" \
+ | xargs -I {} pandoc -o {}.tex {}.md
 ```
 
-```sql
-mysql> drop database peeragogyB; create database peeragogyB;
-  GRANT all ON peeragogyB.* TO 'peeragogyB'@'localhost' IDENTIFIED BY 'peeragogyB';
-```
-
-```
-mysql -u peeragogyB --password=peeragogyB peeragogyB < database_stephani_wrdp2.sql 
-```
-
-```
-./script.sh
-```
-
-```
-./script2.sh
-```
-
-```
-patch < release.patch
-```
+**To build**
 
 ```
 xelatex peeragogy-shell.tex
 ```
 
-# Alternative
+in the relevant subdirectory (probably `en`).
 
-To convert to Mediawiki format instead of LaTeX format:
+# Further notes
 
+There are always a few stylistic things that need to be cleaned up to
+make a nice PDF (e.g. getting images to show up properly,
+adjustingsectioning details, and so on).  In the 3.0 version of the
+book, I used per-section biblatex bibliographies in the pattern
+catalog, with
+
+``` latex
+\begin{refsection}
+% text here...
+\printbibliography[heading=subbibliography]
+\end{refsection}
 ```
-./script3.sh
-```
 
-# A caveat: the patches aren't necessarily complete.
-
-There are likely to be some problems with images, since the patches
-may be off at any given point in time.  Still, the command above will
-build a version of book for you in any case (if you hit "r"), and
-we'll get the patches sorted out a little better shortly.
+But we forego that nice feature when converting directly from the web
+version.  In general, you'll have to decide when building the book and
+individual sections whether it's better to start with Markdown
+sources, or use original LaTeX sources.
 
 # License
 
