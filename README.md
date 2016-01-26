@@ -29,6 +29,31 @@ subdirectory (probably `en`), and run:
 xelatex peeragogy-shell.tex
 ```
 
+## Note: smart conversions going the other direction!
+
+If you have some LaTeX files that include specialized LaTeX commands
+or bibliography entries and you want to instruct `pandoc` to convert
+them Markdown in a “smart” way, you can use some variant of the
+following command (where `header.tex` contains the relevant parts of
+your preamble):
+
+```
+cat header.tex file.tex | pandoc --from=latex --to=markdown --bibliography ./peeragogy-bib.bib --
+```
+
+Here's an example illustrating the kind of commands that you can use,
+from our Winter 2015 conversion of the
+[pattern catalog](https://github.com/Peeragogy/PeeragogyPatterns):
+
+``` latex
+% header.tex
+\newcommand{\patternname}[1]{{\sc #1}}
+\newcommand{\patternnameext}[1]{{\sc #1}}
+\newcommand{\patternnameplural}[1]{{\sc #1s}}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+```
+
 # Further notes
 
 There are always a few stylistic things that need to be cleaned up to
@@ -48,6 +73,7 @@ But we forego that nice feature when converting directly from the web
 version.  In general, you'll have to decide when building the book and
 individual sections whether it's better to start with Markdown
 sources, or use original LaTeX sources.
+
 
 # License
 
