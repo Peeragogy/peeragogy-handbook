@@ -1,6 +1,8 @@
 %% Note, different settings should be used when building the ebook version and the print version
 
-\documentclass[ebook, 12pt, twoside]{memoir}
+\documentclass[ebook,12pt, twoside]{memoir}
+%% ** add ebook for ebook version;
+%% I think professional printers also prefer that setting
 
 %% To remove pictures, uncomment this line
 %\PassOptionsToPackage{draft}{graphicx}
@@ -77,8 +79,8 @@ innerbottommargin=3pt
 
 \usepackage[MnSymbol]{mathspec}
 
-% Useful for making an ebook that doesn't annoy people
-\defaultfontfeatures{Ligatures={NoCommon, NoDiscretionary, NoHistoric, NoRequired, NoContextual}}
+% ** Useful for making an ebook that doesn't annoy people. 
+% \defaultfontfeatures{Ligatures={NoCommon, NoDiscretionary, NoHistoric, NoRequired, NoContextual}}
 
 \setmathsfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Linux Libertine}
 \setminwhitespace % not sure if this helps
@@ -90,20 +92,6 @@ innerbottommargin=3pt
 
 \usepackage{metalogo}
 \usepackage{caption}
-%% \setmainfont[Mapping= tex-text,  
-%%      SmallCapsFont={Linux Libertine O},   
-%%      SmallCapsFeatures= {Color=6600CC, RawFeature={+smcp,+hlig,+dlig}},   
-%%      BoldFont={Linux Biolinum O Bold},   
-%%      BoldFeatures={Color = E6005C,SmallCapsFont={Linux Libertine Capitals O Bold},%
-%%        SmallCapsFeatures = { Color=F2521B,   RawFeature={+smcp,+hlig,+dlig}} },  
-%%      ItalicFont={Linux Libertine O Italic},   
-%%      ItalicFeatures={Color = 00CC00, RawFeature={+liga,+hlig,+dlig}, %
-%%        SmallCapsFont={Linux Libertine Capitals O Italic}, %
-%%        SmallCapsFeatures = {Color=00FFFF,RawFeature={+smcp,+hlig,+dlig}}},   
-%%      BoldItalicFont={Linux Biolinum O},   
-%%      BoldItalicFeatures={ Color = 3366FF, %
-%%       SmallCapsFont={Linux Libertine Capitals O Bold Italic},  %
-%%       SmallCapsFeatures = { Color=3366FF,RawFeature={+smcp,+hlig,+dlig}}} ]{Linux Libertine O} 
 
 \setmainfont[Mapping= tex-text,
      SmallCapsFont={Linux Libertine},   
@@ -122,7 +110,6 @@ innerbottommargin=3pt
       SmallCapsFont={Linux Libertine Capitals Semibold Italic},  %
       SmallCapsFeatures = { Color=FFFFFF,
                             RawFeature={+smcp,-hlig,-dlig}}} ]{Linux Libertine} 
-
 
 
 \newcommand{\icon}{\fontspec{Symbola}}
@@ -331,7 +318,7 @@ innerbottommargin=3pt
 
 \usepackage[normalem]{ulem}
 
-%% If you don't use ebook, use this instead:
+%% If you don't use ``ebook'' option to the document class, ** use this instead:
 %\settrimmedsize{9in}{6in}{*}
 %\settrims{1in}{1.25in}
 
@@ -345,35 +332,35 @@ innerbottommargin=3pt
 \setlength{\marginparsep}{0pt}
 \setlength{\marginparwidth}{0pt}
 
-%% Useful for book format but for ebook we might as well have them all be the same, see below
-%\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
-%                        {\normalfont\large\bfseries\scshape\leftmark}
-%\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
-%                       {\normalfont\bfseries\scshape\thepage}
-
-% NOTE: for building the print version, it's also necessary to change
-% the offset in the \includepdf command to offset=5mm 0mm vs offset=0mm 0mm for the ebook version
-
-%\usepackage{fancyhdr}
-
-\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
-                        {\normalfont\bfseries\scshape\thepage}
+%% Useful for book format but for ebook we might as well have them all be the same, see below **
+\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
+                        {\normalfont\large\bfseries\scshape\leftmark}
 \makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
                        {\normalfont\bfseries\scshape\thepage}
 
-%% These settings are great for building an actual ebook... basically the same as
-%% using the ``oneside'' setting but two-sided to get the headings to work...
-\settypeblocksize{7.4in}{4.4in}{*}
-\setlrmargins{.8in}{*}{*}
-\setulmargins{.9in}{*}{*}
+% NOTE: for building the print version, it's also necessary to change
+% the offset in the \includepdf command, below, to offset=5mm 0mm vs offset=0mm 0mm for the ebook version **
 
-%% But this gives a two-sided flip/flop to the version of the book for print:
+%\usepackage{fancyhdr}
+
+%\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
+%                        {\normalfont\bfseries\scshape\thepage}
+%\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+%                       {\normalfont\bfseries\scshape\thepage}
+
+%% These settings are great for building an actual ** ebook... basically the same as
+%% using the ``oneside'' setting but two-sided to get the headings to work...
 %\settypeblocksize{7.4in}{4.4in}{*}
-%\setlrmargins{1in}{*}{*}
+%\setlrmargins{.8in}{*}{*}
 %\setulmargins{.9in}{*}{*}
 
+%% But this gives a two-sided flip/flop to the version of the book for print:
+\settypeblocksize{7.4in}{4.4in}{*}
+\setlrmargins{1in}{*}{*}
+\setulmargins{.9in}{*}{*}
+
+
 \setheadfoot{2\onelineskip}{2\onelineskip}
-%%\setheaderspaces{*}{1.5\onelineskip}{*}
 \setheaderspaces{*}{1.25\onelineskip}{*}
 
 \checkandfixthelayout
@@ -589,7 +576,7 @@ typesetting!)  throughout.
 \addtocontents{toc}{%
  \protect\vspace{-.5cm}%
 }
-\includepdf[addtotoc={1,chapter,0,Workbook,chap:workbook},page={1-},offset=0mm 0mm,pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
+\includepdf[addtotoc={1,chapter,0,Workbook,chap:workbook},page={1-},offset=5mm 0mm,pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 
 \chapter[\textbf{Chapter Summaries}]{Chapter Summaries}
 %
