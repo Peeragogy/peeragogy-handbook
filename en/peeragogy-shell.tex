@@ -1,4 +1,9 @@
+%% Note, different settings should be used when building the ebook version and the print version
+
 \documentclass[ebook, 12pt, twoside]{memoir}
+
+%% To remove pictures, uncomment this line
+%\PassOptionsToPackage{draft}{graphicx}
 
 \usepackage[table,dvipsnames]{xcolor}
 
@@ -254,6 +259,8 @@ innerbottommargin=3pt
 
 \usepackage{graphicx}
 
+%\renewcommand{\includegraphics}[2][]{\textbf{Insert #2 here}}
+
 \usepackage{rotating}
 \usepackage{enumitem}
 \usepackage{placeins}
@@ -339,31 +346,31 @@ innerbottommargin=3pt
 \setlength{\marginparwidth}{0pt}
 
 %% Useful for book format but for ebook we might as well have them all be the same, see below
-\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
-                        {\normalfont\large\bfseries\scshape\leftmark}
-\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
-                       {\normalfont\bfseries\scshape\thepage}
+%\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
+%                        {\normalfont\large\bfseries\scshape\leftmark}
+%\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+%                       {\normalfont\bfseries\scshape\thepage}
 
 % NOTE: for building the print version, it's also necessary to change
 % the offset in the \includepdf command to offset=5mm 0mm vs offset=0mm 0mm for the ebook version
 
 %\usepackage{fancyhdr}
 
-%\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
-%                        {\normalfont\bfseries\scshape\thepage}
-%\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
-%                       {\normalfont\bfseries\scshape\thepage}
+\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
+                        {\normalfont\bfseries\scshape\thepage}
+\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+                       {\normalfont\bfseries\scshape\thepage}
 
 %% These settings are great for building an actual ebook... basically the same as
 %% using the ``oneside'' setting but two-sided to get the headings to work...
-%\settypeblocksize{7.4in}{4.4in}{*}
-%\setlrmargins{.8in}{*}{*}
-%\setulmargins{.9in}{*}{*}
+\settypeblocksize{7.4in}{4.4in}{*}
+\setlrmargins{.8in}{*}{*}
+\setulmargins{.9in}{*}{*}
 
 %% But this gives a two-sided flip/flop to the version of the book for print:
-\settypeblocksize{7.4in}{4.4in}{*}
-\setlrmargins{1in}{*}{*}
-\setulmargins{.9in}{*}{*}
+%\settypeblocksize{7.4in}{4.4in}{*}
+%\setlrmargins{1in}{*}{*}
+%\setulmargins{.9in}{*}{*}
 
 \setheadfoot{2\onelineskip}{2\onelineskip}
 %%\setheaderspaces{*}{1.5\onelineskip}{*}
@@ -457,34 +464,37 @@ innerbottommargin=3pt
 {\small Gigi Johnson, Anna Keune, Kyle Larson,} \\
 {\small Roland Legrand, Amanda Lyons, Dorotea Mar,} \\
 {\small Christopher Tillman Neal, Ted Newcomb, Stephanie Parker,} \\
-{\small Miguel \'Angel P\'erez \'Alvarez, David Preston, Stephanie Schipper,} \\
-{\small Peter Taylor, Fabrizio Terzi, and Geoff Walker}\\[.25in]
+{\small Miguel \'Angel P\'erez \'Alvarez, David Preston, Laura Ritchie,} \\
+{\small Stephanie Schipper, Peter Taylor, Fabrizio Terzi,}\\
+{\small and Geoff Walker}\\[.25in]
 
 \emph{Founded by}\\
 {\small Howard Rheingold}\\[.25in]
 }
 
-\date{1 January, 2016 (version 3.0)}
+%\date{\today\ (version 3.1$\beta_1$)}
+\date{~}
 \maketitle
 \thispagestyle{empty}
 
 \begin{center}
-{\large All the text in this book has been donated to the Public Domain.}
+{\large Copyright \copyright\ {2012-2016} in this work has been transferred to the public domain.\\[.2cm]}
 \end{center}
 \quad \\[3.5in] 
 \begin{center}
-\large{The Peeragogy Handbook, 3rd Edition.\\
+\large{The Peeragogy Handbook, 3rd Edition\\
 ISBN: 978-0-9855722-2-8}
 \quad \\[.2in] 
 %% \large{Cover art and illustrations: Amanda Lyons}\\
 %% \large{\url{peeragogy.org} design: Fabrizio Terzi}\\
 %% \large{Layout and typesetting: Joseph Corneli}\\
 \quad \\[.2in]
-\large{Typeset in Linux Libertine with \XeLaTeX. \\
-Sources available at \url{http://git.io/Handbook}.\\
+\large{Sources available at \url{http://git.io/Handbook}.\\
 Companion website at \url{http://peeragogy.org}.}
 \quad \\[.2in]
 \large{Jointly published by PubDomEd and Pierce Press.}
+
+%{Typeset in Linux Libertine with \XeLaTeX.}
 \end{center}
 \thispagestyle{empty}
 \clearpage
@@ -579,7 +589,7 @@ typesetting!)  throughout.
 \addtocontents{toc}{%
  \protect\vspace{-.5cm}%
 }
-\includepdf[addtotoc={1,chapter,0,Workbook,chap:workbook},page={1-},offset=5mm 0mm,pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
+\includepdf[addtotoc={1,chapter,0,Workbook,chap:workbook},page={1-},offset=0mm 0mm,pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
 
 \chapter[\textbf{Chapter Summaries}]{Chapter Summaries}
 %
@@ -606,35 +616,38 @@ typesetting!)  throughout.
 \chapter[\textbf{Patterns of Peeragogy}]{ Patterns of Peeragogy } \label{patterns}
 \input{Patterns_Introduction.tex} \label{sec:Introduction}
 %
-\section*{Peeragogy} \label{sec:Peeragogy}
+\section{Peeragogy} \label{sec:Peeragogy}
 \input{Peeragogy_Project.tex}
 %
-\section*{Roadmap} \label{sec:Roadmap}
+\section{Roadmap} \label{sec:Roadmap}
 \input{Roadmap.tex}
 %
-\section*{Reduce, reuse, recycle} \label{sec:Reduce, reuse, recycle}
+\section{Reduce, reuse, recycle} \label{sec:Reduce, reuse, recycle}
 \input{Use_or_make.tex} 
 %
-\section*{Carrying Capacity} \label{sec:Carrying capacity}
+\section{Carrying Capacity} \label{sec:Carrying capacity}
 \input{Carrying_capacity.tex}
 %
-\section*{A specific project} \label{sec:A specific project}
+\section{A specific project} \label{sec:A specific project}
 \input{A_specific_project.tex}
 %
-\section*{Wrapper} \label{sec:Wrapper}
+\section{Wrapper} \label{sec:Wrapper}
 \input{Wrapper.tex}
 %
-\section*{Heartbeat} \label{sec:Heartbeat}
+\section{Heartbeat} \label{sec:Heartbeat}
 \input{Heartbeat.tex}
 %
-\section*{Newcomer} \label{sec:Newcomer}
+\section{Newcomer} \label{sec:Newcomer}
 \input{Newcomer.tex}
 %
-\section*{Scrapbook} \label{sec:Scrapbook}
+\section{Scrapbook} \label{sec:Scrapbook}
 \input{Scrapbook.tex}
 
+%%% \input{practice.tex}
+
+
 \chapter{Emergent Roadmap} \label{sec:Distributed_Roadmap}
-\input{Distributed_Roadmap.tex} 
+\input{distributed_roadmap.tex} 
 
 \renewcommand*{\footnote}[1]{\oldfootnote{#1}}%
 \renewcommand*{\textsuperscript}[1]{\oldtextsuperscript{#1}}%
@@ -659,6 +672,9 @@ typesetting!)  throughout.
 %
 \input{sole.tex}
 %
+\chapter[\textbf{Case Study: Meeting with the Pro Vice-Chancellor}]{ Case Study: Meeting with the Pro Vice-Chancellor}
+%
+\input{osl.tex}
 
 \part{Organizing a Learning Context} \label{organizing-part} %%%%%%%%%%%%%%%%%%%%
 %
@@ -740,16 +756,16 @@ typesetting!)  throughout.
 %
 \input{action.tex}
 %
-\chapter[\textbf{Some landmarks from the life of peeragogy}]{Some landmarks from the life of peeragogy}
-\input{landmarks.tex}
+%\chapter[\textbf{Some landmarks from the life of peeragogy}]{Some landmarks from the life of peeragogy}
+%\input{landmarks.tex}
 %
 \chapter[\textbf{Recommended Reading}]{Recommended Reading}
 %
 \input{recommended.tex}
 %
-\chapter[\textbf{Style Guide}]{Style Guide}
+%\chapter[\textbf{Style Guide}]{Style Guide}
 %
-\input{style.tex}
+%\input{style.tex}
 %
 %% \chapter[\textbf{Meet the Authors}]{Meet the Authors}
 %% %
@@ -791,7 +807,8 @@ typesetting!)  throughout.
 \input{license.tex}
 %
 \pagestyle{empty} \thispagestyle{empty}
-\clearpage\mbox{}\clearpage\mbox{}\clearpage    %% blank pages
+\clearpage\mbox{}\clearpage
+%\mbox{}\clearpage    %% blank pages
 
 \end{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
