@@ -35,8 +35,12 @@
 %% \renewcommand{\l@subsubsection}{\@dottedtocline{3}{7.4em}{4.5em}}
 %% \makeatother
 
+\renewcommand*{\cftsectionleader}{\hfill}
+
 %\usepackage{tocloft}
 \usepackage{pdfpages}
+
+
 
 \usepackage[framemethod=tikz]{mdframed}
 \mdfsetup{
@@ -465,12 +469,12 @@ innerbottommargin=3pt
 \thispagestyle{empty}
 
 \begin{center}
-{\large Copyright \copyright\ {2012-2016} in this work has been transferred to the public domain.\\[.2cm]}
+{\large Copyright \copyright\ {2012-2016} by the Authors has been transferred to the Public Domain.\\[.2cm]}
 \end{center}
 \quad \\[3.5in] 
 \begin{center}
 \large{The Peeragogy Handbook, 3rd Edition\\
-ISBN: 978-0-9855722-2-8}
+ISBN: 978-0-9960975-1-2} % formerly: 978-0-9855722-2-8
 \quad \\[.2in] 
 %% \large{Cover art and illustrations: Amanda Lyons}\\
 %% \large{\url{peeragogy.org} design: Fabrizio Terzi}\\
@@ -790,12 +794,11 @@ typesetting!)  throughout.
 %% %\renewcommand{\twocolumn}[1][]{\oldtwocolumn}
 
 \newpage
-\chapter[\textbf{License/Waiver}]{License/Waiver}
+\chapter[\textbf{License/Waiver}]{License/Waiver} \label{license-chapter}
 \input{license.tex}
 %
 \pagestyle{empty} \thispagestyle{empty}
-\clearpage\mbox{}\clearpage
-%\mbox{}\clearpage    %% blank pages
+\clearpage\mbox{}\clearpage\mbox{}\clearpage    %% blank pages
 
 \end{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
