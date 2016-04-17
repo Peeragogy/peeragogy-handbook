@@ -20,6 +20,12 @@ Get a copy of the markdown contents of the book by cloning https://github.com/Pe
 grep -o "<a href=\"\./[^\"]*" index.html | sed -r "s/<a href=\"\.\/(.*).html/\1/" | xargs -I {} pandoc -o {}.tex {}.md
 ```
 
+Or alternatively (and more generally):
+
+``` shell
+ls -a1 *.md | xargs basename -s .md | xargs -I {} pandoc -o {}.tex {}.md
+```
+
 **To build the book:**
 
 Copy the tex files you generated in the last step into the relevant
