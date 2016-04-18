@@ -83,7 +83,7 @@ solution is applied?}
 \textbf{What's Next}: \emph{Talk about specific next steps. How will the
 active forces continue to resolve in our project?}
 
-Patterns optionally include the following optional elements:
+Patterns include the following optional elements:
 
 {{[}\textbf{Examples}: \emph{Present example(s) that have been
 encountered, if this aids comprehension.}{]}}
@@ -103,38 +103,65 @@ what we actually do.
 language}\label{a-peeragogy-pattern-language}
 
 By looking at how patterns combine in real and hypothetical use cases,
-you can start to identify a \emph{pattern language} that can be used
-in your projects. We can get a simplified and somewhat abstracted view
-of these connections with the following diagram.~ It's important to
-clarify that everyone doesn't do it the same way.~ Here, the
-\emph{Roadmap} is given a central position, but some peer learning
-projects will forego making a specific, detailed plan; their plan is
-just to see what develops. You can see here how peeragogy patterns
-often break down further into individual micro-steps: we'll say more
-about that shortly.
+you can start to identify a \emph{pattern language} that can be used in
+your projects. We can get a simplified view of these connections with
+the following diagram.~ It's important to clarify that everyone doesn't
+do it the same way.~ Here, the \emph{Roadmap} is given a central
+position, but some peer learning projects will forego making a specific,
+detailed plan; their plan is just to see what develops. You can see here
+how peeragogy patterns often break down further into individual
+micro-steps: we'll say more about that shortly.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{../pictures/pattern-language.jpg}
-\caption{image}
-\end{figure}
+\noindent\resizebox{\textwidth}{!}{
+\begin{tikzpicture}[dot/.style={circle,inner sep=1pt,fill,name=#1}]
+%\draw[step=1cm,gray,very thin] (0,0) grid (10,10);
+\node[rectangle] (roadmap) at (5, 5) {{\Large\sc Roadmap}};
+\node[above = .2cm of roadmap, fill=yellow!20] (assess)  {{ {\bf Assess}}};
+  \node[above = .2cm of assess, fill=yellow!20] (useormake)  {{ {\sc Use or make?}}};
+  \node[above = .2cm of useormake, fill=yellow!20] (doyouknow)  {{\footnotesize {\sc\emph{Do you know the answer?}}}};
+\node[below = .2cm of roadmap, fill=green!20] (organize) {{ {\bf Organize}}};
+  \node[below = .2cm of organize, fill=green!20] (divide)  {{\small {\sc Divide}}};
+    \node[below = .2cm of divide, fill=green!20] (roles)  {{\small {\sc Roles}}};
+      \node[below = .2cm of roles, fill=green!20] (newcomer)  {{\small {\sc Newcomer}}};
+      \node[below left = .3cm of divide, fill=green!20] (wrapper)  {{\small {\sc Wrapper}}};
+      \node[below right = .3cm of divide, fill=green!20] (mentor)  {{\small {\sc Mentor}}};
+\node[right = .2cm of roadmap, fill=blue!20] (convene)  {{ {\bf Convene}}};
+  \node[above right = .2cm of convene, fill=blue!20] (aspecificproject)  {{\small {\sc A specific project}}};
+  \node[below right = .2cm of convene, fill=blue!20] (creatingaguide)  {{\small {\sc Creating a guide}}};
+     \node[below right = .2cm of creatingaguide, fill=blue!20] (findanalogy)  {{\footnotesize {\sc\emph{Find an analogy}}}};
+     \node[below = .2cm of creatingaguide, fill=blue!20] (askwhy)  {{\footnotesize {\sc\emph{Why is it hard?}}}};
+\node[left = .2cm of roadmap, fill=red!20] (cooperate)  {{ {\bf Cooperate}}};
+    \node[left = .2cm of cooperate, fill=red!20] (heartbeat)  {{\small {\sc Heartbeat}}};
+      \node[below left = .2cm of heartbeat, fill=red!20] (moderation)  {{\small {\sc Moderation}}};
+        \node[below left = .2cm of moderation, fill=red!20] (pollingforideas)  {{\small {\sc Polling for ideas}}};
+        \node[below = .2cm of moderation, fill=red!20] (askforhelp)  {{\small {\sc\emph{Ask for help}}}};
+      \node[above left = .2cm of heartbeat, fill=red!20] (carryingcapacity)  {{\small {\sc Carrying capacity}}};
+        \node[above = .2cm of carryingcapacity, fill=red!20] (changefocus)  {{\footnotesize {\sc\emph{Change focus}}}};
+        \node[above left = .2cm of carryingcapacity, fill=red!20] (changefocus)  {{\footnotesize {\sc\emph{Give it a rest}}}};
+\end{tikzpicture}}
+
+%% \begin{figure}[htbp]
+%% \centering
+%% \includegraphics[width=\textwidth]{../pictures/pattern-language.jpg}
+%% \caption{image}
+%% \end{figure}
 
 The subsequent main sections of this book --
-\href{http://peeragogy.org/convene/}{\emph{Convene}},
-\href{http://peeragogy.org/organize/}{\emph{Organize}},
-\href{http://peeragogy.org/facilitate/}{\emph{Cooperate}} and
-\href{http://peeragogy.org/assessment/}{\emph{Assess}} (for short) --
-represent big clusters of patterns that are likely to come up time and
-again in various projects.~ We can think of these as East, South, West,
-and North in the diagram above. You are encouraged to invent your own
-patterns and to connect them in new ways. Each project has a unique
-design, and it's own unique way in which things play out in practice.
-What we've put together here is a starter kit. The peeragogy patterns
-suggest a social way to do problem solving {[}3{]}.  Once you get
-used to the pattern concept you can use it to identify new problems no
-one has ever thought of before, and that's even more powerful!
+\href{http://peeragogy.org/convene/}{\emph{Convening a group}},
+\href{http://peeragogy.org/organize/}{\emph{Organizing a learning
+    context}},
+\href{http://peeragogy.org/facilitate/}{\emph{Cooperatation}} and
+\href{http://peeragogy.org/assessment/}{\emph{Assessment}} (or
+\emph{Convene}, \emph{Organize}, \emph{Cooperate}, and \emph{Assess},
+for short) -- represent big clusters of patterns that are likely to
+come up time and again in various projects. (The diagram above is
+a preliminary sketch, including some heuristic ideas from {[}3{]},
+as well as some patterns that we tried out and discarded
+by the time we wrote {[}4{]}.)
+You are encouraged to invent your own patterns and to connect
+them in new ways. 
 
-\subsubsection{References}\label{patterns-references}
+\subsubsection{References}\label{references}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -152,4 +179,10 @@ one has ever thought of before, and that's even more powerful!
   {O}{L}{P}{C})}, Massachusetts Institute of Technology Media Lab
   whitepaper,
   \href{http://web.media.mit.edu/~minsky/OLPC-1.html}{Available online.}
+\item J. Corneli, C. J. Danoff, C. Pierce, P. Ricuarte, and L. Snow
+MacDonald. Patterns of Peeragogy. In: \emph{Pattern Languages of Programs
+Conference 2015 (PLoP’15), Pittsburgh, PA, USA, October 24-26}, 2015.
+Ed. by F. Correia. 2016. Proceedings version to appear; a slightly
+modified version of the paper is included in Chapter \ref{patterns} of the
+\emph{Peeragogy Handbook}.
 \end{enumerate}

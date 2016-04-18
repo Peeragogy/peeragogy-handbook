@@ -575,12 +575,13 @@ typesetting!)  throughout.
 \input{introduction.tex}
 
 \newpage
-%\cftaddtitleline{toc}{chapter}{Workbook}{\thepage}
-%\addcontentsline{toc}{section}{~\protect\vspace{-1.5cm}}
-\addtocontents{toc}{%
- \protect\vspace{-.5cm}%
-}
-\includepdf[addtotoc={1,chapter,0,Workbook,chap:workbook},page={1-},offset=5mm 0mm,pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
+
+%% \addtocontents{toc}{%
+%%  \protect\vspace{-.5cm}%
+%% }
+%% \includepdf[addtotoc={1,chapter,0,Workbook,chap:workbook},page={1-},offset=5mm 0mm,pagecommand={\pagestyle{companion}}]{peeragogy-workbook-insert.pdf}
+
+\input{workbook.tex}
 
 \chapter[\textbf{Chapter Summaries}]{Chapter Summaries}
 %
@@ -663,7 +664,7 @@ typesetting!)  throughout.
 %
 \input{sole.tex}
 %
-\chapter[\textbf{Case Study: Meeting with the Pro Vice-Chancellor}]{ Case Study: Meeting with the Pro Vice-Chancellor}
+\chapter[\textbf{Case Study: Meeting with the PVC}]{ Case Study: Meeting with the Pro Vice-Chancellor}
 %
 \input{osl.tex}
 
