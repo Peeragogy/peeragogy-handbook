@@ -20,6 +20,18 @@ Get a copy of the markdown contents of the book by cloning https://github.com/Pe
 grep -o "<a href=\"\./[^\"]*" index.html | sed -r "s/<a href=\"\.\/(.*).html/\1/" | xargs -I {} pandoc -o {}.tex {}.md
 ```
 
+Or alternatively, if you only want to convert recently changed files, find a particular recent commit number, and copy it place of "MD5HASH" here, and run:
+
+```
+git diff --name-only MD5HASH HEAD
+```
+
+That will give a list of recently changed files.  You can then copy them into a working directory and convert as follows:
+
+``` shell
+ls -a1 *.md | xargs basename -s .md | xargs -I {} pandoc -o {}.tex {}.md
+```
+
 **To build the book:**
 
 Copy the tex files you generated in the last step into the relevant
