@@ -1,6 +1,8 @@
 peeragogy-handbook
 ==================
 
+[![DOI](https://zenodo.org/badge/24270/Peeragogy/peeragogy-handbook.svg)](https://zenodo.org/badge/latestdoi/24270/Peeragogy/peeragogy-handbook)
+
 This book and accompanying [website](http://peeragogy.org) are a
 resource for self-organizing self-learners.
 
