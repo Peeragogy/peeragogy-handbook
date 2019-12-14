@@ -14,12 +14,18 @@ now.
 
 ## Requirements for building the book locally
 
+On Debian-based GNU/Linux distributions, install the following dependencies first:
+
+``` shell
+sudo apt-get install texlive-xetex texlive-fonts-extra texlive-bibtex-extra pandoc fonts-symbola biber
+```
+
 Get a copy of the markdown contents of the book by cloning https://github.com/Peeragogy/Peeragogy.github.io
 
 **To convert to `.tex` format:**
 
 ``` shell
-grep -o "<a href=\"\./[^\"]*" index.html | sed -r "s/<a href=\"\.\/(.*).html/\1/" | xargs -I {} pandoc -o {}.tex {}.md
+grep -o "<a href=\"\./[^\"]*" index.html | sed -r "s/<a href=\"\.\/(.*).html/\1/" | xargs -I {} pandoc -o {}.tex {}.md | pandoc -o workbook.tex workbook.md
 ```
 
 Or alternatively, if you only want to convert recently changed files, find a particular recent commit number, and copy it place of "MD5HASH" here, and run:
@@ -36,10 +42,14 @@ ls -a1 *.md | xargs basename -s .md | xargs -I {} pandoc -o {}.tex {}.md
 
 **To build the book:**
 
-Copy the tex files you generated in the last step into the relevant
-subdirectory (probably `en`), and run:
+Copy the *.tex files you generated in the last step into the relevant
+subdirectory (probably `en`), copy the `images` directory into the
+relevant subdirectory as well, and run:
 
 ```
+xelatex peeragogy-shell.tex
+biber peeragogy-shell.bcf
+xelatex peeragogy-shell.tex
 xelatex peeragogy-shell.tex
 ```
 
