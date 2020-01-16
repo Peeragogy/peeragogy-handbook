@@ -14,7 +14,14 @@ now.
 
 ## Requirements for building the book locally
 
-On Debian-based GNU/Linux distributions, install the following dependencies first:
+On Debian-based GNU/Linux distributions, simply call
+
+``` shell
+./setup.sh
+./generate.sh
+```
+
+on the terminal. Otherwise, install the following dependencies first:
 
 ``` shell
 sudo apt-get install texlive-xetex texlive-fonts-extra texlive-bibtex-extra pandoc fonts-symbola biber
