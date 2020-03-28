@@ -3,16 +3,13 @@ peeragogy-handbook
 
 [![DOI](https://zenodo.org/badge/24270/Peeragogy/peeragogy-handbook.svg)](https://zenodo.org/badge/latestdoi/24270/Peeragogy/peeragogy-handbook)
 
-This book and accompanying [website](http://peeragogy.org) are a
-resource for self-organizing self-learners.
+This book and accompanying [website](http://peeragogy.org) are a resource for self-organizing self-learners.
 
-We originally were writing the book on a Wordpress site, but
-[migrated the sources to Jekyll](https://github.com/Peeragogy/Peeragogy.github.io).
-Some of the old scripts in this repository have to do with extracting
-content from Wordpress, but you can ignore them: It's much simpler
-now.
+This repository includes instructions for compiling a PDF version of the book from upstream Markdown sources.
 
 ## Requirements for building the book locally
+
+### Automatic transmission
 
 On Debian-based GNU/Linux distributions, simply call
 
@@ -21,45 +18,47 @@ On Debian-based GNU/Linux distributions, simply call
 ./generate.sh
 ```
 
-on the terminal. Otherwise, install the following dependencies first:
+on the terminal. 
+
+### Manual transmission
+
+Install the following dependencies first:
 
 ``` shell
 sudo apt-get install texlive-xetex texlive-fonts-extra texlive-bibtex-extra pandoc fonts-symbola biber
 ```
 
-Alternatively, if you have installed the TeX Live package, you will still need these dependencies:
+**Note**: If you have previously installed TeX Live package, you will still need these dependencies:
 
 ``` shell
 sudo apt-get install pandoc fonts-symbola
 ```
 
-
-
-Get a copy of the markdown contents of the book by cloning https://github.com/Peeragogy/Peeragogy.github.io
+Next, get a copy of the upstream Markdown contents of the book by cloning https://github.com/Peeragogy/Peeragogy.github.io
 
 **To convert to `.tex` format:**
 
 ``` shell
-grep -o "<a href=\"\./[^\"]*" index.html | sed -r "s/<a href=\"\.\/(.*).html/\1/" | xargs -I {} pandoc -o {}.tex {}.md | pandoc -o workbook.tex workbook.md
+grep -o "<a href=\"\./[^\"]*" index.html | sed -r "s/<a href=\"\.\/(.*).html/\1/" | xargs -I {} pandoc -o {}.tex {}.md
 ```
 
-Or alternatively, if you only want to convert recently changed files, find a particular recent commit number, and copy it place of "MD5HASH" here, and run:
+Alternatively, if you only want to convert recently changed files, find a particular recent commit number, and copy it place of "MD5HASH" here, and run:
 
 ```
 git diff --name-only MD5HASH HEAD
 ```
 
-That will give a list of recently changed files.  You can then copy them into a working directory and convert as follows:
+You can then copy the recently changed files copy into a separate working directory and convert as follows:
 
 ``` shell
 ls -a1 *.md | xargs basename -s .md | xargs -I {} pandoc -o {}.tex {}.md
 ```
 
-**To build the book:**
+## To build the book
 
-1. Copy the *.tex files you generated in the last step into the relevant
-subdirectory (probably `en`),
-2. Copy the `images` directory into the relevant subdirectory as well,
+
+1. Copy the *.tex files you generated above into the relevant subdirectory (such as `en`),
+2. Copy the `images` directory into this subdirectory as well,
 3. And then run:
 
 ```
@@ -69,7 +68,32 @@ xelatex peeragogy-shell.tex
 xelatex peeragogy-shell.tex
 ```
 
-## Note: smart conversions going the other direction!
+> If you're in a hurry, the repository includes checked-in LaTeX sources so that you can skip many of the steps in the Requirements section, if you just run the xelatex/biber commands here.
+
+## Incorporating extra LaTeX content
+
+There are always a few stylistic things that need to be cleaned up to
+make a nice PDF (e.g. getting images to show up properly,
+adjusting sectioning details, and so on).  In the 3.0 version of the
+book, I used per-section biblatex bibliographies in the pattern
+catalog, with
+
+``` latex
+\begin{refsection}
+% text here...
+\printbibliography[heading=subbibliography]
+\end{refsection}
+```
+
+But we forego that nice feature when converting directly from the web
+version.  In general, you'll have to decide when building the book and
+individual sections whether it's better to start with Markdown
+sources, or to instead inject original LaTeX sources for inclusion via
+`peeragogy-shell.tex`.
+
+## Bonus material: Smart conversions going the other direction!
+
+This is useful for importing material from any LaTeX sources you may have lying around into the upstream Markdown repository. 
 
 If you have some LaTeX files that include specialized LaTeX commands
 or bibliography entries and you want to instruct `pandoc` to convert
@@ -94,28 +118,14 @@ from our Winter 2015 conversion of the
 \usepackage[dvipsnames]{xcolor}
 ```
 
-# Further notes
+## History
 
-There are always a few stylistic things that need to be cleaned up to
-make a nice PDF (e.g. getting images to show up properly,
-adjustingsectioning details, and so on).  In the 3.0 version of the
-book, I used per-section biblatex bibliographies in the pattern
-catalog, with
+We originally were writing the book on a Wordpress site, but
+[migrated the sources to Jekyll](https://github.com/Peeragogy/Peeragogy.github.io).
+Some of the old scripts in this repository have to do with extracting
+content from Wordpress, but you can ignore them: It's much simpler now.
 
-``` latex
-\begin{refsection}
-% text here...
-\printbibliography[heading=subbibliography]
-\end{refsection}
-```
-
-But we forego that nice feature when converting directly from the web
-version.  In general, you'll have to decide when building the book and
-individual sections whether it's better to start with Markdown
-sources, or use original LaTeX sources.
-
-
-# License
+## License
 
 CC-Zero (Public Domain).  See
 [peeragogy.org/license](http://peeragogy.org/license) for details.
