@@ -1,0 +1,656 @@
+\documentclass[ebook, 12pt, twoside]{memoir}
+
+%% \makeatletter
+%% \renewcommand\@dotsep{10000}
+%% \renewcommand{\l@part}{\l@chapter}
+%% \renewcommand{\l@section}{\@dottedtocline{1}{1.5em}{2.6em}}
+%% \renewcommand{\l@subsection}{\@dottedtocline{2}{4.0em}{3.6em}}
+%% \renewcommand{\l@subsection}{\@dottedtocline{3}{7.4em}{4.5em}}
+%% \makeatother
+
+\noindexintoc
+
+
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+\usepackage{enumitem}
+\usepackage{array}
+\def\Tiny{\fontsize{8pt}{8pt} \selectfont}
+
+\renewcommand*{\cftchapterfont}{\bfseries}
+
+\makeatletter
+\def\below{\xdef\@thefnmark{}\@footnotetext}
+\makeatother
+
+%\usepackage{amsmath}
+%\usepackage{times}
+%\usepackage[MnSymbol]{mathspec}
+%\setmathsfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Linux Libertine O}
+%\setminwhitespace % not sure if this helps
+%\setmathrm{Linux Biolinum O}
+
+\usepackage[MnSymbol]{mathspec}
+\setmathsfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Linux Libertine}
+\setminwhitespace % not sure if this helps
+\setmathrm{Linux Biolinum}
+
+\usepackage{xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont{Linux Libertine O}
+
+\usepackage{metalogo}
+\usepackage{caption}
+%% \setmainfont[Mapping= tex-text,  
+%%      SmallCapsFont={Linux Libertine O},   
+%%      SmallCapsFeatures= {Color=6600CC, RawFeature={+smcp,+hlig,+dlig}},   
+%%      BoldFont={Linux Biolinum O Bold},   
+%%      BoldFeatures={Color = E6005C,SmallCapsFont={Linux Libertine Capitals O Bold},%
+%%        SmallCapsFeatures = { Color=F2521B,   RawFeature={+smcp,+hlig,+dlig}} },  
+%%      ItalicFont={Linux Libertine O Italic},   
+%%      ItalicFeatures={Color = 00CC00, RawFeature={+liga,+hlig,+dlig}, %
+%%        SmallCapsFont={Linux Libertine Capitals O Italic}, %
+%%        SmallCapsFeatures = {Color=00FFFF,RawFeature={+smcp,+hlig,+dlig}}},   
+%%      BoldItalicFont={Linux Biolinum O},   
+%%      BoldItalicFeatures={ Color = 3366FF, %
+%%       SmallCapsFont={Linux Libertine Capitals O Bold Italic},  %
+%%       SmallCapsFeatures = { Color=3366FF,RawFeature={+smcp,+hlig,+dlig}}} ]{Linux Libertine O} 
+
+\setmainfont[Mapping= tex-text,  
+     SmallCapsFont={Linux Libertine},   
+     SmallCapsFeatures= {Color=FFFFFF, RawFeature={+smcp,+hlig,+dlig}},   
+     BoldFont={Linux Biolinum Bold},   
+%     BoldFeatures={Color = FFFFFF,SmallCapsFont={Linux Libertine Capitals O Bold},%
+%       SmallCapsFeatures = { Color=FFFFFF,   RawFeature={+smcp,+hlig,+dlig}} },  
+     ItalicFont={Linux Libertine Italic},   
+     ItalicFeatures={Color = FFFFFF,  %
+       SmallCapsFont={Linux Libertine Capitals}, %
+       SmallCapsFeatures = {Color=FFFFFF}},   
+     BoldItalicFont={Linux Biolinum},   
+     BoldItalicFeatures={ Color = FFFFFF, %
+      SmallCapsFont={Linux Libertine Capitals Bold},  %
+      SmallCapsFeatures = { Color=FFFFFF,RawFeature={+smcp,+hlig,+dlig}}} ]{Linux Libertine} 
+
+\let\sc\scshape
+
+\newcommand{\hookuparrow}{%
+    \mathrel{\raisebox{2pt}{\reflectbox{\rotatebox[origin=c]{180}{$\hookrightarrow$}}}}}
+
+\newfontfamily\calligraphicfont{Linux Biolinum Shadow}
+\newcommand\calP{\text{\upshape\calligraphicfont P}}
+\newcommand\calU{\text{\upshape\calligraphicfont U}}
+\newcommand\calV{\text{\upshape\calligraphicfont V}}
+\newcommand\calF{\text{\upshape\calligraphicfont F}}
+\newcommand\calB{\text{\upshape\calligraphicfont B}}
+\newcommand\calE{\text{\upshape\calligraphicfont E}}
+\newcommand\calX{\text{\upshape\calligraphicfont X}}
+\newcommand\calJ{\text{\upshape\calligraphicfont J}}
+
+\makeatletter
+\newcommand*{\shfttext}[2]{%
+  \settowidth{\@tempdima}{#2}%
+  \makebox[\@tempdima]{\hspace*{#1}#2}%
+}
+\makeatother
+
+%\usepackage{xunicode}
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont{Linux Libertine O}
+
+ %% \setmainfont[Mapping= tex-text,  
+ %%     SmallCapsFont={Linux Libertine O},   
+ %%     SmallCapsFeatures= {Color=6600CC, RawFeature={+smcp,+hlig,+dlig}},   
+ %%     BoldFont={Linux Biolinum O Bold},   
+ %%     BoldFeatures={Color = E6005C,SmallCapsFont={Linux Libertine Capitals O Bold},%
+ %%       SmallCapsFeatures = { Color=996600,   RawFeature={+smcp,+hlig,+dlig}} },  
+ %%     ItalicFont={Linux Libertine O Italic},   
+ %%     ItalicFeatures={Color = 00CC00, RawFeature={+liga,+hlig,+dlig}, %
+ %%       SmallCapsFont={Linux Libertine Capitals O Italic}, %
+ %%       SmallCapsFeatures = {Color=00FFFF,RawFeature={+smcp,+hlig,+dlig}}},   
+ %%     BoldItalicFont={Linux Biolinum O},   
+ %%     BoldItalicFeatures={ Color = 3366FF, %
+ %%      SmallCapsFont={Linux Libertine Capitals O Bold Italic},  %
+ %%      SmallCapsFeatures = { Color=3366FF,RawFeature={+smcp,+hlig,+dlig}}} ]{Linux Libertine O} 
+
+\newcommand\marktransition{\begin{center}◆\end{center}}
+\newcommand\marktransitionempty{\begin{center}\quad\end{center}}
+
+\usepackage{wrapfig}
+
+%\usepackage[T1]{fontenc}
+%\usepackage[math]{kurier} % {regular} {light} {condensed} {mathnoalias} {math}
+
+\usepackage[english,greek]{babel}
+
+\usepackage[super]{natbib}
+
+\usepackage{ctable}
+
+%%% How to add per section bibliographies
+
+%% The natbib package is compatible with the chapterbib package which makes it possible to have several bibliographies in one document.
+
+%% The package makes use of the \include command, and each \included file has its own bibliography.
+
+%% The order in which the chapterbib and natbib packages are loaded is unimportant.
+
+%% The chapterbib package provides an option sectionbib that puts the bibliography in a \section* instead of \chapter*, something that makes sense if there is a bibliography in each chapter. This option will not work when natbib is also loaded; instead, add the option to natbib.
+
+%% Every \included file must contain its own \bibliography command where the bibliography is to appear. The database files listed as arguments to this command can be different in each file, of course. However, what is not so obvious, is that each file must also contain a \bibliographystyle command, preferably with the same style argument.
+
+\usepackage{indentfirst}
+\usepackage{marvosym}
+\usepackage{fourier-orns}
+\usepackage{datetime}
+\let\dateseparator.
+\ddmmyyyydate
+
+\usepackage{graphicx}
+
+\usepackage{rotating}
+\usepackage{enumitem}
+\usepackage{placeins}
+\usepackage{enumerate}
+
+\usepackage{etoolbox}
+\makeatletter
+\pretocmd{\chapter}{\addtocontents{toc}{\protect\addvspace{-7\p@}}}{}{}
+%\pretocmd{\section}{\addtocontents{toc}{\protect\addvspace{-5\p@}}}{}{}
+\makeatother
+
+%\AtBeginDocument{\addtocontents{toc}{\protect\pagestyle{empty}}}
+\aliaspagestyle{part}{empty}
+
+\renewcommand{\thepart}{\Roman{part}}
+
+\chapterstyle{thatcher}
+
+%\let\footruleskip\relax % for compatibility of memoir and fancyhdr
+\let\proportional\ttfamily % for compatibility of memoir and blindtext
+\let\sc\scshape
+\let\bf\bfseries
+\let\it\itfamily
+\let\tt\ttfamily
+\let\sl\slshape
+\let\sf\sffamily
+
+\usepackage[normalem]{ulem}
+
+%% If you don't use ebook, use this instead:
+%\settrimmedsize{9in}{6in}{*}
+%\settrims{1in}{1.25in}
+
+\makeatletter
+\newcommand*{\shifttext}[2]{%
+  \settowidth{\@tempdima}{#2}%
+  \makebox[\@tempdima]{\hspace*{#1}#2}%
+}
+\makeatother
+
+\setlength{\marginparsep}{0pt}
+\setlength{\marginparwidth}{0pt}
+
+%% Useful for book format but for ebook we might as well have them all be the same, see below
+\makeevenhead{companion}{\normalfont\bfseries\scshape\thepage}{}%
+                        {\normalfont\large\bfseries\scshape\leftmark}
+\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+                       {\normalfont\bfseries\scshape\thepage}
+
+%\usepackage{fancyhdr}
+
+%\makeevenhead{companion}{\normalfont\large\bfseries\scshape\leftmark}{}%
+%                        {\normalfont\bfseries\scshape\thepage}
+%\makeoddhead{companion}{\normalfont\large\bfseries\scshape\rightmark}{}%
+%                       {\normalfont\bfseries\scshape\thepage}
+
+%% These settings are great for building an actual ebook... basically the same as
+%% using the ``oneside'' setting but two-sided to get the headings to work...
+%\settypeblocksize{7.4in}{4.4in}{*}
+%\setlrmargins{.8in}{*}{*}
+%\setulmargins{.9in}{*}{*}
+
+%% But this gives a two-sided flip/flop to the version of the book for print:
+\settypeblocksize{7.4in}{4.4in}{*}
+\setlrmargins{1in}{*}{*}
+\setulmargins{.9in}{*}{*}
+
+\setheadfoot{2\onelineskip}{2\onelineskip}
+%%\setheaderspaces{*}{1.5\onelineskip}{*}
+\setheaderspaces{*}{1.25\onelineskip}{*}
+
+\checkandfixthelayout
+
+%% \setlrmarginsandblock{23mm}{23mm}{*}
+%% \setulmarginsandblock{23mm}{28mm}{*}
+%% \setheadfoot{\onelineskip}{2\onelineskip}
+%% \setheaderspaces{*}{1mm}{*}
+
+%% \chapterstyle{plain}
+
+%% \checkandfixthelayout
+%\usepackage{endnotes}
+%\usepackage{endheads}
+%\setupendnoteheaders 
+%\titleinnotestrue
+%\setstyleforchapternotebegin{\begin{flushleft}\begin{bf}\normalsize}
+%\setstyleforchapternoteend{\end{bf}\end{flushleft}}
+
+%\usepackage{eledmac}
+%\def\printendlines#1|#2|#3|#4|#5|#6|#7|{\begingroup
+%  \setprintendlines{#1}{#2}{#3}{#4}{#5}{#6}%
+%  \printnpnum{#1}% \linenumrep{#2}%
+%  \ifl@d@ssub \fullstop \sublinenumrep{#3}\fi
+%  \ifl@d@dash \endashchar\fi
+%  \ifl@d@pnum \printnpnum{#4}\fi
+%  \ifl@d@elin \linenumrep{#5}\fi
+%  \ifl@d@esl \ifl@d@elin \fullstop\fi \sublinenumrep{#6}\fi
+%\endgroup}
+
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[linktoc=all,frenchlinks,pdfborderstyle={/S/U/W .5},citebordercolor={1 1 1},linkbordercolor={1 1 1},urlbordercolor={1 1 1}]{hyperref}
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\makeatother
+
+\usepackage{accsupp}
+
+%\def\indexname{Web pages referenced in this book}
+\newcounter{IndexItemCounter}
+\usepackage{makeidx}
+\usepackage{xstring}
+\makeindex
+\let\hrefold\href
+\newcommand*{\hrefnew}[2]{%
+\normalexpandarg%
+\IfSubStr{#1}{http://peeragogy.org}{#2}{%
+%\BeginAccSupp{method=plain,unicode,ActualText={#2}}%
+\hrefold{#1}{#2}%
+%\EndAccSupp{}%
+\stepcounter{IndexItemCounter}%
+\index{\thepage@{p. \thepage}!{\theIndexItemCounter}@{#2\ldots\ \url{#1}}}}\unskip
+}
+%% Tip on how to use the eledmac package:
+%% http://tex.stackexchange.com/questions/146906/endnotes-with-eledmac
+%% Tempting to do \numberlinefalse.
+% \renewcommand*{\href}[2]{\hrefold{#1}{#2}\index{\thepage!{#2\ldots\ \url{#1}}}}
+\let\href\hrefnew
+
+%\renewcommand*{\href}[2]{\stepcounter{endnote}\hrefold{#1}{#2}\endnotetext[\theendnote]{{\sc #2}\ldots\ \url{#1}}}
+
+\begin{document}
+\sloppy \pagestyle{empty} \thispagestyle{empty}
+\selectlanguage{english}
+\begin{center}
+\quad\\[1in] 
+{\LARGE The Peeragogy Handbook}
+\end{center}
+\clearpage\mbox{}\clearpage    %% blank pages
+\title{The Peeragogy Handbook\\[.5in]}
+%% \author{\emph{Edited by} \\
+%%  and Joseph Corneli\\[.2in]
+%% \emph{with contributions from} \\
+%% {\small Bryan Alexander, Paul Allison, R\'egis Barondeau,} \\
+%% {\small Doug Breitbart, Suz Burroughs, Jay Cross, }\\ 
+%% {\small Charles Jeffrey Danoff, Julian Elve, Mar\'ia Fernanda,}\\
+%% {\small James Folkestad, Kathy Gill, Gigi Johnson, }\\
+%% {\small Anna Keune, Roland Legrand, Amanda Lyons,} \\
+%% {\small Christopher Neal, Ted Newcomb, Stephanie Parker, } \\
+%% {\small Charlotte Pierce, David Preston, Paola Ricaurte,} \\
+%% {\small Stephanie Schipper, Fabrizio Terzi, and Geoff Walker} \\
+%% }
+\author{
+\emph{Founding Editor}\\
+{\small Howard Rheingold}\\[.3in]
+\emph{Editorial Board}\\
+{\small George Brett, Joseph Corneli, Charles Jeffrey Danoff,}\\
+{\small Kyle Larson, Charlotte Pierce, Paola Ricaurte, Fabrizio Terzi}\\[.3in]
+
+%\emph{Creative Director}\\
+% {\small }\\[.3in]
+
+\emph{with contributions from} \\
+{\small Bryan Alexander, Paul Allison, Mar\'ia Fernanda Arenas,} \\
+{\small R\'egis Barondeau, Doug Breitbart, Suz Burroughs,}\\ 
+{\small Teryl Cartwright, Jay Cross, Julian Elve,}\\
+{\small James Folkestad, Kathy Gill, John Glass,}\\
+{\small John Graves, Jan Herder, Gigi Johnson,} \\
+{\small Anna Keune, Roland Legrand, Amanda Lyons,} \\
+{\small Christopher Neal, Ted Newcomb, Stephanie Parker,} \\
+{\small David Preston, Stephanie Schipper, Peter Taylor,} \\
+{\small and Geoff Walker}
+}
+\date{\today\ (version 2.01)}
+\maketitle
+\thispagestyle{empty}
+
+\quad \\[3in] 
+\begin{center}
+{\large All the text in this book has been donated to the Public Domain.}
+\end{center}
+\quad \\
+\begin{center}
+{\large {\sc small caps} correspond to links in the online version of
+  the book, which is at \url{http://peeragogy.org}.}
+\quad \\[3in] 
+\large{ISBN: 978-0-9776396-4-9}
+\quad \\[.2in] 
+\large{Cover design: Fabrizio Terzi and Alec Hutson \\
+Illustrations: Amanda Lyons}
+\quad \\[.2in]
+\large{Typeset in Linux Libertine with \XeLaTeX.
+Sources available at \url{http://git.io/Handbook}.}
+\quad \\[.2in]
+\large{Jointly published by Pierce Press and PubDomEd.}
+\end{center}
+\thispagestyle{empty}
+\cleardoublepage
+
+\frontmatter
+\pagestyle{empty}
+\thispagestyle{empty}
+\setcounter{page}{-1}
+{
+\changepage{10mm}{}{}{}{}{-10mm}{}{}{}{}{}{}{}{}
+\tableofcontents*
+}
+%\afterpage{\blankpage}
+
+\mainmatter
+%%% This works but this way of doing things messes with the spacing.
+%%% Maybe there's a better way to automate the starting and stopping
+%\lineation{section}
+%\numberlinetrue
+%\Abeginnumbering
+
+ %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
+\phantomsection
+\addcontentsline{toc}{chapter}{Foreword}
+\chapter*{Foreword}
+%
+\input{foreword.tex}
+ %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
+
+\part{Introduction} \label{intro-part} %%%%%%%%%%%%%%%%%%%%
+\pagestyle{companion}
+\chapter[\textbf{Welcome!}]{Welcome to the Peeragogy Handbook}
+%
+\input{introduction.tex}
+%
+\chapter[\textbf{How to use this handbook}]{How to use this handbook}
+%
+\input{howto.tex}
+\chapter[\textbf{Chapter Summaries}]{Chapter Summaries}
+%
+\input{summaries.tex}
+
+\part{Peer Learning} \label{peer-learning-part} %%%%%%%%%%%%%%%%%%%%
+%
+\chapter[\textbf{An Overview}]{An Overview of Peer Learning}
+%
+\input{peer-learning.tex}
+%
+\section*{Which is more fun, skateboarding or physics?}
+\input{more_fun.tex}
+%
+\section*{What kind of help do you need?}
+\input{help_needed.tex}
+%
+\section*{How should we structure things?}
+\input{how_to_structure.tex}
+%
+\section*{Can we work together on this?}
+\input{work_together.tex}
+%
+\section*{How do we know if we've won?}
+\input{we_won.tex}
+
+
+\part{Motivation} \label{motivation-part} %%%%%%%%%%%%%%%%%%%%
+%
+\chapter[\textbf{Why we're doing this}]{Why we're doing this}
+\input{motivation.tex}
+%
+\chapter[\textbf{Case Study: 5PH1NX}]{Case Study: 5PH1NX}\label{sphinx-beginning}
+%
+\input{sphinx.tex}
+
+
+\part{Peeragogy in Practice} \label{practice-part}  %%%%%%%%%%%%%%%%%%%%
+%
+\chapter[\textbf{Thinking about patterns}]{Thinking about patterns}
+\input{patterns.tex}
+%
+\chapter[\textbf{Patterns}]{ Patterns }
+
+\section*{Wrapper}
+\input{wrapper.tex}
+\section*{Discerning a Pattern}
+\input{discerning_a_pattern.tex}
+\section*{Polling for Ideas}
+\input{polling_for_ideas.tex}
+\section*{Creating a Guide}
+\input{creating_a_guide.tex}
+\section*{Newcomer}
+\input{newcomer.tex}
+\section*{Roadmap}
+\input{roadmap.tex}
+\section*{Roles}
+\input{roles.tex}
+\section*{Focusing on a specific project}
+\input{specific_project.tex}
+\section*{Carrying Capacity}
+\input{carrying_capacity.tex}
+\section*{Heartbeat}
+\input{heartbeat.tex}
+\section*{Moderation}
+\input{moderation.tex}
+%\section*{Pattern Language}
+%\input{pattern_language.tex}
+\section*{Use or Make?}
+\input{praxis_vs_poeisis.tex}
+
+
+\chapter[\textbf{Antipatterns}]{Antipatterns}
+
+\section*{Isolation}
+\input{isolation.tex}
+\section*{Magical thinking}
+\input{magical_thinking.tex}
+\section*{Messy with Lurkers}
+\input{messy_with_lurkers.tex}
+\section*{Misunderstanding Power}
+\input{misunderstanding_power.tex}
+\section*{Navel Gazing}
+\input{navel_gazing.tex}
+\section*{Stasis}
+\input{stasis.tex}
+\section*{Stuck at the level of weak ties}
+\input{stuck.tex}
+
+\chapter[\textbf{A pattern story}]{A pattern story}
+%
+\input{pattern_story.tex}
+
+
+\part{Convening A Group} \label{convening-part} %%%%%%%%%%%%%%%%%%%%
+%
+\chapter[\textbf{Convening}]{Building Your Co-Learning Group}
+\input{convening.tex}
+%
+\chapter[\textbf{Play and learning}]{Play and learning}
+%
+\input{play.tex}
+%
+\chapter[\textbf{K-12 Peeragogy}]{K-12 Peeragogy}
+%
+\input{k12.tex}
+%
+\chapter[\textbf{P2P SOLE}]{P2P Self-Organized Learning Environments}
+%
+\input{sole.tex}
+%
+\chapter[\textbf{A story about new beginnings}]{A story about new beginnings}
+%
+\input{new-beginnings.tex}
+
+
+
+\part{Organizing a Learning Context} \label{organizing-part} %%%%%%%%%%%%%%%%%%%%
+%
+\chapter[\textbf{Organizing Co-Learning}]{Introduction to Organizing Co-Learning}
+\input{organizing.tex}
+%
+\chapter[\textbf{Adding structure}]{Adding structure with activities}
+%
+\input{structure.tex}
+%
+\chapter[\textbf{The student authored syllabus}]{ The student authored syllabus } 
+%
+\input{student_syllabus.tex}
+%
+\chapter[\textbf{How to Organize a MOOC}]{ Connectivism in Practice ---  How to Organize a cMOOC}
+%
+\input{connectivism.tex}
+%
+\chapter[\textbf{Case Study: Collaborative Explorations}]{ Case Study: Collaborative Explorations}
+%
+\input{collab-ex.tex}
+
+
+\part{~~Cooperation} \label{cooperation-part} %%%%%%%%%%%%%%%%%%%%
+%
+\chapter[\textbf{Co-facilitation}]{Introduction to cooperation: Co-facilitation}
+\input{cofac.tex}
+%
+\chapter[\textbf{The Workscape}]{ The Workscape, a learning platform for corporations }
+%
+\input{workscape.tex}
+\chapter[\textbf{Participation}]{ Participation }
+%
+\input{participation.tex}
+%
+\chapter[\textbf{Designs for co-working}]{New designs for co-working and co-learning}
+%
+\input{coworking.tex}
+%
+\chapter[\textbf{A co-working story}]{A co-working story}
+%
+\input{coworking-story.tex}
+
+
+
+\part{~~~~Assessment} \label{assessment-part} %%%%%%%%%%%%%%%%%%%%
+%
+\chapter[\textbf{Peeragogical Assessment}]{Introduction to Peeragogical Assessment}
+\input{assessment.tex}
+%
+\chapter[\textbf{Researching Peeragogy}]{Researching Peeragogy}
+%
+\input{researching.tex}
+
+
+\part{~Technologies, Services, and Platforms } \label{technologies-part} %%%%%%%%%%%%%%%%%%%%
+%
+\chapter[\textbf{Peeragogy Technology}]{Introduction to Technologies for Peeragogy}
+\input{technologies.tex}
+%
+\chapter[\textbf{Forums}]{ Forums } 
+%
+\input{forums.tex}
+%
+\chapter[\textbf{Wiki}]{ Wiki } 
+%
+\input{wiki.tex}
+%
+\chapter[\textbf{Real-time Meetings}]{ Real-time Meetings } 
+%
+\input{realtime.tex}
+
+
+\part{Resources} \label{resources-part} %%%%%%%%%%%%%%%%%%%%
+%
+\chapter[\textbf{How to get involved}]{ How to Get Involved In the Peeragogy Project } 
+%
+\input{get-involved.tex}
+%
+\chapter[\textbf{Peeragogy in Action}]{Peeragogy in Action}
+%
+\input{action.tex}
+%
+\chapter[\textbf{Recommended Reading}]{Recommended Reading}
+%
+\input{recommended.tex}
+%
+\chapter[\textbf{Style Guide}]{Style Guide}
+%
+\input{style.tex}
+%
+\chapter[\textbf{Meet the Authors}]{Meet the Authors}
+%
+\input{meet-the-team.tex}
+%
+%\chapter[\textbf{License}]{License}
+%
+%\endnumbering
+%\cleardoublepage
+%\chapter[\textbf{Web pages referenced in this book}]{}
+%\doendnotes{A}
+
+\cleardoublepage
+%\let\oldtwocolumn\twocolumn
+%\renewcommand{\twocolumn}[1][]{#1}
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Web Pages Cited in This Book}
+\renewcommand{\indexname}{Web Pages Cited in This Book}
+\onecolindex
+\printindex
+%\renewcommand{\twocolumn}[1][]{\oldtwocolumn}
+
+\newpage
+\chapter[\textbf{License/Waiver}]{License/Waiver}
+\input{license.tex}
+%
+\pagestyle{empty} \thispagestyle{empty}
+\clearpage\mbox{}\clearpage\mbox{}\clearpage\mbox{}\clearpage    %% blank pages
+
+\end{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% \chapter[\textbf{Use Cases}]{ Use Cases }
+%% \section*{From peer production to peer learning}
+%% \input{from_peer_production.tex}
+%% \section*{C’est la vie}
+%% \input{cest_la_vie.tex}
+%% \section*{Distributed Project Management}
+%% \input{distributed_project_management.tex}
+%% \section*{Improved adaptivity}
+%% \input{improved_adaptivity.tex}
+%% \section*{Improving the efficacy of research funding}
+%% \input{research_funding.tex}
+%% \section*{Journalist enters the Whispering Gallery}
+%% \input{whispering_gallery.tex}
+%% \section*{Living the OER dream}
+%% \input{living_the_oer_dream.tex}
+%% \section*{Making our own tools}
+%% \input{making_our_own_tools.tex}
+%% \section*{Peer Learning on the Technical Edge}
+%% \input{technical_edge.tex}
+%% \section*{Prolegomena to Any Future Math Learning Environment}
+%% \input{prolegomena.tex}
+%% \section*{Peeragogy helps solve complex problems}
+%% \input{peeragogy_helps.tex}
+%% \section*{Starting a Company}
+%% \input{starting_a_company.tex}
+%% \section*{Steal This Book}
+%% \input{steal_this_book.tex}
+%% \section*{Strategy as learning}
+%% \input{strategy_as_learning.tex}
+%% \section*{We are the 1 percent}
+%% \input{we_are.tex}
+%% \section*{Young aspiring blogger wants to avoid starvation}
+%% \input{young_aspiring_blogger.tex}
