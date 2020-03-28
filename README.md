@@ -27,6 +27,14 @@ on the terminal. Otherwise, install the following dependencies first:
 sudo apt-get install texlive-xetex texlive-fonts-extra texlive-bibtex-extra pandoc fonts-symbola biber
 ```
 
+Alternatively, if you have installed the TeX Live package, you will still need these dependencies:
+
+``` shell
+sudo apt-get install pandoc fonts-symbola
+```
+
+
+
 Get a copy of the markdown contents of the book by cloning https://github.com/Peeragogy/Peeragogy.github.io
 
 **To convert to `.tex` format:**
@@ -49,9 +57,10 @@ ls -a1 *.md | xargs basename -s .md | xargs -I {} pandoc -o {}.tex {}.md
 
 **To build the book:**
 
-Copy the *.tex files you generated in the last step into the relevant
-subdirectory (probably `en`), copy the `images` directory into the
-relevant subdirectory as well, and run:
+1. Copy the *.tex files you generated in the last step into the relevant
+subdirectory (probably `en`),
+2. Copy the `images` directory into the relevant subdirectory as well,
+3. And then run:
 
 ```
 xelatex peeragogy-shell.tex
